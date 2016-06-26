@@ -1,7 +1,7 @@
-from loadmat import Loadmat
-from udp import UDP
-from mysvm import SVM
-from mylinearsvm import LinearSVM
+from receive.loadmat import Loadmat
+from receive.udp import UDP
+from classifier.mysvm import SVM
+from classifier.mylinearsvm import LinearSVM
 
 import numpy as np
 import random
