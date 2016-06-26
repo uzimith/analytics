@@ -1,5 +1,5 @@
 from sklearn import svm
-from sklearn import cross_validation
+from sklearn import cross_validation, grid_search
 from sklearn.externals import joblib
 import numpy as np
 
@@ -12,11 +12,25 @@ class SVM:
 
     def train(self, labels, erps):
         print "training..."
-        self.clf = svm.SVC(probability = True, kernel='linear', C=1)
-        self.clf.fit(erps, labels)
+        # self.clf = svm.SVC(probability = True, kernel='linear', C=1)
+        # parameters = [{'kernel': ['rbf'], 'gamma': [1e-3, 1e-4],
+        #                      'C': [1, 10, 100, 1000]}]
+        parameters = [{'kernel': ['rbf'], 'gamma': [1e-3, 1e-4],
+                             'C': [1, 10, 100, 1000]},
+                            {'kernel': ['linear'], 'C': [1, 10, 100, 1000]}]
+        svr = svm.SVC(probability = True)
+        clf = grid_search.GridSearchCV(svr, parameters, n_jobs=4, cv=5)
 
-        scores = cross_validation.cross_val_score(self.clf, erps, labels, cv=10)
-        print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
+        clf.fit(erps, labels)
+
+        for params, mean_score, scores in clf.grid_scores_:
+            print("%0.3f (+/-%0.03f) for %r"
+                  % (mean_score, scores.std() * 2, params))
+
+        print(clf.best_params_)
+
+        self.clf = clf.best_estimator_
+
         joblib.dump(self.clf, 'model/clf.pkl')
 
     def predict(self, labels, erps, pattern_num):

@@ -28,6 +28,9 @@ class Loadmat:
         self.erps = []
         return erps
 
+    def save(self):
+        pass # already saved
+
     def group(self):
         data = zip(self.labels, self.erps)
         data.sort(key=itemgetter(0))

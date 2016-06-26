@@ -5,7 +5,7 @@ from operator import itemgetter
 from itertools import groupby
 
 class UDP:
-    def __init__(self, port = 8081):
+    def __init__(self, type, port = 8081):
         self.host = socket.gethostbyname(socket.gethostname())
         self.port = port
         self.bind()
@@ -14,6 +14,7 @@ class UDP:
         self.erps = []
         self.train_erps = []
         self.predict_erps = []
+        self.type = type
 
     def bind(self):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -32,6 +33,20 @@ class UDP:
         erp = np.asarray(data)
         self.labels.append(label)
         self.erps.append(erp)
+
+    def save(self, filename="tmp"):
+        sio.savemat(file_name, {'erps': erps, 'labels': label})
+        print("saved: %s" % file_name)
+
+    def train(self, filename, class_weight = False):
+        self.class_weight = class_weight
+        print("start training")
+        print("number of trials : %s" % self.trial_num)
+        print("class_weight : %d" % class_weight)
+        averaged_num = self.trial_num / self.average_count
+        data_num = self.trial_num / self.pattern_num / self.average_count
+
+        self.repetition_num = 5
 
     def fetch(self):
         labels = self.labels

@@ -1,8 +1,6 @@
 from loadmat import Loadmat
 from udp import UDP
 from mysvm import SVM
-from mylinearsvm import LinearSVM
-
 import numpy as np
 import random
 import argparse
@@ -22,7 +20,7 @@ repetition_num = args.repeat
 block_num = pattern_num * repetition_num
 
 if args.online:
-    receiver = UDP("train")
+    receiver = UDP()
 else:
     receiver = Loadmat(args.subject, args.session, "train")
 
@@ -37,11 +35,7 @@ erps[0] = random.sample(erps[0], block_num)
 labels = sum([list(np.repeat(i, len(erps[i]))) for i in range(len(erps))], [])
 erps = sum(erps, [])
 
-if args.method == "linear":
-    classifier = LinearSVM()
-    classifier.train(labels, erps)
 if args.method == "svm":
-    classifier = SVM()
-    classifier.train(labels, erps)
-
+    svm = SVM()
+    svm.train(labels, erps)
 print("training is finished\n")
