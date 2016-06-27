@@ -4,13 +4,14 @@ from itertools import groupby
 import scipy.io
 
 class Loadmat:
-    def __init__(self, subject, session, type, channel_num=8, separate=False):
+    def __init__(self, subject, session, type, channel_num=8, separate=False, normalize=False):
         self.labels = []
         self.erps = []
-        self.mat = scipy.io.loadmat("../mat_files_128hz/subject%s_section%d.mat" % (subject, session) )
+        self.mat = scipy.io.loadmat("../mat_files_4555/subject%s_section%d.mat" % (subject, session) )
         self.index = 0
         self.channel_num = channel_num
         self.is_separate = separate
+        self.is_normalize = normalize
         self.type = type
 
     def receive(self):
@@ -21,6 +22,8 @@ class Loadmat:
         if self.type == "predict":
             erp = self.mat['erps'][i]
             label = self.mat['stimuli_label'][i][0]
+        if self.is_normalize:
+            erp = self.normalize(erp)
         if self.is_separate:
             erp = self.separate(erp)
         self.erps.append(erp)

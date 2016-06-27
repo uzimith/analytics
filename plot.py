@@ -15,6 +15,7 @@ parser.add_argument('--repeat', dest='repeat', action='store', default=15, type=
 parser.add_argument('--online', dest='online', action='store_const', const=True, default=False, help='')
 parser.add_argument('--type', dest='type', action='store', type=str, default="mean", help='')
 parser.add_argument('--downsampling', dest='downsampling', action='store_const', const=True, default=False, help='')
+parser.add_argument('--normalize', dest='normalize', action='store_const', const=True, default=False, help='')
 parser.add_argument('--channel', dest='channel_num', action='store', type=int, default=8, help='')
 parser.add_argument('--block', dest='block', action='store', type=int, default=1, help='')
 args = parser.parse_args()
@@ -29,7 +30,7 @@ block_num = pattern_num * repetition_num
 if args.online:
     receiver = UDP("plot")
 else:
-    receiver = Loadmat(args.subject, args.session, "train", separate=True)
+    receiver = Loadmat(args.subject, args.session, "train", separate=True, normalize=args.normalize)
 
 for i in range(pattern_num * block_num):
     receiver.receive()

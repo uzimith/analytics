@@ -13,6 +13,7 @@ parser.add_argument('subject', action='store', type=int, help='')
 parser.add_argument('session', action='store', type=int, help='')
 parser.add_argument('--repeat', dest='repeat', action='store', default=5, type=int, help='')
 parser.add_argument('--online', dest='online', action='store_const', const=True, default=False, help='')
+parser.add_argument('--normalize', dest='normalize', action='store_const', const=True, default=False, help='')
 parser.add_argument('--method', dest='method', action='store', type=str, default="svm", help='')
 parser.add_argument('--tmp', dest='tmp', action='store', default='tmp', help='')
 args = parser.parse_args()
@@ -28,7 +29,7 @@ say_count = 0
 if args.online:
     receiver = UDP("predict")
 else:
-    receiver = Loadmat(args.subject, args.session, "predict")
+    receiver = Loadmat(args.subject, args.session, "predict", normalize=args.normalize)
 
 if args.method == "svm":
     classifier = SVM()
