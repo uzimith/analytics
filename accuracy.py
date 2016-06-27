@@ -3,6 +3,7 @@ from receive.udp import UDP
 from classifier.svm import SVM
 from classifier.linearsvm import LinearSVM
 from classifier.lda import LDA
+from classifier.swlda import SWLDA
 import numpy as np
 import random
 import argparse
@@ -33,13 +34,14 @@ else:
 
 if args.method == "svm":
     classifier = SVM()
-    classifier.load()
 if args.method == "linear" or args.method == "l":
     classifier = LinearSVM()
-    classifier.load()
 if args.method == "lda":
     classifier = LDA()
-    classifier.load()
+if args.method == "swlda":
+    classifier = SWLDA()
+
+classifier.load()
 
 for answer in range(1, 6 + 1):
     for i in range(block_num):

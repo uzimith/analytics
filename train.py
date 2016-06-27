@@ -3,6 +3,7 @@ from receive.udp import UDP
 from classifier.svm import SVM
 from classifier.linearsvm import LinearSVM
 from classifier.lda import LDA
+from classifier.swlda import SWLDA
 
 import numpy as np
 import random
@@ -15,6 +16,7 @@ parser.add_argument('--repeat', dest='repeat', action='store', default=15, type=
 parser.add_argument('--online', dest='online', action='store_const', const=True, default=False, help='')
 parser.add_argument('--normalize', dest='normalize', action='store_const', const=True, default=False, help='')
 parser.add_argument('--method', dest='method', action='store', type=str, default="svm", help='')
+parser.add_argument('--no-downsampling', dest='downsampling', action='store_const', const=False, default=True, help='')
 args = parser.parse_args()
 
 print("Subject: %d  Session: %d" % (args.subject, args.session))
@@ -34,7 +36,8 @@ receiver.group()
 
 erps = receiver.fetch()
 
-erps[0] = random.sample(erps[0], block_num)
+if args.downsampling:
+    erps[0] = random.sample(erps[0], block_num)
 
 labels = sum([list(np.repeat(i, len(erps[i]))) for i in range(len(erps))], [])
 erps = sum(erps, [])
@@ -45,6 +48,8 @@ if args.method == "svm":
     classifier = SVM()
 if args.method == "lda":
     classifier = LDA()
+if args.method == "swlda":
+    classifier = SWLDA()
 
 classifier.train(labels, erps)
 
