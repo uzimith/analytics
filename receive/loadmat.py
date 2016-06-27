@@ -4,21 +4,27 @@ from itertools import groupby
 import scipy.io
 
 class Loadmat:
-    def __init__(self, subject, session, type):
+    def __init__(self, subject, session, type, channel_num=8, separate=False):
         self.labels = []
         self.erps = []
-        self.mat = scipy.io.loadmat("../mat_files/subject%s_section%d.mat" % (subject, session) )
+        self.mat = scipy.io.loadmat("../mat_files_128hz/subject%s_section%d.mat" % (subject, session) )
         self.index = 0
+        self.channel_num = channel_num
+        self.is_separate = separate
         self.type = type
 
     def receive(self):
         i = self.index
         if self.type == "train":
-            self.erps.append(self.mat['erps_2d'][i])
-            self.labels.append(self.mat['target_label'][i][0])
+            erp = self.mat['erps'][i]
+            label = self.mat['target_label'][i][0]
         if self.type == "predict":
-            self.erps.append(self.mat['erps_2d'][i])
-            self.labels.append(self.mat['stimuli_label'][i][0])
+            erp = self.mat['erps'][i]
+            label = self.mat['stimuli_label'][i][0]
+        if self.is_separate:
+            erp = self.separate(erp)
+        self.erps.append(erp)
+        self.labels.append(label)
         self.index += 1
 
     def fetch(self):
@@ -30,6 +36,15 @@ class Loadmat:
 
     def save(self):
         pass # already saved
+
+    def separate(self, erp):
+        frame_length = len(erp) / self.channel_num
+        return np.squeeze(np.reshape(erp, (self.channel_num, frame_length)))
+
+    def normalize(self, erp):
+        erp_of_channels = [x - np.mean(x) /  np.std(x) for x in self.separate(erp)]
+        normalized_erp = np.array(erp_of_channels).flatten()
+        return normalized_erp
 
     def group(self):
         data = zip(self.labels, self.erps)

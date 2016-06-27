@@ -1,7 +1,8 @@
 from receive.loadmat import Loadmat
 from receive.udp import UDP
-from classifier.mysvm import SVM
-from classifier.mylinearsvm import LinearSVM
+from classifier.svm import SVM
+from classifier.linearsvm import LinearSVM
+from classifier.lda import LDA
 
 import numpy as np
 import random
@@ -37,11 +38,13 @@ erps[0] = random.sample(erps[0], block_num)
 labels = sum([list(np.repeat(i, len(erps[i]))) for i in range(len(erps))], [])
 erps = sum(erps, [])
 
-if args.method == "linear":
+if args.method == "linear" or args.method == "l":
     classifier = LinearSVM()
-    classifier.train(labels, erps)
 if args.method == "svm":
     classifier = SVM()
-    classifier.train(labels, erps)
+if args.method == "lda":
+    classifier = LDA()
+
+classifier.train(labels, erps)
 
 print("training is finished\n")

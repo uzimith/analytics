@@ -12,24 +12,26 @@ class SVM:
 
     def train(self, labels, erps):
         print "training..."
-        # self.clf = svm.SVC(probability = True, kernel='linear', C=1)
-        # parameters = [{'kernel': ['rbf'], 'gamma': [1e-3, 1e-4],
+        # parameters = [{'kernel': ['rbf'], 'gamma': [0.02564103, 1e-1, 1e-2, 1e-3, 1e-4],
         #                      'C': [1, 10, 100, 1000]}]
-        parameters = [{'kernel': ['rbf'], 'gamma': [1e-3, 1e-4],
-                             'C': [1, 10, 100, 1000]},
-                            {'kernel': ['linear'], 'C': [1, 10, 100, 1000]}]
-        svr = svm.SVC(probability = True)
-        clf = grid_search.GridSearchCV(svr, parameters, n_jobs=4, cv=5)
+        # parameters = [{'kernel': ['rbf'], 'gamma': [1e-3, 1e-4],
+        #                      'C': [1, 10, 100, 1000]},
+        #                     {'kernel': ['linear'], 'C': [1, 10, 100, 1000]}]
+        # svr = svm.SVC(probability = True)
+        # clf = grid_search.GridSearchCV(svr, parameters, n_jobs=4, cv=5)
+        #
+        # clf.fit(erps, labels)
+        #
+        # for params, mean_score, scores in clf.grid_scores_:
+        #     print("%0.3f (+/-%0.03f) for %r"
+        #           % (mean_score, scores.std() * 2, params))
+        #
+        # print(clf.best_params_)
+        #
+        # self.clf = clf.best_estimator_
 
-        clf.fit(erps, labels)
-
-        for params, mean_score, scores in clf.grid_scores_:
-            print("%0.3f (+/-%0.03f) for %r"
-                  % (mean_score, scores.std() * 2, params))
-
-        print(clf.best_params_)
-
-        self.clf = clf.best_estimator_
+        self.clf = svm.SVC(kernel= 'rbf', gamma = 0.02564103, probability = True)
+        self.clf.fit(erps, labels)
 
         joblib.dump(self.clf, 'model/clf.pkl')
 
