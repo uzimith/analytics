@@ -28,7 +28,6 @@ receiver = Loadmat(args.subject, args.session, "predict", separate=True)
 for i in range(pattern_num * block_num):
     receiver.receive()
 
-receiver.group()
 erps_of_stimuli = receiver.fetch()
 
 frame_length = len(erps_of_stimuli[0][0][0])

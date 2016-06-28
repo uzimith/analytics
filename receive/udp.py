@@ -1,19 +1,16 @@
+from receive import Receive
 import socket
 from struct import *
 import numpy as np
 from operator import itemgetter
 from itertools import groupby
 
-class UDP:
-    def __init__(self, type, port = 8081):
+class UDP(Receive):
+    def __init__(self, type, port = 8081, channel_num=8, average=1):
+        Receive.__init__(self, channel_num=8, average=average)
         self.host = socket.gethostbyname(socket.gethostname())
         self.port = port
         self.bind()
-
-        self.labels = []
-        self.erps = []
-        self.train_erps = []
-        self.predict_erps = []
         self.type = type
 
     def bind(self):
@@ -47,19 +44,3 @@ class UDP:
         data_num = self.trial_num / self.pattern_num / self.average_count
 
         self.repetition_num = 5
-
-    def fetch(self):
-        labels = self.labels
-        erps = self.erps
-        self.labels = []
-        self.erps = []
-        return erps
-
-    def group(self):
-        data = zip(self.labels, self.erps)
-        data.sort(key=itemgetter(0))
-        self.labels = [[k for k,v in v] for k, v in groupby(data, key=itemgetter(0))]
-        self.erps = [[v for k,v in v] for k, v in groupby(data, key=itemgetter(0))]
-
-    def average(self, group_by):
-        pass

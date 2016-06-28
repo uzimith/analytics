@@ -8,7 +8,7 @@ class LinearSVM:
         self.clf = None
 
     def load(self):
-        self.clf = joblib.load('model/clf.pkl')
+        self.clf = joblib.load('model/linearsvm.pkl')
 
     def train(self, labels, erps):
         print "training..."
@@ -19,7 +19,7 @@ class LinearSVM:
         scores = cross_validation.cross_val_score(self.clf, erps, labels, cv=10)
         print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
 
-        joblib.dump(self.clf, 'model/clf.pkl')
+        joblib.dump(self.clf, 'model/linearsvm.pkl')
 
     def predict(self, labels, erps, pattern_num):
         probabilities = [[] for row in range(pattern_num)]

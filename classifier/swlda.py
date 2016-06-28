@@ -11,7 +11,7 @@ class SWLDA:
         self.index = None
 
     def load(self):
-        self.clf = joblib.load('model/lda.pkl')
+        self.clf = joblib.load('model/swlda.pkl')
         self.index = np.load("model/swlda_index.npy")
 
     def train(self, labels, erps):
@@ -26,7 +26,7 @@ class SWLDA:
         scores = cross_validation.cross_val_score(self.clf, erps, labels, cv=10)
         print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
 
-        joblib.dump(self.clf, 'model/lda.pkl')
+        joblib.dump(self.clf, 'model/swlda.pkl')
         np.save("model/swlda_index.npy", self.index)
 
     def predict(self, labels, erps, pattern_num):

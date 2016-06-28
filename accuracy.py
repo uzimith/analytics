@@ -13,24 +13,29 @@ parser = argparse.ArgumentParser(description='')
 parser.add_argument('subject', action='store', type=int, help='')
 parser.add_argument('session', action='store', type=int, help='')
 parser.add_argument('--repeat', dest='repeat', action='store', default=5, type=int, help='')
+parser.add_argument('--average', dest='average', action='store', default=1, type=int, help='')
 parser.add_argument('--online', dest='online', action='store_const', const=True, default=False, help='')
 parser.add_argument('--normalize', dest='normalize', action='store_const', const=True, default=False, help='')
-parser.add_argument('--method', dest='method', action='store', type=str, default="svm", help='')
+parser.add_argument('--method', dest='method', action='store', type=str, default="l", help='')
 parser.add_argument('--tmp', dest='tmp', action='store', default='tmp', help='')
+parser.add_argument('--problem', dest='problem', action='store', default=1, type=int, help='')
+parser.add_argument('--skip', dest='skip', action='store', default=0, type=int, help='')
 args = parser.parse_args()
 
 print("Subject: %d  Session: %d" % (args.subject, args.session))
 
 pattern_num = 6
 repetition_num = args.repeat
+problem_num = args.problem
+skip_num = args.skip
 block_num = pattern_num * repetition_num
 success_count = 0
 say_count = 0
 
 if args.online:
-    receiver = UDP("predict")
+    receiver = UDP("predict", average=args.average)
 else:
-    receiver = Loadmat(args.subject, args.session, "predict", normalize=args.normalize)
+    receiver = Loadmat(args.subject, args.session, "predict", normalize=args.normalize, average=args.average)
 
 if args.method == "svm":
     classifier = SVM()
@@ -43,20 +48,24 @@ if args.method == "swlda":
 
 classifier.load()
 
-for answer in range(1, 6 + 1):
-    for i in range(block_num):
+for answer in range(1, pattern_num + 1):
+    for _ in range(problem_num):
+        for i in range(block_num):
+            receiver.receive()
+
+        receiver.group()
+        erps = receiver.fetch()
+
+        labels = sum([list(np.repeat(i, len(erps[i]))) for i in range(len(erps))], [])
+        erps = sum(erps, [])
+        result = classifier.predict(labels, erps, pattern_num)
+        print("answer: %d reuslt: %d" % (answer, result))
+        if(answer == result):
+            success_count = success_count + 1
+        say_count = say_count + 1
+    for _ in range(skip_num * pattern_num):
         receiver.receive()
-    receiver.group()
-
-    erps = receiver.fetch()
-
-    labels = sum([list(np.repeat(i, len(erps[i]))) for i in range(len(erps))], [])
-    erps = sum(erps, [])
-    result = classifier.predict(labels, erps, pattern_num)
-    print("answer: %d reuslt: %d" % (answer, result))
-    if(answer == result):
-        success_count = success_count + 1
-    say_count = say_count + 1
+    receiver.clear()
 
 
 accuracy = 100.0 * success_count / say_count
