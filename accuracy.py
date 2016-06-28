@@ -75,4 +75,4 @@ print("predicting is finished\n")
 
 with open('log/%s.csv' % args.tmp, 'a') as f:
     writer = csv.writer(f, lineterminator='\n')
-    writer.writerow([args.subject, args.session, success_count, accuracy])
+    f.write("%f," % accuracy)

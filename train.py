@@ -19,7 +19,7 @@ parser.add_argument('--online', dest='online', action='store_const', const=True,
 parser.add_argument('--normalize', dest='normalize', action='store_const', const=True, default=False, help='')
 parser.add_argument('--method', dest='method', action='store', type=str, default="l", help='')
 parser.add_argument('--no-undersampling', dest='undersampling', action='store_const', const=False, default=True, help='')
-parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=True, help='')
+parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=60, help='')
 args = parser.parse_args()
 
 print("Subject: %d  Session: %d" % (args.subject, args.session))
@@ -45,10 +45,9 @@ for i in range(pattern_num):
 receiver.group()
 
 if args.undersampling and args.method != "swlda":
-    receiver.undersampling(block_num, method="euclidean", far=args.undersampling_far)
+    receiver.undersampling(block_num, far=args.undersampling_far)
 
 erps = receiver.fetch()
-
 
 labels = sum([list(np.repeat(i, len(erps[i]))) for i in range(len(erps))], [])
 erps = sum(erps, [])

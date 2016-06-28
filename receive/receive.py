@@ -52,7 +52,7 @@ class Receive(object):
         if method == "euclidean":
             target_erp = np.average(self.erps[1], axis=0)
             self.erps[0].sort(key=(lambda erp, target_erp=target_erp: np.linalg.norm(target_erp - erp)) )
-            self.erps[0] = zip(*[iter(self.erps[0])]*block_num)[far:far+block_num]
+            self.erps[0] = self.erps[0][far:far+block_num]
         if method == "random":
             self.erps[0] = random.sample(self.erps[0], block_num)
 

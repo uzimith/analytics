@@ -18,6 +18,7 @@ parser.add_argument('--undersampling', dest='undersampling', action='store_const
 parser.add_argument('--normalize', dest='normalize', action='store_const', const=True, default=False, help='')
 parser.add_argument('--channel', dest='channel_num', action='store', type=int, default=8, help='')
 parser.add_argument('--block', dest='block', action='store', type=int, default=1, help='')
+parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=60, help='')
 args = parser.parse_args()
 
 print("Subject: %d  Session: %d" % (args.subject, args.session))
@@ -38,7 +39,7 @@ for i in range(pattern_num * block_num):
 receiver.group()
 
 if args.undersampling:
-    receiver.undersampling(block_num)
+    receiver.undersampling(block_num, far=args.undersampling_far)
 
 erps = receiver.fetch()
 
