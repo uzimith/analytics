@@ -35,7 +35,7 @@ class Receive(object):
         return np.squeeze(np.reshape(erp, (self.channel_num, frame_length)))
 
     def combine(self, erp):
-        return erp.flatten
+        return erp.flatten()
 
     # non-good way
     def normalize(self, erp):
@@ -44,7 +44,6 @@ class Receive(object):
         return normalized_erp
 
     def group(self):
-        data = zip(self.labels, self.erps)
         data.sort(key=itemgetter(0))
         self.labels = [[k for k,v in v] for k, v in groupby(data, key=itemgetter(0))]
         self.erps = [[v for k,v in v] for k, v in groupby(data, key=itemgetter(0))]
