@@ -58,10 +58,10 @@ x_labels = ["0", "200", "400", "600", "800"]
 if args.type == "all":
     for i in range(channel_num):
         plt.subplot(4, 2, i + 1)
-        for erp in target_data:
-            plt.plot(erp[i], color=[1, 0, 0, 0.1])
         for erp in non_target_data:
             plt.plot(erp[i], color=[0, 0, 1, 0.1])
+        for erp in target_data:
+            plt.plot(erp[i], color=[1, 0, 0, 0.1])
         plt.xlabel("time [ms]")
         plt.ylabel("mu volt")
         plt.xlim([0,frame_length])
@@ -74,10 +74,10 @@ if args.type == "block":
     non_target_data = non_target_data[(block - 1) * (pattern_num - 1) * repetition_num:block * (pattern_num - 1) * repetition_num]
     for i in range(channel_num):
         plt.subplot(4, 2, i + 1)
-        for erp in target_data:
-            plt.plot(erp[i], color=[1, 0, 0, 0.1])
         for erp in non_target_data:
             plt.plot(erp[i], color=[0, 0, 1, 0.1])
+        for erp in target_data:
+            plt.plot(erp[i], color=[1, 0, 0, 0.1])
         plt.xlim([0,frame_length])
     plt.show()
 
