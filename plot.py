@@ -1,4 +1,5 @@
 from receive.loadmat import Loadmat
+from receive.loadmat_kodama import LoadmatKodama
 from receive.udp import UDP
 
 import numpy as np
@@ -19,6 +20,8 @@ parser.add_argument('--normalize', dest='normalize', action='store_const', const
 parser.add_argument('--channel', dest='channel_num', action='store', type=int, default=8, help='')
 parser.add_argument('--block', dest='block', action='store', type=int, default=1, help='')
 parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=60, help='')
+parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat_files_4555/subject%s_section%d.mat", help='')
+parser.add_argument('--kodama', dest='kodama', action='store_const', const=True, default=False, help='')
 args = parser.parse_args()
 
 print("Subject: %d  Session: %d" % (args.subject, args.session))
@@ -30,8 +33,10 @@ block_num = pattern_num * repetition_num
 
 if args.online:
     receiver = UDP("plot")
+if args.kodama:
+    receiver = LoadmatKodama(args.subject, args.session, "train", separate=True)
 else:
-    receiver = Loadmat(args.subject, args.session, "train", separate=True, normalize=args.normalize, average=args.average)
+    receiver = Loadmat(args.subject, args.session, "train", separate=True, normalize=args.normalize, average=args.average, filename=args.filename)
 
 for i in range(pattern_num * block_num):
     receiver.receive()

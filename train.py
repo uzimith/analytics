@@ -1,4 +1,5 @@
 from receive.loadmat import Loadmat
+from receive.loadmat_kodama import LoadmatKodama
 from receive.udp import UDP
 from classifier.svm import SVM
 from classifier.linearsvm import LinearSVM
@@ -22,6 +23,7 @@ parser.add_argument('--no-undersampling', dest='undersampling', action='store_co
 parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=0, help='')
 parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat_files_4555/subject%s_section%d.mat", help='')
 parser.add_argument('--modelname', dest='modelname', action='store', type=str, default="tmp", help='')
+parser.add_argument('--kodama', dest='kodama', action='store_const', const=True, default=False, help='')
 args = parser.parse_args()
 
 print("Subject: %d  Session: %d" % (args.subject, args.session))
@@ -33,6 +35,8 @@ block_num = pattern_num * repetition_num
 
 if args.online:
     receiver = UDP("train", average=args.average)
+if args.kodama:
+    receiver = LoadmatKodama(args.subject, args.session, "train")
 else:
     receiver = Loadmat(args.subject, args.session, "train", normalize=args.normalize, average=args.average, filename=args.filename)
 

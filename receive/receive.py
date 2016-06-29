@@ -56,9 +56,11 @@ class Receive(object):
             self.erps[0] = self.erps[0][far:far+block_num]
         if method == "cosine":
             non_target_erp = np.average(self.erps[0], axis=0).flatten()
-            self.erps[0].sort(key=(lambda erp, non_target_erp=non_target_erp: dis.cosine(non_target_erp, erp.flatten())) )
+            # self.erps[0].sort(key=(lambda erp, non_target_erp=non_target_erp: dis.cosine(non_target_erp, erp.flatten())) )
+            self.erps[0] = sorted(self.erps[0], key=(lambda erp, non_target_erp=non_target_erp: dis.cosine(non_target_erp, erp.flatten())) )
             self.erps[0] = self.erps[0][far:far+block_num]
         if method == "cosine_more":
+            # unuseful
             target_erp = np.average(self.erps[1], axis=0).flatten()
             non_target_erp = np.average(self.erps[0], axis=0).flatten()
             self.erps[0].sort(key=(lambda erp, non_target_erp=non_target_erp: dis.cosine(non_target_erp, erp.flatten())) )

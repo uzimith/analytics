@@ -1,4 +1,5 @@
 from receive.loadmat import Loadmat
+from receive.loadmat_kodama import LoadmatKodama
 from receive.udp import UDP
 from classifier.svm import SVM
 from classifier.linearsvm import LinearSVM
@@ -22,6 +23,7 @@ parser.add_argument('--problem', dest='problem', action='store', default=1, type
 parser.add_argument('--skip', dest='skip', action='store', default=0, type=int, help='')
 parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat_files_4555/subject%s_section%d.mat", help='')
 parser.add_argument('--modelname', dest='modelname', action='store', type=str, default="tmp", help='')
+parser.add_argument('--kodama', dest='kodama', action='store_const', const=True, default=False, help='')
 args = parser.parse_args()
 
 print("Subject: %d  Session: %d" % (args.subject, args.session))
@@ -36,6 +38,8 @@ say_count = 0
 
 if args.online:
     receiver = UDP("predict", average=args.average)
+if args.kodama:
+    receiver = LoadmatKodama(args.subject, args.session, "predict")
 else:
     receiver = Loadmat(args.subject, args.session, "predict", normalize=args.normalize, average=args.average, filename=args.filename)
 
