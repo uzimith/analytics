@@ -2,6 +2,7 @@ from operator import itemgetter
 from itertools import groupby
 
 import numpy as np
+import scipy.spatial.distance as dis
 import random
 
 class Receive(object):
@@ -14,9 +15,6 @@ class Receive(object):
     def receive(self):
         pass
 
-    def fetch(self):
-        pass
-
     def save(self):
         pass
 
@@ -27,7 +25,7 @@ class Receive(object):
     def fetch(self):
         self.average()
         labels = self.labels
-        erps = (self.erps)
+        erps = self.erps
         self.labels = []
         self.erps = []
         return erps
@@ -35,6 +33,9 @@ class Receive(object):
     def separate(self, erp):
         frame_length = len(erp) / self.channel_num
         return np.squeeze(np.reshape(erp, (self.channel_num, frame_length)))
+
+    def combine(self, erp):
+        return erp.flatten
 
     # non-good way
     def normalize(self, erp):
@@ -48,11 +49,22 @@ class Receive(object):
         self.labels = [[k for k,v in v] for k, v in groupby(data, key=itemgetter(0))]
         self.erps = [[v for k,v in v] for k, v in groupby(data, key=itemgetter(0))]
 
-    def undersampling(self, block_num, method="euclidean", far=30):
+    def undersampling(self, block_num, method="cosine", far=30):
         if method == "euclidean":
             target_erp = np.average(self.erps[1], axis=0)
             self.erps[0].sort(key=(lambda erp, target_erp=target_erp: np.linalg.norm(target_erp - erp)) )
             self.erps[0] = self.erps[0][far:far+block_num]
+        if method == "cosine":
+            non_target_erp = np.average(self.erps[0], axis=0).flatten()
+            self.erps[0].sort(key=(lambda erp, non_target_erp=non_target_erp: dis.cosine(non_target_erp, erp.flatten())) )
+            self.erps[0] = self.erps[0][far:far+block_num]
+        if method == "cosine_more":
+            target_erp = np.average(self.erps[1], axis=0).flatten()
+            non_target_erp = np.average(self.erps[0], axis=0).flatten()
+            self.erps[0].sort(key=(lambda erp, non_target_erp=non_target_erp: dis.cosine(non_target_erp, erp.flatten())) )
+            self.erps[0] = self.erps[0][far:far+block_num-10]
+            self.erps[1].sort(key=(lambda erp, target_erp=non_target_erp: dis.cosine(target_erp, erp.flatten())) )
+            self.erps[1] = self.erps[1][far:far+block_num-10]
         if method == "random":
             self.erps[0] = random.sample(self.erps[0], block_num)
 

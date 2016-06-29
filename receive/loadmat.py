@@ -5,9 +5,9 @@ from itertools import groupby
 import scipy.io
 
 class Loadmat(Receive):
-    def __init__(self, subject, session, type, channel_num=8, separate=False, normalize=False, average=1):
+    def __init__(self, subject, session, type, channel_num=8, separate=False, normalize=False, average=1, filename="../mat_files/subject%s_section%d.mat"):
         Receive.__init__(self, channel_num=8, average=average)
-        self.mat = scipy.io.loadmat("../mat_files_4555/subject%s_section%d.mat" % (subject, session) )
+        self.mat = scipy.io.loadmat(filename % (subject, session) )
         self.index = 0
         self.is_separate = separate
         self.is_normalize = normalize

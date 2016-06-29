@@ -4,11 +4,12 @@ from sklearn.externals import joblib
 import numpy as np
 
 class LinearSVM:
-    def __init__(self):
+    def __init__(self, name="tmp"):
         self.clf = None
+        self.name = name
 
     def load(self):
-        self.clf = joblib.load('model/linearsvm.pkl')
+        self.clf = joblib.load('model/linearsvm-%s.pkl' % self.name)
 
     def train(self, labels, erps):
         print "training..."
@@ -19,7 +20,7 @@ class LinearSVM:
         scores = cross_validation.cross_val_score(self.clf, erps, labels, cv=10)
         print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
 
-        joblib.dump(self.clf, 'model/linearsvm.pkl')
+        joblib.dump(self.clf, 'model/linearsvm-%s.pkl' % self.name)
 
     def predict(self, labels, erps, pattern_num):
         probabilities = [[] for row in range(pattern_num)]

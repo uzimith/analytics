@@ -1,34 +1,51 @@
-```
-rm log/tmp.csv
-for i in {1..10}; do
-    for subject in {1..9}; do
-        python train.py $subject 1 --method linear
-        for session in {2..4}; do
-            python accuracy.py $subject $session --method linear --tmp linear
-        done
-    done
-done
-```
+## Linear SVM for cosine undersampling
 
 ```
-for i in {1..9}; do
-    python train.py 1 1
+time for far in {0..400}; do
+    for subject in {1..9}; do
+        python train.py $subject 1 --method linear --undersampling-far $far
+        for session in {2..4}; do
+            python accuracy.py $subject $session --method linear --tmp linear-cosine-2
+        done
+    done
+    echo "\n" >> log/linear-cosine-2.csv
+done
+```
+### Linear SVM
+```
+for subject in {1..9}; do
+    python train.py $subject 1 --method linear --undersampling-far 10
     for session in {2..4}; do
-        python accuracy.py 1 $session --tmp debug$i
+        python accuracy.py $subject $session --method linear --tmp kensuke-linearsvm
     done
 done
 ```
 
-## Linear SVM
-
+### SWLDA
 ```
-rm log/linearSVM.csv
-for i in {1..10}; do
-    for subject in {1..9}; do
-        python train.py $subject 1 --method linear
-        for session in {2..4}; do
-            python accuracy.py $subject $session --method linear --tmp linear-euclidean-1
-        done
+for subject in {1..9}; do
+    python train.py $subject 1 --method swlda --no-undersampling --average 1
+    for session in {2..4}; do
+        python accuracy.py $subject $session --method swlda --tmp kensuke-swlda-average1 --average 1
+    done
+done
+```
+### SWLDA AVERAGE 5
+```
+for subject in {1..9}; do
+    python train.py $subject 1 --method swlda --no-undersampling --average 5
+    for session in {2..4}; do
+        python accuracy.py $subject $session --method swlda --tmp kensuke-swlda-average5 --average 5
+    done
+done
+```
+
+### SVM
+```
+for subject in {1..9}; do
+    python train.py $subject 1 --method svm --undersampling-far 60
+    for session in {2..4}; do
+        python accuracy.py $subject $session --method svm --tmp kensuke-svm
     done
 done
 ```
@@ -44,5 +61,55 @@ for subject in {1..9}; do
     for session in {2..4}; do
         python accuracy.py $subject $session --method swlda --tmp swlda --average 1
     done
+done
+```
+
+## plot
+
+```
+python plot.py --undersampling --undersampling-far 400 --type all 1 1
+```
+
+
+## Kodama
+### LinearSVM
+```
+for subject in {1,3,4,5,6,7,8,9,10}; do
+    python train.py --filename ../mat_files_kodama/subject%d_section%d.mat --repeat 10 $subject 0 --method linear --undersampling-far 0
+    for session in {1..5}; do
+        python accuracy.py --filename ../mat_files_kodama/subject%d_section%d.mat --repeat 10 $subject $session --method linear --tmp kodama-linear
+    done
+done
+```
+### RBFSVM
+```
+for subject in {1,3,4,5,6,7,8,9,10}; do
+    python train.py --filename ../mat_files_kodama/subject%d_section%d.mat --repeat 10 $subject 0 --method svm --undersampling-far 0
+    for session in {1..5}; do
+        python accuracy.py --filename ../mat_files_kodama/subject%d_section%d.mat --repeat 10 $subject $session --method svm --tmp kodama-svm-025
+    done
+done
+```
+
+### SWLDA
+```
+for subject in {1,3,4,5,6,7,8,9,10}; do
+    python train.py --filename ../mat_files_kodama/subject%d_section%d.mat --repeat 10 $subject 0 --method linear --undersampling-far 0
+    for session in {1..5}; do
+        python accuracy.py --filename ../mat_files_kodama/subject%d_section%d.mat --repeat 10 $subject $session --method linear --tmp kodama-swlda
+    done
+done
+```
+
+
+```
+for far in {0..300}; do
+    for subject in {1,3,4,5,6,7,8,9,10}; do
+        python train.py --filename ../mat_files_kodama/subject%d_section%d.mat --repeat 10 $subject 0 --method linear --undersampling-far $far --modelname kodama
+        for session in {1..5}; do
+            python accuracy.py --filename ../mat_files_kodama/subject%d_section%d.mat --repeat 10 $subject $session --method linear --tmp kodama-linear-cosine --modelname kodama
+        done
+    done
+    echo "\n" >> log/kodama-linear-cosine.csv
 done
 ```

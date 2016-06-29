@@ -19,7 +19,9 @@ parser.add_argument('--online', dest='online', action='store_const', const=True,
 parser.add_argument('--normalize', dest='normalize', action='store_const', const=True, default=False, help='')
 parser.add_argument('--method', dest='method', action='store', type=str, default="l", help='')
 parser.add_argument('--no-undersampling', dest='undersampling', action='store_const', const=False, default=True, help='')
-parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=60, help='')
+parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=0, help='')
+parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat_files_4555/subject%s_section%d.mat", help='')
+parser.add_argument('--modelname', dest='modelname', action='store', type=str, default="tmp", help='')
 args = parser.parse_args()
 
 print("Subject: %d  Session: %d" % (args.subject, args.session))
@@ -32,7 +34,7 @@ block_num = pattern_num * repetition_num
 if args.online:
     receiver = UDP("train", average=args.average)
 else:
-    receiver = Loadmat(args.subject, args.session, "train", normalize=args.normalize, average=args.average)
+    receiver = Loadmat(args.subject, args.session, "train", normalize=args.normalize, average=args.average, filename=args.filename)
 
 for i in range(pattern_num):
     for _ in range(block_num):
@@ -45,7 +47,7 @@ for i in range(pattern_num):
 receiver.group()
 
 if args.undersampling and args.method != "swlda":
-    receiver.undersampling(block_num, far=args.undersampling_far)
+    receiver.undersampling(block_num, method="cosine", far=args.undersampling_far)
 
 erps = receiver.fetch()
 
@@ -53,7 +55,7 @@ labels = sum([list(np.repeat(i, len(erps[i]))) for i in range(len(erps))], [])
 erps = sum(erps, [])
 
 if args.method == "linear" or args.method == "l":
-    classifier = LinearSVM()
+    classifier = LinearSVM(name=args.modelname)
 if args.method == "svm":
     classifier = SVM()
 if args.method == "lda":
