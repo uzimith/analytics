@@ -11,12 +11,13 @@ time for far in {0..400}; do
     echo "\n" >> log/linear-cosine-2.csv
 done
 ```
+
 ### Linear SVM
 ```
 for subject in {1..9}; do
-    python train.py $subject 1 --method linear --undersampling-far 10
+    python train.py $subject 1 --method linear --undersampling-far 0
     for session in {2..4}; do
-        python accuracy.py $subject $session --method linear --tmp kensuke-linearsvm
+        python accuracy.py $subject $session --method linear --tmp kensuke-linearsvc-maxabsscaler
     done
 done
 ```
@@ -43,9 +44,9 @@ done
 ### SVM
 ```
 for subject in {1..9}; do
-    python train.py $subject 1 --method svm --undersampling-far 60
+    python train.py $subject 1 --method svm --undersampling-far 0
     for session in {2..4}; do
-        python accuracy.py $subject $session --method svm --tmp kensuke-svm
+        python accuracy.py $subject $session --method svm --tmp kensuke-rbfsvm
     done
 done
 ```
@@ -112,4 +113,36 @@ for far in {0..300}; do
     done
     echo "\n" >> log/kodama-linear-cosine.csv
 done
+```
+
+# kodama's data
+```
+for subject in {1,3,4,5,6,7,8,9,10}; do
+    python train.py --kodama --repeat 10 $subject 0 --method svm
+    for session in {1..5}; do
+        python accuracy.py --kodama --repeat 10 $subject $session --method svm --tmp kodamamat-rbfsvm-absmax
+    done
+done
+```
+# LibSVM
+```
+for subject in {1,3,4,5,6,7,8,9,10}; do
+    python train.py --kodama --repeat 10 $subject 0 --method libsvm
+    for session in {1..5}; do
+        python accuracy.py --kodama --repeat 10 $subject $session --method libsvm --tmp kodamamat_libsvm
+    done
+    echo "\n" >> log/kodamamat_libsvm.csv
+done
+echo "\n" >> log/kodamamat_libsvm.csv
+```
+### Linear SVM
+```
+for subject in {1,3,4,5,6,7,8,9,10}; do
+    python train.py $subject 0 --method linear --undersampling-far 0 --kodama --repeat 10
+    for session in {1..5}; do
+        python accuracy.py $subject $session --method linear --tmp kodama-linearsvm --kodama --repeat 10
+    done
+    echo "\n" >> log/kodama-linearsvm.csv
+done
+echo "\n" >> log/kodama-linearsvm.csv
 ```
