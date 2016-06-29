@@ -2,6 +2,7 @@ from receive.loadmat import Loadmat
 from receive.loadmat_kodama import LoadmatKodama
 from receive.udp import UDP
 from classifier.svm import SVM
+from classifier.libsvm import LibSVM
 from classifier.linearsvm import LinearSVM
 from classifier.lda import LDA
 from classifier.swlda import SWLDA
@@ -45,6 +46,8 @@ else:
 
 if args.method == "svm":
     classifier = SVM()
+if args.method == "libsvm":
+    classifier = LibSVM()
 if args.method == "linear" or args.method == "l":
     classifier = LinearSVM(name=args.modelname)
 if args.method == "lda":
