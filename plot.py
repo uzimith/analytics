@@ -1,3 +1,4 @@
+import convert.erp
 from receive.loadmat import Loadmat
 from receive.loadmat_kodama import LoadmatKodama
 from receive.udp import UDP
@@ -16,7 +17,6 @@ parser.add_argument('--average', dest='average', action='store', default=1, type
 parser.add_argument('--online', dest='online', action='store_const', const=True, default=False, help='')
 parser.add_argument('--type', dest='type', action='store', type=str, default="mean", help='')
 parser.add_argument('--undersampling', dest='undersampling', action='store_const', const=True, default=False, help='')
-parser.add_argument('--normalize', dest='normalize', action='store_const', const=True, default=False, help='')
 parser.add_argument('--channel', dest='channel_num', action='store', type=int, default=8, help='')
 parser.add_argument('--block', dest='block', action='store', type=int, default=1, help='')
 parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=60, help='')
@@ -34,9 +34,9 @@ block_num = pattern_num * repetition_num
 if args.online:
     receiver = UDP("plot")
 if args.kodama:
-    receiver = LoadmatKodama(args.subject, args.session, "train", separate=True)
+    receiver = LoadmatKodama(args.subject, args.session, "train")
 else:
-    receiver = Loadmat(args.subject, args.session, "train", separate=True, normalize=args.normalize, average=args.average, filename=args.filename)
+    receiver = Loadmat(args.subject, args.session, "train", average=args.average, filename=args.filename)
 
 for i in range(pattern_num * block_num):
     receiver.receive()
@@ -50,8 +50,15 @@ erps = receiver.fetch()
 
 target_data = erps[1]
 non_target_data = erps[0]
+if True:
+    target_data     = convert.erp.decimate(target_data, 5)
+    non_target_data = convert.erp.decimate(non_target_data, 5)
 
-frame_length = len(erps[0][0][0])
+
+target_data     = convert.erp.separate(target_data)
+non_target_data = convert.erp.separate(non_target_data)
+
+frame_length = len(target_data[0][0]) - 1
 x_units = [int(x) for x in np.linspace(0, frame_length, num=5)]
 x_labels = ["0", "200", "400", "600", "800"]
 

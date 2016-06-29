@@ -17,8 +17,9 @@ done
 for subject in {1..9}; do
     python train.py $subject 1 --method linear --undersampling-far 0
     for session in {2..4}; do
-        python accuracy.py $subject $session --method linear --tmp kensuke-linearsvc-maxabsscaler
+        python accuracy.py $subject $session --method linear --tmp kensuke-linearsvm
     done
+    echo "\n" >> log/kensuke-linearsvm.csv
 done
 ```
 
@@ -29,7 +30,9 @@ for subject in {1..9}; do
     for session in {2..4}; do
         python accuracy.py $subject $session --method swlda --tmp kensuke-swlda-average1 --average 1
     done
+    echo "\n" >> log/kensuke-swlda-average1.csv
 done
+echo "\n" >> log/kensuke-swlda-average1.csv
 ```
 ### SWLDA AVERAGE 5
 ```
@@ -145,4 +148,17 @@ for subject in {1,3,4,5,6,7,8,9,10}; do
     echo "\n" >> log/kodama-linearsvm.csv
 done
 echo "\n" >> log/kodama-linearsvm.csv
+```
+
+### SWLDA
+
+```
+for subject in {1,3,4,5,6,7,8,9,10}; do
+    python train.py $subject 0 --method swlda --no-undersampling --average 1 --kodama
+    for session in {1..5}; do
+        python accuracy.py $subject $session --method swlda --tmp kodamamat-swlda-average1 --average 1 --kodama
+    done
+    echo "\n" >> log/kodamamat-swlda-average1.csv
+done
+echo "\n" >> log/kodamamat-swlda-average1.csv
 ```

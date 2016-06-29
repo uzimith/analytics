@@ -30,19 +30,6 @@ class Receive(object):
         self.erps = []
         return erps
 
-    def separate(self, erp):
-        frame_length = len(erp) / self.channel_num
-        return np.squeeze(np.reshape(erp, (self.channel_num, frame_length)))
-
-    def combine(self, erp):
-        return erp.flatten()
-
-    # non-good way
-    def normalize(self, erp):
-        erp_of_channels = [x - np.mean(x) /  np.std(x) for x in self.separate(erp)]
-        normalized_erp = np.array(erp_of_channels).flatten()
-        return normalized_erp
-
     def group(self):
         data.sort(key=itemgetter(0))
         self.labels = [[k for k,v in v] for k, v in groupby(data, key=itemgetter(0))]

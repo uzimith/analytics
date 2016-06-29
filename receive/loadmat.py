@@ -1,3 +1,5 @@
+import convert.erp
+
 from receive import Receive
 import numpy as np
 from operator import itemgetter
@@ -26,8 +28,6 @@ class Loadmat(Receive):
             other_label = self.mat['target_label'][i][0]
         if self.is_normalize:
             erp = self.normalize(erp)
-        if self.is_separate:
-            erp = self.separate(erp)
         self.erps.append(erp)
         self.labels.append(label)
         self.other_labels.append(other_label)

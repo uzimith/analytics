@@ -1,3 +1,4 @@
+import convert.erp
 from stepwise import stepwisefit
 
 from sklearn import cross_validation
@@ -17,9 +18,10 @@ class SWLDA:
     def train(self, labels, erps):
         print "training..."
 
+        erps = convert.erp.decimate(erps, 5)
         ( b, se, pval, inmodel, stats, nextstep, history ) = stepwisefit( erps, labels, maxiter = 60, penter = 0.1, premove = 0.15)
         self.index = inmodel
-        erps = [erp[self.index] for erp in erps]
+        erps = [np.array(erp)[self.index] for erp in erps]
         self.clf = lda()
         self.clf.fit(erps, labels)
 
@@ -30,7 +32,8 @@ class SWLDA:
         np.save("model/swlda_index.npy", self.index)
 
     def predict(self, labels, erps, pattern_num):
-        erps = [erp[self.index] for erp in erps]
+        erps = convert.erp.decimate(erps, 5)
+        erps = [np.array(erp)[self.index] for erp in erps]
 
         probabilities = [[] for row in range(pattern_num)]
         for (erp, label) in zip(erps, labels):
