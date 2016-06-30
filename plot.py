@@ -20,7 +20,7 @@ parser.add_argument('--undersampling', dest='undersampling', action='store_const
 parser.add_argument('--channel', dest='channel_num', action='store', type=int, default=8, help='')
 parser.add_argument('--block', dest='block', action='store', type=int, default=1, help='')
 parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=60, help='')
-parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat_files_4555/subject%s_section%d.mat", help='')
+parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat/512hz4555/sub%s_sec%d.mat", help='')
 parser.add_argument('--kodama', dest='kodama', action='store_const', const=True, default=False, help='')
 args = parser.parse_args()
 
@@ -43,14 +43,14 @@ for i in range(pattern_num * block_num):
 
 receiver.group()
 
-if args.undersampling:
-    receiver.undersampling(block_num, far=args.undersampling_far)
-
 erps = receiver.fetch()
+
+if args.undersampling:
+    erps = convert.erp.undersampling(erps, block_num, method="cosine", far=args.undersampling_far)
 
 target_data = erps[1]
 non_target_data = erps[0]
-if True:
+if False:
     target_data     = convert.erp.decimate(target_data, 5)
     non_target_data = convert.erp.decimate(non_target_data, 5)
 

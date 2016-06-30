@@ -7,7 +7,7 @@ from itertools import groupby
 import scipy.io
 
 class Loadmat(Receive):
-    def __init__(self, subject, session, type, channel_num=8, separate=False, normalize=False, average=1, filename="../mat_files/subject%s_section%d.mat"):
+    def __init__(self, subject, session, type, channel_num=8, separate=False, normalize=False, average=1, filename="../mat/512hz4555/sub%s_sec%d.mat"):
         Receive.__init__(self, channel_num=8, average=average)
         self.mat = scipy.io.loadmat(filename % (subject, session) )
         self.index = 0

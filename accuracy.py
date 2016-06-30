@@ -4,6 +4,7 @@ from receive.udp import UDP
 from classifier.svm import SVM
 from classifier.libsvm import LibSVM
 from classifier.linearsvm import LinearSVM
+from classifier.swlinearsvm import StepwiseLinearSVM
 from classifier.lda import LDA
 from classifier.swlda import SWLDA
 import numpy as np
@@ -17,12 +18,12 @@ parser.add_argument('session', action='store', type=int, help='')
 parser.add_argument('--repeat', dest='repeat', action='store', default=5, type=int, help='')
 parser.add_argument('--average', dest='average', action='store', default=1, type=int, help='')
 parser.add_argument('--online', dest='online', action='store_const', const=True, default=False, help='')
-parser.add_argument('--normalize', dest='normalize', action='store_const', const=True, default=False, help='')
+parser.add_argument('--decimate', dest='decimate', action='store', type=int, default=1, help='')
 parser.add_argument('--method', dest='method', action='store', type=str, default="l", help='')
 parser.add_argument('--tmp', dest='tmp', action='store', default='tmp', help='')
 parser.add_argument('--problem', dest='problem', action='store', default=1, type=int, help='')
 parser.add_argument('--skip', dest='skip', action='store', default=0, type=int, help='')
-parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat_files_4555/subject%s_section%d.mat", help='')
+parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat/512hz4555/sub%s_sec%d.mat", help='')
 parser.add_argument('--modelname', dest='modelname', action='store', type=str, default="tmp", help='')
 parser.add_argument('--kodama', dest='kodama', action='store_const', const=True, default=False, help='')
 args = parser.parse_args()
@@ -42,18 +43,20 @@ if args.online:
 if args.kodama:
     receiver = LoadmatKodama(args.subject, args.session, "predict")
 else:
-    receiver = Loadmat(args.subject, args.session, "predict", normalize=args.normalize, average=args.average, filename=args.filename)
+    receiver = Loadmat(args.subject, args.session, "predict", average=args.average, filename=args.filename)
 
-if args.method == "svm":
-    classifier = SVM()
+if args.method == "rbf":
+    classifier = SVM(name=args.modelname, decimate=args.decimate)
 if args.method == "libsvm":
-    classifier = LibSVM()
+    classifier = LibSVM(name=args.modelname)
 if args.method == "linear" or args.method == "l":
-    classifier = LinearSVM(name=args.modelname)
+    classifier = LinearSVM(name=args.modelname, decimate=args.decimate)
+if args.method == "swlinearsvm":
+    classifier = StepwiseLinearSVM(name=args.modelname, decimate=args.decimate)
 if args.method == "lda":
-    classifier = LDA()
+    classifier = LDA(name=args.modelname)
 if args.method == "swlda":
-    classifier = SWLDA()
+    classifier = SWLDA(name=args.modelname, decimate=args.decimate)
 
 classifier.load()
 
@@ -68,7 +71,7 @@ for answer in range(1, pattern_num + 1):
         labels = sum([list(np.repeat(i, len(erps[i]))) for i in range(len(erps))], [])
         erps = sum(erps, [])
         result = classifier.predict(labels, erps, pattern_num)
-        print("answer: %d reuslt: %d" % (answer, result))
+        # print("answer: %d reuslt: %d" % (answer, result))
         if(answer == result):
             success_count = success_count + 1
         say_count = say_count + 1
@@ -78,9 +81,9 @@ for answer in range(1, pattern_num + 1):
 
 
 accuracy = 100.0 * success_count / say_count
-print("\naccuracy: %f %% (%d)\n" % (accuracy , success_count ) )
+print("accuracy: %f %% (%d)" % (accuracy , success_count ) )
 
-print("predicting is finished\n")
+# print("predicting is finished\n")
 
 with open('log/%s.csv' % args.tmp, 'a') as f:
     writer = csv.writer(f, lineterminator='\n')

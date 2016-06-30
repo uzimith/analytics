@@ -4,8 +4,10 @@ from receive.udp import UDP
 from classifier.svm import SVM
 from classifier.libsvm import LibSVM
 from classifier.linearsvm import LinearSVM
+from classifier.swlinearsvm import StepwiseLinearSVM
 from classifier.lda import LDA
 from classifier.swlda import SWLDA
+import convert.erp
 
 import numpy as np
 import random
@@ -18,11 +20,11 @@ parser.add_argument('--repeat', dest='repeat', action='store', default=15, type=
 parser.add_argument('--average', dest='average', action='store', default=1, type=int, help='')
 parser.add_argument('--skip', dest='skip', action='store', default=0, type=int, help='')
 parser.add_argument('--online', dest='online', action='store_const', const=True, default=False, help='')
-parser.add_argument('--normalize', dest='normalize', action='store_const', const=True, default=False, help='')
+parser.add_argument('--decimate', dest='decimate', action='store', type=int, default=1, help='')
 parser.add_argument('--method', dest='method', action='store', type=str, default="l", help='')
 parser.add_argument('--no-undersampling', dest='undersampling', action='store_const', const=False, default=True, help='')
 parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=0, help='')
-parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat_files_4555/subject%s_section%d.mat", help='')
+parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat/512hz4555/sub%s_sec%d.mat", help='')
 parser.add_argument('--modelname', dest='modelname', action='store', type=str, default="tmp", help='')
 parser.add_argument('--kodama', dest='kodama', action='store_const', const=True, default=False, help='')
 args = parser.parse_args()
@@ -39,7 +41,7 @@ if args.online:
 if args.kodama:
     receiver = LoadmatKodama(args.subject, args.session, "train")
 else:
-    receiver = Loadmat(args.subject, args.session, "train", normalize=args.normalize, average=args.average, filename=args.filename)
+    receiver = Loadmat(args.subject, args.session, "train", average=args.average, filename=args.filename)
 
 for i in range(pattern_num):
     for _ in range(block_num):
@@ -51,25 +53,26 @@ for i in range(pattern_num):
 
 receiver.group()
 
-if args.undersampling and args.method != "swlda":
-    receiver.undersampling(block_num, method="cosine", far=args.undersampling_far)
-
 erps = receiver.fetch()
+
+if args.undersampling and args.method != "swlda":
+    erps = convert.erp.undersampling(erps, block_num, method="cosine", far=args.undersampling_far)
+    # erps = convert.erp.undersampling(erps, block_num, method="euclidean", far=60)
 
 labels = sum([list(np.repeat(i, len(erps[i]))) for i in range(len(erps))], [])
 erps = sum(erps, [])
 
+if args.method == "rbf":
+    classifier = SVM(name=args.modelname, decimate=args.decimate)
 if args.method == "linear" or args.method == "l":
-    classifier = LinearSVM(name=args.modelname)
-if args.method == "svm":
-    classifier = SVM()
+    classifier = LinearSVM(name=args.modelname, decimate=args.decimate)
+if args.method == "swlinearsvm":
+    classifier = StepwiseLinearSVM(name=args.modelname, decimate=args.decimate)
 if args.method == "libsvm":
-    classifier = LibSVM()
+    classifier = LibSVM(name=args.modelname)
 if args.method == "lda":
-    classifier = LDA()
+    classifier = LDA(name=args.modelname)
 if args.method == "swlda":
-    classifier = SWLDA()
+    classifier = SWLDA(name=args.modelname, decimate=args.decimate)
 
 classifier.train(labels, erps)
-
-print("training is finished\n")
