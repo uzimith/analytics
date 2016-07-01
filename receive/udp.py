@@ -38,12 +38,9 @@ class UDP(Receive):
         erp = np.asarray(data)
         self.labels.append(label)
         self.erps.append(erp)
-
-    def fetch(self):
-        self.all_erps += self.erps
-        self.all_labels += self.labels
-        data = Receive.fetch(self)
-        return data
+        # to save
+        self.all_erps.append(erp)
+        self.all_labels.append(label)
 
     def save(self):
         filename = "log/mat/%s-sub%s-sec%s-%s" % (self.logname, self.subject, self.session, self.type)

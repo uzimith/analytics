@@ -7,23 +7,37 @@ from itertools import groupby
 import scipy.io
 
 class Loadmat(Receive):
-    def __init__(self, subject, session, type, channel_num=8, average=1, filename="../mat/512hz4555/sub%s_sec%s.mat"):
+    def __init__(self, subject, session, type, channel_num=8, average=1, filename="../mat/512hz4555/sub%s_sec%s.mat", matfile=None):
         Receive.__init__(self, channel_num=8, average=average)
-        self.mat = scipy.io.loadmat(filename % (subject, session) )
+        self.matfile = matfile
         self.index = 0
         self.type = type
         self.other_labels = []
+        if matfile:
+            self.mat = scipy.io.loadmat(matfile)
+        else:
+            self.mat = scipy.io.loadmat(filename % (subject, session) )
 
     def receive(self):
         i = self.index
         if self.type == "train":
-            erp = self.mat['erps'][i]
-            label = self.mat['target_label'][i][0]
-            other_label = self.mat['stimuli_label'][i][0]
-        if self.type == "predict":
-            erp = self.mat['erps'][i]
-            label = self.mat['stimuli_label'][i][0]
-            other_label = self.mat['target_label'][i][0]
+            if self.matfile:
+                erp = self.mat['erps'][i]
+                label = self.mat['target_label'][0][i]
+            else:
+                erp = self.mat['erps'][i]
+                label = self.mat['target_label'][i][0]
+                other_label = self.mat['stimuli_label'][i][0]
+        elif self.type == "predict":
+            if self.matfile:
+                erp = self.mat['erps'][i]
+                label = self.mat['stimuli_label'][0][i]
+            else:
+                erp = self.mat['erps'][i]
+                label = self.mat['stimuli_label'][i][0]
+                other_label = self.mat['target_label'][i][0]
+        if self.matfile:
+            other_label = "-1"
         self.erps.append(erp)
         self.labels.append(label)
         self.other_labels.append(other_label)

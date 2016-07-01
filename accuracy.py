@@ -24,6 +24,7 @@ parser.add_argument('--log', dest='log', action='store', default='tmp', help='')
 parser.add_argument('--problem', dest='problem', action='store', default=1, type=int, help='')
 parser.add_argument('--skip', dest='skip', action='store', default=0, type=int, help='')
 parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat/512hz4555/sub%s_sec%s.mat", help='')
+parser.add_argument('--matfile', dest='matfile', action='store', type=str, default=None, help='')
 parser.add_argument('--modelname', dest='modelname', action='store', type=str, default="tmp", help='')
 parser.add_argument('--kodama', dest='kodama', action='store_const', const=True, default=False, help='')
 args = parser.parse_args()
@@ -43,7 +44,7 @@ if args.online:
 elif args.kodama:
     receiver = LoadmatKodama(args.subject, args.session, "predict")
 else:
-    receiver = Loadmat(args.subject, args.session, "predict", average=args.average, filename=args.filename)
+    receiver = Loadmat(args.subject, args.session, "predict", average=args.average, filename=args.filename, matfile=args.matfile)
 
 if args.method == "rbf":
     classifier = SVM(name=args.modelname, decimate=args.decimate)

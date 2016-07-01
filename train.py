@@ -27,6 +27,7 @@ parser.add_argument('--no-undersampling', dest='undersampling', action='store_co
 parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=0, help='')
 parser.add_argument('--undersampling-method', dest='undersampling_method', action='store', type=str, default="cosine", help='')
 parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat/512hz4555/sub%s_sec%s.mat", help='')
+parser.add_argument('--matfile', dest='matfile', action='store', type=str, default=None, help='')
 parser.add_argument('--modelname', dest='modelname', action='store', type=str, default="tmp", help='')
 parser.add_argument('--kodama', dest='kodama', action='store_const', const=True, default=False, help='')
 args = parser.parse_args()
@@ -43,7 +44,7 @@ if args.online:
 elif args.kodama:
     receiver = LoadmatKodama(args.subject, args.session, "train")
 else:
-    receiver = Loadmat(args.subject, args.session, "train", average=args.average, filename=args.filename)
+    receiver = Loadmat(args.subject, args.session, "train", average=args.average, filename=args.filename, matfile=args.matfile)
 
 for i in range(pattern_num):
     for _ in range(block_num):
