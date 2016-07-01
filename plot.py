@@ -15,11 +15,13 @@ parser.add_argument('session', action='store', type=int, help='')
 parser.add_argument('--repeat', dest='repeat', action='store', default=15, type=int, help='')
 parser.add_argument('--average', dest='average', action='store', default=1, type=int, help='')
 parser.add_argument('--online', dest='online', action='store_const', const=True, default=False, help='')
+parser.add_argument('--decimate', dest='decimate', action='store', type=int, default=1, help='')
 parser.add_argument('--type', dest='type', action='store', type=str, default="mean", help='')
 parser.add_argument('--undersampling', dest='undersampling', action='store_const', const=True, default=False, help='')
+parser.add_argument('--undersampling-method', dest='undersampling_method', action='store', type=str, default="cosine", help='')
+parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=0, help='')
 parser.add_argument('--channel', dest='channel_num', action='store', type=int, default=8, help='')
 parser.add_argument('--block', dest='block', action='store', type=int, default=1, help='')
-parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=60, help='')
 parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat/512hz4555/sub%s_sec%d.mat", help='')
 parser.add_argument('--kodama', dest='kodama', action='store_const', const=True, default=False, help='')
 args = parser.parse_args()
@@ -33,7 +35,7 @@ block_num = pattern_num * repetition_num
 
 if args.online:
     receiver = UDP("plot")
-if args.kodama:
+elif args.kodama:
     receiver = LoadmatKodama(args.subject, args.session, "train")
 else:
     receiver = Loadmat(args.subject, args.session, "train", average=args.average, filename=args.filename)
@@ -46,14 +48,12 @@ receiver.group()
 erps = receiver.fetch()
 
 if args.undersampling:
-    erps = convert.erp.undersampling(erps, block_num, method="cosine", far=args.undersampling_far)
+    erps = convert.erp.undersampling(erps, block_num, method=args.undersampling_method, far=args.undersampling_far)
+elif args.decimate != 1:
+    erps = convert.erp.decimate(erps, args.decimate)
 
 target_data = erps[1]
 non_target_data = erps[0]
-if False:
-    target_data     = convert.erp.decimate(target_data, 5)
-    non_target_data = convert.erp.decimate(non_target_data, 5)
-
 
 target_data     = convert.erp.separate(target_data)
 non_target_data = convert.erp.separate(non_target_data)
@@ -70,7 +70,7 @@ if args.type == "all":
         for erp in target_data:
             plt.plot(erp[i], color=[1, 0, 0, 0.1])
         plt.xlabel("time [ms]")
-        plt.ylabel("mu volt")
+        plt.ylabel("[mu volt]")
         plt.xlim([0,frame_length])
         plt.xticks(x_units, x_labels)
     plt.show()
