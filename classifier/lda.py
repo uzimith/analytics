@@ -4,7 +4,7 @@ from sklearn.externals import joblib
 import numpy as np
 
 class LDA:
-    def __init__(self):
+    def __init__(self, name="tmp"):
         self.clf = None
 
     def load(self):

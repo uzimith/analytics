@@ -13,8 +13,8 @@ import argparse
 import csv
 
 parser = argparse.ArgumentParser(description='')
-parser.add_argument('subject', action='store', type=int, help='')
-parser.add_argument('session', action='store', type=int, help='')
+parser.add_argument('subject', action='store', type=str, help='')
+parser.add_argument('session', action='store', type=str, help='')
 parser.add_argument('--repeat', dest='repeat', action='store', default=5, type=int, help='')
 parser.add_argument('--average', dest='average', action='store', default=1, type=int, help='')
 parser.add_argument('--online', dest='online', action='store_const', const=True, default=False, help='')
@@ -23,12 +23,12 @@ parser.add_argument('--method', dest='method', action='store', type=str, default
 parser.add_argument('--tmp', dest='tmp', action='store', default='tmp', help='')
 parser.add_argument('--problem', dest='problem', action='store', default=1, type=int, help='')
 parser.add_argument('--skip', dest='skip', action='store', default=0, type=int, help='')
-parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat/512hz4555/sub%s_sec%d.mat", help='')
+parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat/512hz4555/sub%s_sec%s.mat", help='')
 parser.add_argument('--modelname', dest='modelname', action='store', type=str, default="tmp", help='')
 parser.add_argument('--kodama', dest='kodama', action='store_const', const=True, default=False, help='')
 args = parser.parse_args()
 
-print("Subject: %d  Session: %d" % (args.subject, args.session))
+print("Subject: %s  Session: %s" % (args.subject, args.session))
 
 pattern_num = 6
 repetition_num = args.repeat
@@ -40,22 +40,22 @@ say_count = 0
 
 if args.online:
     receiver = UDP("predict", average=args.average)
-if args.kodama:
+elif args.kodama:
     receiver = LoadmatKodama(args.subject, args.session, "predict")
 else:
     receiver = Loadmat(args.subject, args.session, "predict", average=args.average, filename=args.filename)
 
 if args.method == "rbf":
     classifier = SVM(name=args.modelname, decimate=args.decimate)
-if args.method == "libsvm":
+elif args.method == "libsvm":
     classifier = LibSVM(name=args.modelname)
-if args.method == "linear" or args.method == "l":
+elif args.method == "linear" or args.method == "l":
     classifier = LinearSVM(name=args.modelname, decimate=args.decimate)
-if args.method == "swlinearsvm":
+elif args.method == "swlinearsvm":
     classifier = StepwiseLinearSVM(name=args.modelname, decimate=args.decimate)
-if args.method == "lda":
+elif args.method == "lda":
     classifier = LDA(name=args.modelname)
-if args.method == "swlda":
+elif args.method == "swlda":
     classifier = SWLDA(name=args.modelname, decimate=args.decimate)
 
 classifier.load()
@@ -71,7 +71,7 @@ for answer in range(1, pattern_num + 1):
         labels = sum([list(np.repeat(i, len(erps[i]))) for i in range(len(erps))], [])
         erps = sum(erps, [])
         result = classifier.predict(labels, erps, pattern_num)
-        # print("answer: %d reuslt: %d" % (answer, result))
+        print("answer: %d reuslt: %d" % (answer, result))
         if(answer == result):
             success_count = success_count + 1
         say_count = say_count + 1

@@ -24,10 +24,10 @@ class LoadmatKodama(Receive):
     def load(self):
         if self.type == "train":
             erps = [[], []]
-            erps[0] = scipy.io.loadmat("../mat/Feature_NonTarget_sub0%d_tri0%d_chAll.mat" % (self.subject, self.session))['NTcmdAll']
-            erps[1] = scipy.io.loadmat("../mat/Feature_Target_sub0%d_tri0%d_chAll.mat" % (self.subject, self.session))['TcmdAll']
+            erps[0] = scipy.io.loadmat("../mat/his_kodama/Feature_NonTarget_sub0%d_tri0%d_chAll.mat" % (self.subject, self.session))['NTcmdAll']
+            erps[1] = scipy.io.loadmat("../mat/his_kodama/Feature_Target_sub0%d_tri0%d_chAll.mat" % (self.subject, self.session))['TcmdAll']
         if self.type == "predict":
-            mat = scipy.io.loadmat("../mat/Feature_Sorted_sub0%d_tri0%d_chAll.mat" % (self.subject, self.session))
+            mat = scipy.io.loadmat("../mat/his_kodama/Feature_Sorted_sub0%d_tri0%d_chAll.mat" % (self.subject, self.session))
             erps = mat['Scmd0%d' % self.index]
             erps = zip(*[iter(erps)]*10)
             self.index += 1
