@@ -31,6 +31,7 @@ class Receive(object):
         return erps
 
     def group(self):
+        data = zip(self.labels, self.erps)
         data.sort(key=itemgetter(0))
         self.labels = [[k for k,v in v] for k, v in groupby(data, key=itemgetter(0))]
         self.erps = [[v for k,v in v] for k, v in groupby(data, key=itemgetter(0))]
