@@ -20,7 +20,7 @@ parser.add_argument('--average', dest='average', action='store', default=1, type
 parser.add_argument('--online', dest='online', action='store_const', const=True, default=False, help='')
 parser.add_argument('--decimate', dest='decimate', action='store', type=int, default=1, help='')
 parser.add_argument('--method', dest='method', action='store', type=str, default="l", help='')
-parser.add_argument('--tmp', dest='tmp', action='store', default='tmp', help='')
+parser.add_argument('--log', dest='log', action='store', default='tmp', help='')
 parser.add_argument('--problem', dest='problem', action='store', default=1, type=int, help='')
 parser.add_argument('--skip', dest='skip', action='store', default=0, type=int, help='')
 parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat/512hz4555/sub%s_sec%s.mat", help='')
@@ -39,7 +39,7 @@ success_count = 0
 say_count = 0
 
 if args.online:
-    receiver = UDP("predict", average=args.average)
+    receiver = UDP(args.subject, args.session, "predict", average=args.average, logname=args.log)
 elif args.kodama:
     receiver = LoadmatKodama(args.subject, args.session, "predict")
 else:
@@ -85,6 +85,8 @@ print("accuracy: %f %% (%d)" % (accuracy , success_count ) )
 
 # print("predicting is finished\n")
 
-with open('log/%s.csv' % args.tmp, 'a') as f:
+with open('log/%s.csv' % args.log, 'a') as f:
     writer = csv.writer(f, lineterminator='\n')
     f.write("%f," % accuracy)
+
+receiver.save()

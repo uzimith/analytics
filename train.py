@@ -22,6 +22,7 @@ parser.add_argument('--skip', dest='skip', action='store', default=0, type=int, 
 parser.add_argument('--online', dest='online', action='store_const', const=True, default=False, help='')
 parser.add_argument('--decimate', dest='decimate', action='store', type=int, default=1, help='')
 parser.add_argument('--method', dest='method', action='store', type=str, default="l", help='')
+parser.add_argument('--log', dest='log', action='store', default='tmp', help='')
 parser.add_argument('--no-undersampling', dest='undersampling', action='store_const', const=False, default=True, help='')
 parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=0, help='')
 parser.add_argument('--undersampling-method', dest='undersampling_method', action='store', type=str, default="cosine", help='')
@@ -38,7 +39,7 @@ skip_num = args.skip
 block_num = pattern_num * repetition_num
 
 if args.online:
-    receiver = UDP("train", average=args.average)
+    receiver = UDP(args.subject, args.session, "train", average=args.average, logname=args.log)
 elif args.kodama:
     receiver = LoadmatKodama(args.subject, args.session, "train")
 else:
@@ -77,3 +78,4 @@ elif args.method == "swlda":
     classifier = SWLDA(name=args.modelname, decimate=args.decimate)
 
 classifier.train(labels, erps)
+receiver.save()

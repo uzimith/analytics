@@ -4,14 +4,22 @@ from struct import *
 import numpy as np
 from operator import itemgetter
 from itertools import groupby
+import scipy.io
 
 class UDP(Receive):
-    def __init__(self, type, port = 8081, channel_num=8, average=1):
+    def __init__(self, subject, session, type, port = 8081, channel_num=8, average=1, logname=""):
         Receive.__init__(self, channel_num=8, average=average)
         self.host = socket.gethostbyname(socket.gethostname())
         self.port = port
         self.bind()
+        self.subject = subject
+        self.session = session
         self.type = type
+
+        # to save all data
+        self.all_erps = []
+        self.all_labels = []
+        self.logname =logname
 
     def bind(self):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -31,16 +39,18 @@ class UDP(Receive):
         self.labels.append(label)
         self.erps.append(erp)
 
-    def save(self, filename="tmp"):
-        sio.savemat(file_name, {'erps': erps, 'labels': label})
-        print("saved: %s" % file_name)
+    def fetch(self):
+        self.all_erps += self.erps
+        self.all_labels += self.labels
+        data = Receive.fetch(self)
+        return data
 
-    def train(self, filename, class_weight = False):
-        self.class_weight = class_weight
-        print("start training")
-        print("number of trials : %s" % self.trial_num)
-        print("class_weight : %d" % class_weight)
-        averaged_num = self.trial_num / self.average_count
-        data_num = self.trial_num / self.pattern_num / self.average_count
+    def save(self):
+        filename = "log/mat/%s-sub%s-sec%s-%s" % (self.logname, self.subject, self.session, self.type)
 
-        self.repetition_num = 5
+        if self.type == "train":
+            scipy.io.savemat(filename, {'erps': self.all_erps, 'target_label': self.all_labels})
+        elif self.type == "predict":
+            scipy.io.savemat(filename, {'erps': self.all_erps, 'stimuli_label': self.all_labels})
+
+        print("saved: %s" % filename)

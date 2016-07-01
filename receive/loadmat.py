@@ -7,12 +7,10 @@ from itertools import groupby
 import scipy.io
 
 class Loadmat(Receive):
-    def __init__(self, subject, session, type, channel_num=8, separate=False, normalize=False, average=1, filename="../mat/512hz4555/sub%s_sec%s.mat"):
+    def __init__(self, subject, session, type, channel_num=8, average=1, filename="../mat/512hz4555/sub%s_sec%s.mat"):
         Receive.__init__(self, channel_num=8, average=average)
         self.mat = scipy.io.loadmat(filename % (subject, session) )
         self.index = 0
-        self.is_separate = separate
-        self.is_normalize = normalize
         self.type = type
         self.other_labels = []
 
@@ -26,8 +24,6 @@ class Loadmat(Receive):
             erp = self.mat['erps'][i]
             label = self.mat['stimuli_label'][i][0]
             other_label = self.mat['target_label'][i][0]
-        if self.is_normalize:
-            erp = self.normalize(erp)
         self.erps.append(erp)
         self.labels.append(label)
         self.other_labels.append(other_label)
