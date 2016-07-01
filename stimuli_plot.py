@@ -1,3 +1,4 @@
+import convert.erp
 from receive.loadmat import Loadmat
 from receive.udp import UDP
 
@@ -23,12 +24,15 @@ repetition_num = args.repeat
 channel_num = args.channel_num
 block_num = pattern_num * repetition_num
 
-receiver = Loadmat(args.subject, args.session, "predict", separate=True)
+receiver = Loadmat(args.subject, args.session, "predict")
 
 for i in range(pattern_num * block_num):
     receiver.receive()
 
+receiver.group()
 erps_of_stimuli = receiver.fetch()
+erps_of_stimuli = [convert.erp.separate(erps) for erps in erps_of_stimuli]
+
 
 frame_length = len(erps_of_stimuli[0][0][0])
 x_units = [int(x) for x in np.linspace(0, frame_length, num=5)]
