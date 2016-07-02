@@ -5,11 +5,12 @@ from itertools import groupby
 import scipy.io
 
 class LoadmatKodama(Receive):
-    def __init__(self, subject, session, type, channel_num=8, average=1, folder="mat_500_D1_E1"):
+    def __init__(self, subject, session, type, channel_num=8, average=1, folder="mat_500_D1_E1", repetition_num=10):
         Receive.__init__(self, channel_num=8, average=average)
         self.type = type
         self.subject = subject
         self.session = session
+        self.repetition_num = repetition_num
         self.index = 1
         self.folder = folder
         self.load()
@@ -28,8 +29,8 @@ class LoadmatKodama(Receive):
             erps[1] = scipy.io.loadmat("../mat/mat_kodama/%s/Feature_Target_sub0%s_tri0%s_chAll.mat" % (self.folder, self.subject, self.session))['TcmdAll']
         if self.type == "predict":
             mat = scipy.io.loadmat("../mat/mat_kodama/%s/Feature_Sorted_sub0%s_tri0%s_chAll.mat" % (self.folder, self.subject, self.session))
-            erps = mat['Scmd0%s' % self.index]
-            erps = zip(*[iter(erps)]*10)
+            erps = mat['Scmd0%d' % self.index]
+            erps = zip(*[iter(erps)]*self.repetition_num)
             self.index += 1
         self.erps = erps
 

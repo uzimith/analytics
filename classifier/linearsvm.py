@@ -22,7 +22,8 @@ class LinearSVM:
 
     def train(self, labels, erps):
         print "training..."
-        erps = convert.erp.decimate(erps, self.factor)
+        if self.factor != 1:
+            erps = convert.erp.decimate(erps, self.factor)
 
         # self.scaler = StandardScaler()
         # self.scaler.fit(erps)
@@ -31,13 +32,14 @@ class LinearSVM:
         self.clf = svm.SVC(probability = True, kernel='linear', C=1)
         self.clf.fit(erps, labels)
 
-        scores = cross_validation.cross_val_score(self.clf, erps, labels, cv=10)
+        scores = cross_validation.cross_val_score(self.clf, erps, labels, cv=6)
         print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
         joblib.dump(self.clf, 'model/linearsvm-%s.pkl' % self.name)
         joblib.dump(self.scaler, 'model/linearsvm-scaler-%s.pkl' % self.name)
 
     def predict(self, labels, erps, pattern_num):
-        erps = convert.erp.decimate(erps, self.factor)
+        if self.factor != 1:
+            erps = convert.erp.decimate(erps, self.factor)
 
         probabilities = [[] for row in range(pattern_num)]
         for (erp, label) in zip(erps, labels):

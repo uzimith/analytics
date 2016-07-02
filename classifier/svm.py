@@ -20,7 +20,8 @@ class SVM:
         self.clf = joblib.load('model/rbfsvm-%s.pkl' % self.name)
 
     def train(self, labels, erps):
-        erps = convert.erp.decimate(erps, self.factor)
+        if self.factor != 1:
+            erps = convert.erp.decimate(erps, self.factor)
 
         clf = grid_search.GridSearchCV(svm.SVC(probability = True), parameters, n_jobs=4, cv=5)
 
@@ -37,7 +38,8 @@ class SVM:
         joblib.dump(self.clf, 'model/rbfsvm-%s.pkl' % self.name)
 
     def predict(self, labels, erps, pattern_num):
-        erps = convert.erp.decimate(erps, self.factor)
+        if self.factor != 1:
+            erps = convert.erp.decimate(erps, self.factor)
         probabilities = [[] for row in range(pattern_num)]
         for (erp, label) in zip(erps, labels):
             probabilities[label].append(self.clf.predict_proba([erp])[0][1])

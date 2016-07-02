@@ -20,21 +20,23 @@ class SWLDA:
     def train(self, labels, erps):
         print "training..."
 
-        erps = convert.erp.decimate(erps, self.factor)
+        if self.factor != 1:
+            erps = convert.erp.decimate(erps, self.factor)
         ( b, se, pval, inmodel, stats, nextstep, history ) = stepwisefit( erps, labels, maxiter = 60, penter = 0.1, premove = 0.15)
         self.index = inmodel
         erps = [np.array(erp)[self.index] for erp in erps]
         self.clf = lda()
         self.clf.fit(erps, labels)
 
-        scores = cross_validation.cross_val_score(self.clf, erps, labels, cv=10)
+        scores = cross_validation.cross_val_score(self.clf, erps, labels, cv=6)
         print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
 
         joblib.dump(self.clf, 'model/swlda-%s.pkl' % self.name)
         np.save("model/swlda-index-%s.npy" % self.name, self.index)
 
     def predict(self, labels, erps, pattern_num):
-        erps = convert.erp.decimate(erps, self.factor)
+        if self.factor != 1:
+            erps = convert.erp.decimate(erps, self.factor)
         erps = [np.array(erp)[self.index] for erp in erps]
 
         probabilities = [[] for row in range(pattern_num)]

@@ -25,11 +25,11 @@ parser.add_argument('--method', dest='method', action='store', type=str, default
 parser.add_argument('--log', dest='log', action='store', default='tmp', help='')
 parser.add_argument('--no-undersampling', dest='undersampling', action='store_const', const=False, default=True, help='')
 parser.add_argument('--undersampling-far', dest='undersampling_far', action='store', type=int, default=0, help='')
-parser.add_argument('--undersampling-method', dest='undersampling_method', action='store', type=str, default="cosine", help='')
+parser.add_argument('--undersampling-method', dest='undersampling_method', action='store', type=str, default="random", help='')
 parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat/512hz4555/sub%s_sec%s.mat", help='')
 parser.add_argument('--matfile', dest='matfile', action='store', type=str, default=None, help='')
 parser.add_argument('--modelname', dest='modelname', action='store', type=str, default="tmp", help='')
-parser.add_argument('--kodama', dest='kodama', action='store_const', const=True, default=False, help='')
+parser.add_argument('--kodama', dest='kodama', action='store', type=str, default=None, help='')
 args = parser.parse_args()
 
 print("Subject: %s  Session: %s" % (args.subject, args.session))
@@ -42,7 +42,7 @@ block_num = pattern_num * repetition_num
 if args.online:
     receiver = UDP(args.subject, args.session, "train", average=args.average, logname=args.log)
 elif args.kodama:
-    receiver = LoadmatKodama(args.subject, args.session, "train")
+    receiver = LoadmatKodama(args.subject, args.session, "train", folder=args.kodama, repetition_num=repetition_num)
 else:
     receiver = Loadmat(args.subject, args.session, "train", average=args.average, filename=args.filename, matfile=args.matfile)
 
@@ -60,7 +60,6 @@ erps = receiver.fetch()
 
 if args.undersampling and args.method != "swlda":
     erps = convert.erp.undersampling(erps, block_num, method=args.undersampling_method, far=args.undersampling_far)
-    # erps = convert.erp.undersampling(erps, block_num, method="euclidean", far=60)
 
 labels = sum([list(np.repeat(i, len(erps[i]))) for i in range(len(erps))], [])
 erps = sum(erps, [])

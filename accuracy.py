@@ -42,7 +42,7 @@ say_count = 0
 if args.online:
     receiver = UDP(args.subject, args.session, "predict", average=args.average, logname=args.log)
 elif args.kodama:
-    receiver = LoadmatKodama(args.subject, args.session, "predict", folder=args.kodama)
+    receiver = LoadmatKodama(args.subject, args.session, "predict", folder=args.kodama, repetition_num=repetition_num)
 else:
     receiver = Loadmat(args.subject, args.session, "predict", average=args.average, filename=args.filename, matfile=args.matfile)
 
