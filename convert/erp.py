@@ -2,6 +2,7 @@ import numpy as np
 import scipy.signal
 from itertools import chain
 import scipy.spatial.distance as dis
+import random
 
 def separate(erps, channel_num=8):
     frame_length = len(erps[0]) / channel_num
