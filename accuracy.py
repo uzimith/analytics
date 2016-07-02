@@ -26,7 +26,7 @@ parser.add_argument('--skip', dest='skip', action='store', default=0, type=int, 
 parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat/512hz4555/sub%s_sec%s.mat", help='')
 parser.add_argument('--matfile', dest='matfile', action='store', type=str, default=None, help='')
 parser.add_argument('--modelname', dest='modelname', action='store', type=str, default="tmp", help='')
-parser.add_argument('--kodama', dest='kodama', action='store_const', const=True, default=False, help='')
+parser.add_argument('--kodama', dest='kodama', action='store', type=str, default=None, help='')
 args = parser.parse_args()
 
 print("Subject: %s  Session: %s" % (args.subject, args.session))
@@ -42,7 +42,7 @@ say_count = 0
 if args.online:
     receiver = UDP(args.subject, args.session, "predict", average=args.average, logname=args.log)
 elif args.kodama:
-    receiver = LoadmatKodama(args.subject, args.session, "predict")
+    receiver = LoadmatKodama(args.subject, args.session, "predict", folder=args.kodama)
 else:
     receiver = Loadmat(args.subject, args.session, "predict", average=args.average, filename=args.filename, matfile=args.matfile)
 
