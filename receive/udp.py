@@ -24,7 +24,7 @@ class UDP(Receive):
     def bind(self):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.sock.bind((self.host, self.port))
-        print("udp : ", (self.host, self.port))
+        print("<SettingValue>%s</SettingValue>\n<SettingValue>%d</SettingValue>" % (self.host, self.port))
 
     def receive(self, skip = False):
         a = self.sock.recv(65535)
@@ -41,6 +41,7 @@ class UDP(Receive):
         # to save
         self.all_erps.append(erp)
         self.all_labels.append(label)
+        print(len(self.all_labels))
 
     def save(self):
         filename = "log/mat/%s-sub%s-sec%s-%s" % (self.logname, self.subject, self.session, self.type)

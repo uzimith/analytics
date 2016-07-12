@@ -2,10 +2,7 @@ import convert.erp
 
 from sklearn import svm
 from sklearn import cross_validation, grid_search
-import sklearn.feature_selection as fs
-from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
-from sklearn.preprocessing import MaxAbsScaler
 from sklearn.externals import joblib
 import numpy as np
 
@@ -22,9 +19,10 @@ class SVM:
     def train(self, labels, erps):
         if self.factor != 1:
             erps = convert.erp.decimate(erps, self.factor)
+        parameters = [{'kernel': ['rbf'], 'gamma': [10**i for i in range(-10,3)], 'C': [10**i for i in range(-2,6)]}]
+        clf = grid_search.GridSearchCV(svm.SVC(probability = True), parameters, n_jobs=-1, cv=6)
 
-        clf = grid_search.GridSearchCV(svm.SVC(probability = True), parameters, n_jobs=4, cv=5)
-
+        print("grid search...")
         clf.fit(erps, labels)
 
         for params, mean_score, scores in clf.grid_scores_:

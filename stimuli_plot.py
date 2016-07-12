@@ -15,6 +15,7 @@ parser.add_argument('session', action='store', type=int, help='')
 parser.add_argument('--repeat', dest='repeat', action='store', default=15, type=int, help='')
 parser.add_argument('--channel', dest='channel_num', action='store', type=int, default=8, help='')
 parser.add_argument('--block', dest='block', action='store', type=int, default=1, help='')
+parser.add_argument('--matfile', dest='matfile', action='store', type=str, default=None, help='')
 args = parser.parse_args()
 
 print("Subject: %d  Session: %d" % (args.subject, args.session))
@@ -24,7 +25,7 @@ repetition_num = args.repeat
 channel_num = args.channel_num
 block_num = pattern_num * repetition_num
 
-receiver = Loadmat(args.subject, args.session, "predict")
+receiver = Loadmat(args.subject, args.session, "predict", matfile=args.matfile)
 
 for i in range(pattern_num * block_num):
     receiver.receive()

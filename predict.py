@@ -7,12 +7,10 @@ from classifier.linearsvm import LinearSVM
 from classifier.swlinearsvm import StepwiseLinearSVM
 from classifier.lda import LDA
 from classifier.swlda import SWLDA
-
 import numpy as np
 import random
 import argparse
 import csv
-import os
 
 parser = argparse.ArgumentParser(description='')
 parser.add_argument('subject', action='store', type=str, help='')
@@ -29,7 +27,6 @@ parser.add_argument('--filename', dest='filename', action='store', type=str, def
 parser.add_argument('--matfile', dest='matfile', action='store', type=str, default=None, help='')
 parser.add_argument('--modelname', dest='modelname', action='store', type=str, default="tmp", help='')
 parser.add_argument('--kodama', dest='kodama', action='store', type=str, default=None, help='')
-parser.add_argument('--no-say-result', dest='say_result', action='store_const', const=False, default=True, help='')
 args = parser.parse_args()
 
 print("Subject: %s  Session: %s" % (args.subject, args.session))
@@ -64,7 +61,7 @@ elif args.method == "swlda":
 
 classifier.load()
 
-for answer in range(1, pattern_num + 1):
+while 1:
     for _ in range(problem_num):
         for i in range(block_num):
             receiver.receive()
@@ -76,8 +73,6 @@ for answer in range(1, pattern_num + 1):
         erps = sum(erps, [])
         result = classifier.predict(labels, erps, pattern_num)
         print("answer: %d reuslt: %d" % (answer, result))
-        if(args.say_result):
-            os.system("say result %d" % result)
         if(answer == result):
             success_count = success_count + 1
         say_count = say_count + 1
@@ -85,14 +80,3 @@ for answer in range(1, pattern_num + 1):
         receiver.receive()
     receiver.clear()
 
-
-accuracy = 100.0 * success_count / say_count
-print("accuracy: %f %% (%d)" % (accuracy , success_count ) )
-
-# print("predicting is finished\n")
-
-with open('log/%s.csv' % args.log, 'a') as f:
-    writer = csv.writer(f, lineterminator='\n')
-    f.write("%f," % accuracy)
-
-receiver.save()

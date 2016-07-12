@@ -2,10 +2,8 @@ import convert.erp
 from stepwise import stepwisefit
 
 from sklearn import svm
-from sklearn import cross_validation
+from sklearn import cross_validation, grid_search
 from sklearn.preprocessing import StandardScaler
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.preprocessing import MaxAbsScaler
 from sklearn.externals import joblib
 import numpy as np
 
@@ -25,15 +23,26 @@ class LinearSVM:
         if self.factor != 1:
             erps = convert.erp.decimate(erps, self.factor)
 
-        # self.scaler = StandardScaler()
-        # self.scaler.fit(erps)
-        # erps = self.scaler.transform(erps)
+        self.scaler = StandardScaler()
+        self.scaler.fit(erps)
+        erps = self.scaler.transform(erps)
 
         self.clf = svm.SVC(probability = True, kernel='linear', C=1)
         self.clf.fit(erps, labels)
+        parameters = [{'kernel': ['linear'], 'C': [10**i for i in range(-4,10)]}]
+        # parameters = [{'kernel': ['linear'], 'C': [1]}]
+        clf = grid_search.GridSearchCV(svm.SVC(probability = True), parameters, n_jobs=-1, cv=6)
+        print("grid search...")
+        clf.fit(erps, labels)
 
-        scores = cross_validation.cross_val_score(self.clf, erps, labels, cv=6)
-        print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
+        for params, mean_score, scores in clf.grid_scores_:
+            print("%0.3f (+/-%0.03f) for %r"
+                    % (mean_score, scores.std() * 2, params))
+
+            print(clf.best_params_)
+
+        self.clf = clf.best_estimator_
+
         joblib.dump(self.clf, 'model/linearsvm-%s.pkl' % self.name)
         joblib.dump(self.scaler, 'model/linearsvm-scaler-%s.pkl' % self.name)
 

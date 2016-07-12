@@ -1,0 +1,4 @@
+#!/bin/zsh
+method=swlda
+factor=10
+python accuracy.py --repeat 10 --method $method --decimate $factor --online --log $1 $2 $3

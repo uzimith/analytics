@@ -5,7 +5,7 @@ from itertools import groupby
 import scipy.io
 
 class LoadmatKodama(Receive):
-    def __init__(self, subject, session, type, channel_num=8, average=1, folder="mat_500_D1_E1", repetition_num=10):
+    def __init__(self, subject, session, type, channel_num=8, average=1, folder="mat_500_D1_E1", repetition_num=10, old=False):
         Receive.__init__(self, channel_num=8, average=average)
         self.type = type
         self.subject = subject

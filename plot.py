@@ -2,6 +2,7 @@ import convert.erp
 from receive.loadmat import Loadmat
 from receive.loadmat_kodama import LoadmatKodama
 from receive.udp import UDP
+import data
 
 import numpy as np
 from scipy import stats
@@ -23,7 +24,8 @@ parser.add_argument('--undersampling-far', dest='undersampling_far', action='sto
 parser.add_argument('--channel', dest='channel_num', action='store', type=int, default=8, help='')
 parser.add_argument('--block', dest='block', action='store', type=int, default=1, help='')
 parser.add_argument('--filename', dest='filename', action='store', type=str, default="../mat/512hz4555/sub%s_sec%d.mat", help='')
-parser.add_argument('--kodama', dest='kodama', action='store_const', const=True, default=False, help='')
+parser.add_argument('--matfile', dest='matfile', action='store', type=str, default=None, help='')
+parser.add_argument('--kodama', dest='kodama', action='store', type=str, default=None, help='')
 args = parser.parse_args()
 
 print("Subject: %d  Session: %d" % (args.subject, args.session))
@@ -34,11 +36,11 @@ channel_num = args.channel_num
 block_num = pattern_num * repetition_num
 
 if args.online:
-    receiver = UDP("plot")
+    receiver = UDP(args.subject, args.session, "plot", average=args.average, logname=args.log)
 elif args.kodama:
-    receiver = LoadmatKodama(args.subject, args.session, "train")
+    receiver = LoadmatKodama(args.subject, args.session, "train", folder=args.kodama, repetition_num=repetition_num)
 else:
-    receiver = Loadmat(args.subject, args.session, "train", average=args.average, filename=args.filename)
+    receiver = Loadmat(args.subject, args.session, "train", average=args.average, filename=args.filename, matfile=args.matfile)
 
 for i in range(pattern_num * block_num):
     receiver.receive()
@@ -61,6 +63,10 @@ non_target_data = convert.erp.separate(non_target_data)
 frame_length = len(target_data[0][0]) - 1
 x_units = [int(x) for x in np.linspace(0, frame_length, num=5)]
 x_labels = ["0", "200", "400", "600", "800"]
+
+font = {'family' : 'Times New Roman', 'weight' : 'bold', 'size'   : 15}
+plt.rc('font', **font)
+plt.figure(figsize=(30,25))
 
 if args.type == "all":
     for i in range(channel_num):
@@ -95,14 +101,19 @@ if args.type == "mean":
     std_non_target = stats.sem(non_target_data, axis=0)
 
     for i in range(channel_num):
+        plt.title(data.electrodes()[i])
         plt.subplot(4, 2, i + 1)
-        plt.errorbar(range(len(average_target_data[i])), average_target_data[i], yerr=std_target[i], color=[1, 0, 0, 0.7])
-        plt.errorbar(range(len(average_non_target_data[i])), average_non_target_data[i], yerr=std_non_target[i], color=[0, 0, 1, 0.7])
+        plt.errorbar(range(len(average_target_data[i])), average_target_data[i], yerr=std_target[i], color=[1, 0, 0, 0.7], label="target")
+        plt.errorbar(range(len(average_non_target_data[i])), average_non_target_data[i], yerr=std_non_target[i], color=[0, 0, 1, 0.7], label="non-target")
         plt.xlabel("time [ms]")
-        plt.ylabel("volt")
+        plt.ylabel("[uV ]")
         plt.xlim([0,frame_length])
         plt.xticks(x_units, x_labels)
+        if i == 1:
+            plt.legend(loc = 'upper right')
 
+    plt.savefig('log/sub%d-ses%d'% (args.subject, args.session))
     plt.show()
+
 
 print("plotted\n")
