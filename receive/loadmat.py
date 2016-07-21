@@ -18,7 +18,7 @@ class Loadmat(Receive):
         else:
             self.mat = scipy.io.loadmat(filename % (subject, session) )
 
-    def receive(self):
+    def receive(self, skip=False):
         i = self.index
         if self.type == "train":
             if self.matfile:
@@ -38,9 +38,10 @@ class Loadmat(Receive):
                 other_label = self.mat['target_label'][i][0]
         if self.matfile:
             other_label = "-1"
-        self.erps.append(erp)
-        self.labels.append(label)
-        self.other_labels.append(other_label)
+        if not skip:
+            self.erps.append(erp)
+            self.labels.append(label)
+            self.other_labels.append(other_label)
         self.index += 1
 
     def group(self):

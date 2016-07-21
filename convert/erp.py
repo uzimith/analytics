@@ -14,7 +14,6 @@ def combine(erp):
     return erp.flatten()
 
 def decimate(erps, factor, channel_num=8):
-    frame_length = len(erps[0]) / channel_num
     erps_of_channels = separate(erps)
     erps_of_channels = [scipy.signal.decimate(erp, factor) for erp in erps_of_channels]
     erps = [list(chain.from_iterable(erp)) for erp in erps_of_channels]
@@ -41,18 +40,17 @@ def undersampling(erps, block_num, method="cosine", far=30):
         erps[0] = random.sample(erps[0], block_num)
     return erps
 
-# def highpass(numtaps=255, cutoff=30):
-#     b = scipy.signal.firwin(numtaps, fe)
-#     frame_length = len(erps[0]) / channel_num
-#     erps_of_channels = separate(erps)
-#     erps_of_channels = [scipy.signal.lfilter(b, 1, erp) for erp in erps_of_channels]
-#     erps = [list(chain.from_iterable(erp)) for erp in erps_of_channels]
-#     return erps
-#
-# def lowpass(numtaps=255, cutoff=0.1, frequency=256):
-#     b = scipy.signal.firwin(numtaps, cutoff / (frequency), pass_zero=False)
-#     frame_length = len(erps[0]) / channel_num
-#     erps_of_channels = separate(erps)
-#     erps_of_channels = [scipy.signal.lfilter(b, 1, erp) for erp in erps_of_channels]
-#     erps = [list(chain.from_iterable(erp)) for erp in erps_of_channels]
-#     return erps
+def highpass(erps, numtaps=10, cutoff=30, frequency=256.0):
+    print(cutoff / (frequency / 2.0))
+    b = scipy.signal.firwin(numtaps, cutoff / (frequency / 2.0), pass_zero=False)
+    erps_of_channels = separate(erps)
+    erps_of_channels = [scipy.signal.lfilter(b, 1, erp) for erp in erps_of_channels]
+    erps = [list(chain.from_iterable(erp)) for erp in erps_of_channels]
+    return erps
+
+def lowpass(erps, numtaps=10, cutoff=30.0, frequency=256.0):
+    b = scipy.signal.firwin(numtaps, cutoff / (frequency / 2.0 ))
+    erps_of_channels = separate(erps)
+    erps_of_channels = [scipy.signal.lfilter(b, 1, erp) for erp in erps_of_channels]
+    erps = [list(chain.from_iterable(erp)) for erp in erps_of_channels]
+    return erps

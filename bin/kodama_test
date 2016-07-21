@@ -1,0 +1,49 @@
+#!/bin/zsh
+for erp in 800; do
+    for epoch in 1; do
+        for decimate in 1; do
+            method=$1
+            factor=10
+            filename=kodama/test_${method}_${erp}_D${decimate}_E${epoch}
+            folder=mat_${erp}_D${decimate}_E${epoch}
+            rm log/$filename.csv
+            touch log/$filename.csv
+            if [ $method = "swlda" ]; then
+                repeat=1
+            else
+                repeat=10
+            fi
+            for i in `seq 1 $repeat`; do
+                for subject in {1..10}; do
+                    if [ $subject = 2 ]; then
+                        start=2
+                        end=5
+                    elif [ $subject = 3 ]; then
+                        start=2
+                        end=6
+                    else
+                        start=1
+                        end=5
+                    fi
+                    if [ $subject = 2 -o $subject = 3 ]; then
+                        python train.py $subject 1 --method $method --kodama $folder --repeat `expr 10 / $epoch` --modelname kodama --decimate $factor
+                    else
+                        python train.py $subject 0 --method $method --kodama $folder --repeat `expr 10 / $epoch` --modelname kodama --decimate $factor
+                    fi
+                    if [ $? = 0 ]; then
+                        for session in `seq $start $end`; do
+                            python accuracy.py $subject $session --method $method --log $filename --decimate $factor --kodama $folder --repeat `expr 10 / $epoch` --modelname kodama
+                        done
+                    else
+                        if [ $subject = 2 ]; then
+                            echo -n 0,0,0,0, >> log/$filename.csv
+                        else
+                            echo -n 0,0,0,0,0, >> log/$filename.csv
+                        fi
+                    fi
+                done
+                echo "" >> log/$filename.csv
+            done
+        done
+    done
+done

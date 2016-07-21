@@ -1,0 +1,35 @@
+#!/bin/zsh
+method=$1
+name=$2
+subjet=$3
+
+echo "$method - $name - $subjet - no average"
+
+filename=kensuke/vr_${method}_${name}_sub${subjet}_no_average
+rm log/$filename.csv
+touch log/$filename.csv
+
+for decimate in {1..20}; do
+    echo "- decimate ${decimate}"
+    echo decimate${decimate} >> log/$filename.csv
+    python train.py \
+        --repeat 10 \
+        --method $method --decimate $decimate \
+        --matfile log/mat/20160708_riken/${name}-sub${subjet}-sec1-train.mat \
+         --no-undersampling \
+        0 0 2>/dev/null
+    for trial in {1..10}; do
+        echo -n "trial${trial}," >> log/$filename.csv
+        for session in {2..5}; do
+            python accuracy.py \
+                --repeat $trial --problem `expr 10 / $trial` --skip `expr 10 % $trial` \
+                --method $method --decimate $decimate \
+                --matfile log/mat/20160708_riken/${name}-sub${subjet}-sec${session}-predict.mat \
+                --log $filename \
+                --no-say-result \
+                0 0 >/dev/null 2>&1
+        done
+        echo "" >> log/$filename.csv
+    done
+    echo "" >> log/$filename.csv
+done

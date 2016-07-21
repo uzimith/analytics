@@ -32,7 +32,7 @@ parser.add_argument('--kodama', dest='kodama', action='store', type=str, default
 parser.add_argument('--no-say-result', dest='say_result', action='store_const', const=False, default=True, help='')
 args = parser.parse_args()
 
-print("Subject: %s  Session: %s" % (args.subject, args.session))
+# print("Subject: %s  Session: %s" % (args.subject, args.session))
 
 pattern_num = 6
 repetition_num = args.repeat
@@ -82,8 +82,7 @@ for answer in range(1, pattern_num + 1):
             success_count = success_count + 1
         say_count = say_count + 1
     for _ in range(skip_num * pattern_num):
-        receiver.receive()
-    receiver.clear()
+        receiver.receive(skip=True)
 
 
 accuracy = 100.0 * success_count / say_count

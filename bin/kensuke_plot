@@ -1,0 +1,2 @@
+#!/bin/zsh
+python plot.py $1 $2 --decimate 1

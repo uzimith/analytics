@@ -32,7 +32,7 @@ parser.add_argument('--modelname', dest='modelname', action='store', type=str, d
 parser.add_argument('--kodama', dest='kodama', action='store', type=str, default=None, help='')
 args = parser.parse_args()
 
-print("Subject: %s  Session: %s" % (args.subject, args.session))
+# print("Subject: %s  Session: %s" % (args.subject, args.session))
 
 pattern_num = 6
 repetition_num = args.repeat
@@ -51,8 +51,7 @@ for i in range(pattern_num):
         receiver.receive()
     if skip_num != 0:
         for _ in range(skip_num * pattern_num):
-            receiver.receive()
-        receiver.clear()
+            receiver.receive(skip=True)
 
 receiver.group()
 

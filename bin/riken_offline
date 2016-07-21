@@ -1,0 +1,11 @@
+bin/offline_average swlda kensuke 1
+bin/offline_average swlda kodama 1
+bin/offline_average swlda tomek 2
+bin/offline_average swlda riken 1
+bin/offline_average swlda riken 2
+
+bin/offline_no_average swlda kensuke 1
+bin/offline_no_average swlda kodama 1
+bin/offline_no_average swlda tomek 2
+bin/offline_no_average swlda riken 1
+bin/offline_no_average swlda riken 2
