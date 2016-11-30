@@ -55,10 +55,26 @@ class SWLDA:
         for (erp, label) in zip(erps, labels):
             probabilities[label].append(self.clf.predict_proba([erp])[0][1])
         pp = pprint.PrettyPrinter(indent=4)
-        pp.pprint(probabilities)
+        #pp.pprint(probabilities)
         summary = [np.mean(p) for p in probabilities]
-        print(summary)
+        #print(summary)
         result = np.argmax(summary)
         if(not np.isnan(np.max(summary)) and np.max(summary) != np.min(summary)):
             result = result + 1
         return result
+
+    def predict_proba(self, labels, erps, pattern_num):
+        if self.factor != 1:
+            erps = convert.erp.decimate(erps, self.factor)
+        erps = [np.array(erp)[self.index] for erp in erps]
+
+        probabilities = [[] for row in range(pattern_num)]
+        for (erp, label) in zip(erps, labels):
+            probabilities[label].append(self.clf.predict_proba([erp])[0][1])
+        pp = pprint.PrettyPrinter(indent=4)
+        pp.pprint(probabilities)
+        summary = [np.mean(p) for p in probabilities]
+        result = np.argmax(summary)
+        if(not np.isnan(np.max(summary)) and np.max(summary) != np.min(summary)):
+            result = result + 1
+        return (result, summary)

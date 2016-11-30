@@ -8,12 +8,13 @@ import glob
 
 class LoadmatMulti(Receive):
     def __init__(self, multi_filename, type, average=1):
-        Receive.__init__(self, channel_num=8, average=average)
+        Receive.__init__(self, average=average)
         self.index = 0
         self.type = type
 
         filenames = glob.glob(multi_filename)
         print(filenames)
+        self.users = len(filenames)
         matfiles = [scipy.io.loadmat(filename) for filename in filenames]
         grand_erps = [matfile["erps"] for matfile in matfiles]
         if self.type == "train":

@@ -1,0 +1,59 @@
+#!/bin/zsh
+method=swlda
+name=ch1
+subject=$1
+
+filename=shuron/${method}_${name}
+rm log/$filename.csv
+touch log/$filename.csv
+
+for average in 1 2 3 4 5; do
+    for subject in 1 2 3 6 8 9; do
+        echo "$name - $average - $subject"
+        echo -n "subject${subject}," >> log/$filename.csv
+        echo -n "300," >> log/$filename.csv
+        echo -n "${average}," >> log/$filename.csv
+
+        python train.py \
+            --repeat 15 --skip 0 \
+            --method swlda --decimate 10 \
+            --average 1 \
+            --matfile ../mat/shuron/ch1_sub${subject}_sec1.mat \
+            --no-undersampling \
+            0 0
+        for session in 2 3 4; do
+            python accuracy.py \
+                --repeat $average --skip `expr 5 % $average` \
+                --problem `expr 5 / $average` \
+                --method swlda --decimate 10 \
+                --matfile ../mat/shuron/ch1_sub${subject}_sec${session}.mat \
+                --log $filename \
+                --no-say-result \
+                0 0
+        done
+
+        echo "" >> log/$filename.csv
+        echo -n "subject${subject}," >> log/$filename.csv
+        echo -n "120," >> log/$filename.csv
+        echo -n "${average}," >> log/$filename.csv
+
+        python train.py \
+            --repeat 15 --skip 0 \
+            --method swlda --decimate 10 \
+            --average 1 \
+            --matfile ../mat/shuron/ch1_sub${subject}_sec8.mat \
+            --no-undersampling \
+            0 0
+        python accuracy.py \
+            --repeat $average --skip `expr 15 % $average` \
+            --problem `expr 15 / $average` \
+            --average 1 \
+            --problem 1 \
+            --method swlda --decimate 10 \
+            --matfile ../mat/shuron/ch1_sub${subject}_sec9.mat \
+            --log $filename \
+            --no-say-result \
+            0 0
+        echo "" >> log/$filename.csv
+    done
+done

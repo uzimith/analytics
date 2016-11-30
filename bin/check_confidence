@@ -5,18 +5,15 @@ subjet=$3
 
 echo "$method - $name - $subjet - average"
 
-filename=kensuke/vr_${method}_${name}_sub${subjet}_average
-rm log/$filename.csv
+filename=kensuke/vr_conffidence_${method}
 touch log/$filename.csv
 
 for decimate in 10; do
     echo "- decimate ${decimate}"
-    echo decimate${decimate} >> log/$filename.csv
     for average in 1; do
         echo "-- average ${average}"
-        echo -n "average${average}," >> log/$filename.csv
         python train.py \
-            --repeat `expr 10 / $average \* $average` --skip `expr 10 % $average` \
+            --repeat 10 \
             --method $method --decimate $decimate \
             --average $average \
             --matfile log/mat/20160708_riken/${name}-sub${subjet}-sec1-train.mat \
@@ -24,16 +21,14 @@ for decimate in 10; do
             0 0 \
             2>/dev/null
         for session in {2..5}; do
-            python accuracy.py \
-                --repeat `expr 10 / $average \* $average` --skip `expr 10 % $average` \
-                --average $average \
+            python accuracy_check_confidence.py \
+                --repeat 5 \
+                --problem 2 \
                 --method $method --decimate $decimate \
                 --matfile log/mat/20160708_riken/${name}-sub${subjet}-sec${session}-predict.mat \
                 --log $filename \
                 --no-say-result \
-                0 0
+                ${name}${subjet} ${session}
         done
-        echo "" >> log/$filename.csv
     done
-    echo "" >> log/$filename.csv
 done

@@ -8,6 +8,7 @@ from classifier.swlinearsvm import StepwiseLinearSVM
 from classifier.lda import LDA
 from classifier.swlda import SWLDA
 
+import socket
 import numpy as np
 import random
 import argparse
@@ -30,6 +31,9 @@ parser.add_argument('--matfile', dest='matfile', action='store', type=str, defau
 parser.add_argument('--modelname', dest='modelname', action='store', type=str, default="tmp", help='')
 parser.add_argument('--kodama', dest='kodama', action='store', type=str, default=None, help='')
 parser.add_argument('--no-say-result', dest='say_result', action='store_const', const=False, default=True, help='')
+parser.add_argument('--send-udp', dest='send_udp', action='store_const', const=True, default=False, help='')
+parser.add_argument('--ip', dest='ip', action='store', type=str, default="172.0.0.10", help='')
+parser.add_argument('--port', dest='port', action='store', type=int, default=12347, help='')
 args = parser.parse_args()
 
 # print("Subject: %s  Session: %s" % (args.subject, args.session))
@@ -63,6 +67,7 @@ elif args.method == "swlda":
     classifier = SWLDA(name=args.modelname, decimate=args.decimate)
 
 classifier.load()
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 for answer in range(1, pattern_num + 1):
     for _ in range(problem_num):
@@ -78,6 +83,8 @@ for answer in range(1, pattern_num + 1):
         print("answer: %d reuslt: %d" % (answer, result))
         if(args.say_result):
             os.system("say result %d" % result)
+        if(args.send_udp):
+            sock.sendto(str(result), (args.ip, args.port))
         if(answer == result):
             success_count = success_count + 1
         say_count = say_count + 1

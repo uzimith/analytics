@@ -1,0 +1,3012 @@
+swlda - kensuke - 1 - average
+- decimate 1
+-- average 1
+flame: 204, selected features: (60)
+O1[47] O1[53] O1[61] O1[82] O1[89] O1[97] O1[106] O1[114] O1[118] O1[130] O1[153] O1[190] O2[7] O2[44] O2[65] O2[104] O2[121] O2[135] O2[165] Cz[63] Cz[125] Cz[138] Cz[154] Cz[168] Cz[176] Cz[179] CPz[18] CPz[32] CPz[63] CPz[82] CPz[99] CPz[120] CPz[138] CP5[8] CP5[14] CP5[21] CP5[30] CP5[46] CP5[57] CP5[58] CP5[62] CP5[68] CP5[88] CP5[96] CP5[115] CP5[167] CP5[177] CP5[183] CP6[20] CP6[31] CP6[108] CP6[152] CP6[175] P3[65] P3[166] P4[24] P4[71] P4[100] P4[111] P4[119]
+-- average 2
+flame: 204, selected features: (60)
+O1[1] O1[12] O1[47] O1[62] O1[76] O1[80] O1[81] O1[89] O1[94] O1[97] O1[118] O1[124] O1[152] O1[197] O1[200] O2[34] O2[56] O2[112] O2[128] O2[140] Cz[28] Cz[42] CPz[6] CPz[15] CPz[33] CPz[55] CPz[63] CPz[73] CPz[76] CPz[118] CPz[139] CPz[155] CPz[173] CPz[179] CP5[10] CP5[14] CP5[29] CP5[46] CP5[115] CP5[176] CP6[3] CP6[48] CP6[78] CP6[96] CP6[117] CP6[143] CP6[189] P3[1] P3[8] P3[27] P3[62] P3[66] P3[137] P3[140] P3[167] P3[183] P4[40] P4[43] P4[100] P4[125]
+-- average 3
+flame: 204, selected features: (60)
+O1[8] O1[37] O1[63] O1[82] O1[97] O1[115] O1[118] O1[125] O1[159] O1[174] O1[200] O1[201] O2[37] O2[54] O2[66] O2[82] O2[86] O2[124] O2[182] O2[188] O2[193] CPz[0] CPz[37] CPz[47] CPz[59] CPz[64] CPz[81] CPz[137] CPz[175] CPz[179] CP5[3] CP5[14] CP5[46] CP5[53] CP5[59] CP5[70] CP5[94] CP5[117] CP5[149] CP5[150] CP5[162] CP5[196] CP5[203] CP6[57] CP6[92] CP6[100] CP6[117] CP6[133] CP6[155] CP6[159] CP6[184] CP6[186] CP6[198] P3[0] P3[46] P3[93] P3[97] P3[162] P3[181] P3[189]
+-- average 4
+flame: 204, selected features: (60)
+O1[2] O1[40] O1[54] O1[60] O1[82] O1[107] O1[124] O1[159] O2[3] O2[17] O2[31] O2[80] O2[99] O2[114] O2[136] O2[146] O2[195] O2[201] CPz[0] CPz[47] CPz[69] CPz[71] CPz[73] CPz[105] CPz[108] CPz[143] CPz[178] CP5[14] CP5[34] CP5[40] CP5[65] CP5[100] CP5[112] CP5[115] CP5[125] CP5[151] CP5[178] CP6[84] CP6[101] CP6[103] CP6[139] CP6[147] CP6[176] P3[25] P3[52] P3[66] P3[73] P3[75] P3[99] P3[107] P3[125] P3[167] P3[171] P3[176] P4[0] P4[39] P4[50] P4[127] P4[167] P4[176]
+-- average 5
+flame: 204, selected features: (60)
+O1[20] O1[60] O1[75] O1[78] O1[97] O1[125] O1[143] O1[150] O1[167] O1[182] O1[195] O1[196] O1[200] O2[2] O2[16] O2[28] O2[43] O2[70] O2[79] O2[92] O2[96] O2[121] O2[129] O2[145] O2[147] O2[151] O2[166] O2[176] O2[179] O2[193] Cz[34] Cz[36] Cz[168] CPz[26] CPz[68] CPz[78] CPz[138] CPz[139] CPz[167] CP5[8] CP5[66] CP5[96] CP5[114] CP5[152] CP5[171] CP5[182] CP5[199] CP6[2] CP6[27] CP6[98] CP6[104] P3[10] P3[51] P3[98] P3[115] P3[171] P3[185] P3[186] P4[71] P4[194]
+-- average 6
+flame: 204, selected features: (33)
+O1[14] O1[32] O1[51] O1[62] O1[81] O1[97] O1[114] O1[126] O1[149] O1[165] O1[190] O1[201] O2[93] O2[141] O2[150] Cz[30] Cz[137] Cz[201] CPz[139] CPz[192] CP5[13] CP5[31] CP5[70] CP5[88] CP5[161] CP6[64] CP6[189] P3[170] P3[190] P4[11] P4[76] P4[83] P4[153]
+-- average 7
+flame: 204, selected features: (32)
+O1[9] O1[25] O1[67] O1[82] O1[94] O1[104] O1[114] O1[159] O1[165] O1[169] O2[53] O2[101] O2[127] O2[135] O2[140] Cz[55] Cz[61] Cz[73] Cz[166] Cz[174] Cz[179] Cz[189] CPz[51] CPz[161] CP5[21] CP5[28] CP5[47] CP6[129] P3[5] P4[45] P4[77] P4[97]
+-- average 8
+flame: 204, selected features: (33)
+O1[22] O1[98] O1[109] O1[115] O1[117] O1[123] O1[135] O1[178] O1[184] O1[201] O2[39] O2[101] CP5[20] CP5[31] CP5[78] CP5[82] CP5[88] CP5[137] CP5[153] CP5[162] CP5[171] CP5[192] CP6[4] CP6[42] CP6[92] CP6[101] CP6[106] CP6[137] CP6[175] CP6[187] CP6[195] P3[41] P3[164]
+-- average 9
+flame: 204, selected features: (32)
+O1[35] O1[37] O1[59] O1[97] O1[104] O1[113] O1[126] O1[153] O1[170] O1[200] O2[120] O2[183] O2[198] O2[200] CPz[59] CPz[85] CPz[180] CP5[22] CP5[43] CP5[60] CP5[74] CP5[86] CP5[91] CP5[139] CP5[173] CP6[59] CP6[67] CP6[116] CP6[165] CP6[178] P3[178] P3[202]
+-- average 10
+flame: 204, selected features: (33)
+O1[20] O1[65] O1[82] O1[87] O1[89] O1[96] O1[103] O1[118] O1[131] O1[153] O1[186] O2[69] O2[74] O2[76] O2[79] O2[81] O2[104] O2[132] CPz[159] CP5[168] CP5[187] CP6[7] CP6[8] CP6[13] CP6[21] CP6[52] CP6[80] CP6[133] CP6[194] P3[21] P3[106] P4[92] P4[164]
+- decimate 2
+-- average 1
+flame: 102, selected features: (60)
+O1[24] O1[33] O1[43] O1[47] O1[51] O1[56] O1[59] O1[64] O1[79] O1[96] O1[97] O2[6] O2[17] O2[20] O2[35] O2[36] O2[63] Cz[39] Cz[86] Cz[89] Cz[92] Cz[96] CPz[4] CPz[19] CPz[34] CPz[71] CP5[6] CP5[12] CP5[17] CP5[28] CP5[31] CP5[33] CP5[39] CP5[42] CP5[49] CP5[57] CP5[73] CP5[94] CP6[4] CP6[7] CP6[18] CP6[34] CP6[35] CP6[53] CP6[70] CP6[81] CP6[92] P3[35] P3[38] P3[51] P3[54] P3[70] P3[85] P3[94] P3[97] P4[14] P4[38] P4[42] P4[58] P4[65]
+-- average 2
+flame: 102, selected features: (60)
+O1[3] O1[11] O1[18] O1[20] O1[27] O1[28] O1[33] O1[40] O1[43] O1[51] O1[62] O1[85] O1[94] O1[97] O1[100] O2[17] O2[25] O2[35] O2[40] O2[41] O2[42] O2[43] O2[58] O2[63] O2[79] O2[80] O2[86] O2[93] O2[97] O2[99] Cz[7] Cz[37] Cz[52] Cz[59] Cz[65] Cz[71] CPz[0] CPz[10] CPz[33] CPz[34] CPz[39] CPz[60] CPz[65] CPz[72] CP5[9] CP5[25] CP5[63] CP5[78] CP5[91] CP6[17] CP6[48] CP6[88] CP6[96] CP6[99] P3[19] P3[34] P3[70] P3[72] P3[73] P3[82]
+-- average 3
+flame: 102, selected features: (60)
+O1[16] O1[23] O1[32] O1[40] O1[43] O1[51] O1[60] O1[66] O1[83] O1[87] O1[89] O1[93] O1[101] O2[7] O2[21] O2[24] O2[29] O2[35] O2[48] O2[83] O2[93] Cz[43] Cz[78] Cz[87] Cz[90] Cz[92] Cz[94] CPz[22] CPz[24] CPz[34] CPz[67] CPz[71] CP5[23] CP5[27] CP5[37] CP5[49] CP5[54] CP5[65] CP5[73] CP5[83] CP5[85] CP6[7] CP6[21] CP6[26] CP6[30] CP6[31] CP6[33] CP6[48] CP6[99] CP6[101] P3[21] P3[36] P3[57] P3[73] P3[83] P3[87] P3[92] P3[94] P3[99] P4[38]
+-- average 4
+flame: 102, selected features: (60)
+O1[6] O1[9] O1[26] O1[40] O1[43] O1[51] O1[56] O1[59] O1[65] O1[82] O1[97] O2[0] O2[3] O2[23] O2[25] O2[55] O2[57] O2[63] O2[64] O2[66] O2[67] O2[74] Cz[76] CPz[24] CPz[72] CP5[4] CP5[10] CP5[11] CP5[18] CP5[38] CP5[49] CP5[58] CP5[68] CP5[78] CP6[4] CP6[24] CP6[28] CP6[40] CP6[49] CP6[59] CP6[62] CP6[63] CP6[67] CP6[78] CP6[95] P3[23] P3[28] P3[29] P3[30] P4[10] P4[41] P4[47] P4[52] P4[54] P4[61] P4[76] P4[81] P4[82] P4[86] P4[98]
+-- average 5
+flame: 102, selected features: (60)
+O1[13] O1[33] O1[42] O1[44] O1[51] O1[56] O1[77] O1[87] O1[94] O1[97] O1[98] O1[99] O1[100] O2[9] O2[10] O2[13] O2[22] O2[25] O2[30] O2[36] O2[38] O2[56] O2[60] O2[67] O2[76] O2[96] Cz[0] Cz[59] Cz[80] CPz[0] CPz[1] CPz[13] CPz[34] CPz[42] CPz[50] CPz[51] CPz[62] CPz[63] CPz[66] CPz[70] CPz[91] CP5[12] CP5[47] CP5[49] CP5[61] CP5[65] CP5[77] CP5[96] CP5[98] CP5[100] CP6[31] CP6[33] P3[14] P3[52] P3[63] P3[67] P3[73] P3[91] P4[9] P4[72]
+-- average 6
+flame: 102, selected features: (32)
+O1[19] O1[23] O1[24] O1[26] O1[33] O1[40] O1[51] O1[58] O1[60] O1[74] O1[76] O1[86] O1[99] O2[8] O2[55] O2[89] CPz[45] CPz[48] CPz[96] CP5[13] CP5[38] CP5[46] CP5[75] CP5[94] CP5[101] CP6[19] CP6[79] CP6[92] P3[67] P4[19] P4[31] P4[93]
+-- average 7
+flame: 102, selected features: (33)
+O1[43] O1[44] O1[48] O1[51] O1[62] O1[82] O1[89] O2[49] O2[53] O2[72] O2[74] Cz[95] Cz[101] CPz[35] CP5[4] CP5[9] CP5[24] CP5[28] CP5[30] CP5[45] CP5[59] CP5[69] CP5[82] CP5[99] P3[25] P3[37] P4[27] P4[42] P4[46] P4[50] P4[65] P4[67] P4[92]
+-- average 8
+flame: 102, selected features: (33)
+O1[7] O1[33] O1[38] O1[51] O1[58] O1[59] O1[72] O1[86] O2[8] O2[11] O2[24] O2[33] O2[45] O2[53] O2[76] O2[77] Cz[16] Cz[74] Cz[96] Cz[101] CPz[80] CP5[5] CP5[8] CP5[15] CP5[54] CP5[70] CP5[72] CP5[96] CP6[18] CP6[29] P3[79] P3[86] P4[32]
+-- average 9
+flame: 102, selected features: (33)
+O1[2] O1[28] O1[34] O1[41] O1[51] O1[86] O2[11] O2[19] O2[24] O2[32] O2[76] O2[95] O2[100] Cz[17] Cz[68] CPz[53] CPz[61] CP5[51] CP5[60] CP6[12] CP6[24] CP6[27] CP6[39] CP6[46] CP6[70] CP6[72] CP6[82] CP6[83] CP6[99] P3[16] P3[20] P3[25] P3[75]
+-- average 10
+flame: 102, selected features: (33)
+O1[0] O1[33] O1[46] O1[47] O1[51] O1[53] O1[85] O1[92] O1[97] O1[98] O2[2] O2[6] O2[7] O2[17] O2[20] O2[21] O2[22] O2[25] O2[26] O2[66] O2[70] CPz[82] CP5[33] CP5[74] CP5[83] CP5[84] CP6[86] P3[14] P3[34] P3[49] P3[97] P4[72] P4[86]
+- decimate 3
+-- average 1
+flame: 68, selected features: (60)
+O1[12] O1[18] O1[21] O1[23] O1[24] O1[28] O1[30] O1[36] O1[37] O1[44] O1[46] O1[48] O1[51] O1[56] O1[64] O1[66] O2[5] O2[15] O2[45] O2[47] O2[50] Cz[21] Cz[23] Cz[33] Cz[40] Cz[54] Cz[58] Cz[65] CPz[9] CPz[14] CPz[24] CPz[25] CPz[27] CPz[28] CPz[33] CPz[47] CPz[48] CP5[6] CP5[11] CP5[13] CP5[18] CP5[22] CP5[25] CP5[26] CP5[27] CP5[28] CP5[41] CP5[62] CP6[6] CP6[9] CP6[27] P3[14] P3[24] P3[27] P3[29] P3[48] P3[50] P4[35] P4[36] P4[66]
+-- average 2
+flame: 68, selected features: (60)
+O1[2] O1[13] O1[18] O1[23] O1[28] O1[30] O1[37] O1[40] O1[44] O1[55] O2[5] O2[16] O2[31] O2[46] O2[50] O2[54] Cz[24] Cz[26] Cz[27] Cz[36] Cz[50] Cz[67] CPz[0] CPz[6] CPz[7] CPz[8] CPz[27] CPz[48] CPz[58] CPz[62] CP5[4] CP5[7] CP5[8] CP5[9] CP5[13] CP5[18] CP5[22] CP5[42] CP5[54] CP5[55] CP5[63] CP5[64] CP5[67] CP6[4] CP6[6] CP6[23] CP6[35] CP6[45] CP6[51] CP6[52] CP6[53] CP6[57] CP6[66] P3[6] P3[26] P3[47] P3[48] P3[57] P4[5] P4[29]
+-- average 3
+flame: 68, selected features: (60)
+O1[8] O1[18] O1[19] O1[23] O1[30] O1[31] O1[33] O1[35] O1[37] O1[44] O1[50] O1[66] O1[67] O2[14] O2[15] O2[22] O2[25] O2[35] O2[44] O2[48] O2[62] O2[63] O2[67] CPz[5] CPz[9] CPz[27] CPz[35] CPz[37] CPz[49] CPz[58] CPz[62] CP5[10] CP5[20] CP5[22] CP5[24] CP5[31] CP5[37] CP5[38] CP5[53] CP5[54] CP5[64] CP6[17] CP6[24] CP6[53] CP6[54] CP6[62] P3[9] P3[23] P3[27] P3[28] P3[35] P3[37] P3[38] P3[49] P3[51] P3[52] P3[58] P3[63] P4[3] P4[16]
+-- average 4
+flame: 68, selected features: (60)
+O1[3] O1[5] O1[11] O1[28] O1[30] O1[42] O1[56] O2[0] O2[8] O2[12] O2[17] O2[18] O2[28] O2[52] O2[56] O2[64] Cz[6] Cz[7] Cz[16] Cz[20] Cz[21] Cz[40] Cz[49] Cz[65] CPz[4] CPz[14] CPz[36] CPz[39] CPz[44] CPz[61] CP5[2] CP5[21] CP5[37] CP5[41] CP5[60] CP5[62] CP5[64] CP6[8] CP6[20] CP6[23] CP6[32] CP6[33] CP6[36] CP6[43] CP6[62] CP6[64] CP6[67] P3[9] P3[12] P3[34] P3[46] P3[54] P3[57] P3[67] P4[16] P4[27] P4[34] P4[44] P4[49] P4[57]
+-- average 5
+flame: 68, selected features: (60)
+O1[4] O1[9] O1[15] O1[20] O1[21] O1[22] O1[24] O1[27] O1[29] O1[30] O1[35] O1[37] O1[44] O1[47] O1[52] O1[56] O1[58] O1[67] O2[3] O2[5] O2[6] O2[15] O2[16] O2[54] O2[55] Cz[3] Cz[38] Cz[41] Cz[43] CPz[7] CPz[19] CPz[23] CPz[46] CPz[67] CP5[17] CP5[28] CP5[30] CP5[33] CP5[36] CP5[43] CP5[55] CP5[56] CP6[6] CP6[9] CP6[13] CP6[14] CP6[23] CP6[24] CP6[46] CP6[47] CP6[51] CP6[60] CP6[61] CP6[64] CP6[65] P3[28] P3[34] P3[49] P3[62] P3[64]
+-- average 6
+flame: 68, selected features: (33)
+O1[6] O1[9] O1[14] O1[22] O1[23] O1[28] O1[54] O1[57] O2[0] O2[15] O2[24] O2[27] O2[31] O2[41] O2[44] O2[49] O2[55] O2[57] O2[58] O2[64] Cz[26] Cz[58] Cz[59] Cz[61] CPz[26] CPz[27] CPz[48] CPz[58] CPz[62] CP5[50] CP5[63] P3[29] P3[36]
+-- average 7
+flame: 68, selected features: (33)
+O1[8] O1[9] O1[14] O1[29] O1[30] O1[37] O1[44] O1[49] O1[58] O2[12] O2[17] O2[23] O2[38] O2[47] O2[49] O2[52] O2[64] Cz[16] CPz[12] CP5[16] CP5[17] CP5[24] CP5[33] CP5[43] CP5[53] CP5[62] P3[7] P3[24] P3[25] P3[42] P3[48] P3[50] P3[52]
+-- average 8
+flame: 68, selected features: (33)
+O1[24] O1[27] O1[28] O1[29] O1[30] O1[34] O1[37] O1[45] O1[48] O1[61] O1[63] O2[49] O2[51] CPz[4] CP5[0] CP5[3] CP5[44] CP5[45] CP6[4] CP6[6] CP6[7] CP6[8] CP6[10] CP6[26] CP6[27] CP6[28] CP6[37] CP6[58] CP6[59] CP6[61] CP6[62] P4[14] P4[44]
+-- average 9
+flame: 68, selected features: (33)
+O1[9] O1[15] O1[24] O1[28] O1[30] O1[36] O1[37] O1[63] O2[8] O2[12] O2[20] O2[49] O2[60] O2[63] O2[66] CP5[13] CP5[16] CP5[19] CP5[21] CP5[63] CP5[65] CP6[26] CP6[33] CP6[34] CP6[52] CP6[56] CP6[60] P3[0] P3[8] P3[9] P3[12] P3[52] P3[56]
+-- average 10
+flame: 68, selected features: (33)
+O1[19] O1[30] O1[32] O1[37] O1[50] O1[57] O2[38] O2[45] O2[46] Cz[36] Cz[38] CPz[4] CPz[27] CPz[37] CPz[62] CP5[6] CP5[19] CP5[29] CP5[50] CP6[19] CP6[26] CP6[52] CP6[60] P3[20] P3[24] P3[27] P3[31] P3[33] P3[53] P3[55] P4[29] P4[30] P4[52]
+- decimate 4
+-- average 1
+flame: 51, selected features: (60)
+O1[1] O1[14] O1[22] O1[23] O1[24] O1[29] O1[34] O1[37] O2[15] O2[24] O2[34] O2[35] O2[36] O2[41] O2[44] O2[48] Cz[14] Cz[16] Cz[31] Cz[37] Cz[38] Cz[39] Cz[40] Cz[41] Cz[48] Cz[49] Cz[50] CPz[3] CPz[16] CPz[21] CPz[23] CPz[29] CPz[37] CP5[8] CP5[10] CP5[16] CP5[17] CP5[26] CP5[29] CP5[33] CP5[49] CP5[50] CP6[3] CP6[21] CP6[24] CP6[28] CP6[33] CP6[39] CP6[40] CP6[47] P3[16] P3[21] P3[37] P3[38] P3[44] P4[3] P4[22] P4[29] P4[38] P4[47]
+-- average 2
+flame: 51, selected features: (34)
+O1[6] O1[23] O1[24] O1[29] O1[45] O2[11] O2[13] O2[30] CPz[0] CPz[21] CPz[24] CPz[27] CPz[30] CPz[37] CP5[11] CP5[12] CP5[17] CP5[24] CP5[27] CP5[28] CP5[30] CP5[33] CP5[37] CP5[46] CP6[3] CP6[41] CP6[47] P3[3] P3[11] P3[18] P3[29] P3[37] P3[44] P4[28]
+-- average 3
+flame: 51, selected features: (47)
+O1[2] O1[4] O1[13] O1[16] O1[19] O1[23] O1[26] O1[27] O1[29] O1[30] O1[39] O1[40] O1[45] O1[49] O2[8] O2[13] O2[14] O2[27] O2[29] O2[30] Cz[0] Cz[7] Cz[17] CPz[18] CPz[23] CPz[24] CPz[30] CP5[9] CP5[11] CP5[13] CP5[17] CP5[21] CP5[26] CP5[33] CP5[43] CP5[49] CP5[50] CP6[3] CP6[18] CP6[29] CP6[43] CP6[45] CP6[47] P3[2] P3[18] P4[41] P4[49]
+-- average 4
+flame: 51, selected features: (60)
+O1[3] O1[6] O1[9] O1[12] O1[23] O1[25] O1[29] O1[34] O1[39] O1[42] O1[44] O1[46] O1[49] O2[0] O2[13] O2[14] O2[21] O2[35] O2[40] O2[47] O2[48] O2[49] Cz[5] Cz[6] Cz[16] Cz[22] Cz[31] Cz[36] Cz[46] Cz[48] Cz[49] CPz[20] CPz[21] CPz[23] CPz[28] CPz[30] CPz[41] CPz[48] CP5[9] CP5[12] CP5[17] CP5[34] CP5[43] CP5[49] CP5[50] CP6[10] CP6[17] CP6[18] CP6[19] CP6[25] CP6[28] CP6[35] CP6[40] P3[4] P3[5] P3[12] P3[39] P3[42] P4[12] P4[18]
+-- average 5
+flame: 51, selected features: (60)
+O1[0] O1[5] O1[6] O1[16] O1[22] O1[23] O1[26] O1[27] O1[29] O1[30] O1[35] O1[36] O1[42] O1[48] O1[49] O2[13] O2[14] O2[15] O2[20] O2[25] O2[28] O2[40] O2[42] O2[46] O2[49] Cz[12] Cz[15] CPz[0] CPz[10] CPz[18] CPz[23] CPz[35] CPz[36] CPz[37] CPz[38] CPz[40] CP5[3] CP5[6] CP5[11] CP5[36] CP5[38] CP5[43] CP6[4] CP6[5] CP6[17] CP6[18] CP6[21] CP6[42] CP6[43] P3[5] P3[11] P3[13] P3[21] P3[26] P3[42] P4[3] P4[20] P4[23] P4[34] P4[37]
+-- average 6
+flame: 51, selected features: (34)
+O1[17] O1[20] O1[22] O2[5] O2[13] O2[18] O2[29] O2[34] O2[36] O2[39] O2[46] O2[49] Cz[5] Cz[13] Cz[45] CPz[17] CPz[26] CPz[29] CPz[50] CP5[6] CP5[8] CP5[17] CP5[22] CP5[24] CP5[27] CP5[28] CP5[36] CP5[37] CP5[43] CP6[40] P3[19] P3[23] P3[25] P4[26]
+-- average 7
+flame: 51, selected features: (34)
+O1[7] O1[22] O1[26] O1[29] O1[36] O1[42] O1[44] O2[11] O2[12] O2[13] O2[39] O2[40] O2[47] CP5[6] CP5[11] CP5[14] CP5[17] CP5[23] CP5[47] CP5[48] CP6[8] CP6[43] P3[0] P3[3] P3[7] P3[11] P3[12] P3[28] P3[32] P3[36] P3[37] P3[40] P3[46] P4[40]
+-- average 8
+flame: 51, selected features: (34)
+O1[15] O1[19] O1[25] O1[36] O2[2] O2[6] O2[13] O2[14] O2[24] O2[32] O2[40] O2[44] Cz[44] CPz[5] CPz[21] CPz[47] CP5[15] CP5[38] CP6[5] CP6[28] CP6[38] CP6[39] CP6[42] CP6[44] P3[22] P3[40] P4[6] P4[17] P4[19] P4[25] P4[29] P4[30] P4[35] P4[49]
+-- average 9
+flame: 51, selected features: (34)
+O1[3] O1[7] O1[8] O1[19] O1[22] O1[23] O1[48] O1[49] O2[37] O2[38] O2[43] O2[49] Cz[31] CPz[15] CPz[18] CPz[21] CPz[22] CPz[47] CPz[48] CP5[17] CP5[23] CP5[24] CP5[39] CP5[42] CP5[46] CP6[8] CP6[10] CP6[19] CP6[24] CP6[29] CP6[43] P3[0] P3[46] P3[50]
+-- average 10
+flame: 51, selected features: (34)
+O1[11] O1[16] O1[20] O1[21] O1[23] O1[49] O2[7] O2[13] O2[30] O2[36] O2[39] CPz[3] CPz[18] CPz[24] CPz[26] CPz[42] CPz[47] CP5[5] CP5[36] CP5[50] CP6[23] CP6[30] CP6[48] P3[7] P3[8] P3[17] P3[49] P4[22] P4[23] P4[25] P4[34] P4[37] P4[40] P4[44]
+- decimate 5
+-- average 1
+flame: 41, selected features: (31)
+O1[9] O1[19] O1[23] O1[24] O1[40] O2[10] O2[11] O2[16] Cz[8] Cz[14] Cz[15] Cz[25] CPz[7] CPz[10] CPz[15] CPz[16] CPz[19] CPz[31] CPz[38] CPz[39] CP5[9] CP5[15] CP5[26] CP5[32] CP5[36] CP6[23] CP6[38] P3[9] P3[14] P3[31] P3[32]
+-- average 2
+flame: 41, selected features: (35)
+O1[5] O1[9] O1[16] O1[18] O1[19] O1[24] O1[39] O2[2] O2[4] O2[11] O2[18] O2[31] CPz[3] CPz[16] CPz[18] CPz[30] CPz[31] CP5[15] CP5[23] CP5[33] CP5[39] CP5[40] CP6[0] CP6[3] CP6[16] CP6[19] CP6[32] CP6[38] CP6[40] P3[11] P3[15] P3[24] P3[27] P3[31] P3[36]
+-- average 3
+flame: 41, selected features: (42)
+O1[11] O1[14] O1[17] O1[18] O1[19] O1[22] O1[24] O1[25] O1[26] O1[27] O1[39] O1[40] O2[6] O2[11] O2[14] O2[16] O2[24] O2[28] O2[36] CPz[6] CPz[15] CPz[17] CPz[27] CPz[31] CPz[35] CP5[8] CP5[15] CP5[21] CP5[24] CP5[30] CP6[19] CP6[24] CP6[25] CP6[38] P3[8] P3[9] P3[12] P3[19] P3[31] P3[34] P3[36] P3[40]
+-- average 4
+flame: 41, selected features: (60)
+O1[2] O1[3] O1[8] O1[9] O1[17] O1[18] O1[19] O1[20] O1[22] O1[24] O1[25] O1[32] O1[33] O1[37] O1[40] O2[4] O2[5] O2[6] O2[9] O2[10] O2[11] O2[23] O2[24] O2[25] O2[26] O2[31] O2[32] O2[33] O2[37] O2[38] O2[40] CPz[6] CPz[9] CPz[10] CPz[15] CPz[18] CPz[32] CP5[10] CP5[15] CP5[17] CP5[20] CP5[23] CP5[26] CP5[33] CP5[36] CP5[38] CP6[4] CP6[9] CP6[16] CP6[17] CP6[18] CP6[19] P3[12] P4[11] P4[17] P4[25] P4[26] P4[28] P4[37] P4[38]
+-- average 5
+flame: 41, selected features: (18)
+O1[16] O1[18] O1[19] O1[22] O1[37] O1[39] O1[40] O2[5] O2[11] O2[19] O2[31] O2[32] CPz[18] CPz[38] CP5[5] CP5[20] CP5[27] P3[35]
+-- average 6
+-- average 7
+flame: 41, selected features: (33)
+O1[1] O1[15] O1[19] O1[20] O1[28] O1[29] O1[36] O2[2] O2[11] O2[13] O2[28] O2[32] O2[33] Cz[3] Cz[13] Cz[31] CP5[6] CP5[7] CP5[9] CP5[13] CP5[29] CP5[31] CP5[38] CP5[39] CP6[0] CP6[11] CP6[21] CP6[29] P3[6] P3[21] P3[27] P3[31] P3[33]
+-- average 8
+flame: 41, selected features: (34)
+O1[3] O1[19] O1[28] O1[40] O2[4] O2[9] O2[11] O2[15] O2[31] O2[32] O2[33] O2[36] O2[40] Cz[2] Cz[18] Cz[21] Cz[31] Cz[38] Cz[39] Cz[40] CPz[27] CPz[30] CP5[0] CP5[5] CP5[15] CP5[20] CP5[34] CP5[39] CP6[5] CP6[33] CP6[38] P3[7] P3[23] P3[36]
+-- average 9
+flame: 41, selected features: (34)
+O1[2] O1[4] O1[6] O1[19] O1[24] O1[33] O1[39] O1[40] O2[6] O2[11] O2[26] O2[31] O2[32] Cz[2] Cz[30] CPz[7] CPz[19] CPz[20] CPz[33] CPz[40] CP5[6] CP5[10] CP5[11] CP5[18] CP5[23] CP5[24] CP5[32] CP5[35] CP6[5] CP6[21] CP6[23] CP6[40] P3[12] P3[14]
+-- average 10
+flame: 41, selected features: (34)
+O1[6] O1[7] O1[8] O1[17] O1[19] O1[21] O1[26] O1[39] O1[40] O2[11] O2[12] O2[28] O2[30] O2[32] Cz[0] Cz[20] Cz[27] CPz[0] CPz[19] CP5[3] CP5[18] CP5[19] CP5[25] CP5[26] CP5[27] CP5[32] CP6[20] CP6[23] CP6[30] P3[40] P4[17] P4[28] P4[31] P4[35]
+- decimate 6
+-- average 1
+flame: 34, selected features: (34)
+O1[6] O1[16] O1[17] O1[20] O1[21] O2[8] O2[27] O2[32] CPz[0] CPz[6] CPz[8] CPz[12] CPz[13] CPz[16] CPz[26] CP5[8] CP5[12] CP5[16] CP5[27] CP5[28] CP5[30] CP6[2] CP6[7] CP6[13] CP6[18] CP6[29] CP6[31] CP6[32] P3[12] P3[13] P3[16] P3[21] P3[26] P3[27]
+-- average 2
+flame: 34, selected features: (36)
+O1[1] O1[5] O1[12] O1[16] O1[17] O1[29] O1[31] O2[9] O2[14] O2[24] O2[27] O2[33] CPz[0] CPz[5] CPz[12] CPz[14] CPz[17] CPz[26] CPz[29] CPz[30] CP5[8] CP5[13] CP5[14] CP5[26] CP5[28] CP6[3] CP6[14] CP6[15] CP6[27] CP6[32] P3[8] P3[9] P3[14] P3[24] P3[26] P3[27]
+-- average 3
+flame: 34, selected features: (24)
+O1[3] O1[14] O1[15] O1[16] O1[21] O1[23] O1[25] O1[30] O2[10] O2[16] O2[24] O2[27] CPz[5] CPz[13] CPz[15] CPz[25] CP5[13] CP5[21] CP5[23] CP5[25] CP6[13] CP6[31] CP6[32] P3[32]
+-- average 4
+flame: 34, selected features: (60)
+O1[2] O1[3] O1[7] O1[12] O1[13] O1[16] O1[17] O1[20] O1[21] O1[23] O1[24] O1[26] O1[28] O1[29] O1[30] O1[31] O1[32] O1[33] O2[0] O2[1] O2[9] O2[24] Cz[9] Cz[24] CP5[2] CP5[8] CP5[14] CP5[17] CP5[18] CP5[19] CP5[21] CP5[22] CP5[28] CP5[30] CP5[32] CP6[0] CP6[9] CP6[22] CP6[24] CP6[25] CP6[27] CP6[30] CP6[33] P3[2] P3[9] P3[10] P3[11] P3[14] P3[20] P3[21] P3[28] P3[29] P4[0] P4[1] P4[8] P4[11] P4[16] P4[18] P4[23] P4[26]
+-- average 5
+flame: 34, selected features: (60)
+O1[7] O1[8] O1[10] O1[12] O1[15] O1[17] O1[19] O1[20] O1[24] O1[27] O1[33] O2[10] O2[14] O2[17] O2[20] O2[23] O2[24] O2[26] O2[27] O2[30] O2[31] O2[33] Cz[3] Cz[4] Cz[6] Cz[10] CPz[0] CPz[5] CPz[11] CPz[14] CPz[15] CPz[19] CPz[26] CP5[0] CP5[1] CP5[5] CP5[12] CP5[13] CP5[18] CP5[21] CP5[23] CP5[24] CP6[0] CP6[6] CP6[12] CP6[13] CP6[15] CP6[17] CP6[18] CP6[27] CP6[28] CP6[29] CP6[32] P3[12] P3[15] P3[17] P3[23] P3[24] P3[29] P3[31]
+-- average 6
+-- average 7
+flame: 34, selected features: (4)
+O2[10] O2[16] O2[27] O2[33]
+-- average 8
+flame: 34, selected features: (34)
+O1[2] O1[9] O1[13] O1[16] O1[17] O1[19] O1[21] O1[23] O1[24] O1[30] O1[33] Cz[26] CPz[14] CPz[16] CPz[30] CPz[31] CP5[4] CP5[8] CP5[11] CP5[22] CP6[0] CP6[23] CP6[33] P3[11] P3[18] P3[20] P4[0] P4[9] P4[10] P4[15] P4[16] P4[25] P4[27] P4[31]
+-- average 9
+flame: 34, selected features: (34)
+O1[0] O1[1] O1[10] O1[13] O1[16] O1[17] O1[19] O1[20] O1[30] O1[32] O2[4] O2[6] O2[10] O2[22] O2[25] O2[27] O2[32] Cz[12] CPz[11] CPz[14] CPz[17] CPz[30] CPz[32] CP5[1] CP5[9] CP5[10] CP5[11] CP5[17] CP5[19] CP5[21] CP5[26] CP5[30] CP6[7] P3[5]
+-- average 10
+flame: 34, selected features: (34)
+O1[5] O1[6] O1[12] O1[15] O1[17] O1[18] O1[20] O1[26] O1[28] O2[6] O2[10] O2[25] O2[26] O2[27] O2[33] CPz[6] CPz[14] CPz[31] CPz[32] CP5[23] CP6[16] P3[13] P3[21] P3[24] P3[26] P3[32] P4[3] P4[10] P4[16] P4[17] P4[18] P4[19] P4[23] P4[33]
+- decimate 7
+-- average 1
+flame: 30, selected features: (29)
+O1[8] O1[11] O1[14] O1[15] O1[21] O1[23] O1[26] O2[8] O2[13] O2[26] O2[28] CPz[8] CPz[12] CPz[14] CPz[16] CPz[21] CPz[23] CP5[7] CP5[14] CP5[23] CP5[27] CP6[7] CP6[12] CP6[16] CP6[28] P3[7] P3[12] P3[23] P4[11]
+-- average 2
+flame: 30, selected features: (37)
+O1[0] O1[11] O1[14] O1[15] O1[18] O1[26] O1[29] O2[8] O2[18] O2[23] O2[28] CPz[0] CPz[5] CPz[8] CPz[10] CPz[12] CPz[22] CP5[5] CP5[7] CP5[8] CP5[14] CP5[24] CP6[2] CP6[11] CP6[12] CP6[27] CP6[28] P3[6] P3[9] P3[12] P3[15] P3[23] P3[27] P4[6] P4[10] P4[14] P4[26]
+-- average 3
+flame: 30, selected features: (14)
+O1[8] O1[11] O1[15] O1[25] O1[26] CPz[0] CPz[12] CPz[14] CPz[23] CPz[25] CP5[17] CP6[2] CP6[12] CP6[15]
+-- average 4
+flame: 30, selected features: (6)
+O1[2] O1[8] O1[11] O1[15] O1[23] O1[26]
+-- average 5
+flame: 30, selected features: (60)
+O1[0] O1[1] O1[8] O1[9] O1[12] O1[13] O1[15] O1[16] O1[18] O1[19] O1[23] O1[26] O2[6] O2[14] O2[15] O2[24] O2[26] O2[27] CPz[0] CPz[10] CPz[12] CPz[14] CPz[22] CPz[24] CPz[25] CPz[27] CPz[29] CP5[2] CP5[3] CP5[5] CP5[7] CP5[10] CP5[13] CP5[15] CP5[28] CP6[2] CP6[9] CP6[11] CP6[13] CP6[16] CP6[19] CP6[20] CP6[23] CP6[26] CP6[28] CP6[29] P3[11] P3[12] P3[15] P3[22] P3[23] P3[26] P4[1] P4[7] P4[9] P4[10] P4[19] P4[23] P4[24] P4[25]
+-- average 6
+-- average 7
+flame: 30, selected features: (34)
+O1[11] O1[14] O1[21] O1[26] O2[9] O2[10] O2[12] O2[24] O2[27] Cz[0] Cz[11] Cz[18] Cz[24] CPz[9] CPz[10] CPz[20] CP5[4] CP5[12] CP5[13] CP5[14] CP5[19] CP5[26] CP5[27] CP6[6] CP6[17] CP6[22] P3[2] P3[4] P3[6] P3[8] P3[10] P3[23] P3[29] P4[8]
+-- average 8
+-- average 9
+flame: 30, selected features: (10)
+O1[0] O1[1] O1[13] O1[14] O1[21] O1[22] O1[29] O2[9] O2[14] O2[24]
+-- average 10
+flame: 30, selected features: (10)
+O1[1] O1[3] O1[6] O1[11] O1[15] O1[18] O1[26] O1[27] O2[8] O2[23]
+- decimate 8
+-- average 1
+flame: 26, selected features: (16)
+O1[13] O1[16] O2[8] O2[11] Cz[17] CPz[6] CPz[8] CPz[11] CPz[20] CP5[24] CP6[6] CP6[11] CP6[13] CP6[25] P3[11] P3[20]
+-- average 2
+flame: 26, selected features: (38)
+O1[0] O1[6] O1[8] O1[11] O1[13] O1[17] O1[23] O2[6] O2[9] O2[14] O2[21] O2[25] Cz[12] Cz[20] CPz[2] CPz[5] CPz[9] CPz[11] CPz[14] CPz[20] CPz[21] CP5[5] CP5[20] CP6[0] CP6[2] CP6[11] CP6[12] CP6[24] CP6[25] P3[4] P3[5] P3[8] P3[11] P3[17] P3[20] P3[24] P4[13] P4[23]
+-- average 3
+flame: 26, selected features: (10)
+O1[10] O1[11] O1[13] O1[19] O1[23] O2[8] O2[21] CPz[12] CP6[22] P4[20]
+-- average 4
+flame: 26, selected features: (15)
+O1[2] O1[10] O1[11] O1[13] O1[23] O1[24] O2[0] O2[8] O2[21] CPz[3] CPz[12] CPz[23] CP6[2] CP6[12] CP6[20]
+-- average 5
+flame: 26, selected features: (17)
+O1[10] O1[19] O1[23] O2[8] O2[12] O2[21] O2[25] Cz[17] CPz[9] CPz[22] CP5[23] CP5[24] CP6[6] CP6[12] CP6[25] P3[8] P3[21]
+-- average 6
+-- average 7
+flame: 26, selected features: (34)
+O1[5] O1[11] O1[24] O2[8] O2[10] O2[13] O2[18] O2[19] O2[21] O2[25] Cz[4] Cz[15] Cz[17] Cz[23] CPz[3] CPz[7] CPz[8] CPz[10] CPz[16] CP5[0] CP5[1] CP5[11] CP6[5] CP6[13] CP6[14] CP6[25] P3[0] P3[1] P3[4] P3[18] P4[12] P4[13] P4[15] P4[23]
+-- average 8
+-- average 9
+flame: 26, selected features: (7)
+O1[8] O1[13] O1[16] O1[23] O2[4] O2[13] O2[21]
+-- average 10
+flame: 26, selected features: (34)
+O1[4] O1[10] O1[15] O1[17] O1[23] O1[24] O1[25] O2[0] O2[6] O2[7] O2[8] O2[10] O2[13] O2[14] O2[15] O2[17] O2[21] CP5[0] CP5[1] CP5[6] CP5[7] CP5[13] CP5[14] CP5[21] CP6[11] CP6[12] CP6[25] P3[5] P3[7] P3[8] P3[9] P3[21] P4[1] P4[20]
+- decimate 9
+-- average 1
+flame: 23, selected features: (21)
+O1[7] O1[10] O1[12] O1[15] O1[20] O2[7] O2[20] Cz[16] Cz[17] CPz[7] CPz[10] CPz[12] CPz[18] CP5[6] CP5[18] CP5[22] CP6[6] CP6[10] P3[6] P3[10] P3[18]
+-- average 2
+flame: 23, selected features: (21)
+O1[7] O1[10] O1[12] O1[15] O1[20] O1[21] O2[10] O2[17] O2[20] CPz[6] CPz[11] CPz[16] CPz[18] CPz[20] CP6[6] CP6[11] CP6[12] CP6[18] P3[7] P3[11] P3[18]
+-- average 3
+flame: 23, selected features: (22)
+O1[0] O1[5] O1[6] O1[9] O1[10] O1[12] O1[21] O2[0] O2[1] O2[4] O2[7] O2[10] O2[14] O2[19] O2[21] CPz[11] CPz[18] CP5[8] CP5[19] CP5[20] P3[11] P3[18]
+-- average 4
+flame: 23, selected features: (46)
+O1[5] O1[6] O1[7] O1[10] O1[12] O1[15] O1[20] O1[21] O1[22] Cz[7] Cz[8] Cz[10] Cz[11] Cz[17] Cz[18] Cz[19] CPz[5] CPz[7] CPz[9] CPz[11] CPz[18] CP5[2] CP5[5] CP5[7] CP5[8] CP5[10] CP5[11] CP5[14] CP5[21] CP5[22] CP6[5] CP6[10] CP6[12] CP6[15] CP6[20] CP6[21] CP6[22] P3[7] P3[17] P3[19] P3[22] P4[7] P4[10] P4[16] P4[17] P4[18]
+-- average 5
+flame: 23, selected features: (6)
+O1[8] O1[9] O1[13] O1[21] O2[6] O2[19]
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+flame: 23, selected features: (6)
+O1[1] O1[12] O1[21] O2[15] CPz[12] CPz[18]
+-- average 10
+flame: 23, selected features: (9)
+O1[12] O1[15] O1[20] O2[1] O2[3] O2[6] O2[12] O2[18] O2[20]
+- decimate 10
+-- average 1
+flame: 21, selected features: (13)
+O1[11] O1[13] O2[6] O2[9] CPz[6] CPz[9] CPz[11] CPz[17] CP5[6] CP5[13] P3[9] P3[17] P3[19]
+-- average 2
+flame: 21, selected features: (19)
+O1[3] O1[9] O1[11] O1[19] O2[4] O2[6] O2[19] CPz[1] CPz[6] CPz[9] CPz[11] CPz[17] CP6[0] CP6[1] CP6[9] CP6[15] P3[9] P3[17] P4[5]
+-- average 3
+flame: 21, selected features: (19)
+O1[1] O1[11] O1[19] O2[6] O2[7] O2[9] O2[18] Cz[6] Cz[11] Cz[14] CPz[0] CPz[6] CPz[9] CPz[10] CPz[19] CP6[17] P3[9] P3[11] P3[18]
+-- average 4
+flame: 21, selected features: (4)
+O2[6] O2[9] O2[17] O2[20]
+-- average 5
+flame: 21, selected features: (13)
+O1[11] O1[13] O1[14] O2[4] O2[6] O2[17] CPz[0] CPz[11] CPz[16] CP5[5] P3[6] P3[12] P3[17]
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+flame: 21, selected features: (11)
+O1[1] O1[9] O1[11] O1[16] O1[18] O1[19] O2[7] O2[13] O2[17] O2[20] CP6[7]
+-- average 10
+flame: 21, selected features: (10)
+O1[0] O1[8] O1[9] O1[11] O1[14] O1[19] O2[4] O2[6] O2[10] O2[17]
+- decimate 11
+-- average 1
+flame: 19, selected features: (15)
+O1[11] O1[12] O1[18] O2[6] O2[8] Cz[10] Cz[13] CPz[6] CPz[8] CPz[15] CP5[6] CP5[8] CP5[15] CP6[8] CP6[11]
+-- average 2
+flame: 19, selected features: (27)
+O1[4] O1[9] O1[10] O1[11] O1[12] O1[18] O2[2] O2[3] O2[6] O2[9] O2[12] O2[16] CPz[4] CPz[6] CPz[9] CPz[10] CPz[15] CP5[5] CP6[0] CP6[1] CP6[2] CP6[3] CP6[9] CP6[11] CP6[18] P3[9] P3[16]
+-- average 3
+flame: 19, selected features: (18)
+O1[0] O1[9] O1[11] O1[16] O1[18] O2[3] O2[6] O2[16] CPz[6] CPz[9] CPz[18] CP6[1] CP6[9] CP6[11] CP6[15] P4[0] P4[7] P4[10]
+-- average 4
+flame: 19, selected features: (16)
+O1[9] O1[11] O1[12] O1[14] O1[18] O2[0] O2[6] O2[13] Cz[18] CPz[10] CPz[15] CP6[0] CP6[1] CP6[16] CP6[18] P4[17]
+-- average 5
+flame: 19, selected features: (42)
+O1[1] O1[2] O1[9] O1[10] O1[11] O1[14] O1[18] O2[0] O2[3] O2[4] O2[5] O2[6] O2[8] O2[9] O2[15] O2[17] Cz[7] Cz[8] CPz[0] CPz[1] CPz[9] CPz[10] CPz[12] CPz[15] CPz[16] CPz[18] CP5[4] CP5[8] CP5[10] CP6[2] CP6[6] CP6[9] P3[11] P3[14] P3[16] P3[17] P3[18] P4[12] P4[15] P4[16] P4[17] P4[18]
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 19, selected features: (8)
+O1[18] O2[4] O2[6] O2[16] CP5[15] P3[5] P3[6] P3[16]
+- decimate 12
+-- average 1
+flame: 17, selected features: (13)
+O1[14] O1[15] O2[6] O2[8] O2[14] O2[15] CPz[6] CPz[8] CPz[14] CP5[5] P3[8] P3[14] P3[16]
+-- average 2
+flame: 17, selected features: (24)
+O1[1] O1[8] O1[10] O1[12] O1[16] O2[3] O2[6] O2[14] O2[15] CPz[0] CPz[8] CPz[9] CPz[14] CP5[5] CP5[10] CP6[1] CP6[8] P3[5] P3[6] P3[9] P3[10] P3[12] P3[15] P3[16]
+-- average 3
+flame: 17, selected features: (22)
+O1[1] O1[8] O1[10] O1[16] O2[6] O2[7] O2[15] O2[16] CPz[2] CPz[8] CPz[9] CPz[16] CP6[1] CP6[9] P3[3] P3[6] P3[7] P3[8] P3[15] P4[0] P4[10] P4[13]
+-- average 4
+flame: 17, selected features: (13)
+O1[8] O1[9] O1[12] O1[16] O2[4] O2[6] O2[15] CPz[6] CPz[8] CPz[9] CPz[11] CP6[4] CP6[16]
+-- average 5
+flame: 17, selected features: (12)
+O1[1] O1[8] O1[10] O1[16] O2[6] O2[15] CP5[4] CP5[5] CP5[16] P3[6] P3[9] P3[15]
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 17, selected features: (5)
+O2[4] O2[5] O2[6] O2[12] O2[14]
+- decimate 13
+-- average 1
+flame: 16, selected features: (26)
+O1[1] O1[2] O1[5] O1[9] O1[13] O1[14] O2[6] O2[7] O2[13] O2[14] CPz[0] CPz[6] CPz[7] CPz[8] CPz[13] CP5[5] CP5[7] CP5[8] CP5[9] CP6[1] CP6[8] P3[5] P3[8] P3[9] P3[13] P3[15]
+-- average 2
+flame: 16, selected features: (17)
+O1[1] O1[8] O1[13] O2[4] O2[5] O2[14] O2[15] CPz[0] CPz[5] CPz[8] CPz[13] CP6[1] CP6[4] CP6[8] P3[8] P3[13] P3[14]
+-- average 3
+flame: 16, selected features: (19)
+O1[1] O1[8] O1[10] O1[15] O2[4] O2[5] O2[6] O2[14] CPz[0] CPz[4] CPz[5] CPz[8] CPz[13] CPz[15] CP5[8] CP5[13] CP6[1] CP6[8] CP6[10]
+-- average 4
+flame: 16, selected features: (4)
+O2[6] O2[7] O2[14] O2[15]
+-- average 5
+flame: 16, selected features: (15)
+O1[8] O1[10] O1[11] O2[4] O2[5] O2[13] CPz[5] CPz[8] CPz[11] CP5[5] CP5[8] CP6[0] CP6[4] CP6[8] CP6[10]
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 16, selected features: (6)
+O2[1] O2[4] O2[5] O2[12] O2[13] P3[6]
+- decimate 14
+-- average 1
+flame: 15, selected features: (11)
+O1[1] O1[8] O1[11] O2[3] O2[5] CPz[0] CPz[5] CPz[8] CPz[11] CP6[1] CP6[8]
+-- average 2
+flame: 15, selected features: (17)
+O1[1] O1[8] O1[9] O1[13] O2[5] O2[13] CPz[0] CPz[5] CPz[8] CPz[12] CPz[13] CP6[1] CP6[8] CP6[9] P3[8] P3[13] P3[14]
+-- average 3
+flame: 15, selected features: (12)
+O1[1] O1[8] O1[14] O2[4] O2[5] CPz[0] CPz[8] CPz[13] CP6[1] CP6[8] P3[8] P3[13]
+-- average 4
+flame: 15, selected features: (10)
+O1[3] O1[8] O1[9] O1[13] O2[4] O2[5] O2[8] O2[9] O2[11] O2[13]
+-- average 5
+flame: 15, selected features: (8)
+O1[1] O1[8] O1[10] O1[11] O2[3] O2[5] O2[8] O2[12]
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 15, selected features: (9)
+O1[0] O1[8] O1[11] O1[14] O2[4] O2[5] O2[8] O2[9] O2[13]
+- decimate 15
+-- average 1
+flame: 14, selected features: (18)
+O1[1] O1[2] O1[8] O1[13] O2[5] O2[6] O2[13] CPz[0] CPz[5] CPz[6] CPz[8] CPz[12] CP5[5] CP5[6] CP6[1] CP6[8] P3[5] P3[12]
+-- average 2
+flame: 14, selected features: (19)
+O1[1] O1[8] O1[13] O2[3] O2[5] O2[8] O2[13] CPz[0] CPz[5] CPz[6] CPz[8] CPz[12] CP5[5] CP5[8] CP6[1] CP6[8] P3[6] P3[12] P3[13]
+-- average 3
+flame: 14, selected features: (9)
+O1[7] O1[13] O2[5] O2[12] CPz[5] CPz[7] CPz[13] P3[7] P3[12]
+-- average 4
+flame: 14, selected features: (17)
+O1[2] O1[6] O1[8] O1[11] O1[13] O2[4] O2[5] O2[8] O2[12] Cz[12] CPz[0] CPz[7] CPz[11] CP6[2] CP6[7] CP6[13] P4[8]
+-- average 5
+flame: 14, selected features: (13)
+O1[7] O1[9] O1[10] O2[4] O2[5] O2[12] CPz[0] CPz[5] CPz[7] CPz[10] CP6[4] CP6[7] CP6[9]
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 14, selected features: (4)
+O2[4] O2[5] O2[11] O2[12]
+- decimate 16
+-- average 1
+flame: 13, selected features: (8)
+O1[7] O1[10] O2[5] CPz[7] CPz[10] CPz[11] CP5[7] CP5[11]
+-- average 2
+flame: 13, selected features: (19)
+O1[1] O1[7] O1[8] O1[10] O2[5] O2[12] CPz[0] CPz[7] CPz[11] CPz[12] CP5[5] CP5[12] CP6[1] CP6[7] P3[5] P3[7] P3[12] P4[8] P4[10]
+-- average 3
+flame: 13, selected features: (12)
+O1[1] O1[7] O1[8] O1[12] O2[5] O2[7] O2[8] O2[12] CPz[5] CPz[7] CPz[12] P4[0]
+-- average 4
+flame: 13, selected features: (17)
+O1[8] O1[10] O1[12] O2[5] O2[7] O2[8] O2[12] Cz[4] Cz[7] CPz[4] CPz[7] CPz[10] CP5[4] CP5[7] CP5[9] CP5[11] CP6[2]
+-- average 5
+flame: 13, selected features: (14)
+O1[7] O1[10] O2[4] O2[5] O2[12] CPz[0] CPz[7] CPz[10] CP6[1] CP6[6] CP6[7] CP6[9] P3[7] P3[10]
+-- average 6
+-- average 7
+flame: 13, selected features: (4)
+O2[4] O2[5] O2[10] O2[12]
+-- average 8
+-- average 9
+-- average 10
+flame: 13, selected features: (7)
+O2[4] O2[5] O2[10] O2[12] CPz[7] CP5[12] P3[5]
+- decimate 17
+-- average 1
+flame: 12, selected features: (8)
+O1[7] O1[10] O2[5] CPz[7] CPz[10] CPz[11] CP5[7] CP5[11]
+-- average 2
+flame: 12, selected features: (13)
+O1[1] O1[7] O1[10] O2[5] O2[6] CPz[0] CPz[7] CPz[10] CPz[11] CP6[1] CP6[7] P3[7] P3[11]
+-- average 3
+flame: 12, selected features: (10)
+O1[1] O1[7] O1[10] O1[11] O2[3] O2[5] O2[11] CPz[5] CPz[7] CPz[10]
+-- average 4
+flame: 12, selected features: (18)
+O1[0] O1[1] O1[7] O1[10] O2[4] O2[5] O2[6] O2[11] Cz[9] Cz[10] CPz[6] CPz[7] CPz[8] CPz[10] CP6[7] P3[8] P4[5] P4[8]
+-- average 5
+flame: 12, selected features: (16)
+O1[0] O1[7] O1[10] O2[3] O2[5] O2[8] O2[11] CPz[0] CPz[7] CPz[10] CP6[1] CP6[6] CP6[7] CP6[10] P3[8] P3[11]
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 12, selected features: (6)
+O1[0] O1[4] O1[7] O1[10] O2[5] O2[11]
+- decimate 18
+-- average 1
+flame: 12, selected features: (14)
+O1[0] O1[7] O1[10] O2[5] O2[11] CPz[0] CPz[7] CPz[10] CP5[6] CP5[10] CP6[1] CP6[7] P3[7] P3[11]
+-- average 2
+flame: 12, selected features: (19)
+O1[1] O1[7] O1[11] O2[1] O2[3] O2[5] O2[10] O2[11] CPz[0] CPz[7] CPz[10] CP5[3] CP5[4] CP5[7] CP5[9] CP6[1] CP6[7] P3[5] P3[11]
+-- average 3
+flame: 12, selected features: (10)
+O1[1] O1[7] O1[11] O2[3] O2[5] O2[8] O2[11] CPz[5] CPz[7] CPz[8]
+-- average 4
+flame: 12, selected features: (16)
+O1[0] O1[1] O1[7] O1[9] O1[11] O2[4] O2[5] O2[7] O2[11] Cz[10] CPz[7] CPz[8] CP6[1] CP6[6] P4[8] P4[10]
+-- average 5
+flame: 12, selected features: (14)
+O1[0] O1[7] O1[9] O2[4] O2[5] O2[11] CPz[0] CPz[7] CPz[10] CP6[1] CP6[6] P3[7] P3[10] P3[11]
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 12, selected features: (4)
+O2[4] O2[5] O2[9] O2[11]
+- decimate 19
+-- average 1
+flame: 11, selected features: (16)
+O1[0] O1[7] O1[10] O2[5] O2[6] Cz[9] CPz[0] CPz[5] CPz[6] CPz[7] CPz[10] CP5[5] CP5[6] CP5[10] CP6[1] CP6[6]
+-- average 2
+flame: 11, selected features: (17)
+O1[2] O1[7] O1[10] O2[5] O2[6] O2[7] O2[10] CPz[0] CPz[2] CPz[6] CPz[7] CPz[10] CP6[1] CP6[6] P3[5] P3[6] P3[10]
+-- average 3
+flame: 11, selected features: (8)
+O1[1] O1[6] O1[7] O1[9] O2[2] O2[5] CP6[7] CP6[10]
+-- average 4
+-- average 5
+flame: 11, selected features: (8)
+O1[1] O1[6] O1[8] O1[9] O2[3] O2[5] O2[7] O2[10]
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 11, selected features: (10)
+O1[0] O1[6] O1[9] O2[3] O2[4] O2[10] CPz[4] CPz[6] CPz[9] CP5[10]
+- decimate 20
+-- average 1
+flame: 11, selected features: (11)
+O1[1] O1[4] O1[6] O2[2] O2[5] CPz[0] CPz[2] CPz[5] CPz[6] CP6[1] CP6[6]
+-- average 2
+flame: 11, selected features: (13)
+O1[1] O1[6] O1[10] O2[1] O2[2] O2[5] O2[10] CPz[0] CPz[5] CPz[6] CP6[1] CP6[4] CP6[6]
+-- average 3
+-- average 4
+-- average 5
+flame: 11, selected features: (15)
+O1[1] O1[6] O1[9] O2[3] O2[5] O2[10] CPz[0] CPz[5] CPz[6] CPz[9] CP6[2] CP6[6] CP6[7] CP6[9] P3[10]
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 11, selected features: (10)
+O1[0] O1[6] O1[9] O2[2] O2[5] O2[10] Cz[8] CPz[1] CPz[6] CP5[10]
+swlda - kodama - 1 - average
+- decimate 1
+-- average 1
+flame: 204, selected features: (54)
+O1[97] O1[103] O1[109] O1[146] O1[172] O2[21] O2[32] O2[49] O2[66] O2[76] O2[115] O2[121] O2[148] O2[199] Cz[19] Cz[44] Cz[87] Cz[132] Cz[181] Cz[197] Cz[199] CPz[113] CPz[180] CP5[83] CP5[148] CP5[200] CP6[1] CP6[12] CP6[36] CP6[66] CP6[73] CP6[85] CP6[106] CP6[107] CP6[132] CP6[140] CP6[147] CP6[190] P3[0] P3[31] P3[110] P3[145] P3[177] P3[186] P4[14] P4[23] P4[27] P4[40] P4[75] P4[79] P4[122] P4[146] P4[172] P4[194]
+-- average 2
+flame: 204, selected features: (56)
+O1[7] O1[24] O1[71] O1[88] O1[112] O1[116] O1[134] O1[162] O1[183] O1[197] O1[201] O2[15] O2[40] O2[52] O2[57] O2[104] O2[108] O2[121] O2[148] O2[162] O2[175] O2[185] O2[186] O2[202] Cz[19] Cz[30] CPz[81] CPz[101] CPz[107] CPz[121] CPz[147] CPz[167] CPz[185] CP6[0] CP6[49] CP6[73] CP6[81] CP6[172] CP6[193] P3[2] P3[6] P3[30] P3[74] P3[78] P3[86] P3[87] P3[101] P3[110] P3[133] P3[145] P3[161] P3[194] P4[36] P4[53] P4[73] P4[121]
+-- average 3
+flame: 204, selected features: (26)
+O1[136] O1[187] O1[201] O2[15] O2[53] O2[120] O2[147] O2[163] O2[182] CP5[66] CP5[122] P3[24] P3[29] P3[30] P3[100] P3[112] P3[160] P3[192] P4[4] P4[12] P4[35] P4[36] P4[53] P4[113] P4[140] P4[164]
+-- average 4
+flame: 204, selected features: (60)
+O2[8] O2[12] O2[14] O2[31] O2[45] O2[75] O2[78] O2[114] O2[119] O2[144] O2[148] O2[160] O2[162] O2[169] O2[174] O2[179] O2[198] Cz[8] Cz[11] Cz[26] Cz[30] Cz[32] Cz[56] Cz[76] Cz[84] Cz[119] Cz[171] Cz[183] Cz[203] CPz[36] CPz[39] CPz[100] CPz[131] CPz[134] CP5[4] CP5[5] CP5[10] CP5[110] CP5[113] CP5[129] CP5[136] CP5[143] CP5[154] CP5[170] CP5[181] CP5[198] CP5[200] CP6[0] CP6[7] CP6[20] CP6[36] CP6[37] CP6[47] CP6[80] CP6[84] CP6[102] CP6[115] CP6[118] CP6[167] CP6[168]
+-- average 5
+flame: 204, selected features: (60)
+O1[0] O1[2] O1[15] O1[26] O1[36] O1[39] O1[57] O1[77] O1[93] O1[108] O1[111] O1[164] O1[172] O1[175] O1[191] O1[194] O1[200] O1[202] O2[6] O2[63] O2[70] O2[71] O2[73] O2[147] Cz[5] Cz[107] Cz[118] CPz[39] CPz[83] CPz[100] CPz[163] CPz[189] CPz[192] CPz[198] CP6[0] CP6[1] CP6[12] CP6[86] CP6[122] CP6[123] CP6[146] CP6[155] CP6[165] CP6[168] CP6[176] P3[5] P3[9] P3[31] P3[51] P3[58] P3[101] P3[109] P3[111] P3[121] P3[150] P3[160] P3[176] P3[177] P3[191] P4[179]
+-- average 6
+flame: 204, selected features: (33)
+O1[22] O1[23] O1[106] O1[109] O1[143] O1[163] O1[173] O2[8] O2[10] O2[18] O2[79] O2[83] O2[153] O2[196] O2[203] Cz[3] Cz[46] Cz[128] Cz[151] Cz[156] Cz[193] CPz[71] CPz[95] CPz[150] CPz[161] CP5[4] CP5[56] CP5[71] CP5[81] CP5[111] CP5[118] CP6[102] P4[0]
+-- average 7
+flame: 204, selected features: (33)
+O1[75] O2[49] Cz[0] Cz[84] Cz[86] Cz[166] CP5[3] CP5[4] CP5[40] CP5[62] CP5[97] CP5[105] CP5[111] CP5[127] CP5[203] CP6[7] CP6[13] CP6[148] CP6[173] CP6[199] CP6[201] CP6[203] P3[62] P3[79] P3[150] P3[151] P3[168] P3[175] P4[0] P4[85] P4[86] P4[93] P4[129]
+-- average 8
+flame: 204, selected features: (33)
+O1[51] O2[13] O2[16] O2[39] O2[47] O2[62] O2[93] O2[100] O2[139] O2[159] O2[161] O2[189] CPz[42] CPz[159] CP5[7] CP5[13] CP5[16] CP5[50] CP5[98] CP5[111] CP5[177] CP5[203] CP6[14] CP6[40] CP6[95] CP6[105] CP6[107] P3[19] P3[102] P3[124] P3[125] P3[198] P4[11]
+-- average 9
+flame: 204, selected features: (33)
+O1[9] O1[34] O1[72] O1[93] O1[97] O1[111] O1[132] O1[139] O1[161] O1[165] O1[200] O2[17] O2[142] Cz[30] Cz[94] CPz[100] CPz[170] CPz[181] CPz[201] CP5[54] CP5[85] CP5[89] CP5[166] P3[6] P3[109] P3[131] P3[167] P3[189] P4[71] P4[112] P4[140] P4[168] P4[180]
+-- average 10
+flame: 204, selected features: (32)
+O1[16] O1[73] O1[74] O1[108] O1[130] Cz[13] Cz[79] Cz[179] CPz[112] CPz[191] CP5[6] CP5[64] CP5[74] CP5[103] CP5[111] CP5[118] CP5[125] CP5[152] CP5[177] CP5[200] CP6[91] CP6[111] CP6[139] CP6[152] CP6[176] CP6[188] CP6[197] P4[0] P4[17] P4[23] P4[122] P4[123]
+- decimate 2
+-- average 1
+flame: 102, selected features: (45)
+O1[54] O1[57] O1[76] O1[87] O1[88] O2[25] O2[35] O2[40] O2[59] O2[63] O2[76] Cz[12] Cz[46] Cz[58] Cz[62] CPz[36] CPz[92] CPz[100] CP5[24] CP5[36] CP5[46] CP5[76] CP5[80] CP6[3] CP6[20] CP6[36] CP6[38] CP6[45] CP6[48] CP6[55] CP6[72] CP6[76] P3[0] P3[18] P3[57] P3[90] P4[10] P4[14] P4[23] P4[39] P4[41] P4[71] P4[75] P4[89] P4[99]
+-- average 2
+flame: 102, selected features: (60)
+O1[5] O1[9] O1[14] O1[23] O1[38] O1[40] O1[42] O1[51] O1[67] O1[101] O2[28] O2[63] O2[66] O2[70] O2[76] CPz[0] CPz[61] CPz[62] CPz[86] CPz[87] CP5[6] CP5[19] CP5[20] CP5[40] CP5[44] CP5[52] CP5[57] CP5[68] CP5[70] CP5[91] CP5[96] CP6[0] CP6[1] CP6[12] CP6[24] CP6[38] CP6[56] CP6[69] CP6[75] CP6[96] P3[5] P3[17] P3[22] P3[42] P3[47] P3[53] P3[57] P3[77] P3[83] P3[90] P3[95] P3[99] P4[16] P4[23] P4[29] P4[39] P4[51] P4[64] P4[76] P4[90]
+-- average 3
+flame: 102, selected features: (60)
+O1[5] O1[9] O1[35] O1[51] O1[55] O1[61] O1[63] O1[67] O1[70] O1[71] O1[77] O1[79] O1[81] O1[85] O1[86] O1[87] O1[89] O1[94] O1[99] O2[4] O2[32] O2[46] O2[60] O2[84] O2[85] Cz[39] CP5[5] CP5[27] CP5[28] CP5[35] CP5[37] CP5[53] CP5[58] CP5[64] CP5[79] CP5[93] CP5[95] CP5[99] CP6[4] CP6[24] CP6[36] CP6[40] CP6[75] CP6[76] CP6[99] CP6[100] P3[5] P3[17] P3[18] P3[19] P3[22] P3[54] P3[58] P3[61] P3[63] P3[96] P4[8] P4[36] P4[74] P4[92]
+-- average 4
+flame: 102, selected features: (60)
+O1[64] O1[70] O1[72] O1[75] O2[9] O2[10] O2[14] O2[16] O2[19] O2[35] O2[36] O2[41] O2[44] O2[49] O2[59] O2[62] O2[69] O2[74] O2[86] O2[87] O2[100] Cz[34] Cz[35] Cz[50] Cz[59] Cz[60] Cz[61] Cz[74] Cz[78] CPz[85] CP5[4] CP5[7] CP5[18] CP5[20] CP5[33] CP5[43] CP5[51] CP5[57] CP5[63] CP5[71] CP5[80] CP5[98] CP5[99] CP6[17] CP6[20] CP6[23] CP6[48] CP6[53] CP6[66] P3[52] P3[54] P3[59] P3[69] P4[23] P4[58] P4[60] P4[61] P4[66] P4[70] P4[73]
+-- average 5
+flame: 102, selected features: (60)
+O1[54] O1[96] O2[75] O2[87] O2[89] O2[92] O2[98] O2[99] O2[100] Cz[0] Cz[9] Cz[12] Cz[14] Cz[21] Cz[23] Cz[30] Cz[37] Cz[44] Cz[60] Cz[64] Cz[72] Cz[81] Cz[96] Cz[97] CP5[1] CP5[12] CP5[40] CP5[47] CP5[61] CP5[65] CP5[75] CP5[92] CP5[96] CP5[99] CP6[26] CP6[79] P3[5] P3[13] P3[14] P3[24] P3[44] P3[47] P3[54] P3[58] P3[83] P3[86] P3[91] P3[94] P3[101] P4[0] P4[20] P4[28] P4[37] P4[41] P4[49] P4[55] P4[62] P4[78] P4[95] P4[99]
+-- average 6
+flame: 102, selected features: (33)
+O1[13] O1[29] O1[42] O1[74] O2[89] O2[94] O2[97] Cz[7] Cz[17] Cz[51] Cz[66] Cz[79] Cz[100] CP5[4] CP5[19] CP5[27] CP5[41] CP5[42] CP5[50] CP5[58] CP5[60] CP5[70] CP5[78] CP5[79] CP6[14] CP6[29] CP6[49] CP6[64] CP6[101] P3[24] P4[7] P4[99] P4[100]
+-- average 7
+flame: 102, selected features: (33)
+O1[41] O1[60] O1[64] O1[74] O1[83] O1[86] O2[3] O2[24] O2[45] O2[46] CP5[0] CP5[4] CP5[33] CP5[42] CP5[48] CP5[58] CP5[65] CP5[66] CP5[98] CP5[100] CP5[101] CP6[17] CP6[26] CP6[36] CP6[42] CP6[47] CP6[52] CP6[53] CP6[62] P4[36] P4[45] P4[76] P4[96]
+-- average 8
+flame: 102, selected features: (33)
+O1[17] O1[32] O1[59] O1[66] O1[87] O2[7] O2[30] O2[38] O2[54] O2[61] CPz[65] CP5[6] CP5[9] CP5[13] CP5[50] CP5[58] CP5[75] CP5[99] CP5[101] CP6[27] CP6[60] P3[14] P3[34] P3[65] P3[77] P4[41] P4[50] P4[60] P4[69] P4[77] P4[82] P4[83] P4[86]
+-- average 9
+flame: 102, selected features: (33)
+O1[4] O1[7] O1[8] O1[13] O1[27] O1[53] O1[58] O1[67] O1[69] O1[71] O1[80] O1[101] Cz[5] Cz[7] Cz[13] Cz[59] Cz[70] Cz[92] Cz[93] Cz[98] CP5[29] CP5[32] CP5[83] CP6[25] CP6[73] P3[34] P3[43] P3[53] P4[5] P4[37] P4[46] P4[84] P4[87]
+-- average 10
+flame: 102, selected features: (34)
+O1[4] O1[6] O1[13] O1[29] O1[39] O1[44] O1[47] O1[59] O1[80] O1[88] O2[24] O2[72] O2[74] O2[75] O2[85] O2[87] O2[90] Cz[0] Cz[11] Cz[44] Cz[68] Cz[89] CP5[5] CP5[34] CP5[39] CP5[58] CP5[64] CP5[72] CP5[91] CP5[101] CP6[21] CP6[37] P4[2] P4[18]
+- decimate 3
+-- average 1
+flame: 68, selected features: (27)
+O2[16] O2[18] O2[25] O2[33] O2[43] O2[50] O2[51] O2[58] Cz[27] Cz[44] CPz[17] CPz[31] CPz[32] CPz[41] CPz[58] CPz[62] CP6[0] CP6[15] CP6[26] CP6[31] CP6[50] P3[0] P3[13] P3[39] P3[61] P4[5] P4[67]
+-- average 2
+flame: 68, selected features: (39)
+O1[29] O1[35] O1[46] O1[60] O2[13] O2[18] O2[20] O2[22] O2[39] O2[40] O2[43] O2[46] O2[52] O2[58] CPz[9] CPz[21] CPz[42] CPz[59] CP5[35] CP5[64] CP6[0] CP6[38] CP6[40] CP6[47] CP6[51] CP6[65] P3[31] P3[32] P3[36] P3[39] P3[47] P3[61] P3[66] P3[67] P4[15] P4[16] P4[37] P4[51] P4[61]
+-- average 3
+flame: 68, selected features: (22)
+O1[8] O1[12] O1[43] O1[58] O1[59] CP5[13] CP5[14] CP5[25] CP5[26] CP5[33] CP5[37] P3[4] P3[32] P3[39] P3[54] P3[60] P3[67] P4[20] P4[32] P4[38] P4[61] P4[66]
+-- average 4
+flame: 68, selected features: (60)
+O1[28] O1[60] O1[63] O2[7] O2[16] O2[17] O2[21] O2[22] O2[25] O2[29] O2[35] O2[43] O2[48] O2[49] O2[52] O2[53] O2[55] O2[56] O2[58] O2[67] Cz[3] Cz[6] Cz[13] Cz[23] Cz[27] Cz[36] Cz[47] CP5[4] CP5[5] CP5[6] CP5[7] CP5[15] CP5[18] CP5[21] CP5[38] CP5[39] CP5[44] CP5[51] CP5[58] CP6[20] CP6[21] CP6[27] CP6[31] CP6[33] CP6[35] CP6[36] P3[29] P3[37] P3[42] P3[52] P3[54] P3[57] P4[12] P4[15] P4[21] P4[26] P4[27] P4[42] P4[47] P4[48]
+-- average 5
+flame: 68, selected features: (60)
+O1[2] O1[6] O1[33] O1[39] O1[44] O1[51] O1[54] O1[61] O1[67] O2[8] O2[26] O2[52] O2[53] O2[59] O2[63] Cz[0] Cz[6] Cz[13] Cz[16] Cz[18] Cz[64] Cz[67] CPz[38] CPz[47] CPz[55] CPz[63] CP5[3] CP5[31] CP5[34] CP5[38] CP5[39] CP5[43] CP5[49] CP5[51] CP5[53] CP5[62] CP6[0] CP6[2] CP6[16] CP6[25] CP6[26] CP6[39] CP6[45] CP6[48] CP6[50] CP6[52] P3[4] P3[12] P3[32] P3[35] P3[37] P3[39] P3[61] P4[10] P4[11] P4[17] P4[33] P4[46] P4[62] P4[66]
+-- average 6
+flame: 68, selected features: (33)
+O1[24] O1[62] O2[4] O2[15] O2[32] O2[36] Cz[0] Cz[16] Cz[18] Cz[19] Cz[43] Cz[45] Cz[58] CP5[4] CP5[14] CP5[17] CP5[19] CP5[28] CP5[29] CP5[40] CP5[42] CP5[44] CP5[54] CP5[56] CP5[59] CP6[13] CP6[16] CP6[33] CP6[56] CP6[67] P3[8] P3[14] P3[23]
+-- average 7
+flame: 68, selected features: (33)
+O1[22] O1[26] O1[28] O1[59] O1[60] O2[15] O2[24] O2[31] O2[34] O2[65] O2[67] Cz[27] Cz[29] Cz[52] CP5[0] CP5[4] CP5[25] CP5[38] CP5[40] CP5[43] CP5[45] CP5[52] CP5[64] CP5[65] CP5[66] CP6[41] CP6[47] P3[50] P4[33] P4[35] P4[51] P4[61] P4[64]
+-- average 8
+flame: 68, selected features: (34)
+O1[0] O1[18] O1[29] O1[35] O1[59] O2[6] O2[10] O2[33] O2[35] O2[48] Cz[17] Cz[20] Cz[55] CP5[4] CP5[8] CP5[20] CP5[25] CP5[39] CP5[42] CP5[59] CP6[12] CP6[21] CP6[23] CP6[34] CP6[38] CP6[60] CP6[67] P3[7] P3[10] P3[24] P3[43] P3[45] P4[65] P4[67]
+-- average 9
+flame: 68, selected features: (33)
+O1[25] O1[32] O1[42] O1[50] O1[52] O1[59] O2[8] O2[9] O2[18] O2[28] O2[30] O2[45] O2[62] Cz[13] Cz[49] Cz[50] Cz[65] CP5[5] CP5[9] CP5[21] CP5[23] CP5[34] CP5[44] CP5[56] CP6[3] CP6[17] CP6[47] P3[5] P3[40] P3[64] P4[26] P4[59] P4[64]
+-- average 10
+flame: 68, selected features: (33)
+O1[5] O1[6] O1[20] O1[27] O1[43] O1[50] O1[55] O1[56] O1[61] O2[14] Cz[3] Cz[29] Cz[37] Cz[59] Cz[61] Cz[64] CP5[4] CP5[39] CP5[42] CP5[62] CP5[63] CP5[64] CP5[66] CP5[67] CP6[6] CP6[66] P3[19] P3[33] P4[15] P4[20] P4[49] P4[53] P4[61]
+- decimate 4
+-- average 1
+flame: 51, selected features: (36)
+O1[6] O1[27] O1[28] O2[15] O2[32] O2[38] O2[45] Cz[7] Cz[24] Cz[32] CPz[23] CPz[48] CP5[14] CP5[15] CP5[24] CP5[31] CP6[2] CP6[11] CP6[19] CP6[21] CP6[24] CP6[29] CP6[38] CP6[39] CP6[50] P3[1] P3[10] P3[26] P3[29] P3[39] P3[47] P4[6] P4[16] P4[22] P4[39] P4[46]
+-- average 2
+flame: 51, selected features: (44)
+O1[27] O1[31] O1[36] O1[37] O1[39] O2[6] O2[9] O2[14] O2[15] O2[16] O2[17] O2[22] O2[34] O2[40] O2[43] Cz[3] Cz[8] Cz[29] Cz[30] Cz[34] CPz[9] CPz[36] CPz[48] CPz[49] CP6[0] CP6[15] CP6[19] CP6[21] CP6[29] CP6[38] CP6[46] CP6[50] P3[4] P3[5] P3[10] P3[25] P3[28] P3[46] P3[47] P4[11] P4[16] P4[22] P4[34] P4[44]
+-- average 3
+flame: 51, selected features: (58)
+O1[6] O1[29] O1[31] O1[46] O2[0] O2[1] O2[8] O2[15] O2[23] O2[25] O2[28] O2[31] O2[39] O2[42] O2[49] Cz[0] Cz[7] Cz[9] Cz[10] Cz[26] Cz[32] Cz[49] CPz[4] CPz[22] CPz[35] CPz[50] CP5[4] CP5[5] CP5[23] CP5[30] CP5[33] CP5[34] CP5[36] CP5[45] CP6[5] CP6[9] CP6[10] CP6[11] CP6[21] CP6[23] CP6[29] CP6[31] CP6[38] CP6[39] CP6[41] P3[0] P3[10] P3[17] P4[5] P4[14] P4[15] P4[16] P4[20] P4[33] P4[38] P4[40] P4[42] P4[47]
+-- average 4
+flame: 51, selected features: (60)
+O1[0] O1[5] O1[12] O1[16] O1[17] O1[22] O1[29] O1[30] O1[32] O2[6] O2[9] O2[14] O2[15] O2[20] O2[32] O2[33] O2[41] O2[48] O2[50] Cz[5] Cz[22] Cz[32] Cz[35] CPz[13] CPz[18] CPz[30] CPz[48] CP5[0] CP5[4] CP5[7] CP5[9] CP5[10] CP5[23] CP5[30] CP5[31] CP5[33] CP5[35] CP5[36] CP5[38] CP5[40] CP6[0] CP6[12] CP6[16] CP6[28] P3[11] P3[12] P3[14] P3[18] P3[20] P3[22] P3[28] P3[46] P4[14] P4[27] P4[31] P4[33] P4[40] P4[45] P4[49] P4[50]
+-- average 5
+flame: 51, selected features: (60)
+O1[5] O1[8] O1[14] O1[19] O1[20] O1[22] O1[23] O1[24] O1[28] O1[30] O1[40] O1[41] O1[45] O1[47] O1[49] O2[6] O2[7] O2[17] O2[19] O2[39] O2[40] O2[44] O2[49] Cz[0] Cz[1] Cz[15] Cz[30] Cz[42] CPz[14] CPz[19] CPz[21] CPz[29] CPz[36] CP5[15] CP5[23] CP5[34] CP5[39] CP6[0] CP6[6] CP6[11] CP6[12] CP6[14] CP6[25] CP6[31] CP6[32] CP6[37] CP6[38] CP6[40] CP6[48] P3[1] P3[3] P3[4] P3[20] P3[28] P3[30] P3[42] P3[44] P4[3] P4[9] P4[16]
+-- average 6
+flame: 51, selected features: (34)
+O1[0] O1[3] O1[10] O1[12] O1[17] O1[23] O1[33] O2[38] O2[40] O2[43] O2[44] O2[50] Cz[20] Cz[25] Cz[32] Cz[34] Cz[35] Cz[43] Cz[46] Cz[47] Cz[48] Cz[49] CPz[39] CP5[0] CP5[3] CP5[16] CP5[18] CP5[19] CP5[20] CP5[26] CP5[30] CP5[46] CP5[48] CP6[45]
+-- average 7
+flame: 51, selected features: (34)
+O1[13] O1[18] O1[19] O1[20] O1[21] O1[31] O1[42] O1[45] O2[11] O2[25] O2[26] O2[32] O2[42] CPz[0] CPz[7] CPz[14] CP5[0] CP5[3] CP5[8] CP5[15] CP5[22] CP5[24] CP5[30] CP5[35] CP5[37] CP5[42] CP5[44] CP5[47] CP5[50] CP6[24] P3[11] P3[20] P3[40] P4[17]
+-- average 8
+flame: 51, selected features: (34)
+O1[5] O1[6] O1[18] O1[23] O1[30] O1[34] O1[38] O1[45] O1[47] Cz[11] Cz[14] Cz[24] Cz[40] Cz[49] CP5[3] CP5[5] CP5[21] CP5[30] CP5[33] CP5[34] CP5[36] CP5[47] CP6[2] CP6[5] CP6[19] CP6[25] CP6[37] CP6[39] P3[17] P3[39] P4[16] P4[31] P4[39] P4[47]
+-- average 9
+flame: 51, selected features: (34)
+O1[2] O1[4] O1[19] O1[20] O1[32] O1[36] O1[45] O2[1] O2[8] O2[14] O2[28] O2[33] O2[36] Cz[35] Cz[37] Cz[38] Cz[41] Cz[50] CP5[21] CP5[45] CP5[46] P3[5] P3[18] P3[20] P3[28] P3[31] P3[48] P4[2] P4[6] P4[10] P4[12] P4[16] P4[28] P4[49]
+-- average 10
+flame: 51, selected features: (14)
+O1[16] O1[18] O1[21] O1[50] O2[26] O2[37] Cz[47] CPz[15] CPz[19] CP5[4] CP5[30] CP5[47] CP5[50] P4[12]
+- decimate 5
+-- average 1
+flame: 41, selected features: (27)
+O2[15] O2[16] O2[26] O2[31] O2[32] Cz[6] Cz[21] Cz[26] Cz[29] CPz[20] CPz[38] CP5[10] CP5[11] CP6[0] CP6[20] CP6[22] CP6[29] CP6[31] CP6[32] CP6[40] P3[0] P3[9] P3[24] P3[27] P3[38] P4[5] P4[25]
+-- average 2
+flame: 41, selected features: (23)
+O1[13] O1[37] O2[10] O2[16] O2[26] O2[32] Cz[17] Cz[18] CPz[0] CPz[7] CPz[21] CPz[25] CPz[35] CPz[40] CP6[20] CP6[24] CP6[32] CP6[37] P3[0] P3[8] P3[24] P3[35] P4[6]
+-- average 3
+flame: 41, selected features: (15)
+O1[6] O2[0] O2[13] O2[15] O2[27] O2[32] O2[35] Cz[19] CP6[25] CP6[31] P3[14] P3[23] P3[24] P3[29] P4[12]
+-- average 4
+flame: 41, selected features: (60)
+O1[6] O1[7] O1[10] O1[18] O1[19] O1[39] O1[40] O2[4] O2[12] O2[13] O2[14] O2[17] O2[26] O2[27] O2[32] O2[34] O2[36] O2[38] O2[40] Cz[4] Cz[14] Cz[16] Cz[22] Cz[33] Cz[36] CP5[3] CP5[10] CP5[14] CP5[16] CP5[24] CP5[34] CP5[37] CP6[13] CP6[17] CP6[21] CP6[22] CP6[30] CP6[31] CP6[34] CP6[36] CP6[39] CP6[40] P3[2] P3[7] P3[12] P3[21] P3[23] P3[24] P3[33] P3[34] P4[2] P4[6] P4[7] P4[8] P4[14] P4[17] P4[22] P4[23] P4[26] P4[31]
+-- average 5
+flame: 41, selected features: (31)
+O1[6] O1[15] O1[19] O1[20] O1[25] O1[33] O1[36] O2[0] O2[10] O2[16] O2[22] O2[28] O2[32] Cz[7] Cz[26] Cz[40] CPz[14] CPz[22] CPz[38] CPz[39] CP6[8] CP6[14] CP6[31] P3[1] P3[3] P3[5] P3[24] P3[29] P4[19] P4[35] P4[40]
+-- average 6
+flame: 41, selected features: (10)
+CP5[2] CP5[16] CP5[18] CP5[21] CP5[24] CP5[31] CP5[34] CP5[37] CP6[27] P3[8]
+-- average 7
+flame: 41, selected features: (34)
+O1[6] O1[16] O1[17] O1[19] O1[37] Cz[9] Cz[21] Cz[22] Cz[23] Cz[29] CPz[29] CPz[31] CPz[32] CPz[36] CP5[3] CP5[6] CP5[14] CP5[23] CP5[24] CP5[25] CP5[27] CP5[38] CP5[40] CP6[11] CP6[12] P3[10] P3[15] P3[32] P4[9] P4[15] P4[24] P4[28] P4[35] P4[39]
+-- average 8
+flame: 41, selected features: (34)
+O1[6] O1[8] O1[11] O1[16] O1[17] O1[26] O1[28] O1[30] O1[36] O1[37] O1[39] Cz[8] Cz[27] Cz[31] CPz[19] CPz[30] CP5[4] CP5[6] CP5[10] CP5[13] CP5[16] CP5[17] CP5[25] CP5[27] CP5[38] P3[33] P3[34] P4[5] P4[10] P4[11] P4[12] P4[14] P4[37] P4[38]
+-- average 9
+flame: 41, selected features: (34)
+O1[6] O1[25] O1[34] O1[36] O2[13] O2[16] O2[24] O2[30] O2[36] O2[37] Cz[5] Cz[6] Cz[9] Cz[35] Cz[37] Cz[38] CPz[2] CPz[10] CPz[31] CP5[4] CP5[10] CP5[17] CP5[22] CP5[23] CP5[34] CP6[13] CP6[30] CP6[33] CP6[37] P3[4] P3[24] P4[17] P4[34] P4[37]
+-- average 10
+flame: 41, selected features: (33)
+O1[0] O1[5] O1[13] O1[17] O1[19] O1[31] O1[34] O1[37] O2[22] Cz[6] Cz[11] Cz[12] Cz[15] Cz[24] Cz[27] Cz[38] CPz[7] CPz[20] CP5[3] CP5[4] CP5[8] CP5[20] CP5[25] CP5[28] CP5[38] CP5[40] CP6[6] CP6[21] CP6[24] CP6[27] CP6[37] P3[13] P3[23]
+- decimate 6
+-- average 1
+flame: 34, selected features: (28)
+O1[12] O1[18] O1[30] O1[32] O2[19] O2[23] O2[27] O2[30] Cz[18] Cz[22] Cz[30] CPz[10] CPz[33] CP6[0] CP6[9] CP6[14] CP6[15] CP6[18] CP6[20] CP6[22] CP6[26] P3[0] P3[8] P3[21] P3[25] P4[14] P4[15] P4[26]
+-- average 2
+flame: 34, selected features: (15)
+O2[14] O2[23] O2[27] Cz[16] CPz[24] CPz[32] CP6[15] CP6[18] CP6[24] CP6[27] P3[3] P3[19] P3[21] P3[32] P4[0]
+-- average 3
+flame: 34, selected features: (14)
+O1[5] O2[12] O2[14] O2[30] Cz[7] Cz[21] Cz[30] Cz[32] CP5[9] CP5[11] P3[4] P3[19] P3[21] P3[32]
+-- average 4
+flame: 34, selected features: (48)
+O1[4] O1[6] O1[7] O1[9] O1[14] O1[17] O1[19] O1[22] O1[23] O1[26] O1[31] Cz[6] Cz[12] Cz[13] Cz[25] Cz[28] Cz[30] Cz[31] CP5[3] CP5[5] CP5[6] CP5[7] CP5[10] CP5[21] CP5[23] CP5[29] CP6[0] CP6[5] CP6[6] CP6[15] CP6[16] CP6[18] CP6[23] CP6[26] P3[5] P3[7] P3[11] P3[31] P3[32] P4[1] P4[7] P4[9] P4[10] P4[12] P4[13] P4[14] P4[20] P4[23]
+-- average 5
+flame: 34, selected features: (30)
+O1[5] O1[14] O1[21] O1[23] O1[30] O1[32] O2[1] O2[14] O2[15] O2[19] O2[27] O2[31] Cz[23] Cz[28] Cz[29] Cz[33] CPz[11] CPz[14] CPz[20] CPz[30] CP5[5] CP5[15] CP6[3] CP6[27] P3[3] P3[14] P3[19] P3[21] P3[22] P3[31]
+-- average 6
+flame: 34, selected features: (34)
+O1[1] O1[4] O1[15] O1[16] O1[18] O1[26] O1[31] O2[3] O2[4] O2[6] O2[7] O2[14] O2[17] O2[19] O2[20] O2[23] O2[27] O2[28] O2[31] Cz[3] Cz[9] Cz[10] Cz[23] Cz[24] Cz[25] Cz[26] CPz[11] CP5[3] CP5[8] CP5[10] CP5[16] CP5[17] CP5[21] P3[13]
+-- average 7
+flame: 34, selected features: (34)
+O1[6] O1[23] O1[24] O1[31] O1[33] O2[8] O2[20] O2[21] O2[25] O2[29] Cz[10] Cz[12] Cz[13] Cz[30] CPz[0] CPz[17] CP5[3] CP5[6] CP5[16] CP5[20] CP5[21] CP5[23] CP5[24] CP5[25] CP5[31] CP6[7] P3[5] P3[19] P3[23] P3[32] P3[33] P4[0] P4[16] P4[18]
+-- average 8
+flame: 34, selected features: (34)
+O1[5] O1[7] O1[10] O1[14] O1[15] O1[31] O1[33] O2[4] O2[7] O2[11] Cz[5] Cz[17] Cz[18] Cz[22] CPz[8] CPz[18] CPz[28] CPz[32] CP5[3] CP5[21] CP5[22] CP6[18] CP6[23] CP6[27] P3[11] P3[14] P3[19] P3[27] P4[4] P4[12] P4[14] P4[15] P4[20] P4[28]
+-- average 9
+flame: 34, selected features: (33)
+O1[29] O2[0] O2[14] O2[31] O2[32] Cz[3] Cz[14] Cz[28] Cz[30] Cz[33] CPz[17] CP5[9] CP5[15] CP5[23] CP5[27] CP5[29] CP5[32] CP6[13] CP6[27] CP6[31] P3[0] P3[1] P3[4] P3[6] P3[10] P3[19] P3[20] P3[22] P3[23] P4[7] P4[15] P4[26] P4[32]
+-- average 10
+flame: 34, selected features: (34)
+O1[12] O1[15] O1[16] O1[20] O1[23] O1[32] Cz[6] Cz[7] Cz[18] Cz[26] Cz[31] CPz[26] CPz[30] CP5[3] CP5[8] CP5[11] CP5[21] CP5[27] CP5[32] CP5[33] CP6[6] CP6[8] CP6[17] CP6[18] CP6[20] CP6[21] CP6[24] CP6[32] P3[8] P3[11] P4[5] P4[8] P4[11] P4[27]
+- decimate 7
+-- average 1
+flame: 30, selected features: (22)
+O2[9] O2[20] O2[23] O2[24] Cz[5] Cz[20] CPz[9] CPz[28] CP6[3] CP6[12] CP6[14] CP6[16] CP6[18] CP6[23] CP6[24] P3[1] P3[5] P3[7] P3[17] P3[18] P3[28] P4[5]
+-- average 2
+flame: 30, selected features: (11)
+O1[11] O1[27] CPz[11] CPz[25] CP6[0] CP6[6] CP6[27] P3[7] P3[17] P3[18] P3[25]
+-- average 3
+flame: 30, selected features: (12)
+O1[5] O2[12] O2[20] O2[24] O2[26] CP6[19] CP6[22] CP6[23] P3[3] P3[16] P3[18] P3[22]
+-- average 4
+flame: 30, selected features: (16)
+O2[5] O2[10] O2[20] O2[22] O2[25] CP5[3] CP5[6] CP5[13] CP5[18] CP5[21] CP5[24] CP5[28] CP6[17] P3[8] P3[10] P3[29]
+-- average 5
+flame: 30, selected features: (8)
+O1[11] O1[26] CP6[18] CP6[21] P3[3] P3[17] P3[18] P3[21]
+-- average 6
+flame: 30, selected features: (10)
+Cz[11] Cz[21] CP5[2] CP5[12] CP5[13] CP5[18] CP5[25] CP5[28] P4[12] P4[28]
+-- average 7
+flame: 30, selected features: (34)
+O1[6] O1[8] O1[13] O1[20] O1[21] O1[27] O1[28] O2[4] O2[5] Cz[10] Cz[18] Cz[26] CP5[0] CP5[2] CP5[8] CP5[14] CP5[16] CP5[18] CP5[21] CP5[22] CP6[3] CP6[9] CP6[23] CP6[25] CP6[27] P3[9] P3[12] P3[17] P3[28] P4[6] P4[10] P4[11] P4[15] P4[16]
+-- average 8
+flame: 30, selected features: (34)
+O1[6] O1[9] O1[11] O1[13] O1[15] O1[16] O1[27] O1[29] Cz[8] Cz[16] Cz[17] Cz[18] Cz[26] CPz[5] CP5[2] CP5[8] CP5[12] CP5[17] CP5[18] CP5[25] CP5[26] CP6[5] CP6[9] CP6[15] P3[4] P3[6] P3[8] P3[9] P3[11] P3[17] P3[18] P3[22] P3[23] P3[28]
+-- average 9
+flame: 30, selected features: (34)
+O1[0] O1[10] O1[11] O1[13] O1[17] O1[26] O1[28] O2[0] O2[2] O2[7] O2[8] O2[9] O2[11] O2[24] Cz[2] Cz[10] Cz[11] Cz[13] Cz[17] Cz[25] CPz[6] CP5[6] CP5[13] CP5[25] CP5[26] CP6[6] CP6[11] P3[4] P3[18] P4[2] P4[9] P4[12] P4[18] P4[21]
+-- average 10
+flame: 30, selected features: (34)
+O1[5] O1[11] O1[13] O1[14] O1[16] O1[17] O1[19] O1[29] O2[10] O2[16] O2[17] O2[18] Cz[13] Cz[18] Cz[20] Cz[21] Cz[25] Cz[27] Cz[28] CP5[2] CP5[4] CP5[5] CP5[7] CP5[8] CP5[11] CP5[12] CP5[16] CP5[18] CP5[28] CP6[9] CP6[10] CP6[15] CP6[19] P4[6]
+- decimate 8
+-- average 1
+flame: 26, selected features: (24)
+O2[9] O2[10] O2[18] O2[21] Cz[5] Cz[18] CPz[9] CPz[23] CP6[0] CP6[5] CP6[8] CP6[12] CP6[13] CP6[16] CP6[19] CP6[21] CP6[23] P3[0] P3[7] P3[16] P3[23] P4[5] P4[12] P4[19]
+-- average 2
+flame: 26, selected features: (13)
+O2[10] O2[24] CPz[10] CPz[23] CP6[0] CP6[23] CP6[24] P3[3] P3[15] P3[16] P3[23] P4[10] P4[12]
+-- average 3
+flame: 26, selected features: (12)
+O1[24] O2[0] O2[11] O2[16] O2[21] Cz[14] CP6[10] CP6[16] CP6[21] P3[0] P3[3] P3[16]
+-- average 4
+flame: 26, selected features: (11)
+O2[5] O2[9] O2[11] O2[18] O2[19] O2[23] CP5[0] CP5[2] CP5[5] CP5[16] CP5[18]
+-- average 5
+flame: 26, selected features: (5)
+O1[10] O1[23] CP6[11] P3[3] P3[16]
+-- average 6
+flame: 26, selected features: (15)
+O1[2] O1[6] CPz[23] CPz[24] CP5[2] CP5[7] CP5[8] CP5[11] CP5[16] CP5[25] CP6[7] P4[11] P4[19] P4[23] P4[25]
+-- average 7
+flame: 26, selected features: (34)
+O1[9] O1[13] O1[16] O1[17] O1[18] O1[19] O1[23] O1[24] Cz[6] Cz[22] CPz[14] CPz[17] CPz[24] CP5[0] CP5[2] CP5[7] CP5[9] CP5[11] CP5[15] CP5[16] CP5[19] CP5[22] CP5[24] CP6[4] CP6[5] CP6[18] P3[10] P4[3] P4[11] P4[15] P4[22] P4[23] P4[24] P4[25]
+-- average 8
+flame: 26, selected features: (20)
+O1[5] O1[8] O1[10] O1[24] O1[25] O2[6] O2[12] O2[22] Cz[9] CPz[13] CPz[20] CP5[1] CP5[12] CP5[16] CP5[17] CP5[25] CP6[22] P3[6] P3[11] P3[22]
+-- average 9
+flame: 26, selected features: (9)
+O1[4] O1[11] O1[16] O1[19] O1[24] O2[0] O2[9] Cz[6] CP6[24]
+-- average 10
+flame: 26, selected features: (34)
+O1[1] O1[4] O1[9] O1[10] O1[11] O1[12] O1[14] O1[16] O1[17] O1[18] O1[25] O2[9] O2[21] Cz[18] Cz[25] CPz[9] CPz[19] CP5[3] CP5[6] CP5[16] CP5[17] CP5[25] CP6[9] CP6[14] CP6[16] CP6[18] CP6[21] CP6[25] P3[11] P3[14] P4[12] P4[14] P4[18] P4[25]
+- decimate 9
+-- average 1
+flame: 23, selected features: (37)
+O1[17] O1[21] O1[22] O2[7] O2[8] O2[9] O2[11] O2[15] O2[18] O2[20] Cz[5] Cz[11] Cz[15] Cz[16] Cz[21] CPz[11] CPz[14] CPz[19] CP6[0] CP6[7] CP6[8] CP6[11] CP6[12] CP6[14] CP6[16] CP6[18] CP6[21] CP6[22] P3[0] P3[4] P3[6] P3[15] P3[21] P4[8] P4[11] P4[18] P4[21]
+-- average 2
+flame: 23, selected features: (18)
+O1[10] O1[22] O2[8] O2[19] Cz[17] Cz[21] CPz[9] CPz[19] CP6[0] CP6[17] CP6[21] CP6[22] P3[3] P3[14] P3[15] P3[21] P4[2] P4[8]
+-- average 3
+flame: 23, selected features: (9)
+O1[14] O1[19] Cz[6] Cz[13] CP6[14] CP6[19] P3[3] P3[15] P4[4]
+-- average 4
+flame: 23, selected features: (14)
+O1[4] O1[8] O1[14] O2[0] O2[6] O2[9] O2[15] O2[21] CP5[3] CP5[5] CP5[9] CP5[10] CP5[15] CP5[16]
+-- average 5
+flame: 23, selected features: (8)
+O1[10] O1[21] CP6[14] CP6[17] P3[3] P3[14] P3[15] P3[17]
+-- average 6
+flame: 23, selected features: (12)
+O1[20] O1[21] O2[8] O2[22] Cz[7] Cz[11] CP5[2] CP5[7] CP5[10] CP5[15] CP5[16] CP5[20]
+-- average 7
+flame: 23, selected features: (15)
+O1[0] O1[15] O1[22] CP5[2] CP5[5] CP5[6] CP5[11] CP5[15] CP5[16] CP5[17] P3[8] P4[5] P4[10] P4[12] P4[16]
+-- average 8
+flame: 23, selected features: (34)
+O1[4] O1[7] O1[11] O1[12] O1[14] O1[15] O1[22] O2[0] O2[1] O2[4] O2[9] O2[17] O2[22] Cz[15] Cz[20] CPz[5] CPz[6] CPz[9] CPz[20] CPz[21] CP5[2] CP5[15] CP6[5] CP6[8] CP6[19] CP6[22] P3[3] P3[8] P3[18] P3[19] P4[7] P4[20] P4[21] P4[22]
+-- average 9
+flame: 23, selected features: (21)
+O1[2] O1[3] O1[8] O1[13] O2[0] O2[9] O2[10] O2[13] O2[14] O2[21] Cz[6] Cz[13] CPz[9] CPz[21] CPz[22] P3[3] P3[11] P3[13] P3[14] P4[4] P4[7]
+-- average 10
+flame: 23, selected features: (34)
+O1[9] O1[10] O1[11] O1[12] O1[17] O1[18] O1[22] O2[18] O2[22] Cz[2] Cz[7] Cz[11] Cz[20] Cz[22] CPz[9] CP5[1] CP5[2] CP5[3] CP5[15] CP5[20] CP5[21] CP5[22] CP6[7] P3[6] P3[14] P3[16] P3[19] P4[0] P4[3] P4[5] P4[6] P4[9] P4[19] P4[22]
+- decimate 10
+-- average 1
+flame: 21, selected features: (20)
+O2[8] O2[14] O2[17] O2[19] Cz[11] Cz[14] Cz[16] Cz[19] CPz[6] CPz[17] CP5[11] CP5[14] CP6[1] CP6[6] CP6[11] CP6[16] P3[13] P3[19] P4[2] P4[8]
+-- average 2
+flame: 21, selected features: (19)
+O1[9] O1[19] O1[20] O2[13] O2[15] O2[17] O2[18] Cz[12] Cz[14] Cz[16] Cz[19] CP6[1] CP6[12] CP6[15] CP6[17] P3[5] P3[13] P3[14] P3[19]
+-- average 3
+flame: 21, selected features: (12)
+O1[5] O1[9] O1[18] O2[0] O2[14] O2[17] CP6[14] CP6[16] CP6[17] P3[3] P3[13] P3[19]
+-- average 4
+flame: 21, selected features: (10)
+O1[4] O1[8] O2[9] O2[13] O2[14] O2[19] P3[13] P3[15] P4[0] P4[19]
+-- average 5
+flame: 21, selected features: (13)
+O1[9] O1[14] O1[18] O1[20] Cz[9] Cz[10] Cz[19] CP6[18] P3[2] P3[13] P3[16] P4[0] P4[10]
+-- average 6
+flame: 21, selected features: (13)
+O1[13] O1[14] O1[15] O2[18] CP5[2] CP5[7] CP5[10] CP5[14] CP5[17] CP5[18] P4[3] P4[12] P4[15]
+-- average 7
+flame: 21, selected features: (12)
+O1[14] O1[20] CP5[0] CP5[2] CP5[10] CP5[14] CP5[15] CP5[16] CP5[19] P4[9] P4[16] P4[19]
+-- average 8
+flame: 21, selected features: (18)
+O1[4] O1[9] O1[10] O1[11] O1[13] O1[14] O1[20] O2[5] O2[8] O2[18] CP5[2] CP5[7] CP5[11] CP5[14] CP6[4] CP6[7] P3[19] P3[20]
+-- average 9
+flame: 21, selected features: (9)
+O1[12] O1[15] O2[9] O2[19] CPz[6] P3[3] P3[13] P3[19] P3[20]
+-- average 10
+flame: 21, selected features: (6)
+Cz[10] Cz[20] CP5[0] CP5[6] CP5[13] CP5[14]
+- decimate 11
+-- average 1
+flame: 19, selected features: (20)
+O2[7] O2[8] O2[13] O2[16] Cz[11] Cz[13] Cz[14] Cz[18] CPz[17] CP6[1] CP6[6] CP6[11] CP6[14] CP6[16] P3[0] P3[6] P3[12] P3[13] P3[18] P4[7]
+-- average 2
+flame: 19, selected features: (6)
+CPz[13] CPz[17] P3[3] P3[12] P3[13] P3[17]
+-- average 3
+flame: 19, selected features: (8)
+O1[17] CP6[12] CP6[15] P3[3] P3[12] P3[13] P3[15] P4[5]
+-- average 4
+flame: 19, selected features: (19)
+Cz[10] Cz[12] CP5[2] CP5[5] CP5[10] CP5[12] CP5[13] CP5[14] CP6[5] CP6[7] CP6[11] CP6[12] CP6[14] P3[4] P3[6] P3[9] P3[10] P3[15] P3[18]
+-- average 5
+flame: 19, selected features: (9)
+O1[5] O1[8] O1[13] O1[17] Cz[8] Cz[17] P3[2] P3[12] P4[3]
+-- average 6
+flame: 19, selected features: (7)
+O2[6] O2[18] CP5[6] CP5[13] CP5[17] P3[3] P3[9]
+-- average 7
+flame: 19, selected features: (34)
+O1[3] O1[4] O2[13] O2[14] O2[15] O2[17] Cz[2] Cz[4] Cz[6] Cz[8] Cz[12] CP5[2] CP5[4] CP5[7] CP5[9] CP5[12] CP5[13] CP5[14] CP5[18] CP6[6] CP6[8] CP6[10] CP6[14] CP6[16] CP6[18] P3[0] P3[5] P3[10] P3[11] P3[15] P3[18] P4[0] P4[5] P4[6]
+-- average 8
+flame: 19, selected features: (34)
+O1[2] O1[4] O1[7] O1[8] O1[10] O1[12] O1[13] O1[14] O1[17] O1[18] O2[15] CP5[1] CP5[2] CP5[3] CP5[5] CP5[12] CP5[13] CP5[16] CP5[18] CP6[3] CP6[4] CP6[7] CP6[11] CP6[13] CP6[14] CP6[15] CP6[16] P3[5] P3[12] P3[15] P3[16] P3[18] P4[6] P4[13]
+-- average 9
+flame: 19, selected features: (7)
+O1[11] O1[13] O2[8] O2[9] O2[18] P3[4] P3[11]
+-- average 10
+flame: 19, selected features: (11)
+O1[5] O1[8] O1[10] O1[18] Cz[14] Cz[16] CP5[0] CP5[2] CP5[13] CP5[14] P3[12]
+- decimate 12
+-- average 1
+flame: 17, selected features: (12)
+O2[7] O2[15] Cz[13] Cz[16] CPz[3] CPz[15] CP6[1] CP6[14] P3[12] P3[16] P4[1] P4[7]
+-- average 2
+flame: 17, selected features: (14)
+O2[7] O2[15] CPz[13] CPz[16] CP6[0] CP6[11] CP6[14] P3[3] P3[11] P3[12] P3[16] P4[2] P4[7] P4[15]
+-- average 3
+flame: 17, selected features: (10)
+O1[9] O1[15] CP6[8] CP6[11] CP6[14] P3[3] P3[11] P3[12] P3[14] P4[4]
+-- average 4
+flame: 17, selected features: (6)
+CP5[2] CP5[12] CP5[13] P3[10] P3[16] P4[11]
+-- average 5
+flame: 17, selected features: (4)
+O1[8] O1[16] P3[3] P3[12]
+-- average 6
+flame: 17, selected features: (10)
+O1[8] O1[10] O1[15] O2[12] O2[16] CP5[12] CP5[16] P3[3] P3[9] P4[2]
+-- average 7
+flame: 17, selected features: (9)
+O1[12] O1[14] O2[8] O2[16] CP5[2] CP5[8] CP5[10] CP5[12] CP5[13]
+-- average 8
+flame: 17, selected features: (34)
+O1[4] O1[6] O1[8] O1[11] O1[12] O1[14] O1[16] O2[1] O2[5] O2[7] O2[11] O2[14] O2[16] CPz[4] CPz[9] CPz[10] CPz[11] CPz[16] CP5[1] CP5[2] CP5[3] CP5[4] CP5[12] CP5[14] CP5[15] CP6[4] CP6[10] CP6[12] CP6[14] P3[16] P4[0] P4[1] P4[11] P4[12]
+-- average 9
+flame: 17, selected features: (5)
+O1[7] O1[15] P3[0] P3[3] P3[12]
+-- average 10
+flame: 17, selected features: (9)
+O1[4] O1[7] O1[10] O1[11] O1[16] Cz[15] Cz[16] CP5[2] CP5[12]
+- decimate 13
+-- average 1
+flame: 16, selected features: (17)
+O2[7] O2[11] O2[14] Cz[10] Cz[13] Cz[14] CPz[11] CPz[15] CP6[0] CP6[10] CP6[13] CP6[14] P3[1] P3[2] P3[11] P3[15] P4[7]
+-- average 2
+flame: 16, selected features: (9)
+O1[7] O1[14] Cz[11] Cz[15] P3[3] P3[8] P3[9] P3[11] P3[15]
+-- average 3
+flame: 16, selected features: (12)
+O1[12] O1[14] Cz[9] Cz[11] CP6[9] CP6[10] CP6[13] P3[3] P3[10] P3[11] P3[13] P4[4]
+-- average 4
+flame: 16, selected features: (13)
+O2[4] O2[7] O2[12] O2[15] CP5[2] CP5[5] CP5[11] CP5[12] CP6[8] CP6[10] CP6[15] P3[9] P3[13]
+-- average 5
+flame: 16, selected features: (4)
+O1[8] O1[15] P3[2] P3[11]
+-- average 6
+flame: 16, selected features: (9)
+O1[5] O1[8] O2[0] CP5[1] CP5[7] CP5[11] CP5[14] CP5[15] P3[10]
+-- average 7
+flame: 16, selected features: (8)
+CP5[2] CP5[8] CP5[11] CP5[13] CP5[14] CP5[15] CP6[9] CP6[14]
+-- average 8
+flame: 16, selected features: (9)
+O1[4] O1[7] O1[9] O1[15] O2[3] O2[6] CP5[1] CP5[11] CP6[10]
+-- average 9
+flame: 16, selected features: (7)
+O1[10] O2[7] O2[15] P3[0] P3[3] P3[9] P3[11]
+-- average 10
+flame: 16, selected features: (12)
+O1[4] O1[7] O1[9] O1[15] O2[10] Cz[9] CP5[1] CP5[8] CP5[11] CP6[11] P3[12] P4[4]
+- decimate 14
+-- average 1
+flame: 15, selected features: (6)
+O2[11] O2[14] Cz[11] Cz[14] P3[10] P4[2]
+-- average 2
+flame: 15, selected features: (12)
+O1[5] O1[11] O1[14] O2[7] O2[13] CPz[14] CP6[1] CP6[7] CP6[13] P3[10] P3[12] P4[2]
+-- average 3
+flame: 15, selected features: (10)
+O2[3] O2[7] O2[11] O2[13] O2[14] CP6[7] CP6[10] CP6[13] P3[10] P3[12]
+-- average 4
+flame: 15, selected features: (21)
+O2[0] O2[4] O2[7] O2[11] O2[14] CP5[0] CP5[1] CP5[3] CP5[10] CP5[12] CP5[13] CP6[8] CP6[10] P3[7] P3[8] P4[5] P4[6] P4[7] P4[10] P4[13] P4[14]
+-- average 5
+flame: 15, selected features: (10)
+O1[7] O1[11] O1[12] O1[14] Cz[2] Cz[14] P3[2] P3[10] P3[14] P4[10]
+-- average 6
+flame: 15, selected features: (34)
+O1[4] O1[7] O1[8] O1[9] O1[14] O2[0] O2[4] O2[13] O2[14] Cz[5] Cz[9] Cz[11] Cz[12] CPz[1] CPz[2] CPz[4] CP5[0] CP5[1] CP5[5] CP5[7] CP5[10] CP5[11] CP5[12] CP5[13] CP6[1] CP6[6] CP6[7] CP6[12] P3[3] P3[8] P3[11] P3[13] P4[0] P4[4]
+-- average 7
+flame: 15, selected features: (8)
+O1[9] O1[11] O1[12] O1[14] Cz[3] Cz[7] CP5[1] CP5[10]
+-- average 8
+flame: 15, selected features: (16)
+O1[4] O1[7] O1[9] O1[11] O1[14] O2[6] O2[14] CPz[3] CPz[10] CP5[2] CP5[3] CP5[9] CP5[11] CP6[4] P3[12] P3[13]
+-- average 9
+flame: 15, selected features: (7)
+O1[12] O2[7] O2[14] P3[0] P3[1] P3[3] P3[11]
+-- average 10
+flame: 15, selected features: (12)
+O1[7] O1[14] O2[2] O2[4] O2[12] Cz[10] CPz[7] CP5[2] CP5[11] CP5[12] CP6[9] P4[12]
+- decimate 15
+-- average 1
+flame: 14, selected features: (21)
+O2[7] O2[8] O2[10] O2[11] O2[12] O2[13] Cz[9] Cz[11] Cz[13] CP6[6] CP6[8] CP6[9] CP6[12] P3[0] P3[5] P3[10] P3[13] P4[1] P4[7] P4[8] P4[12]
+-- average 2
+flame: 14, selected features: (12)
+O2[10] O2[11] O2[13] Cz[11] Cz[13] CP6[1] CP6[9] CP6[12] P3[2] P3[9] P3[10] P3[12]
+-- average 3
+flame: 14, selected features: (8)
+O1[13] CP6[7] CP6[10] CP6[12] P3[3] P3[8] P3[10] P3[12]
+-- average 4
+flame: 14, selected features: (21)
+O1[4] O1[7] O2[4] O2[6] O2[10] O2[11] O2[13] CP5[2] CP5[3] CP5[6] CP5[9] CP5[10] CP5[11] CP6[0] CP6[12] P3[0] P3[1] P3[7] P3[8] P4[9] P4[13]
+-- average 5
+flame: 14, selected features: (4)
+O1[6] O1[13] P3[2] P3[10]
+-- average 6
+flame: 14, selected features: (4)
+CP5[1] CP5[8] CP5[10] CP5[12]
+-- average 7
+flame: 14, selected features: (13)
+O1[6] O1[7] O1[8] O1[10] O1[12] O1[13] Cz[6] Cz[7] CP5[0] CP5[1] CP5[6] CP5[13] P4[3]
+-- average 8
+flame: 14, selected features: (11)
+O1[6] O1[13] CP5[1] CP5[10] CP5[12] CP6[3] CP6[9] CP6[11] P3[11] P4[4] P4[8]
+-- average 9
+flame: 14, selected features: (20)
+O1[0] O1[8] O1[9] O1[12] O2[3] O2[6] O2[9] O2[11] O2[12] O2[13] Cz[11] CP5[0] CP5[1] CP5[3] CP5[7] P3[4] P3[8] P3[9] P3[10] P4[13]
+-- average 10
+flame: 14, selected features: (14)
+O1[5] O1[6] O1[8] O1[12] O1[13] Cz[8] Cz[13] CPz[11] CP5[1] CP5[10] CP5[12] CP6[2] CP6[11] P4[11]
+- decimate 16
+-- average 1
+flame: 13, selected features: (10)
+O2[6] O2[10] O2[12] CPz[12] CP6[1] CP6[9] CP6[12] P3[6] P3[9] P3[11]
+-- average 2
+flame: 13, selected features: (10)
+O1[10] O1[12] Cz[11] Cz[12] CP6[1] CP6[9] CP6[11] P3[2] P3[9] P3[12]
+-- average 3
+flame: 13, selected features: (13)
+O2[1] O2[10] O2[12] CP6[8] CP6[10] CP6[11] CP6[12] P3[8] P3[10] P3[11] P4[3] P4[8] P4[11]
+-- average 4
+flame: 13, selected features: (16)
+O2[4] O2[6] O2[7] O2[10] O2[12] CP5[2] CP5[3] CP5[8] CP5[10] CP5[11] CP5[12] CP6[7] CP6[10] CP6[11] P4[4] P4[5]
+-- average 5
+flame: 13, selected features: (8)
+O1[6] O1[10] O1[11] O1[12] CPz[6] CPz[12] P3[2] P3[9]
+-- average 6
+flame: 13, selected features: (34)
+O1[9] O1[10] O1[11] O2[2] O2[3] O2[5] O2[8] O2[10] O2[11] Cz[0] Cz[5] Cz[9] Cz[10] CPz[5] CPz[7] CPz[9] CP5[0] CP5[1] CP5[2] CP5[5] CP5[10] CP5[11] CP6[2] CP6[5] CP6[10] P3[7] P3[9] P3[10] P3[12] P4[6] P4[8] P4[9] P4[10] P4[11]
+-- average 7
+flame: 13, selected features: (5)
+CP5[1] CP5[8] CP5[10] CP5[11] CP6[3]
+-- average 8
+flame: 13, selected features: (6)
+O1[8] CPz[12] CP5[1] CP5[10] CP5[11] CP6[9]
+-- average 9
+flame: 13, selected features: (8)
+O1[8] O2[6] O2[12] P3[0] P3[3] P3[8] P3[10] P3[11]
+-- average 10
+flame: 13, selected features: (6)
+O1[7] Cz[11] CPz[4] CP5[2] CP5[10] CP5[11]
+- decimate 17
+-- average 1
+flame: 12, selected features: (13)
+O2[9] O2[11] Cz[7] CP6[1] CP6[5] CP6[8] CP6[11] P3[5] P3[9] P3[11] P4[8] P4[9] P4[11]
+-- average 2
+flame: 12, selected features: (10)
+O2[6] O2[10] O2[11] CPz[8] CP6[1] CP6[6] CP6[11] P3[2] P3[9] P3[11]
+-- average 3
+flame: 12, selected features: (8)
+O1[10] O1[11] CP5[7] CP6[9] CP6[11] P3[3] P3[9] P3[10]
+-- average 4
+flame: 12, selected features: (7)
+O2[3] O2[5] O2[6] O2[10] O2[11] CP5[2] CP5[9]
+-- average 5
+flame: 12, selected features: (7)
+O1[6] O1[10] O1[11] CPz[6] CPz[11] P3[2] P3[9]
+-- average 6
+flame: 12, selected features: (5)
+Cz[2] Cz[7] CP5[1] CP5[9] CP5[11]
+-- average 7
+flame: 12, selected features: (4)
+O1[7] O1[11] CP5[1] CP5[9]
+-- average 8
+flame: 12, selected features: (7)
+O1[7] O1[9] O1[11] CP6[11] P3[2] P3[5] P4[5]
+-- average 9
+flame: 12, selected features: (5)
+O1[5] O1[6] O1[11] P3[3] P3[9]
+-- average 10
+flame: 12, selected features: (6)
+Cz[4] Cz[7] Cz[10] CP5[1] CP5[9] CP5[11]
+- decimate 18
+-- average 1
+flame: 12, selected features: (15)
+O2[6] O2[7] O2[9] O2[11] Cz[8] Cz[10] Cz[11] CP6[1] CP6[8] CP6[10] CP6[11] P3[9] P3[11] P4[6] P4[7]
+-- average 2
+flame: 12, selected features: (13)
+O2[6] O2[11] CPz[10] CPz[11] CP6[1] CP6[8] CP6[10] P3[3] P3[8] P3[9] P3[11] P4[6] P4[8]
+-- average 3
+flame: 12, selected features: (8)
+O1[7] O1[9] O1[11] CP6[2] CP6[11] P3[3] P3[9] P3[10]
+-- average 4
+flame: 12, selected features: (7)
+O2[3] O2[6] O2[7] O2[9] O2[11] CP5[2] CP5[8]
+-- average 5
+flame: 12, selected features: (7)
+O1[6] O1[9] O1[11] CPz[1] CPz[11] P3[3] P3[9]
+-- average 6
+flame: 12, selected features: (4)
+CP5[9] CP5[11] P3[3] P3[7]
+-- average 7
+flame: 12, selected features: (6)
+O1[8] O1[10] CP5[1] CP5[7] CP5[9] CP5[10]
+-- average 8
+flame: 12, selected features: (15)
+O1[3] O1[6] O1[9] O1[11] O2[8] O2[10] Cz[10] CP5[0] CP5[8] CP5[9] CP5[11] CP6[3] CP6[11] P3[6] P4[5]
+-- average 9
+flame: 12, selected features: (6)
+O1[4] O2[5] O2[11] P3[3] P3[7] P3[9]
+-- average 10
+flame: 12, selected features: (16)
+O1[5] O1[6] O1[7] O1[8] O1[11] O2[4] O2[5] O2[10] O2[11] Cz[3] Cz[7] CP5[7] CP5[9] CP6[5] P4[10] P4[11]
+- decimate 19
+-- average 1
+flame: 11, selected features: (11)
+O2[6] O2[9] O2[10] Cz[4] CP6[2] CP6[8] CP6[10] P3[5] P3[8] P3[10] P4[1]
+-- average 2
+flame: 11, selected features: (9)
+O2[9] O2[10] CPz[7] CP6[2] CP6[8] CP6[10] P3[1] P3[8] P3[10]
+-- average 3
+flame: 11, selected features: (9)
+O1[9] O1[10] Cz[7] CP6[8] CP6[10] P3[3] P3[8] P3[10] P4[2]
+-- average 4
+flame: 11, selected features: (13)
+O2[4] O2[5] O2[7] O2[8] O2[9] O2[10] CPz[10] CP5[0] CP5[8] CP6[6] CP6[10] P3[6] P3[7]
+-- average 5
+flame: 11, selected features: (7)
+O1[9] O1[10] CP6[8] CP6[10] P3[2] P3[8] P3[10]
+-- average 6
+flame: 11, selected features: (6)
+O1[9] O1[10] Cz[7] CP6[10] P4[2] P4[7]
+-- average 7
+flame: 11, selected features: (5)
+O1[8] O1[10] CP5[1] CP5[6] CP5[9]
+-- average 8
+flame: 11, selected features: (11)
+O1[3] O1[5] O1[7] O1[9] O1[10] O2[5] O2[7] Cz[10] CP5[10] P3[2] P3[6]
+-- average 9
+flame: 11, selected features: (5)
+CP6[8] CP6[10] P3[3] P3[8] P3[10]
+-- average 10
+flame: 11, selected features: (7)
+O1[6] O1[10] Cz[2] Cz[8] CP5[2] CP5[9] CP5[10]
+- decimate 20
+-- average 1
+flame: 11, selected features: (16)
+O2[6] O2[9] O2[10] Cz[4] Cz[9] CPz[4] CPz[10] CP6[1] CP6[7] CP6[10] P3[0] P3[2] P3[5] P3[8] P3[10] P4[1]
+-- average 2
+flame: 11, selected features: (11)
+O2[0] O2[6] O2[9] O2[10] CP6[6] CP6[8] CP6[10] P3[2] P3[8] P3[9] P3[10]
+-- average 3
+flame: 11, selected features: (12)
+O1[9] O1[10] CP5[1] CP5[6] CP6[8] CP6[9] CP6[10] P3[8] P3[9] P4[3] P4[8] P4[10]
+-- average 4
+flame: 11, selected features: (17)
+O1[7] O1[8] O2[4] O2[5] O2[9] O2[10] CP5[0] CP5[1] CP5[2] CP6[6] CP6[10] P3[0] P3[7] P3[8] P3[9] P4[9] P4[10]
+-- average 5
+flame: 11, selected features: (7)
+O1[6] O1[9] O1[10] CPz[10] CP6[9] P3[2] P3[8]
+-- average 6
+flame: 11, selected features: (5)
+O1[6] O1[10] CP5[1] CP5[5] CP5[8]
+-- average 7
+flame: 11, selected features: (7)
+O1[2] O1[8] O1[10] Cz[10] CP5[1] CP5[6] P4[1]
+-- average 8
+flame: 11, selected features: (11)
+O1[6] O1[9] O1[10] O2[0] O2[3] O2[8] CP5[4] CP5[8] P3[2] P3[8] P4[5]
+-- average 9
+flame: 11, selected features: (5)
+O1[8] O2[5] O2[10] P3[3] P3[8]
+-- average 10
+flame: 11, selected features: (5)
+O1[6] O1[10] CP5[0] CP5[7] CP5[8]
+swlda - tomek - 2 - average
+- decimate 1
+-- average 1
+flame: 204, selected features: (50)
+O1[1] O1[6] O1[15] O1[23] O1[34] O1[50] O1[56] O1[72] O1[76] O1[84] O1[89] O1[94] O1[100] O1[108] O1[161] O1[167] O2[31] O2[36] O2[56] O2[62] O2[82] O2[107] O2[114] O2[134] O2[169] O2[178] O2[191] CPz[81] CPz[101] CPz[111] CPz[133] CP5[194] CP6[80] CP6[127] CP6[134] CP6[151] CP6[157] CP6[195] P3[115] P3[129] P3[174] P3[187] P4[80] P4[100] P4[111] P4[127] P4[160] P4[188] P4[190] P4[195]
+-- average 2
+flame: 204, selected features: (60)
+O1[51] O1[89] O1[110] O1[118] O1[130] O1[152] O1[160] O1[161] O1[169] O1[172] Cz[4] Cz[81] Cz[192] CPz[9] CPz[20] CPz[57] CPz[97] CPz[112] CPz[172] CPz[182] CPz[187] CP5[1] CP5[5] CP5[103] CP5[126] CP5[136] CP6[38] CP6[40] CP6[43] CP6[79] CP6[82] CP6[94] CP6[117] CP6[127] CP6[131] CP6[134] CP6[151] CP6[157] CP6[174] CP6[176] CP6[202] P3[15] P3[36] P3[56] P3[116] P3[132] P4[56] P4[64] P4[78] P4[79] P4[98] P4[106] P4[112] P4[127] P4[142] P4[148] P4[158] P4[169] P4[179] P4[196]
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+flame: 204, selected features: (33)
+O2[2] O2[29] O2[49] O2[56] O2[76] O2[80] O2[86] O2[94] O2[113] O2[131] O2[143] O2[161] Cz[29] Cz[56] Cz[117] CPz[16] CPz[19] CPz[45] CPz[90] CPz[161] CPz[194] CP6[134] CP6[135] P4[62] P4[68] P4[86] P4[92] P4[98] P4[127] P4[157] P4[174] P4[183] P4[190]
+-- average 10
+flame: 204, selected features: (33)
+O2[23] O2[43] O2[115] O2[133] O2[150] O2[168] O2[177] O2[182] O2[194] Cz[13] Cz[17] Cz[31] Cz[47] CPz[32] CPz[48] CPz[64] CPz[79] CP5[68] CP5[120] P3[56] P3[67] P3[75] P3[97] P3[165] P3[175] P3[201] P4[12] P4[93] P4[113] P4[126] P4[129] P4[155] P4[157]
+- decimate 2
+-- average 1
+flame: 102, selected features: (46)
+O1[10] O1[14] O1[20] O1[40] O1[44] O1[47] O1[49] O1[52] O1[67] O2[30] O2[36] O2[46] O2[51] O2[56] O2[87] Cz[94] Cz[97] CPz[9] CPz[43] CPz[52] CP5[5] CP5[19] CP5[30] CP5[57] CP5[63] CP5[92] CP5[100] CP6[22] CP6[42] CP6[66] CP6[69] CP6[78] P3[69] P3[89] P3[92] P4[4] P4[18] P4[24] P4[36] P4[42] P4[51] P4[57] P4[66] P4[76] P4[79] P4[100]
+-- average 2
+flame: 102, selected features: (16)
+CP6[61] CP6[78] CP6[79] P4[24] P4[31] P4[41] P4[51] P4[56] P4[59] P4[66] P4[69] P4[76] P4[81] P4[86] P4[89] P4[100]
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+flame: 102, selected features: (33)
+O1[66] O2[87] Cz[46] Cz[65] CPz[71] CP5[6] CP5[10] CP5[55] CP5[66] CP5[76] CP5[85] CP6[93] P3[1] P3[7] P3[41] P3[43] P3[64] P3[70] P3[77] P3[87] P4[39] P4[41] P4[43] P4[58] P4[63] P4[66] P4[67] P4[68] P4[79] P4[88] P4[89] P4[98] P4[99]
+-- average 10
+flame: 102, selected features: (33)
+O1[24] CPz[64] CPz[100] CP5[60] CP5[71] CP5[78] CP5[79] CP6[24] P3[22] P3[58] P3[59] P3[61] P3[72] P3[74] P3[85] P3[88] P3[94] P3[95] P4[4] P4[28] P4[41] P4[44] P4[45] P4[50] P4[51] P4[54] P4[57] P4[61] P4[66] P4[81] P4[85] P4[90] P4[99]
+- decimate 3
+-- average 1
+flame: 68, selected features: (46)
+O1[5] O1[7] O1[14] O1[27] O1[58] O1[64] O2[21] O2[66] CPz[4] CPz[13] CPz[21] CPz[29] CPz[35] CPz[40] CPz[47] CP5[1] CP5[4] CP5[8] CP5[10] CP5[14] CP5[39] CP5[57] CP6[20] CP6[23] CP6[30] CP6[31] CP6[45] CP6[47] CP6[55] CP6[60] CP6[61] P3[38] P3[41] P3[54] P3[60] P3[65] P4[21] P4[29] P4[35] P4[39] P4[45] P4[59] P4[61] P4[63] P4[64] P4[66]
+-- average 2
+flame: 68, selected features: (9)
+CP6[47] CP6[53] CP6[55] CP6[61] P4[29] P4[35] P4[40] P4[45] P4[67]
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+flame: 68, selected features: (33)
+O1[29] O1[31] O2[33] Cz[17] Cz[36] Cz[42] CPz[22] CP5[21] CP5[42] CP6[51] CP6[52] P3[12] P3[21] P3[24] P3[41] P3[43] P3[49] P3[52] P4[5] P4[29] P4[30] P4[32] P4[35] P4[36] P4[40] P4[45] P4[51] P4[55] P4[60] P4[62] P4[64] P4[65] P4[67]
+-- average 10
+flame: 68, selected features: (34)
+O1[3] O1[4] O1[36] O1[55] O1[66] O2[0] O2[4] O2[9] O2[14] O2[17] O2[21] O2[22] O2[29] O2[47] O2[49] O2[53] O2[58] O2[60] O2[62] CP6[2] CP6[28] CP6[39] CP6[40] CP6[67] P4[32] P4[34] P4[35] P4[45] P4[50] P4[55] P4[60] P4[61] P4[62] P4[67]
+- decimate 4
+-- average 1
+flame: 51, selected features: (34)
+O1[4] O1[6] O1[11] O1[12] O1[21] O1[25] O1[43] O1[44] O1[45] O2[14] O2[17] O2[45] CPz[17] CPz[28] CPz[30] CPz[35] CPz[49] CPz[50] CP5[6] CP5[9] CP5[35] CP5[44] CP6[6] CP6[12] CP6[22] CP6[36] CP6[41] CP6[42] CP6[49] P3[32] P4[22] P4[28] P4[30] P4[48]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+flame: 51, selected features: (12)
+P4[16] P4[23] P4[24] P4[25] P4[30] P4[38] P4[40] P4[42] P4[43] P4[46] P4[48] P4[50]
+-- average 10
+flame: 51, selected features: (34)
+O1[24] O1[38] O1[40] O1[44] O1[47] O1[48] O2[0] O2[9] O2[10] O2[44] O2[46] O2[47] CPz[32] CPz[45] CPz[46] CP6[22] CP6[28] CP6[29] CP6[35] CP6[37] CP6[39] P3[15] P4[19] P4[22] P4[25] P4[26] P4[27] P4[30] P4[31] P4[32] P4[41] P4[45] P4[48] P4[50]
+- decimate 5
+-- average 1
+flame: 41, selected features: (7)
+CP6[30] CP6[35] CP6[36] P4[18] P4[25] P4[28] P4[40]
+-- average 2
+flame: 41, selected features: (2)
+CP6[34] P4[28]
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+flame: 41, selected features: (34)
+O1[3] O1[8] O1[26] O1[32] O1[35] O1[40] Cz[7] Cz[14] CPz[26] CPz[40] CP5[6] CP5[7] CP5[10] CP5[11] CP5[25] CP6[16] P3[8] P3[13] P4[0] P4[3] P4[6] P4[9] P4[14] P4[18] P4[21] P4[23] P4[25] P4[27] P4[28] P4[30] P4[32] P4[35] P4[37] P4[40]
+-- average 10
+flame: 41, selected features: (9)
+O2[4] O2[6] O2[9] O2[29] O2[36] P3[39] P4[28] P4[34] P4[40]
+- decimate 6
+-- average 1
+flame: 34, selected features: (5)
+CPz[19] CPz[24] CPz[33] P3[15] P3[22]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+flame: 34, selected features: (4)
+P4[15] P4[24] P4[25] P4[29]
+-- average 10
+flame: 34, selected features: (3)
+P4[15] P4[24] P4[29]
+- decimate 7
+-- average 1
+flame: 30, selected features: (5)
+CP6[22] P4[14] P4[18] P4[27] P4[29]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+flame: 30, selected features: (3)
+P4[14] P4[18] P4[25]
+-- average 10
+flame: 30, selected features: (3)
+P4[11] P4[18] P4[29]
+- decimate 8
+-- average 1
+flame: 26, selected features: (5)
+CP6[23] CP6[24] P4[13] P4[16] P4[25]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+flame: 26, selected features: (3)
+P4[13] P4[16] P4[23]
+-- average 10
+flame: 26, selected features: (3)
+P4[13] P4[16] P4[25]
+- decimate 9
+-- average 1
+flame: 23, selected features: (3)
+CP6[21] P4[12] P4[15]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+flame: 23, selected features: (3)
+P4[12] P4[15] P4[21]
+-- average 10
+flame: 23, selected features: (3)
+P4[12] P4[15] P4[21]
+- decimate 10
+-- average 1
+flame: 21, selected features: (3)
+CP6[19] P4[10] P4[13]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+flame: 21, selected features: (3)
+CP6[20] P4[11] P4[13]
+-- average 10
+flame: 21, selected features: (3)
+P4[10] P4[13] P4[18]
+- decimate 11
+-- average 1
+flame: 19, selected features: (21)
+O1[6] O1[10] O1[12] O1[14] O2[0] O2[12] O2[17] CPz[6] CPz[9] CPz[12] CPz[14] CP5[6] CP5[9] CP5[18] CP6[7] CP6[10] CP6[18] P4[6] P4[9] P4[12] P4[17]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 19, selected features: (4)
+P4[9] P4[12] P4[13] P4[17]
+- decimate 12
+-- average 1
+flame: 17, selected features: (3)
+CP6[16] P4[9] P4[12]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 17, selected features: (3)
+P4[9] P4[12] P4[16]
+- decimate 13
+-- average 1
+flame: 16, selected features: (3)
+P4[8] P4[11] P4[15]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 16, selected features: (3)
+P4[8] P4[11] P4[15]
+- decimate 14
+-- average 1
+flame: 15, selected features: (3)
+P4[8] P4[11] P4[14]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 15, selected features: (3)
+P4[8] P4[11] P4[14]
+- decimate 15
+-- average 1
+flame: 14, selected features: (3)
+P4[8] P4[10] P4[13]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 14, selected features: (3)
+P4[8] P4[10] P4[13]
+- decimate 16
+-- average 1
+flame: 13, selected features: (6)
+CP6[7] CP6[10] CP6[12] P4[7] P4[10] P4[12]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+flame: 13, selected features: (5)
+P4[1] P4[6] P4[7] P4[10] P4[11]
+-- average 10
+flame: 13, selected features: (5)
+P4[1] P4[5] P4[7] P4[10] P4[11]
+- decimate 17
+-- average 1
+flame: 12, selected features: (3)
+P4[7] P4[9] P4[11]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+flame: 12, selected features: (4)
+P4[6] P4[7] P4[10] P4[11]
+-- average 10
+flame: 12, selected features: (3)
+P4[7] P4[9] P4[11]
+- decimate 18
+-- average 1
+flame: 12, selected features: (6)
+CP6[7] CP6[9] CP6[11] P4[7] P4[9] P4[11]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 12, selected features: (3)
+P4[7] P4[9] P4[11]
+- decimate 19
+-- average 1
+flame: 11, selected features: (2)
+CP6[10] P4[9]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 11, selected features: (3)
+P4[7] P4[8] P4[10]
+- decimate 20
+-- average 1
+flame: 11, selected features: (3)
+P4[7] P4[8] P4[10]
+-- average 2
+-- average 3
+-- average 4
+-- average 5
+-- average 6
+-- average 7
+-- average 8
+-- average 9
+-- average 10
+flame: 11, selected features: (3)
+P4[7] P4[8] P4[10]
+swlda - riken - 1 - average
+- decimate 1
+-- average 1
+flame: 204, selected features: (47)
+O1[0] O1[46] O1[62] O1[77] O1[100] O1[107] O1[124] O1[201] O2[37] O2[81] O2[94] O2[180] Cz[25] Cz[27] Cz[47] Cz[72] Cz[118] Cz[132] Cz[140] Cz[150] Cz[177] Cz[201] CPz[109] CP5[26] CP5[64] CP5[69] CP6[12] CP6[19] CP6[33] CP6[55] CP6[81] CP6[104] CP6[134] CP6[152] CP6[157] P3[28] P3[45] P3[51] P3[130] P3[201] P4[37] P4[72] P4[106] P4[113] P4[135] P4[140] P4[201]
+-- average 2
+flame: 204, selected features: (60)
+O1[0] O1[16] O1[47] O1[60] O1[62] O1[66] O1[129] O1[130] O1[189] O1[195] O1[202] O2[12] O2[21] O2[39] O2[42] O2[62] O2[66] O2[74] O2[104] O2[106] O2[145] O2[153] O2[186] O2[197] O2[200] Cz[27] Cz[32] Cz[72] Cz[133] Cz[140] Cz[175] Cz[176] Cz[184] Cz[194] CPz[5] CPz[80] CP5[11] CP5[17] CP5[48] CP5[64] CP5[76] CP5[89] CP5[116] CP5[138] CP5[154] CP5[160] CP5[187] CP5[197] CP6[23] CP6[50] CP6[55] CP6[65] CP6[188] CP6[191] P4[58] P4[113] P4[139] P4[159] P4[174] P4[196]
+-- average 3
+flame: 204, selected features: (60)
+O1[0] O1[28] O1[42] O1[46] O1[62] O1[67] O1[71] O1[110] O1[152] O1[194] O1[200] O2[3] O2[16] O2[18] O2[26] O2[31] O2[55] O2[76] O2[86] O2[106] O2[113] O2[132] O2[141] O2[163] O2[173] Cz[2] Cz[4] Cz[41] Cz[79] Cz[88] Cz[91] Cz[106] Cz[129] Cz[133] Cz[140] Cz[170] CPz[10] CPz[128] CPz[147] CPz[154] CPz[175] CPz[202] CPz[203] CP6[123] CP6[145] CP6[193] P3[41] P3[53] P3[63] P3[103] P3[107] P3[124] P3[130] P3[169] P3[173] P4[5] P4[28] P4[64] P4[106] P4[203]
+-- average 4
+flame: 204, selected features: (60)
+O1[30] O1[47] O1[71] O1[106] O1[129] O1[145] O1[150] O1[160] O1[178] O1[196] O2[9] O2[14] Cz[20] Cz[28] Cz[40] Cz[49] Cz[50] Cz[51] Cz[53] Cz[73] Cz[92] Cz[128] Cz[141] Cz[146] Cz[167] Cz[169] Cz[191] CPz[43] CPz[44] CPz[64] CPz[148] CPz[200] CP5[19] CP5[34] CP5[43] CP5[50] CP5[58] CP5[97] CP5[151] CP5[153] CP5[201] CP6[7] CP6[37] CP6[76] CP6[78] CP6[103] CP6[139] CP6[147] P4[46] P4[103] P4[107] P4[109] P4[114] P4[140] P4[148] P4[153] P4[158] P4[174] P4[178] P4[199]
+-- average 5
+flame: 204, selected features: (60)
+O1[2] O1[14] O1[22] O1[24] O1[30] O1[47] O1[52] O1[56] O1[63] O1[149] O1[153] O1[176] O1[178] O1[188] O1[203] O2[6] O2[67] O2[79] O2[89] O2[95] O2[189] O2[192] Cz[34] Cz[44] Cz[91] Cz[130] Cz[140] CPz[50] CPz[51] CPz[73] CPz[145] CPz[170] CP5[108] CP5[154] CP5[161] CP5[170] CP5[175] CP5[176] CP6[64] P3[48] P3[58] P3[63] P3[65] P3[71] P3[84] P3[93] P3[123] P3[141] P3[146] P3[162] P3[187] P4[8] P4[35] P4[98] P4[117] P4[126] P4[131] P4[170] P4[201] P4[202]
+-- average 6
+flame: 204, selected features: (33)
+O1[12] O1[13] O1[47] O1[123] O1[138] O1[156] O1[170] O1[193] O2[4] O2[20] O2[57] O2[115] Cz[50] Cz[65] Cz[81] Cz[88] Cz[94] Cz[146] CPz[49] CPz[86] CPz[136] CP6[66] CP6[84] CP6[92] CP6[146] CP6[147] P3[26] P3[141] P3[163] P3[164] P4[2] P4[74] P4[112]
+-- average 7
+flame: 204, selected features: (33)
+O1[3] O1[8] O1[12] O1[15] O1[28] O1[58] O1[68] O1[138] O1[168] O1[201] O2[37] O2[103] O2[114] O2[132] O2[176] O2[180] Cz[30] Cz[72] Cz[93] Cz[95] Cz[146] Cz[164] Cz[179] Cz[192] CP5[53] CP6[15] CP6[96] CP6[197] P3[5] P3[13] P3[129] P3[144] P4[9]
+-- average 8
+flame: 204, selected features: (33)
+O1[21] O1[24] O1[44] O1[57] O1[110] O1[113] O1[137] O2[6] O2[19] O2[187] Cz[0] Cz[53] Cz[60] Cz[72] Cz[125] Cz[146] CPz[10] CPz[15] CPz[54] CPz[91] CPz[96] CPz[99] CPz[104] CPz[134] CP6[46] P4[31] P4[60] P4[105] P4[110] P4[119] P4[149] P4[153] P4[176]
+-- average 9
+flame: 204, selected features: (33)
+O1[3] O1[8] O1[13] O1[20] O1[31] O1[39] O1[42] O1[47] O1[59] O1[62] O1[65] O1[107] O1[119] O1[144] O1[151] O1[152] O1[162] O1[167] O2[27] O2[34] O2[39] O2[105] O2[110] O2[136] O2[158] O2[160] O2[177] O2[190] CP6[19] CP6[122] P3[98] P3[189] P3[201]
+-- average 10
+flame: 204, selected features: (32)
+O1[4] O1[12] O1[47] O1[92] O1[107] O1[152] O1[153] O2[10] O2[14] O2[21] O2[34] O2[104] O2[107] Cz[174] CPz[168] CP6[0] CP6[63] CP6[74] CP6[95] CP6[144] CP6[168] CP6[175] CP6[184] CP6[189] P3[58] P3[71] P3[111] P3[144] P3[173] P4[111] P4[112] P4[166]
+- decimate 2
+-- average 1
+flame: 102, selected features: (54)
+O1[0] O1[18] O1[25] O1[33] O1[36] O1[40] O1[53] O1[56] O1[62] O1[80] O2[0] O2[12] O2[15] O2[28] O2[42] O2[61] O2[75] O2[92] O2[95] O2[100] Cz[16] Cz[38] Cz[57] Cz[61] Cz[69] Cz[72] Cz[76] Cz[95] Cz[101] CPz[4] CP6[8] CP6[19] CP6[28] CP6[29] CP6[70] CP6[78] CP6[81] CP6[91] CP6[99] P3[5] P3[17] P3[24] P3[28] P3[43] P3[79] P3[96] P4[12] P4[38] P4[43] P4[50] P4[56] P4[61] P4[72] P4[101]
+-- average 2
+flame: 102, selected features: (60)
+O1[0] O1[3] O1[26] O1[33] O1[49] O1[67] O1[69] O1[78] O1[99] O2[4] O2[47] O2[55] O2[68] O2[73] O2[89] O2[90] Cz[16] Cz[36] Cz[38] Cz[48] Cz[69] Cz[72] Cz[92] Cz[100] Cz[101] CPz[7] CPz[34] CPz[48] CPz[58] CPz[100] CPz[101] CP5[7] CP5[16] CP5[34] CP5[40] CP5[53] CP5[90] CP5[99] CP6[27] CP6[30] CP6[46] CP6[54] CP6[60] CP6[70] CP6[82] CP6[88] CP6[92] P3[17] P3[59] P3[65] P3[71] P3[78] P4[6] P4[8] P4[21] P4[59] P4[72] P4[87] P4[92] P4[101]
+-- average 3
+flame: 102, selected features: (60)
+O1[23] O1[25] O1[47] O1[67] O1[78] O1[81] O1[98] O1[101] O2[5] O2[14] O2[30] O2[52] O2[56] O2[63] O2[99] Cz[5] Cz[7] Cz[14] Cz[15] Cz[16] Cz[36] Cz[39] Cz[46] Cz[48] Cz[67] Cz[72] Cz[74] Cz[75] Cz[78] Cz[81] Cz[86] Cz[92] CPz[69] CPz[94] P3[3] P3[5] P3[13] P3[17] P3[19] P3[22] P3[34] P3[35] P3[57] P3[63] P3[68] P3[78] P3[86] P3[99] P4[19] P4[35] P4[39] P4[54] P4[55] P4[58] P4[63] P4[67] P4[72] P4[77] P4[90] P4[92]
+-- average 4
+flame: 102, selected features: (60)
+O1[11] O1[22] O1[36] O1[40] O1[44] O1[46] O1[60] O1[61] O1[77] O1[81] O1[84] O1[86] O1[99] O2[41] O2[71] Cz[0] Cz[16] Cz[30] Cz[31] Cz[38] Cz[73] Cz[95] Cz[96] CPz[2] CPz[15] CPz[52] CPz[53] CPz[55] CPz[63] CPz[97] CPz[101] CP5[0] CP5[7] CP5[12] CP5[26] CP5[35] CP5[43] CP5[85] CP5[86] CP5[87] CP6[29] CP6[37] CP6[39] CP6[94] CP6[101] P3[36] P3[98] P4[1] P4[5] P4[9] P4[16] P4[34] P4[39] P4[53] P4[55] P4[61] P4[72] P4[76] P4[99] P4[101]
+-- average 5
+flame: 102, selected features: (60)
+O1[21] O1[26] O1[41] O1[65] O1[74] O1[79] O1[88] O1[98] O2[14] O2[38] O2[67] O2[74] O2[88] O2[98] Cz[0] Cz[21] Cz[42] Cz[46] Cz[54] Cz[58] Cz[67] Cz[73] Cz[76] Cz[95] Cz[99] CPz[4] CPz[59] CPz[79] CPz[94] CPz[97] CPz[101] CP5[84] CP6[4] CP6[5] CP6[28] CP6[29] CP6[34] CP6[45] CP6[61] CP6[73] CP6[80] P3[3] P3[28] P3[33] P3[41] P3[53] P3[79] P3[97] P4[8] P4[14] P4[24] P4[43] P4[48] P4[55] P4[57] P4[63] P4[67] P4[70] P4[73] P4[100]
+-- average 6
+flame: 102, selected features: (33)
+O1[0] O1[12] O1[59] O2[37] O2[101] Cz[20] Cz[38] Cz[73] Cz[88] CPz[6] CPz[45] CPz[48] CPz[73] CPz[92] CP5[43] CP5[49] CP5[50] CP5[74] CP5[76] CP5[78] CP5[80] CP5[84] CP5[95] CP5[98] CP5[100] CP6[17] CP6[67] CP6[70] P3[10] P3[19] P3[20] P3[50] P3[59]
+-- average 7
+flame: 102, selected features: (33)
+O1[20] O1[35] O1[81] O1[101] O2[5] O2[54] O2[73] O2[90] Cz[12] Cz[38] Cz[75] CPz[3] CPz[31] CPz[49] CP5[6] CP5[24] CP5[29] CP5[38] CP5[66] CP5[69] CP5[77] CP5[81] CP5[85] CP6[10] CP6[34] CP6[53] CP6[74] CP6[86] P3[5] P3[56] P3[57] P3[66] P4[96]
+-- average 8
+flame: 102, selected features: (33)
+O1[2] O1[3] O1[27] O1[40] Cz[13] Cz[38] Cz[53] Cz[67] Cz[70] Cz[73] Cz[76] Cz[96] CPz[8] CPz[50] CP6[9] CP6[21] CP6[34] CP6[53] CP6[63] CP6[101] P4[15] P4[35] P4[48] P4[54] P4[56] P4[63] P4[77] P4[79] P4[82] P4[92] P4[94] P4[96] P4[98]
+-- average 9
+flame: 102, selected features: (33)
+O1[8] O1[18] O1[26] O1[30] O1[42] O1[50] O1[52] O1[56] O1[78] O2[5] O2[11] O2[39] O2[73] O2[91] O2[100] Cz[5] Cz[101] CPz[10] CPz[19] CPz[21] CPz[39] CPz[46] CPz[72] CPz[83] CPz[88] CPz[90] CPz[92] P3[60] P3[91] P4[51] P4[52] P4[70] P4[82]
+-- average 10
+flame: 102, selected features: (33)
+O1[7] O1[26] O1[49] O1[54] O1[78] O1[79] O1[86] O2[19] O2[51] O2[87] Cz[64] CPz[56] CPz[65] CP5[14] CP5[51] CP6[14] CP6[21] CP6[32] CP6[43] CP6[48] CP6[74] CP6[80] CP6[92] CP6[94] CP6[100] P3[73] P4[17] P4[39] P4[58] P4[66] P4[70] P4[72] P4[87]
+- decimate 3
+-- average 1
+flame: 68, selected features: (58)
+O1[0] O1[11] O1[18] O1[35] O1[38] O1[42] O1[54] O2[14] O2[30] O2[45] O2[51] O2[56] O2[64] Cz[11] Cz[19] Cz[26] Cz[27] Cz[29] Cz[38] Cz[40] Cz[46] Cz[49] Cz[57] Cz[61] Cz[64] Cz[67] CPz[7] CPz[30] CP5[22] CP5[24] CP5[26] CP5[44] CP5[52] CP5[54] CP5[66] CP6[21] CP6[22] CP6[28] CP6[33] CP6[55] CP6[57] CP6[61] CP6[67] P3[17] P3[20] P3[27] P3[32] P3[46] P3[47] P3[49] P4[15] P4[26] P4[38] P4[44] P4[46] P4[49] P4[61] P4[63]
+-- average 2
+flame: 68, selected features: (60)
+O1[0] O1[3] O1[14] O1[15] O1[18] O1[21] O1[23] O1[28] O1[30] O1[33] O1[34] O1[45] O1[54] O2[5] O2[7] O2[15] O2[30] O2[35] O2[38] O2[50] O2[51] O2[64] Cz[0] Cz[11] Cz[22] Cz[24] Cz[27] Cz[29] Cz[40] Cz[41] Cz[47] Cz[49] Cz[61] Cz[62] CPz[13] CPz[14] CPz[64] CP6[55] CP6[60] P3[3] P3[4] P3[15] P3[17] P3[21] P3[25] P3[56] P3[59] P3[65] P4[7] P4[15] P4[22] P4[23] P4[24] P4[25] P4[28] P4[41] P4[49] P4[51] P4[61] P4[63]
+-- average 3
+flame: 68, selected features: (60)
+O1[0] O1[9] O1[11] O1[16] O1[18] O1[20] O1[24] O1[37] O1[39] O1[53] O1[54] O1[56] O1[66] O2[18] O2[20] O2[25] O2[31] O2[32] O2[33] O2[41] O2[42] O2[43] O2[65] Cz[1] Cz[8] Cz[12] Cz[21] Cz[27] Cz[38] Cz[40] Cz[48] Cz[49] Cz[51] Cz[62] Cz[64] CP5[17] CP5[46] CP5[63] CP6[21] CP6[37] CP6[47] CP6[52] CP6[53] CP6[57] P3[7] P3[19] P3[20] P3[51] P3[52] P3[54] P4[13] P4[18] P4[38] P4[41] P4[48] P4[49] P4[52] P4[55] P4[61] P4[62]
+-- average 4
+flame: 68, selected features: (60)
+O1[0] O1[9] O1[18] O1[21] O1[30] O1[45] O1[59] O1[60] O1[65] O2[7] O2[11] O2[13] O2[17] O2[20] O2[27] O2[30] O2[49] O2[52] O2[53] O2[55] O2[65] Cz[12] Cz[16] Cz[26] Cz[27] Cz[40] Cz[46] Cz[51] Cz[52] Cz[66] CPz[21] CPz[36] CPz[37] CP5[50] CP5[63] CP6[10] CP6[14] CP6[21] CP6[36] CP6[39] CP6[47] CP6[51] CP6[54] CP6[62] CP6[66] P3[2] P3[7] P3[13] P3[15] P3[39] P4[8] P4[25] P4[31] P4[34] P4[41] P4[44] P4[50] P4[57] P4[60] P4[62]
+-- average 5
+flame: 68, selected features: (60)
+O1[7] O1[17] O1[18] O1[22] O1[25] O1[31] O1[53] O1[63] O1[64] O1[67] Cz[26] Cz[47] Cz[50] Cz[53] Cz[56] CPz[2] CPz[22] CPz[34] CPz[35] CPz[37] CPz[54] CP6[12] CP6[14] CP6[17] CP6[24] CP6[27] CP6[29] CP6[34] CP6[43] CP6[50] CP6[51] CP6[53] CP6[65] CP6[66] P3[5] P3[6] P3[9] P3[17] P3[20] P3[21] P3[24] P3[28] P3[32] P3[33] P3[36] P3[44] P4[9] P4[10] P4[12] P4[15] P4[16] P4[18] P4[21] P4[30] P4[41] P4[42] P4[44] P4[61] P4[62] P4[67]
+-- average 6
+flame: 68, selected features: (34)
+O1[3] O1[8] O1[12] O1[13] O1[16] O1[21] O1[24] O1[47] O1[48] O1[51] O2[7] O2[10] O2[28] O2[45] O2[52] Cz[9] Cz[26] Cz[50] Cz[53] Cz[55] Cz[67] CP5[65] CP6[4] CP6[13] CP6[25] CP6[41] CP6[44] CP6[53] P4[1] P4[18] P4[19] P4[34] P4[38] P4[46]
+-- average 7
+flame: 68, selected features: (33)
+O1[2] O1[4] O1[10] O1[18] O1[42] O1[43] O1[50] O1[54] O1[55] O1[57] Cz[12] Cz[15] Cz[27] Cz[41] Cz[51] Cz[59] CPz[0] CPz[16] CPz[29] CPz[31] CPz[36] CPz[38] CPz[42] CPz[46] CPz[51] CPz[61] CP5[38] CP5[64] CP5[65] CP6[21] CP6[26] CP6[27] CP6[44]
+-- average 8
+flame: 68, selected features: (33)
+O1[3] O1[4] O1[16] O1[31] O1[34] O1[60] O2[27] Cz[22] Cz[26] Cz[32] Cz[34] Cz[46] Cz[51] Cz[53] Cz[55] Cz[58] CPz[7] CPz[37] CPz[40] CPz[51] CP6[24] CP6[51] CP6[60] P3[0] P4[9] P4[17] P4[18] P4[37] P4[41] P4[42] P4[46] P4[59] P4[60]
+-- average 9
+flame: 68, selected features: (34)
+O1[13] O1[18] O1[37] O1[38] O1[42] O1[53] O1[57] O2[0] O2[5] O2[13] O2[14] O2[18] O2[21] O2[25] O2[32] O2[33] O2[41] O2[47] O2[62] O2[67] Cz[7] Cz[17] Cz[24] Cz[27] Cz[33] CPz[20] CPz[56] CPz[62] CP5[66] P3[3] P3[4] P3[15] P3[27] P3[39]
+-- average 10
+flame: 68, selected features: (33)
+O1[13] O1[18] O1[22] O1[27] O1[53] O2[29] O2[30] CPz[29] CP5[35] CP5[48] CP5[49] CP5[59] CP5[60] CP6[0] CP6[8] CP6[14] CP6[20] CP6[22] CP6[24] CP6[27] CP6[43] CP6[47] CP6[55] CP6[56] CP6[61] P3[9] P3[28] P3[40] P4[6] P4[11] P4[28] P4[30] P4[64]
+- decimate 4
+-- average 1
+flame: 51, selected features: (48)
+O1[10] O1[29] O1[33] O1[41] O1[46] O2[9] O2[17] O2[23] O2[32] O2[39] O2[49] Cz[5] Cz[7] Cz[9] Cz[21] Cz[28] Cz[30] Cz[32] Cz[33] Cz[35] Cz[36] Cz[38] Cz[43] Cz[47] Cz[49] CPz[8] CP6[5] CP6[8] CP6[18] CP6[38] CP6[44] CP6[46] CP6[49] P3[18] P3[21] P3[25] P3[28] P3[35] P3[42] P4[20] P4[21] P4[30] P4[32] P4[33] P4[38] P4[39] P4[45] P4[47]
+-- average 2
+flame: 51, selected features: (25)
+O1[0] O1[14] O1[15] O1[18] O1[26] O1[35] O1[41] O2[4] O2[9] O2[23] O2[29] O2[49] Cz[5] Cz[9] Cz[21] Cz[31] Cz[36] Cz[40] Cz[46] CPz[6] CP6[11] CP6[46] P4[31] P4[36] P4[46]
+-- average 3
+flame: 51, selected features: (60)
+O1[0] O1[3] O1[15] O1[16] O1[18] O1[28] O1[29] O1[34] O1[37] O1[39] O1[40] O1[45] O2[4] O2[8] O2[17] O2[19] O2[27] O2[30] O2[35] O2[46] Cz[10] Cz[11] Cz[15] Cz[21] Cz[24] Cz[35] Cz[38] Cz[44] Cz[45] Cz[49] CPz[25] CP5[18] CP5[29] CP5[30] CP5[31] CP6[6] CP6[17] CP6[21] CP6[23] CP6[34] CP6[38] CP6[49] P3[6] P3[7] P3[17] P3[21] P3[35] P3[39] P3[41] P4[7] P4[19] P4[23] P4[24] P4[27] P4[29] P4[36] P4[38] P4[47] P4[48] P4[49]
+-- average 4
+flame: 51, selected features: (60)
+O1[5] O1[7] O1[12] O1[15] O1[16] O1[24] O1[35] O1[43] O1[45] O1[46] O1[49] O2[9] O2[10] O2[16] O2[23] O2[30] O2[33] O2[35] O2[37] O2[44] O2[45] O2[47] O2[48] Cz[10] Cz[20] Cz[21] Cz[28] Cz[36] Cz[38] Cz[50] CPz[4] CPz[7] CPz[28] CP5[20] CP5[21] CP5[29] CP5[33] CP5[37] CP5[39] CP5[44] CP5[45] CP6[4] CP6[6] CP6[7] CP6[10] CP6[11] CP6[23] CP6[30] CP6[40] CP6[47] P3[48] P4[3] P4[8] P4[29] P4[32] P4[34] P4[36] P4[45] P4[47] P4[48]
+-- average 5
+flame: 51, selected features: (60)
+O1[14] O1[19] O1[23] O1[24] O1[26] O1[27] O1[32] O1[39] O1[40] O1[41] O1[46] O1[49] O2[6] O2[11] O2[13] O2[14] O2[16] O2[24] O2[30] O2[32] O2[38] Cz[3] Cz[7] Cz[15] Cz[16] Cz[21] Cz[25] Cz[30] Cz[32] Cz[33] CP5[7] CP5[10] CP5[11] CP5[37] CP5[38] CP5[41] CP5[43] CP6[49] P3[0] P3[3] P3[9] P3[12] P3[16] P3[20] P3[32] P3[34] P3[39] P3[41] P3[42] P3[47] P3[49] P3[50] P4[0] P4[20] P4[24] P4[29] P4[39] P4[45] P4[46] P4[47]
+-- average 6
+flame: 51, selected features: (34)
+O1[11] O1[18] O1[34] O1[40] O1[42] O1[49] O2[8] Cz[7] Cz[16] Cz[20] Cz[21] Cz[23] Cz[35] Cz[38] Cz[49] CP5[40] CP6[7] CP6[9] CP6[11] CP6[27] CP6[33] CP6[34] CP6[38] CP6[47] P3[3] P3[8] P3[10] P3[47] P3[48] P4[5] P4[14] P4[25] P4[26] P4[34]
+-- average 7
+flame: 51, selected features: (34)
+O1[24] O1[35] O1[40] O1[42] O1[46] O2[1] O2[7] O2[8] O2[9] O2[16] O2[20] O2[23] Cz[20] Cz[21] Cz[28] Cz[33] Cz[39] Cz[40] Cz[43] Cz[48] CPz[23] CPz[37] CP6[16] CP6[17] CP6[19] CP6[29] CP6[40] CP6[42] CP6[45] P4[13] P4[26] P4[34] P4[43] P4[47]
+-- average 8
+flame: 51, selected features: (34)
+O1[0] O1[4] O1[10] O1[16] O1[20] O1[26] O1[27] O2[16] O2[29] Cz[3] Cz[21] Cz[38] Cz[46] Cz[48] Cz[50] CPz[31] CP6[5] CP6[12] CP6[24] CP6[33] P3[38] P3[39] P4[4] P4[6] P4[8] P4[10] P4[17] P4[18] P4[27] P4[32] P4[34] P4[37] P4[43] P4[46]
+-- average 9
+flame: 51, selected features: (34)
+O1[8] O1[14] O1[16] O1[23] O1[24] O1[29] O1[40] O1[46] O1[50] O2[4] O2[8] O2[20] O2[29] O2[30] O2[32] O2[40] O2[43] O2[47] O2[48] Cz[10] Cz[12] Cz[29] Cz[36] CPz[16] CPz[19] CPz[20] CPz[25] CPz[32] CPz[33] CPz[34] CPz[40] CP5[15] CP6[26] P4[5]
+-- average 10
+flame: 51, selected features: (34)
+O1[0] O1[3] O1[15] O1[22] O1[23] O1[27] O1[35] O1[40] O1[41] O1[44] O1[46] O2[4] O2[9] O2[10] O2[16] O2[29] O2[35] O2[37] O2[46] O2[48] Cz[0] Cz[7] Cz[9] Cz[12] Cz[21] Cz[23] Cz[28] Cz[38] P3[22] P3[36] P4[2] P4[9] P4[30] P4[46]
+- decimate 5
+-- average 1
+flame: 41, selected features: (39)
+O1[9] O1[22] O1[25] O1[27] O1[29] O1[34] O1[36] O2[4] O2[8] O2[15] O2[19] O2[26] O2[32] O2[40] Cz[7] Cz[8] Cz[17] Cz[24] Cz[25] Cz[29] Cz[30] Cz[32] Cz[38] Cz[40] CPz[9] CPz[20] CP6[7] CP6[15] CP6[16] CP6[30] CP6[36] CP6[38] CP6[39] P3[15] P3[17] P3[28] P3[29] P4[25] P4[38]
+-- average 2
+flame: 41, selected features: (25)
+O1[0] O1[10] O1[12] O1[22] O1[33] O2[4] O2[24] O2[32] O2[40] Cz[8] Cz[11] Cz[17] Cz[25] Cz[30] Cz[32] Cz[38] Cz[40] CPz[13] CP6[9] CP6[30] CP6[32] P4[14] P4[15] P4[25] P4[38]
+-- average 3
+flame: 41, selected features: (26)
+O1[0] O1[12] O1[25] O1[27] O1[28] O1[33] O1[34] O1[37] O2[3] O2[7] O2[14] Cz[8] Cz[14] Cz[17] Cz[25] Cz[29] Cz[32] Cz[38] Cz[40] CPz[10] P3[17] P3[29] P3[40] P4[22] P4[24] P4[38]
+-- average 4
+flame: 41, selected features: (60)
+O1[0] O1[2] O1[11] O1[12] O1[25] O1[29] O1[30] O1[33] O1[34] O1[35] O1[37] O1[38] O1[40] O2[5] O2[8] O2[18] O2[19] O2[23] O2[24] O2[28] O2[29] O2[33] O2[35] O2[37] O2[40] Cz[0] Cz[4] Cz[5] Cz[8] Cz[10] Cz[17] Cz[28] Cz[30] Cz[32] Cz[34] Cz[39] CPz[5] CPz[20] CPz[21] CPz[39] CPz[40] CP5[5] CP5[10] CP5[13] CP5[39] CP6[26] CP6[32] CP6[33] P3[2] P3[8] P3[11] P3[12] P4[0] P4[4] P4[17] P4[20] P4[22] P4[24] P4[26] P4[39]
+-- average 5
+flame: 41, selected features: (58)
+O1[3] O1[8] O1[9] O1[12] O1[16] O1[17] O1[21] O1[28] O1[33] O1[35] O1[37] O2[4] O2[7] O2[14] O2[35] O2[37] O2[40] Cz[0] Cz[8] Cz[9] Cz[13] Cz[16] Cz[17] Cz[18] Cz[20] Cz[29] Cz[30] Cz[36] Cz[40] CPz[8] CPz[10] CPz[21] CP5[26] CP5[28] CP5[31] CP5[37] CP6[11] CP6[18] CP6[28] CP6[29] CP6[31] CP6[32] P3[3] P3[8] P3[14] P3[15] P3[20] P3[27] P3[28] P3[29] P3[34] P3[36] P3[37] P4[4] P4[11] P4[12] P4[16] P4[19]
+-- average 6
+flame: 41, selected features: (34)
+O1[7] O1[13] O1[17] O1[18] O1[19] O1[23] O1[29] O1[30] O1[36] O1[37] O2[2] O2[9] O2[14] O2[18] O2[33] O2[35] Cz[18] Cz[20] Cz[21] Cz[22] Cz[27] Cz[31] Cz[40] CPz[15] CPz[38] CP5[38] CP6[30] P3[10] P3[19] P3[22] P4[13] P4[25] P4[31] P4[39]
+-- average 7
+flame: 41, selected features: (34)
+O1[4] O1[13] O1[20] O1[22] O1[32] O1[34] O2[1] O2[12] O2[21] O2[26] O2[27] O2[30] O2[39] Cz[13] Cz[16] Cz[17] Cz[30] Cz[31] CPz[0] CPz[26] CPz[30] CPz[31] CPz[38] CP5[20] CP5[26] CP5[32] CP5[33] CP5[37] CP5[39] CP6[3] CP6[11] CP6[20] P3[17] P4[17]
+-- average 8
+flame: 41, selected features: (34)
+O1[22] O1[23] O1[27] O1[28] O1[29] O1[37] O2[6] O2[8] O2[11] O2[29] O2[32] Cz[14] Cz[18] Cz[24] Cz[32] Cz[38] CPz[0] CPz[4] CPz[10] CPz[17] CP5[4] CP6[1] CP6[16] CP6[17] CP6[29] CP6[31] P3[13] P3[36] P4[4] P4[26] P4[27] P4[34] P4[38] P4[39]
+-- average 9
+flame: 41, selected features: (34)
+O1[4] O1[12] O1[14] O1[15] O1[24] O1[25] O1[33] O2[5] O2[6] O2[8] O2[9] O2[17] O2[23] O2[25] O2[34] O2[36] O2[38] CPz[1] CPz[6] CP5[12] CP6[4] CP6[11] CP6[18] CP6[21] CP6[38] P3[23] P3[28] P3[31] P3[38] P3[40] P4[6] P4[35] P4[36] P4[38]
+-- average 10
+flame: 41, selected features: (34)
+O1[0] O1[10] O1[11] O1[12] O1[23] O1[30] O1[33] O2[10] O2[22] O2[32] O2[35] O2[36] Cz[26] Cz[30] Cz[36] Cz[39] CPz[21] CP5[7] CP5[30] CP5[32] CP5[38] CP6[3] CP6[8] CP6[11] CP6[27] CP6[29] CP6[40] P3[3] P3[39] P4[1] P4[9] P4[17] P4[24] P4[38]
+- decimate 6
+-- average 1
+flame: 34, selected features: (40)
+O1[7] O1[19] O1[21] O1[23] O1[29] O2[7] O2[10] O2[12] O2[16] O2[23] O2[27] O2[30] O2[33] Cz[7] Cz[15] Cz[22] Cz[25] Cz[27] Cz[32] Cz[33] CPz[6] CPz[14] CPz[17] CP6[4] CP6[6] CP6[7] CP6[8] CP6[16] CP6[17] CP6[20] CP6[31] P3[5] P3[15] P3[24] P4[14] P4[20] P4[22] P4[26] P4[31] P4[32]
+-- average 2
+flame: 34, selected features: (18)
+O1[0] O1[11] O1[17] O1[24] O1[28] O2[4] O2[20] Cz[6] Cz[7] Cz[15] Cz[25] Cz[26] Cz[32] CPz[6] CPz[7] P4[22] P4[25] P4[32]
+-- average 3
+flame: 34, selected features: (54)
+O1[1] O1[2] O1[4] O1[5] O1[9] O1[10] O1[18] O1[20] O1[23] O1[28] O1[30] O2[0] O2[7] O2[8] O2[12] O2[19] O2[21] O2[28] O2[29] Cz[5] Cz[7] Cz[10] Cz[11] Cz[12] Cz[13] Cz[15] Cz[17] Cz[25] Cz[26] Cz[31] Cz[33] CPz[14] CP6[13] CP6[16] CP6[17] CP6[20] CP6[33] P3[2] P3[15] P3[21] P3[25] P3[26] P3[29] P4[10] P4[13] P4[14] P4[18] P4[20] P4[21] P4[26] P4[27] P4[31] P4[32] P4[33]
+-- average 4
+flame: 34, selected features: (17)
+O1[10] O1[13] O1[21] O1[31] O2[2] Cz[7] Cz[15] Cz[21] Cz[26] Cz[29] Cz[31] CPz[13] CP6[5] P4[20] P4[24] P4[30] P4[32]
+-- average 5
+flame: 34, selected features: (60)
+O1[2] O1[7] O1[11] O1[13] O1[20] O1[23] O1[26] O1[28] O2[2] O2[3] O2[5] O2[10] O2[15] O2[18] O2[20] O2[21] O2[28] O2[29] O2[30] O2[31] O2[32] Cz[6] Cz[7] Cz[11] Cz[15] Cz[23] Cz[25] Cz[31] Cz[32] CPz[5] CPz[7] CPz[9] CPz[10] CPz[14] CPz[23] CPz[25] CPz[29] CP5[10] CP5[13] CP5[22] CP5[23] CP5[26] CP6[15] CP6[17] CP6[18] P3[0] P3[5] P3[7] P3[9] P3[12] P3[23] P3[26] P3[29] P4[1] P4[15] P4[20] P4[24] P4[26] P4[29] P4[32]
+-- average 6
+flame: 34, selected features: (5)
+O1[23] Cz[15] Cz[26] P3[12] P3[19]
+-- average 7
+flame: 34, selected features: (34)
+O1[0] O1[10] O1[18] O1[23] O1[24] O1[26] O2[3] O2[6] O2[9] O2[17] O2[19] O2[20] O2[32] Cz[13] Cz[15] Cz[20] Cz[27] Cz[28] Cz[30] CPz[4] CPz[24] CPz[31] CP5[1] CP5[4] CP5[11] CP5[17] CP5[26] CP5[28] CP6[4] CP6[30] P4[18] P4[21] P4[22] P4[32]
+-- average 8
+flame: 34, selected features: (34)
+O1[15] O1[17] O1[22] O1[27] O1[30] O2[7] O2[21] O2[22] O2[32] Cz[0] Cz[1] Cz[2] Cz[4] Cz[15] Cz[17] Cz[18] Cz[19] Cz[20] Cz[26] Cz[27] Cz[28] Cz[31] Cz[32] CP6[1] CP6[20] CP6[33] P3[8] P4[0] P4[3] P4[11] P4[13] P4[14] P4[20] P4[21]
+-- average 9
+flame: 34, selected features: (34)
+O1[11] O1[12] O1[19] O1[23] O1[24] O1[28] O2[5] O2[7] O2[9] O2[16] O2[21] O2[31] O2[32] Cz[11] Cz[14] Cz[22] Cz[27] Cz[28] Cz[29] CP6[1] CP6[27] CP6[32] P3[6] P3[11] P3[17] P4[0] P4[4] P4[7] P4[14] P4[20] P4[29] P4[30] P4[31] P4[33]
+-- average 10
+flame: 34, selected features: (34)
+O1[9] O1[14] O1[18] O1[20] O1[27] O2[7] O2[8] O2[13] O2[15] O2[16] O2[19] O2[28] Cz[32] Cz[33] CP6[0] CP6[8] CP6[16] CP6[20] CP6[31] P3[0] P3[9] P3[17] P3[20] P3[21] P3[27] P4[4] P4[5] P4[15] P4[17] P4[20] P4[23] P4[24] P4[30] P4[32]
+- decimate 7
+-- average 1
+flame: 30, selected features: (24)
+O1[10] O1[17] O1[20] O1[28] Cz[13] Cz[20] Cz[22] Cz[28] CPz[16] CP5[9] CP5[18] CP6[6] CP6[16] CP6[17] CP6[27] P3[13] P3[21] P3[25] P4[4] P4[13] P4[17] P4[22] P4[27] P4[28]
+-- average 2
+flame: 30, selected features: (27)
+O1[8] O1[10] O1[15] O1[20] O1[25] O1[28] O2[28] Cz[7] Cz[10] Cz[13] Cz[17] Cz[18] Cz[22] Cz[23] Cz[29] CPz[7] CPz[10] P3[9] P3[10] P3[13] P3[22] P3[25] P4[3] P4[9] P4[18] P4[22] P4[29]
+-- average 3
+flame: 30, selected features: (23)
+O1[0] O1[10] O1[18] O1[21] O1[25] O2[4] O2[18] O2[23] Cz[7] Cz[11] Cz[13] Cz[19] Cz[21] Cz[23] Cz[26] Cz[28] CPz[5] CPz[8] P4[4] P4[14] P4[17] P4[23] P4[28]
+-- average 4
+flame: 30, selected features: (58)
+O1[0] O1[1] O1[3] O1[9] O1[10] O1[11] O1[17] O1[20] O1[21] O1[24] O1[25] O1[26] O1[27] O2[2] O2[13] O2[18] O2[24] O2[27] O2[28] O2[29] Cz[4] Cz[7] Cz[8] Cz[9] Cz[10] Cz[11] Cz[13] Cz[18] Cz[22] Cz[23] Cz[27] Cz[28] CPz[3] CPz[6] CPz[15] CPz[19] CP6[10] CP6[12] CP6[18] CP6[28] P3[0] P3[4] P3[5] P3[6] P3[14] P3[16] P3[17] P3[18] P3[19] P3[20] P3[24] P3[29] P4[4] P4[18] P4[19] P4[23] P4[24] P4[26]
+-- average 5
+flame: 30, selected features: (25)
+O1[1] O1[10] O1[12] O1[18] O2[2] O2[7] O2[8] O2[23] O2[28] Cz[5] Cz[7] Cz[8] Cz[12] Cz[22] Cz[27] CPz[7] CPz[13] P3[4] P3[8] P3[12] P3[22] P3[27] P4[17] P4[22] P4[23]
+-- average 6
+flame: 30, selected features: (34)
+O1[9] O1[14] O1[18] O1[21] O1[23] O1[26] O1[27] O2[2] O2[7] O2[11] O2[13] O2[19] O2[23] O2[24] O2[25] O2[27] O2[29] Cz[0] Cz[2] Cz[3] Cz[5] Cz[6] Cz[8] Cz[13] Cz[21] Cz[23] Cz[26] P3[15] P3[16] P4[4] P4[9] P4[14] P4[19] P4[23]
+-- average 7
+flame: 30, selected features: (34)
+O1[5] O1[10] O1[13] O1[19] O1[21] O2[6] O2[16] O2[19] O2[23] O2[24] O2[28] Cz[0] Cz[6] Cz[7] Cz[9] Cz[13] Cz[21] Cz[22] Cz[23] CPz[4] CPz[16] CPz[17] CPz[29] CP6[7] CP6[8] CP6[18] CP6[23] CP6[28] P3[5] P3[9] P3[10] P3[11] P3[17] P4[14]
+-- average 8
+flame: 30, selected features: (34)
+O1[4] O1[8] O1[14] O1[23] O1[28] O2[7] O2[29] Cz[5] Cz[9] Cz[13] Cz[14] Cz[19] Cz[22] Cz[23] CPz[0] CPz[4] CPz[8] CPz[18] CP5[1] CP6[12] CP6[14] CP6[21] P3[4] P4[2] P4[3] P4[7] P4[8] P4[11] P4[13] P4[14] P4[15] P4[19] P4[21] P4[28]
+-- average 9
+flame: 30, selected features: (34)
+O1[1] O1[2] O1[8] O1[10] O1[15] O1[17] O1[18] O1[20] O1[25] O1[27] O2[5] O2[9] O2[12] O2[20] Cz[7] Cz[11] Cz[12] Cz[15] Cz[16] Cz[19] Cz[22] Cz[26] CPz[28] CP6[24] P3[10] P3[12] P3[25] P4[3] P4[8] P4[16] P4[20] P4[22] P4[23] P4[28]
+-- average 10
+flame: 30, selected features: (34)
+O1[1] O1[5] O1[10] O1[24] O2[8] O2[21] Cz[5] Cz[12] Cz[13] Cz[19] Cz[22] Cz[23] Cz[25] Cz[27] Cz[28] CPz[23] CPz[26] CP5[8] CP5[10] CP6[4] CP6[6] CP6[8] CP6[10] CP6[17] CP6[19] CP6[28] P3[15] P3[21] P3[27] P4[6] P4[17] P4[19] P4[28] P4[29]
+- decimate 8
+-- average 1
+flame: 26, selected features: (21)
+O1[7] O1[9] O1[16] O1[18] O1[23] O2[25] Cz[6] Cz[12] Cz[17] Cz[19] Cz[20] Cz[25] CPz[6] CP6[24] P3[12] P3[19] P4[4] P4[16] P4[17] P4[20] P4[25]
+-- average 2
+flame: 26, selected features: (18)
+O1[0] O1[7] O1[9] O1[14] O1[18] O1[22] O2[0] Cz[6] Cz[12] Cz[16] Cz[20] Cz[25] CPz[6] CPz[16] P4[4] P4[16] P4[20] P4[25]
+-- average 3
+flame: 26, selected features: (14)
+O1[0] O1[9] O1[16] O2[0] Cz[6] Cz[12] Cz[16] Cz[19] Cz[20] Cz[25] P4[4] P4[16] P4[20] P4[25]
+-- average 4
+flame: 26, selected features: (16)
+O1[0] O1[1] O1[19] Cz[6] Cz[20] Cz[25] CP5[24] CP6[8] P3[0] P3[2] P3[13] P4[4] P4[9] P4[16] P4[17] P4[25]
+-- average 5
+flame: 26, selected features: (40)
+O1[2] O1[5] O1[7] O1[9] O1[11] O1[13] O1[14] O1[18] O1[19] O1[20] O1[22] O2[3] O2[6] O2[8] O2[13] O2[14] O2[17] O2[23] Cz[0] Cz[1] Cz[5] Cz[6] Cz[10] Cz[11] Cz[12] Cz[16] Cz[19] Cz[20] Cz[21] Cz[23] P3[12] P3[19] P3[20] P3[24] P4[0] P4[5] P4[11] P4[16] P4[19] P4[25]
+-- average 6
+flame: 26, selected features: (7)
+O1[19] O2[4] Cz[12] Cz[16] Cz[20] CPz[7] P4[4]
+-- average 7
+flame: 26, selected features: (13)
+O1[9] O1[16] O1[20] O1[23] O1[25] Cz[7] Cz[12] Cz[20] CPz[4] CPz[8] CPz[16] CP6[17] CP6[25]
+-- average 8
+flame: 26, selected features: (34)
+O1[5] O1[8] O1[12] O1[17] O1[19] O1[22] O2[20] O2[22] O2[23] Cz[4] Cz[6] Cz[9] Cz[12] Cz[13] Cz[14] Cz[15] Cz[16] Cz[20] CPz[6] CP5[0] CP5[2] CP5[3] CP6[17] CP6[18] CP6[19] CP6[22] P3[5] P3[16] P3[17] P3[23] P4[5] P4[17] P4[18] P4[25]
+-- average 9
+flame: 26, selected features: (34)
+O1[3] O1[7] O1[10] O1[19] O1[23] O2[21] Cz[6] Cz[12] Cz[20] Cz[21] Cz[24] CPz[9] CPz[25] CP5[4] CP5[7] CP5[11] CP5[17] CP5[22] CP5[23] CP6[5] CP6[7] CP6[22] CP6[23] P3[0] P3[4] P3[8] P3[10] P4[4] P4[8] P4[17] P4[18] P4[20] P4[24] P4[25]
+-- average 10
+flame: 26, selected features: (9)
+O1[12] O1[15] CP6[2] CP6[21] P4[4] P4[12] P4[16] P4[17] P4[25]
+- decimate 9
+-- average 1
+flame: 23, selected features: (18)
+O1[6] O1[8] O2[6] O2[8] Cz[6] Cz[11] Cz[13] Cz[15] Cz[18] Cz[22] P3[3] P3[10] P3[11] P3[18] P4[10] P4[14] P4[15] P4[22]
+-- average 2
+flame: 23, selected features: (18)
+O1[8] O1[13] O1[17] O1[20] O2[4] O2[6] O2[8] Cz[6] Cz[8] Cz[11] Cz[15] Cz[18] Cz[22] CPz[1] P3[11] P3[18] P4[15] P4[22]
+-- average 3
+flame: 23, selected features: (34)
+O1[0] O1[9] O1[14] O1[17] O1[20] O1[22] O2[3] O2[9] O2[20] Cz[2] Cz[6] Cz[7] Cz[8] Cz[18] Cz[21] Cz[22] CP5[0] CP5[17] CP5[20] CP5[22] CP6[8] CP6[9] CP6[12] CP6[15] CP6[19] CP6[21] P3[2] P3[5] P3[12] P3[17] P4[4] P4[15] P4[20] P4[22]
+-- average 4
+flame: 23, selected features: (17)
+O1[0] O1[8] O1[15] O1[16] O1[17] O1[18] O2[3] O2[6] O2[15] O2[18] O2[21] Cz[11] Cz[16] Cz[18] Cz[21] P4[6] P4[22]
+-- average 5
+flame: 23, selected features: (40)
+O1[0] O1[8] O1[9] O1[10] O1[13] O1[14] O1[17] O1[20] O1[21] O1[22] O2[2] O2[6] O2[7] O2[10] O2[21] Cz[2] Cz[6] Cz[7] Cz[11] Cz[12] Cz[16] Cz[18] Cz[22] CPz[9] CPz[14] CPz[19] CPz[20] CP6[3] CP6[5] CP6[18] CP6[21] CP6[22] P3[4] P3[5] P3[14] P3[17] P4[13] P4[15] P4[17] P4[22]
+-- average 6
+flame: 23, selected features: (34)
+O1[11] O1[15] O1[17] O1[21] O1[22] O2[4] O2[5] O2[7] O2[15] O2[16] Cz[10] Cz[11] Cz[12] Cz[18] Cz[20] CPz[4] CPz[5] CPz[10] CPz[11] CP5[3] CP5[14] CP5[18] CP5[20] CP6[6] CP6[11] CP6[12] CP6[14] P4[1] P4[3] P4[5] P4[8] P4[15] P4[20] P4[22]
+-- average 7
+flame: 23, selected features: (8)
+O1[2] O1[9] O1[12] O1[21] Cz[11] Cz[18] P3[11] P3[17]
+-- average 8
+flame: 23, selected features: (9)
+O1[17] O2[5] O2[6] O2[8] O2[15] O2[22] Cz[11] Cz[18] Cz[19]
+-- average 9
+flame: 23, selected features: (34)
+O1[9] O1[17] O1[20] O1[22] O2[6] Cz[6] Cz[11] Cz[12] Cz[16] Cz[18] Cz[19] CPz[3] CPz[9] CP5[3] CP5[5] CP5[9] CP5[12] CP5[13] CP5[16] CP5[22] CP6[0] CP6[13] CP6[14] CP6[20] P3[4] P3[11] P3[13] P3[15] P3[18] P3[21] P4[2] P4[14] P4[16] P4[22]
+-- average 10
+flame: 23, selected features: (12)
+O1[6] O1[16] Cz[5] Cz[6] Cz[7] Cz[11] Cz[18] P4[4] P4[5] P4[14] P4[15] P4[22]
+- decimate 10
+-- average 1
+flame: 21, selected features: (39)
+O1[6] O1[8] O1[11] O1[12] O1[14] O1[18] O2[8] O2[15] Cz[0] Cz[6] Cz[7] Cz[9] Cz[10] Cz[12] Cz[15] Cz[17] Cz[20] CPz[2] CPz[3] CPz[9] CPz[12] CP5[0] CP5[3] CP5[4] CP5[5] CP6[13] CP6[20] P3[6] P3[7] P3[10] P3[13] P3[15] P3[17] P4[9] P4[12] P4[13] P4[15] P4[17] P4[20]
+-- average 2
+flame: 21, selected features: (24)
+O1[1] O1[7] O1[8] O1[12] O1[15] O1[18] O2[14] O2[15] Cz[6] Cz[10] Cz[15] Cz[17] Cz[19] Cz[20] CPz[6] CPz[9] P3[9] P3[19] P3[20] P4[2] P4[13] P4[15] P4[17] P4[20]
+-- average 3
+flame: 21, selected features: (17)
+O1[0] O1[8] O1[13] O1[15] O1[18] O2[3] Cz[6] Cz[7] Cz[10] Cz[14] Cz[16] Cz[17] Cz[20] P3[10] P3[19] P4[14] P4[20]
+-- average 4
+flame: 21, selected features: (10)
+O1[15] O1[16] O2[18] O2[20] Cz[6] Cz[10] Cz[17] P3[3] P4[4] P4[14]
+-- average 5
+flame: 21, selected features: (11)
+O1[8] O1[15] Cz[1] CPz[13] CPz[17] CPz[20] P4[3] P4[10] P4[13] P4[17] P4[20]
+-- average 6
+flame: 21, selected features: (34)
+O1[3] O1[13] O1[16] O1[19] O1[20] O2[4] O2[5] O2[8] O2[9] Cz[1] Cz[10] Cz[13] Cz[15] Cz[17] Cz[19] Cz[20] CPz[4] CPz[9] CPz[20] CP5[0] CP5[1] CP5[7] CP5[11] CP5[15] CP5[16] CP6[0] CP6[2] CP6[4] CP6[9] CP6[18] P4[13] P4[17] P4[18] P4[19]
+-- average 7
+flame: 21, selected features: (34)
+O1[8] O1[9] O1[10] O1[16] O2[5] O2[14] O2[15] O2[19] Cz[4] Cz[6] Cz[10] Cz[13] Cz[17] Cz[20] CPz[2] CPz[9] CPz[14] CPz[16] CPz[19] CP5[1] CP6[4] CP6[8] CP6[9] CP6[11] CP6[12] CP6[14] P3[0] P3[5] P3[18] P4[0] P4[13] P4[14] P4[15] P4[20]
+-- average 8
+flame: 21, selected features: (11)
+O1[10] O1[16] O2[5] O2[7] Cz[0] Cz[2] Cz[10] Cz[13] Cz[17] CPz[20] P4[16]
+-- average 9
+flame: 21, selected features: (34)
+O1[3] O1[5] O1[8] O1[14] O1[19] O2[19] Cz[6] Cz[8] Cz[10] Cz[12] Cz[17] Cz[18] Cz[20] CPz[10] CPz[13] CPz[14] CP5[7] CP5[8] CP5[18] CP6[2] CP6[7] CP6[14] CP6[18] CP6[20] P3[2] P3[15] P3[16] P4[4] P4[8] P4[9] P4[13] P4[16] P4[18] P4[20]
+-- average 10
+flame: 21, selected features: (14)
+O1[5] O1[7] O1[14] O1[15] Cz[10] Cz[17] CPz[10] CP5[9] CP6[0] P3[12] P4[13] P4[14] P4[18] P4[20]
+- decimate 11
+-- average 1
+flame: 19, selected features: (20)
+O1[5] O1[7] O1[10] O1[11] O1[14] O1[17] O2[3] Cz[6] Cz[12] Cz[14] Cz[16] Cz[17] Cz[18] CPz[6] CPz[9] P4[6] P4[9] P4[12] P4[14] P4[18]
+-- average 2
+flame: 19, selected features: (18)
+O1[5] O1[7] O1[11] O1[16] O1[17] O2[3] O2[7] Cz[6] Cz[9] Cz[14] Cz[16] Cz[17] CPz[6] CPz[16] P4[9] P4[13] P4[14] P4[17]
+-- average 3
+flame: 19, selected features: (17)
+O1[1] O1[7] O1[12] O1[13] O1[17] O2[3] O2[8] Cz[4] Cz[14] Cz[16] Cz[17] P3[12] P3[14] P4[3] P4[8] P4[13] P4[17]
+-- average 4
+flame: 19, selected features: (10)
+O1[14] O2[18] Cz[6] Cz[10] Cz[16] CPz[4] CPz[17] P4[3] P4[13] P4[18]
+-- average 5
+flame: 19, selected features: (22)
+O1[3] O1[7] O1[10] O1[15] O1[16] O2[0] O2[5] O2[7] O2[11] Cz[3] Cz[8] Cz[10] Cz[13] Cz[16] Cz[17] CPz[4] CPz[5] CPz[9] P4[13] P4[15] P4[17] P4[18]
+-- average 6
+flame: 19, selected features: (34)
+O1[4] O1[5] O1[10] O1[12] O1[13] O1[15] O1[18] O2[5] O2[6] O2[12] O2[14] Cz[0] Cz[2] Cz[3] Cz[4] Cz[9] Cz[10] Cz[16] Cz[18] CP5[10] CP5[16] CP6[1] CP6[2] CP6[5] CP6[6] CP6[8] P3[0] P3[1] P3[2] P3[9] P3[17] P4[5] P4[16] P4[18]
+-- average 7
+flame: 19, selected features: (12)
+O1[8] O1[11] O1[14] O1[15] O1[18] O2[5] Cz[10] Cz[16] Cz[17] CPz[18] CP6[8] P4[13]
+-- average 8
+flame: 19, selected features: (16)
+O1[4] O1[10] O1[15] O1[16] O2[5] O2[7] O2[14] O2[18] Cz[0] Cz[3] Cz[10] Cz[16] CPz[6] CPz[9] CP5[16] P4[17]
+-- average 9
+flame: 19, selected features: (15)
+O1[6] O1[7] O1[11] Cz[0] Cz[6] Cz[9] Cz[14] Cz[16] Cz[17] P3[3] P3[6] P4[6] P4[9] P4[13] P4[18]
+-- average 10
+flame: 19, selected features: (19)
+O1[0] O1[6] O1[9] Cz[0] Cz[14] Cz[15] Cz[16] Cz[17] CPz[10] P3[2] P3[3] P3[7] P3[8] P3[13] P3[15] P4[10] P4[13] P4[16] P4[18]
+- decimate 12
+-- average 1
+flame: 17, selected features: (21)
+O1[5] O1[7] O1[11] O1[13] O1[16] O2[13] O2[15] Cz[0] Cz[5] Cz[9] Cz[13] Cz[15] Cz[16] CPz[0] P3[3] P3[9] P3[13] P4[9] P4[12] P4[13] P4[16]
+-- average 2
+flame: 17, selected features: (27)
+O1[5] O1[7] O1[11] O1[13] O1[15] O1[16] O2[4] O2[7] O2[15] O2[16] Cz[0] Cz[5] Cz[9] Cz[13] Cz[15] Cz[16] CPz[6] CPz[9] CPz[13] CP5[1] CP5[10] CP5[12] P3[0] P3[8] P3[13] P4[12] P4[15]
+-- average 3
+flame: 17, selected features: (31)
+O1[1] O1[2] O1[3] O1[11] O1[12] O1[13] O2[3] O2[5] O2[7] O2[15] O2[16] Cz[8] Cz[9] Cz[14] Cz[15] Cz[16] CPz[5] CPz[12] CPz[13] CP5[1] CP5[5] CP5[8] CP6[10] P3[12] P3[13] P3[14] P4[5] P4[7] P4[8] P4[12] P4[13]
+-- average 4
+flame: 17, selected features: (13)
+O1[0] O1[6] O1[13] O1[16] O2[12] Cz[5] Cz[9] Cz[14] Cz[15] P3[0] P3[3] P4[3] P4[12]
+-- average 5
+flame: 17, selected features: (23)
+O1[1] O1[2] O1[3] O1[6] O1[7] O1[11] O1[13] O1[16] O2[5] O2[15] O2[16] Cz[2] Cz[5] Cz[7] Cz[8] Cz[9] Cz[12] Cz[14] Cz[16] CPz[15] P4[7] P4[9] P4[12]
+-- average 6
+flame: 17, selected features: (7)
+O1[9] O1[14] O2[5] Cz[9] Cz[15] Cz[16] P4[12]
+-- average 7
+flame: 17, selected features: (7)
+Cz[13] Cz[15] Cz[16] CP5[0] CP6[16] P4[3] P4[12]
+-- average 8
+flame: 17, selected features: (8)
+O1[6] Cz[9] Cz[15] CPz[0] CPz[3] CPz[6] P3[5] P3[6]
+-- average 9
+flame: 17, selected features: (15)
+O1[5] O1[9] O1[12] O1[14] O2[7] O2[12] Cz[9] Cz[15] Cz[16] CPz[8] CP5[5] CP5[12] CP6[12] P4[4] P4[12]
+-- average 10
+flame: 17, selected features: (16)
+O1[3] O1[13] O2[3] O2[7] O2[9] O2[11] O2[12] O2[15] O2[16] Cz[7] Cz[8] Cz[11] Cz[15] Cz[16] P4[11] P4[12]
+- decimate 13
+-- average 1
+flame: 16, selected features: (13)
+O1[5] O1[10] O2[3] Cz[0] Cz[5] Cz[8] Cz[11] Cz[13] Cz[14] CPz[5] CPz[13] P4[8] P4[11]
+-- average 2
+flame: 16, selected features: (21)
+O1[6] O1[10] O1[13] O1[14] O2[4] O2[7] O2[12] O2[15] Cz[0] Cz[5] Cz[7] Cz[8] Cz[11] Cz[13] Cz[14] Cz[15] CPz[1] CPz[2] CPz[13] P4[8] P4[11]
+-- average 3
+flame: 16, selected features: (20)
+O1[0] O1[10] O1[11] O2[3] O2[5] O2[7] O2[15] Cz[4] Cz[5] Cz[7] Cz[8] Cz[13] Cz[14] Cz[15] P3[11] P3[13] P4[0] P4[8] P4[11] P4[13]
+-- average 4
+flame: 16, selected features: (13)
+O1[0] O1[7] O1[11] O1[13] O1[15] O2[4] Cz[5] Cz[7] Cz[8] Cz[13] Cz[14] Cz[15] P4[11]
+-- average 5
+flame: 16, selected features: (17)
+O1[1] O1[6] O1[9] O1[12] O1[14] O2[0] O2[3] O2[6] O2[7] O2[14] O2[15] Cz[0] Cz[5] Cz[11] Cz[15] P4[11] P4[14]
+-- average 6
+flame: 16, selected features: (15)
+O1[1] O1[2] O1[6] O1[8] O1[13] O2[4] O2[5] O2[7] Cz[9] Cz[14] CPz[6] CPz[10] CP6[0] CP6[2] P4[11]
+-- average 7
+flame: 16, selected features: (17)
+O1[5] O1[7] O1[13] O1[15] O2[5] O2[10] Cz[5] Cz[9] Cz[13] Cz[14] CP6[6] CP6[10] CP6[15] P3[0] P3[1] P3[4] P4[12]
+-- average 8
+flame: 16, selected features: (9)
+O1[6] O1[10] O1[12] O1[15] Cz[9] Cz[14] CPz[0] CPz[3] CPz[6]
+-- average 9
+flame: 16, selected features: (6)
+O1[2] O1[11] Cz[8] Cz[13] CPz[3] CP5[1]
+-- average 10
+flame: 16, selected features: (20)
+O2[4] O2[7] O2[10] Cz[5] Cz[7] Cz[12] Cz[14] CP6[0] CP6[4] CP6[6] CP6[14] P3[4] P3[5] P3[6] P3[8] P3[10] P3[12] P3[15] P4[10] P4[15]
+- decimate 14
+-- average 1
+flame: 15, selected features: (18)
+O1[1] O1[4] O1[6] O1[10] O1[14] O2[3] Cz[0] Cz[5] Cz[8] Cz[12] Cz[14] CPz[5] CPz[10] CPz[12] P4[8] P4[10] P4[12] P4[13]
+-- average 2
+flame: 15, selected features: (18)
+O1[0] O1[6] O1[10] O1[12] O1[13] O1[14] O2[3] O2[11] Cz[5] Cz[8] Cz[10] Cz[12] Cz[13] Cz[14] P4[8] P4[10] P4[12] P4[14]
+-- average 3
+flame: 15, selected features: (19)
+O1[1] O1[6] O1[10] O1[12] O1[14] O2[3] O2[5] O2[7] Cz[1] Cz[5] Cz[6] Cz[8] Cz[12] Cz[13] Cz[14] P3[10] P3[12] P4[8] P4[10]
+-- average 4
+flame: 15, selected features: (12)
+O1[1] O1[6] O1[10] O1[12] O1[14] O2[0] O2[3] Cz[5] Cz[8] Cz[12] Cz[13] P4[11]
+-- average 5
+flame: 15, selected features: (25)
+O1[1] O1[6] O1[9] O1[10] O1[12] O1[13] O1[14] O2[2] O2[5] O2[7] O2[10] O2[13] O2[14] Cz[0] Cz[5] Cz[10] CP5[6] CP5[11] CP6[4] CP6[5] P3[7] P3[12] P3[14] P4[10] P4[13]
+-- average 6
+flame: 15, selected features: (19)
+O1[1] O1[12] O1[14] O2[1] O2[5] Cz[0] Cz[2] Cz[3] Cz[8] Cz[9] Cz[13] CP5[7] CP5[9] CP5[10] P3[0] P3[4] P3[6] P4[6] P4[10]
+-- average 7
+flame: 15, selected features: (5)
+O1[12] O1[14] Cz[8] Cz[13] Cz[14]
+-- average 8
+flame: 15, selected features: (13)
+O1[7] O1[11] O1[13] O1[14] O2[5] Cz[8] Cz[13] CPz[0] CPz[2] CPz[6] CPz[7] CP6[14] P4[12]
+-- average 9
+flame: 15, selected features: (7)
+O1[1] Cz[8] Cz[11] Cz[13] CPz[14] P4[8] P4[11]
+-- average 10
+flame: 15, selected features: (17)
+O1[6] O1[10] O1[12] O1[14] O2[3] O2[5] O2[6] Cz[4] Cz[5] Cz[9] Cz[13] CPz[5] CPz[7] CP6[0] CP6[6] P4[10] P4[13]
+- decimate 15
+-- average 1
+flame: 14, selected features: (18)
+O1[5] O1[10] O1[13] O2[3] O2[7] O2[10] Cz[0] Cz[8] Cz[9] Cz[12] P3[2] P3[6] P3[8] P3[12] P4[7] P4[8] P4[9] P4[10]
+-- average 2
+flame: 14, selected features: (13)
+O1[1] O1[6] O1[10] O1[12] O1[13] O2[2] Cz[5] Cz[8] Cz[9] Cz[12] P4[8] P4[9] P4[10]
+-- average 3
+flame: 14, selected features: (9)
+O1[3] O1[10] O2[3] Cz[5] Cz[8] Cz[12] P3[8] P3[12] P4[10]
+-- average 4
+flame: 14, selected features: (9)
+O1[3] O1[5] O1[10] O1[11] O2[3] Cz[5] Cz[8] Cz[12] P4[10]
+-- average 5
+flame: 14, selected features: (22)
+O1[3] O1[4] O1[6] O1[8] O1[10] O1[13] O2[2] O2[3] O2[5] O2[6] O2[10] Cz[0] Cz[5] Cz[6] Cz[10] Cz[12] Cz[13] CP5[13] P3[5] P3[12] P4[10] P4[13]
+-- average 6
+flame: 14, selected features: (9)
+O1[10] O1[12] O2[4] Cz[8] Cz[12] CPz[9] CP6[1] CP6[12] P3[11]
+-- average 7
+flame: 14, selected features: (13)
+O1[3] O1[6] O1[10] O1[12] O1[13] O2[4] O2[9] Cz[5] Cz[6] Cz[8] Cz[12] CP6[13] P4[0]
+-- average 8
+flame: 14, selected features: (8)
+O1[5] O1[6] O1[13] O2[4] Cz[5] Cz[12] P4[4] P4[11]
+-- average 9
+flame: 14, selected features: (5)
+O1[2] O1[10] Cz[5] Cz[8] Cz[12]
+-- average 10
+flame: 14, selected features: (19)
+O1[2] O1[5] Cz[0] Cz[5] Cz[6] Cz[9] Cz[11] Cz[12] Cz[13] CPz[8] P3[2] P3[3] P3[6] P4[0] P4[1] P4[3] P4[10] P4[11] P4[13]
+- decimate 16
+-- average 1
+flame: 13, selected features: (12)
+O1[0] O1[5] O1[9] O2[3] Cz[4] Cz[8] Cz[9] Cz[11] P4[4] P4[8] P4[9] P4[10]
+-- average 2
+flame: 13, selected features: (18)
+O1[0] O1[5] O1[9] O1[11] O1[12] O2[3] O2[6] O2[7] Cz[0] Cz[5] Cz[8] Cz[9] Cz[11] Cz[12] CPz[5] CPz[11] P4[10] P4[12]
+-- average 3
+flame: 13, selected features: (18)
+O1[0] O1[9] O1[10] O2[3] O2[5] O2[6] Cz[4] Cz[6] Cz[8] Cz[9] Cz[11] Cz[12] P3[8] P3[10] P3[11] P3[12] P4[10] P4[11]
+-- average 4
+flame: 13, selected features: (10)
+O1[2] O1[9] O1[11] O2[3] Cz[5] Cz[6] Cz[7] Cz[11] Cz[12] P4[9]
+-- average 5
+flame: 13, selected features: (10)
+O1[1] O1[6] O2[3] O2[6] Cz[5] Cz[10] CP6[0] CP6[5] P4[10] P4[12]
+-- average 6
+flame: 13, selected features: (9)
+O1[11] O2[4] O2[6] Cz[8] Cz[12] CP6[0] CP6[11] P4[2] P4[4]
+-- average 7
+flame: 13, selected features: (6)
+O1[5] O1[6] O2[4] Cz[5] Cz[12] P4[10]
+-- average 8
+flame: 13, selected features: (4)
+O1[10] Cz[8] Cz[12] CPz[5]
+-- average 9
+flame: 13, selected features: (12)
+O1[6] O1[10] O2[4] Cz[5] Cz[12] CPz[5] CPz[10] CP5[5] CP5[8] P3[1] P3[3] P4[9]
+-- average 10
+flame: 13, selected features: (13)
+O1[5] O1[9] O2[4] Cz[5] Cz[9] Cz[11] Cz[12] CP5[0] CP5[8] CP6[6] CP6[7] CP6[12] P4[9]
+- decimate 17
+-- average 1
+flame: 12, selected features: (10)
+O1[5] O1[9] O2[3] Cz[4] Cz[9] Cz[11] CPz[4] CPz[7] P4[7] P4[9]
+-- average 2
+flame: 12, selected features: (13)
+O1[0] O1[5] O1[9] O2[3] O2[6] Cz[0] Cz[5] Cz[7] Cz[9] Cz[11] P4[6] P4[7] P4[9]
+-- average 3
+flame: 12, selected features: (9)
+O1[2] O1[5] O1[9] O2[4] Cz[5] Cz[6] Cz[7] Cz[11] P4[9]
+-- average 4
+flame: 12, selected features: (10)
+O1[3] O1[5] O1[9] O1[10] O2[3] Cz[5] Cz[6] Cz[7] Cz[11] P4[9]
+-- average 5
+flame: 12, selected features: (12)
+O1[1] O1[9] O2[3] O2[6] O2[7] Cz[0] CPz[9] CP5[11] CP6[5] P4[8] P4[10] P4[11]
+-- average 6
+flame: 12, selected features: (15)
+O1[10] O1[11] O2[4] O2[6] Cz[0] Cz[1] Cz[7] Cz[8] Cz[11] P3[6] P3[7] P3[8] P3[9] P4[6] P4[9]
+-- average 7
+flame: 12, selected features: (9)
+O1[5] O1[8] O1[10] O2[4] Cz[5] Cz[7] Cz[11] P3[7] P4[10]
+-- average 8
+flame: 12, selected features: (6)
+O1[10] Cz[7] Cz[11] CP5[0] CP5[3] P3[7]
+-- average 9
+flame: 12, selected features: (10)
+O1[5] O1[8] Cz[0] Cz[5] Cz[7] Cz[10] Cz[11] P3[1] P3[3] P3[10]
+-- average 10
+flame: 12, selected features: (7)
+Cz[5] Cz[6] Cz[11] P3[2] P4[0] P4[3] P4[10]
+- decimate 18
+-- average 1
+flame: 12, selected features: (12)
+O1[0] O1[5] O1[9] O2[4] O2[9] O2[11] Cz[4] Cz[9] P4[4] P4[8] P4[9] P4[11]
+-- average 2
+flame: 12, selected features: (22)
+O1[5] O1[9] O1[11] O2[3] O2[6] O2[7] O2[9] Cz[0] Cz[5] Cz[7] Cz[8] Cz[9] Cz[10] Cz[11] CPz[1] P3[0] P3[7] P3[10] P4[6] P4[8] P4[9] P4[11]
+-- average 3
+flame: 12, selected features: (9)
+O1[3] O1[5] O1[9] O2[2] Cz[4] Cz[7] Cz[10] Cz[11] P4[9]
+-- average 4
+flame: 12, selected features: (10)
+O1[0] O1[5] O1[9] O2[3] Cz[5] Cz[6] Cz[7] Cz[10] Cz[11] P4[9]
+-- average 5
+flame: 12, selected features: (8)
+O1[5] O1[11] O2[0] O2[2] O2[8] Cz[5] Cz[11] P4[9]
+-- average 6
+flame: 12, selected features: (12)
+O1[1] O1[8] O1[10] O2[0] O2[4] Cz[7] Cz[11] CPz[10] CP6[0] CP6[5] P4[0] P4[5]
+-- average 7
+flame: 12, selected features: (6)
+O1[5] O1[10] O2[4] Cz[5] Cz[11] P4[9]
+-- average 8
+flame: 12, selected features: (4)
+O1[5] Cz[7] Cz[11] CPz[5]
+-- average 9
+flame: 12, selected features: (18)
+O1[4] O1[5] O1[9] O2[7] O2[10] Cz[5] Cz[6] Cz[11] CPz[9] CP5[5] CP5[6] CP6[4] CP6[6] P3[3] P4[0] P4[1] P4[3] P4[9]
+-- average 10
+flame: 12, selected features: (10)
+O1[9] O2[4] O2[6] Cz[0] Cz[3] Cz[5] Cz[11] P4[8] P4[9] P4[11]
+- decimate 19
+-- average 1
+flame: 11, selected features: (11)
+O1[5] O1[9] O2[3] O2[5] O2[6] Cz[4] Cz[7] Cz[8] Cz[10] P4[7] P4[8]
+-- average 2
+flame: 11, selected features: (16)
+O1[5] O1[9] O2[2] O2[6] O2[7] O2[10] Cz[0] Cz[5] Cz[7] Cz[8] Cz[10] CPz[3] P3[7] P3[10] P4[6] P4[8]
+-- average 3
+flame: 11, selected features: (11)
+O1[3] O1[5] O1[9] O2[1] O2[2] Cz[5] Cz[7] Cz[8] Cz[10] P4[6] P4[9]
+-- average 4
+flame: 11, selected features: (9)
+O1[2] O1[5] O1[9] O2[2] Cz[5] Cz[6] Cz[7] Cz[10] P4[9]
+-- average 5
+flame: 11, selected features: (9)
+O1[1] O1[5] O1[8] O2[2] CPz[7] CPz[8] P4[7] P4[8] P4[10]
+-- average 6
+-- average 7
+flame: 11, selected features: (11)
+O1[9] O2[4] O2[6] Cz[5] Cz[7] Cz[10] CPz[2] CP5[1] P3[7] P3[9] P4[0]
+-- average 8
+flame: 11, selected features: (9)
+O1[9] O2[4] Cz[0] Cz[3] Cz[5] Cz[6] Cz[7] Cz[10] P4[7]
+-- average 9
+flame: 11, selected features: (5)
+O1[1] O1[5] O1[9] O1[10] O2[4]
+-- average 10
+flame: 11, selected features: (23)
+O1[6] O1[8] O1[9] O2[1] O2[4] O2[6] O2[7] Cz[0] Cz[4] Cz[5] Cz[8] Cz[10] CP5[6] CP6[0] CP6[2] CP6[5] CP6[6] CP6[10] P3[4] P3[5] P4[3] P4[4] P4[8]
+- decimate 20
+-- average 1
+flame: 11, selected features: (9)
+O1[5] O1[8] O2[3] Cz[4] Cz[7] Cz[8] Cz[10] P4[7] P4[8]
+-- average 2
+flame: 11, selected features: (10)
+O1[0] O1[5] O1[8] O2[2] Cz[5] Cz[7] Cz[8] Cz[10] P4[7] P4[8]
+-- average 3
+flame: 11, selected features: (4)
+O1[2] O1[8] Cz[7] Cz[10]
+-- average 4
+flame: 11, selected features: (11)
+O1[2] O1[5] O1[9] O2[0] O2[2] Cz[5] Cz[7] Cz[9] Cz[10] P4[9] P4[10]
+-- average 5
+flame: 11, selected features: (17)
+O1[1] O1[8] O2[2] O2[5] O2[6] O2[7] O2[8] Cz[1] Cz[7] Cz[8] CPz[6] CPz[10] P3[7] P3[10] P4[2] P4[8] P4[10]
+-- average 6
+flame: 11, selected features: (5)
+O1[9] O2[4] Cz[7] Cz[10] P4[6]
+-- average 7
+flame: 11, selected features: (8)
+O1[5] O1[9] O2[2] Cz[5] Cz[10] CP6[5] CP6[7] P4[4]
+-- average 8
+flame: 11, selected features: (6)
+O1[9] Cz[7] Cz[10] CPz[0] CPz[3] CPz[5]
+-- average 9
+flame: 11, selected features: (5)
+O1[5] O1[8] O1[10] O2[0] O2[2]
+-- average 10
+flame: 11, selected features: (8)
+Cz[5] Cz[6] Cz[10] P3[0] P3[1] P4[0] P4[3] P4[9]
+swlda - riken - 2 - average
+- decimate 1
+-- average 1
+flame: 204, selected features: (56)
+O1[20] O1[43] O1[80] O1[90] O1[102] O2[0] O2[11] O2[30] O2[54] O2[96] O2[112] O2[119] O2[135] O2[154] O2[157] O2[179] O2[184] O2[191] O2[196] Cz[10] Cz[39] Cz[73] Cz[106] Cz[169] Cz[180] CPz[39] CPz[73] CPz[103] CPz[173] CPz[185] CP5[16] CP5[30] CP5[153] CP5[159] CP5[177] CP6[8] CP6[19] CP6[103] CP6[120] CP6[175] CP6[177] CP6[182] CP6[190] P3[6] P3[13] P3[29] P3[65] P3[113] P3[119] P3[125] P3[134] P3[156] P3[169] P3[173] P4[19] P4[173]
+-- average 2
+flame: 204, selected features: (60)
+O1[42] O1[47] O1[57] O1[102] O1[118] O1[149] O1[164] O2[19] O2[86] O2[96] O2[115] O2[119] O2[147] O2[157] O2[159] O2[180] O2[185] O2[190] O2[191] Cz[59] Cz[74] Cz[186] Cz[202] CPz[3] CPz[12] CPz[17] CPz[74] CPz[149] CP6[18] CP6[19] CP6[60] CP6[69] CP6[173] CP6[189] CP6[190] P3[14] P3[17] P3[29] P3[51] P3[58] P3[65] P3[68] P3[98] P3[105] P3[116] P3[120] P3[125] P3[133] P3[143] P3[149] P3[172] P3[176] P3[189] P4[99] P4[134] P4[145] P4[148] P4[165] P4[169] P4[202]
+-- average 3
+flame: 204, selected features: (60)
+O1[9] O1[47] O1[83] O1[100] O1[136] O1[150] O1[167] O1[177] O1[180] O1[190] O2[83] O2[114] O2[119] O2[123] O2[124] O2[151] O2[166] O2[176] O2[177] O2[180] O2[183] O2[186] Cz[23] Cz[42] Cz[82] Cz[123] Cz[184] CPz[23] CPz[42] CPz[81] CPz[82] CP6[10] CP6[14] CP6[46] CP6[52] CP6[70] CP6[123] CP6[138] CP6[140] CP6[191] P3[3] P3[21] P3[64] P3[105] P3[116] P3[118] P3[125] P3[129] P3[139] P3[168] P3[174] P3[175] P3[182] P4[16] P4[24] P4[153] P4[154] P4[172] P4[179] P4[202]
+-- average 4
+flame: 204, selected features: (60)
+O1[4] O1[16] O1[19] O1[26] O1[33] O1[36] O1[49] O1[58] O1[75] O1[85] O1[101] O1[113] O1[124] O1[147] O1[169] O2[2] O2[4] O2[39] O2[66] O2[78] O2[109] O2[114] O2[118] O2[123] O2[129] O2[138] O2[140] O2[168] O2[198] Cz[15] Cz[75] Cz[124] Cz[134] Cz[161] CPz[19] CPz[75] CPz[124] CPz[200] CPz[201] CP5[27] CP5[42] CP5[43] CP5[132] CP5[155] CP6[23] CP6[100] CP6[115] CP6[150] CP6[152] CP6[175] CP6[184] P3[13] P3[97] P3[121] P3[135] P3[170] P3[172] P4[59] P4[65] P4[69]
+-- average 5
+flame: 204, selected features: (60)
+O1[1] O1[27] O1[33] O1[44] O1[51] O1[64] O1[84] O1[92] O1[105] O1[152] O1[163] O1[165] O2[0] O2[20] O2[114] O2[118] O2[199] Cz[18] Cz[118] Cz[119] Cz[144] CPz[7] CPz[17] CPz[19] CPz[40] CPz[119] CPz[144] CP5[10] CP5[15] CP5[26] CP5[39] CP5[107] CP5[156] CP5[169] CP6[11] CP6[146] CP6[184] P3[0] P3[8] P3[9] P3[10] P3[14] P3[30] P3[43] P3[44] P3[65] P3[80] P3[130] P3[135] P3[151] P3[156] P3[160] P3[162] P3[173] P3[181] P3[191] P3[194] P4[30] P4[97] P4[138]
+-- average 6
+flame: 204, selected features: (33)
+O1[46] O1[102] O1[129] O1[150] O1[170] O1[196] O2[30] O2[171] O2[186] Cz[14] Cz[111] Cz[197] CPz[19] CPz[104] CPz[124] CP5[158] CP6[0] CP6[47] CP6[49] CP6[87] CP6[103] CP6[143] CP6[149] CP6[160] CP6[173] P3[7] P3[84] P3[85] P3[89] P3[167] P3[178] P4[147] P4[182]
+-- average 7
+flame: 204, selected features: (32)
+O1[2] O1[133] O1[136] O1[143] O1[162] O1[168] O1[189] O1[202] O2[27] O2[106] O2[154] O2[167] Cz[19] CPz[93] CPz[107] CPz[198] CP5[60] CP5[84] CP6[62] CP6[73] CP6[183] CP6[189] P3[20] P3[24] P3[124] P3[137] P3[167] P3[175] P3[198] P4[29] P4[127] P4[197]
+-- average 8
+flame: 204, selected features: (32)
+O1[29] O1[34] O1[186] O1[187] O2[13] O2[129] O2[167] O2[186] Cz[28] Cz[130] Cz[133] Cz[148] CPz[75] CPz[148] CPz[149] CPz[198] CP5[106] CP5[112] CP5[164] CP5[179] CP6[21] CP6[29] CP6[50] CP6[84] P3[22] P3[28] P3[36] P3[117] P3[125] P3[174] P4[65] P4[98]
+-- average 9
+flame: 204, selected features: (32)
+O1[0] O1[39] O1[52] O1[155] O1[174] O2[104] O2[111] O2[136] Cz[43] Cz[69] Cz[70] Cz[79] Cz[172] CPz[136] CPz[183] CP6[164] P3[50] P3[86] P3[103] P3[105] P3[125] P3[137] P3[145] P3[174] P3[180] P4[25] P4[30] P4[50] P4[69] P4[78] P4[167] P4[168]
+-- average 10
+flame: 204, selected features: (32)
+O1[15] O1[24] O1[50] O1[55] O1[69] O1[98] O1[103] O1[165] O1[180] O2[65] O2[119] O2[136] O2[148] O2[160] O2[167] O2[168] O2[175] Cz[9] Cz[55] Cz[102] CPz[65] CP5[11] CP5[16] CP5[38] CP6[128] CP6[164] CP6[169] CP6[191] P3[125] P3[154] P4[91] P4[159]
+- decimate 2
+-- average 1
+flame: 102, selected features: (36)
+O1[15] O1[32] O1[54] O1[93] O2[24] O2[40] O2[50] O2[58] O2[62] O2[81] O2[94] O2[99] Cz[21] Cz[87] CP5[0] CP5[79] CP5[85] CP6[2] CP6[24] CP6[40] CP6[48] CP6[56] CP6[63] CP6[89] CP6[98] P3[0] P3[35] P3[48] P3[62] P3[65] P3[69] P3[80] P3[88] P3[90] P4[55] P4[98]
+-- average 2
+flame: 102, selected features: (60)
+O1[11] O1[16] O1[54] O1[66] O1[76] O1[84] O1[91] O1[97] O2[5] O2[8] O2[25] O2[62] O2[75] O2[76] O2[87] O2[90] O2[92] Cz[36] Cz[50] Cz[87] Cz[97] CPz[5] CPz[13] CPz[51] CPz[57] CPz[64] CP6[5] CP6[12] CP6[15] CP6[37] CP6[56] CP6[89] CP6[92] CP6[95] CP6[98] P3[13] P3[16] P3[17] P3[24] P3[29] P3[35] P3[36] P3[38] P3[55] P3[60] P3[62] P3[65] P3[66] P3[67] P3[68] P3[69] P3[75] P3[76] P3[87] P3[88] P3[89] P3[95] P3[97] P4[51] P4[69]
+-- average 3
+flame: 102, selected features: (60)
+O1[22] O1[36] O1[51] O1[57] O1[65] O1[87] O1[99] O2[17] O2[26] O2[36] O2[55] O2[58] O2[62] O2[65] O2[90] O2[96] Cz[41] Cz[93] CPz[5] CPz[20] CPz[73] CPz[98] CPz[99] CP5[4] CP5[8] CP5[35] CP5[36] CP5[40] CP5[56] CP5[60] CP5[66] CP5[68] CP5[70] CP5[99] CP6[37] CP6[57] CP6[85] CP6[95] P3[10] P3[13] P3[17] P3[27] P3[34] P3[38] P3[58] P3[59] P3[65] P3[68] P3[71] P3[76] P3[88] P3[90] P4[6] P4[15] P4[28] P4[40] P4[54] P4[72] P4[86] P4[91]
+-- average 4
+flame: 102, selected features: (60)
+O1[0] O1[20] O1[21] O1[31] O1[39] O1[41] O1[44] O1[50] O1[59] O1[82] O1[86] O1[101] O2[11] O2[21] O2[31] O2[35] O2[39] O2[41] O2[46] O2[47] O2[55] O2[56] O2[62] O2[72] O2[74] O2[77] O2[83] O2[86] Cz[55] CPz[2] CPz[11] CPz[16] CPz[18] CPz[64] CPz[78] CPz[80] CP5[33] CP5[39] CP5[46] CP5[52] CP5[74] CP5[78] CP5[83] CP5[100] CP6[57] CP6[61] CP6[86] CP6[88] P3[22] P3[23] P3[34] P3[62] P3[71] P3[76] P3[83] P3[86] P4[30] P4[49] P4[58] P4[87]
+-- average 5
+flame: 102, selected features: (60)
+O1[7] O1[17] O1[18] O1[19] O1[34] O1[46] O1[47] O1[51] O1[55] O1[64] O1[70] O1[84] O1[97] O2[5] O2[20] O2[26] O2[34] O2[70] O2[71] O2[86] O2[91] O2[94] O2[100] Cz[6] Cz[20] Cz[42] Cz[54] Cz[78] CPz[12] CPz[18] CPz[41] CPz[82] CP5[23] CP5[38] CP5[39] CP5[43] CP5[69] CP5[70] CP6[6] CP6[13] CP6[14] CP6[20] CP6[46] CP6[51] CP6[85] CP6[93] P3[12] P3[13] P3[18] P3[26] P3[42] P3[49] P3[59] P3[64] P3[82] P3[84] P3[98] P3[100] P4[21] P4[101]
+-- average 6
+flame: 102, selected features: (33)
+O1[46] O1[55] O1[67] O1[94] O2[6] O2[12] O2[30] O2[35] O2[57] O2[69] O2[73] O2[82] O2[86] Cz[83] CPz[11] CPz[64] CPz[86] CPz[90] CP5[6] CP5[55] CP6[16] CP6[25] CP6[34] CP6[44] CP6[45] CP6[81] P3[4] P3[15] P3[62] P3[86] P4[10] P4[22] P4[84]
+-- average 7
+flame: 102, selected features: (33)
+O1[0] O1[59] O1[71] O1[87] O2[11] O2[15] O2[18] O2[42] O2[62] O2[74] O2[84] O2[87] CP5[78] CP5[94] CP6[3] CP6[5] CP6[56] CP6[57] CP6[64] CP6[98] P3[12] P3[49] P3[64] P3[68] P3[86] P3[88] P3[98] P3[101] P4[30] P4[31] P4[46] P4[74] P4[80]
+-- average 8
+flame: 102, selected features: (33)
+O1[16] O1[22] O1[34] O1[37] O1[46] O1[81] O1[101] O2[67] O2[72] O2[75] O2[86] Cz[67] CPz[26] CPz[81] CPz[88] CP6[38] CP6[54] CP6[74] CP6[79] CP6[85] CP6[101] P3[13] P3[19] P3[44] P3[45] P3[61] P3[63] P3[65] P3[80] P3[81] P4[9] P4[36] P4[91]
+-- average 9
+flame: 102, selected features: (33)
+O1[29] O1[50] O1[54] O1[89] O1[100] O2[19] O2[21] O2[63] O2[83] O2[84] O2[87] O2[94] O2[95] Cz[43] Cz[51] Cz[77] Cz[83] CPz[38] CPz[64] CP5[19] CP5[27] CP5[46] CP5[56] CP6[70] P3[18] P3[27] P3[48] P3[65] P4[14] P4[17] P4[45] P4[52] P4[67]
+-- average 10
+flame: 102, selected features: (33)
+O1[49] O1[59] O1[93] O1[100] O2[4] O2[25] O2[40] O2[62] O2[72] O2[81] Cz[38] Cz[43] Cz[79] CPz[58] CP5[20] CP5[23] CP5[34] CP5[50] CP5[55] CP5[56] CP5[80] CP5[83] CP6[98] P3[22] P3[23] P3[57] P3[62] P3[65] P3[68] P3[90] P4[6] P4[64] P4[71]
+- decimate 3
+-- average 1
+flame: 68, selected features: (15)
+O2[17] O2[42] CPz[40] CPz[55] CP6[66] P3[12] P3[16] P3[24] P3[40] P3[42] P3[44] P3[47] P3[49] P4[40] P4[55]
+-- average 2
+flame: 68, selected features: (42)
+O1[11] O1[17] O1[31] O2[9] O2[17] O2[31] O2[42] O2[45] O2[51] O2[52] O2[66] Cz[19] CP6[2] CP6[8] CP6[9] CP6[26] CP6[37] CP6[46] CP6[52] CP6[59] CP6[60] CP6[66] P3[0] P3[11] P3[12] P3[16] P3[17] P3[18] P3[21] P3[24] P3[26] P3[42] P3[44] P3[45] P3[47] P3[51] P3[52] P3[60] P3[61] P4[5] P4[47] P4[61]
+-- average 3
+flame: 68, selected features: (58)
+O1[9] O1[14] O1[15] O1[18] O1[43] O1[44] O1[47] O1[63] O2[16] O2[17] O2[21] O2[25] O2[33] O2[34] O2[38] O2[42] O2[48] O2[49] O2[58] CPz[9] CPz[15] CPz[16] CPz[23] CPz[25] CPz[45] CPz[50] CPz[52] CP6[19] CP6[37] CP6[44] CP6[48] CP6[49] CP6[60] CP6[64] CP6[67] P3[9] P3[12] P3[13] P3[16] P3[24] P3[34] P3[40] P3[42] P3[44] P3[47] P3[52] P3[57] P3[60] P3[61] P3[66] P4[5] P4[13] P4[24] P4[27] P4[49] P4[56] P4[65] P4[66]
+-- average 4
+flame: 68, selected features: (60)
+O1[43] O1[47] O1[62] O1[63] O2[0] O2[1] O2[17] O2[21] O2[28] O2[36] O2[42] O2[45] O2[49] O2[54] Cz[0] Cz[14] Cz[28] Cz[30] Cz[42] Cz[67] CPz[9] CPz[14] CPz[42] CPz[44] CPz[54] CP5[2] CP5[7] CP5[8] CP5[17] CP5[22] CP5[24] CP5[25] CP5[27] CP5[30] CP5[36] CP5[38] CP5[46] CP5[51] CP6[2] CP6[18] CP6[21] CP6[30] CP6[31] CP6[50] CP6[54] CP6[58] P3[12] P3[22] P3[24] P3[42] P3[46] P3[51] P3[52] P3[54] P4[5] P4[13] P4[28] P4[42] P4[55] P4[57]
+-- average 5
+flame: 68, selected features: (60)
+O1[3] O1[5] O1[20] O1[32] O1[37] O1[38] O1[39] O1[40] O1[43] O1[46] O1[55] O1[60] O1[62] O2[13] O2[18] O2[42] O2[43] O2[46] O2[49] O2[50] O2[66] Cz[20] CPz[20] CP5[30] CP5[51] CP5[65] CP6[9] CP6[16] CP6[34] CP6[44] CP6[46] CP6[49] CP6[56] CP6[59] CP6[66] P3[9] P3[10] P3[13] P3[14] P3[15] P3[24] P3[31] P3[37] P3[40] P3[43] P3[44] P3[46] P3[49] P3[52] P3[62] P3[67] P4[0] P4[7] P4[17] P4[27] P4[42] P4[43] P4[58] P4[60] P4[67]
+-- average 6
+flame: 68, selected features: (33)
+O1[15] O1[32] O1[44] O1[48] O1[67] O2[6] O2[10] O2[28] O2[45] O2[49] O2[53] Cz[33] Cz[34] Cz[44] CPz[8] CPz[9] CPz[34] CPz[39] CP5[23] CP6[43] CP6[53] P3[18] P3[21] P3[28] P3[58] P3[62] P4[11] P4[28] P4[30] P4[31] P4[41] P4[57] P4[62]
+-- average 7
+flame: 68, selected features: (33)
+O1[5] O1[12] O1[24] O1[25] O1[60] O1[65] O1[66] O2[2] O2[20] O2[22] O2[59] O2[64] Cz[61] Cz[66] CPz[16] CPz[49] CPz[51] CP5[18] CP5[33] CP5[57] CP6[0] CP6[13] CP6[59] P3[24] P3[44] P3[52] P3[58] P3[66] P4[12] P4[14] P4[20] P4[40] P4[66]
+-- average 8
+flame: 68, selected features: (34)
+O1[38] O1[64] O1[66] O2[15] O2[30] O2[31] O2[32] O2[46] O2[47] Cz[21] CPz[22] CPz[54] CPz[59] CP5[43] CP5[44] CP5[51] CP5[55] CP5[57] CP5[60] CP6[3] CP6[18] CP6[22] CP6[35] CP6[42] P3[9] P3[25] P3[38] P3[43] P3[44] P3[50] P3[60] P4[13] P4[19] P4[44]
+-- average 9
+flame: 68, selected features: (33)
+O1[2] O1[14] O1[15] O1[24] O1[25] O1[33] O1[44] O1[46] O1[48] O2[5] O2[12] O2[41] Cz[19] Cz[29] Cz[49] Cz[59] Cz[60] Cz[64] CPz[47] CPz[64] CP5[32] CP5[63] CP6[18] CP6[52] CP6[66] P3[35] P3[44] P3[57] P4[12] P4[16] P4[43] P4[50] P4[57]
+-- average 10
+flame: 68, selected features: (33)
+O1[7] O1[27] O1[49] O1[55] O2[18] O2[31] O2[49] O2[53] O2[58] Cz[19] Cz[52] Cz[54] CPz[12] CPz[59] CP5[8] CP5[14] CP5[17] CP5[18] CP5[28] CP5[46] CP5[64] CP5[65] CP6[14] CP6[41] CP6[52] P3[9] P3[16] P3[43] P3[44] P3[51] P4[24] P4[48] P4[58]
+- decimate 4
+-- average 1
+flame: 51, selected features: (25)
+O1[13] O1[17] O1[19] O2[8] O2[14] O2[31] O2[33] O2[42] O2[49] Cz[5] CPz[5] CP5[9] CP5[41] CP5[42] CP6[8] CP6[26] P3[10] P3[13] P3[26] P3[31] P3[33] P3[34] P3[41] P3[45] P4[45]
+-- average 2
+flame: 51, selected features: (18)
+O2[8] O2[13] O2[31] O2[33] CPz[50] CP5[0] CP5[14] CP6[38] CP6[45] P3[13] P3[19] P3[26] P3[31] P3[33] P3[34] P3[36] P3[39] P3[44]
+-- average 3
+flame: 51, selected features: (50)
+O1[11] O1[12] O1[18] O1[28] O1[33] O1[38] O1[43] O2[5] O2[9] O2[19] O2[22] O2[26] O2[29] O2[31] O2[37] O2[46] O2[50] Cz[4] Cz[5] Cz[21] CPz[6] CPz[15] CPz[20] CPz[27] CPz[40] CPz[41] CP6[4] CP6[6] CP6[12] CP6[24] CP6[34] P3[8] P3[14] P3[18] P3[19] P3[24] P3[26] P3[31] P3[34] P3[35] P3[37] P3[45] P3[46] P4[5] P4[20] P4[24] P4[26] P4[43] P4[45] P4[50]
+-- average 4
+flame: 51, selected features: (60)
+O1[18] O1[19] O1[24] O1[27] O1[34] O1[37] O1[39] O1[48] O1[50] O2[0] O2[2] O2[6] O2[9] O2[19] O2[22] O2[27] O2[31] O2[35] O2[36] O2[38] O2[50] Cz[12] Cz[23] Cz[25] Cz[45] Cz[47] CPz[8] CPz[13] CPz[30] CPz[32] CPz[34] CPz[36] CP5[1] CP5[6] CP5[21] CP5[23] CP5[27] CP5[30] CP6[6] CP6[8] CP6[16] CP6[47] CP6[49] P3[13] P3[18] P3[23] P3[24] P3[26] P3[30] P3[33] P3[38] P3[46] P4[6] P4[8] P4[13] P4[18] P4[30] P4[33] P4[45] P4[48]
+-- average 5
+flame: 51, selected features: (60)
+O1[0] O1[9] O1[10] O1[14] O1[18] O1[27] O1[39] O1[44] O1[47] O1[50] O2[11] O2[12] O2[18] O2[22] O2[26] O2[31] O2[35] O2[38] O2[39] O2[44] O2[45] O2[50] Cz[3] Cz[13] Cz[38] Cz[39] Cz[46] CPz[17] CPz[23] CPz[34] CPz[45] CPz[49] CP5[0] CP5[12] CP5[13] CP5[31] CP6[0] CP6[6] CP6[8] CP6[9] CP6[11] CP6[13] P3[4] P3[8] P3[16] P3[19] P3[31] P3[34] P3[37] P4[0] P4[5] P4[19] P4[23] P4[31] P4[32] P4[37] P4[44] P4[45] P4[48] P4[49]
+-- average 6
+flame: 51, selected features: (33)
+O1[6] O1[18] O1[19] O1[26] O1[31] O1[41] O1[49] Cz[10] Cz[27] Cz[39] CPz[7] CPz[45] CP5[6] CP5[8] CP5[12] CP5[18] CP5[21] CP5[33] CP5[44] CP6[17] CP6[20] CP6[29] CP6[47] P3[8] P3[10] P3[17] P3[20] P3[32] P3[34] P3[48] P4[8] P4[16] P4[44]
+-- average 7
+flame: 51, selected features: (34)
+O1[20] O1[31] O1[41] O1[42] O1[45] O2[3] O2[8] O2[27] O2[28] O2[30] O2[33] Cz[22] Cz[26] CPz[17] CPz[26] CPz[33] CP5[8] CP5[18] CP5[20] CP5[25] CP5[27] CP6[11] CP6[12] CP6[19] CP6[36] P3[8] P3[34] P3[41] P4[16] P4[21] P4[39] P4[45] P4[46] P4[49]
+-- average 8
+flame: 51, selected features: (34)
+O1[0] O1[25] O1[29] O1[32] O1[34] O1[46] O2[8] O2[30] O2[39] O2[44] Cz[16] Cz[18] Cz[31] Cz[45] CPz[6] CPz[21] CPz[24] CP5[28] CP5[40] CP6[17] CP6[22] CP6[32] CP6[35] CP6[40] P3[8] P3[10] P3[24] P3[34] P3[35] P3[36] P3[49] P4[9] P4[13] P4[39]
+-- average 9
+flame: 51, selected features: (33)
+O1[16] O1[19] O1[42] O2[2] O2[11] O2[18] O2[23] O2[26] O2[30] O2[31] O2[36] O2[38] Cz[2] Cz[27] Cz[45] CPz[19] CP6[1] CP6[6] CP6[16] P3[0] P3[8] P3[12] P3[18] P3[21] P3[28] P3[34] P3[35] P3[44] P4[19] P4[26] P4[33] P4[47] P4[49]
+-- average 10
+flame: 51, selected features: (34)
+O1[6] O1[8] O1[37] O1[41] O1[49] O2[14] O2[20] O2[45] O2[46] Cz[19] Cz[44] CP5[6] CP5[26] CP5[28] CP6[7] CP6[8] CP6[40] CP6[47] P3[8] P3[19] P3[23] P3[30] P3[34] P3[40] P3[43] P4[0] P4[2] P4[9] P4[16] P4[24] P4[29] P4[36] P4[41] P4[50]
+- decimate 5
+-- average 1
+flame: 41, selected features: (17)
+O1[21] O2[24] O2[26] Cz[5] Cz[17] CPz[8] CP5[5] CP5[8] CP5[15] CP5[17] CP6[5] CP6[17] P3[14] P3[16] P3[18] P3[26] P3[28]
+-- average 2
+flame: 41, selected features: (52)
+O1[0] O1[11] O1[14] O1[18] O1[19] O1[23] O1[24] O1[27] O1[38] O2[12] O2[18] O2[24] O2[26] O2[31] O2[36] O2[37] Cz[9] Cz[12] Cz[17] CPz[9] CPz[12] CPz[27] CP5[20] CP5[23] CP5[26] CP5[33] CP5[38] CP6[2] CP6[20] CP6[23] CP6[26] CP6[33] CP6[37] CP6[39] P3[0] P3[8] P3[11] P3[12] P3[18] P3[22] P3[26] P3[27] P3[28] P3[29] P3[33] P3[34] P3[37] P4[14] P4[17] P4[34] P4[35] P4[39]
+-- average 3
+flame: 41, selected features: (52)
+O1[2] O1[7] O1[11] O1[18] O1[23] O1[31] O1[39] O1[40] O2[2] O2[7] O2[15] O2[16] O2[23] O2[24] O2[27] O2[35] O2[36] Cz[16] Cz[18] Cz[36] CP5[1] CP5[6] CP5[8] CP5[15] CP5[21] CP5[22] CP5[23] CP5[25] CP5[26] CP5[27] CP5[28] CP5[29] CP5[37] CP6[2] CP6[11] CP6[17] CP6[29] CP6[37] P3[1] P3[7] P3[15] P3[16] P3[22] P3[24] P3[27] P3[31] P3[40] P4[2] P4[6] P4[11] P4[27] P4[28]
+-- average 4
+flame: 41, selected features: (60)
+O1[9] O1[11] O1[13] O1[17] O1[21] O1[28] O2[5] O2[6] O2[14] O2[19] O2[24] O2[27] O2[29] O2[30] O2[32] O2[36] O2[37] O2[40] Cz[10] Cz[12] Cz[28] Cz[37] CPz[7] CPz[10] CPz[12] CPz[16] CPz[19] CPz[28] CP5[7] CP5[8] CP5[11] CP5[16] CP5[18] CP5[19] CP5[21] CP5[24] CP5[27] CP5[29] CP5[34] CP5[39] CP6[5] CP6[37] P3[7] P3[8] P3[9] P3[11] P3[18] P3[19] P3[27] P3[28] P3[34] P3[36] P3[37] P4[4] P4[13] P4[18] P4[20] P4[24] P4[31] P4[34]
+-- average 5
+flame: 41, selected features: (35)
+O1[4] O1[12] O1[16] O1[19] O1[22] O1[38] O1[40] O2[0] O2[2] O2[4] O2[15] O2[22] O2[37] Cz[10] Cz[19] Cz[20] Cz[21] CPz[40] CP5[0] CP5[3] CP5[8] CP5[10] CP5[18] CP5[20] CP5[33] CP6[7] CP6[36] P3[7] P3[25] P3[28] P3[30] P4[10] P4[11] P4[29] P4[35]
+-- average 6
+flame: 41, selected features: (34)
+O1[34] O1[38] O2[5] O2[8] O2[15] O2[21] O2[27] O2[40] Cz[7] Cz[15] Cz[18] Cz[26] Cz[30] Cz[35] CPz[26] CPz[39] CP5[23] CP5[36] CP5[38] CP5[40] CP6[6] CP6[7] CP6[13] CP6[20] CP6[30] P3[7] P3[18] P3[24] P3[28] P3[38] P4[8] P4[18] P4[36] P4[40]
+-- average 7
+flame: 41, selected features: (33)
+O1[22] O1[34] O1[37] O2[1] O2[6] O2[7] O2[29] O2[30] O2[31] Cz[3] Cz[36] CPz[4] CPz[15] CP6[10] CP6[27] CP6[28] P3[7] P3[8] P3[17] P3[20] P3[26] P3[28] P3[33] P3[36] P3[38] P4[6] P4[7] P4[9] P4[13] P4[24] P4[28] P4[34] P4[37]
+-- average 8
+flame: 41, selected features: (34)
+O1[27] O1[30] O1[38] O2[14] O2[19] O2[24] O2[35] Cz[4] Cz[12] Cz[18] CPz[6] CPz[21] CPz[32] CPz[36] CPz[38] CP5[3] CP5[6] CP5[20] CP5[21] CP6[0] CP6[14] CP6[15] CP6[25] CP6[30] CP6[32] CP6[36] CP6[37] P3[0] P3[5] P3[24] P3[28] P4[8] P4[29] P4[30]
+-- average 9
+flame: 41, selected features: (34)
+O1[13] O1[18] O1[20] O2[9] O2[31] O2[37] Cz[7] Cz[11] Cz[25] Cz[36] CPz[5] CPz[21] CPz[37] CP5[7] CP5[21] CP5[23] CP5[24] CP5[28] CP5[30] CP5[38] CP6[19] CP6[30] P3[0] P3[15] P3[16] P3[17] P3[20] P3[24] P3[26] P3[28] P3[36] P4[8] P4[27] P4[28]
+-- average 10
+flame: 41, selected features: (34)
+O1[1] O1[3] O1[19] O1[27] O1[30] O2[0] O2[39] Cz[0] Cz[4] CPz[0] CP5[1] CP5[4] CP5[8] CP5[17] CP5[23] CP5[28] CP5[34] CP5[35] CP5[36] CP6[6] CP6[7] CP6[13] CP6[18] CP6[20] CP6[28] CP6[31] CP6[35] CP6[36] P3[7] P3[20] P3[23] P3[27] P3[28] P3[31]
+- decimate 6
+-- average 1
+flame: 34, selected features: (12)
+O1[14] O1[18] O2[4] O2[10] O2[21] O2[22] O2[29] P3[10] P3[13] P3[22] P3[24] P3[29]
+-- average 2
+flame: 34, selected features: (20)
+O1[14] O1[18] O2[7] O2[10] O2[21] O2[22] O2[29] CP5[13] CP5[20] CP5[25] CP5[28] CP6[3] P3[7] P3[10] P3[13] P3[20] P3[22] P3[24] P3[29] P4[0]
+-- average 3
+flame: 34, selected features: (15)
+O2[8] O2[16] O2[18] O2[21] CPz[33] CP6[31] CP6[33] P3[7] P3[13] P3[22] P3[24] P4[16] P4[17] P4[19] P4[22]
+-- average 4
+flame: 34, selected features: (12)
+O1[17] O1[33] O2[0] O2[1] O2[26] O2[27] Cz[5] CPz[22] CPz[23] CP5[15] CP5[30] P4[22]
+-- average 5
+flame: 34, selected features: (24)
+O1[14] O1[18] O2[12] O2[18] O2[26] O2[31] Cz[5] Cz[15] Cz[22] Cz[33] CPz[16] CP6[6] CP6[14] CP6[17] CP6[29] P3[0] P3[5] P3[7] P3[24] P3[32] P4[17] P4[22] P4[24] P4[28]
+-- average 6
+flame: 34, selected features: (34)
+O1[3] O1[19] O1[23] O1[25] O2[4] O2[10] O2[16] O2[20] O2[24] O2[33] Cz[3] Cz[15] Cz[28] Cz[33] CPz[2] CPz[4] CPz[6] CPz[10] CPz[23] CP6[2] CP6[4] CP6[6] CP6[10] CP6[12] CP6[29] CP6[32] P3[9] P3[16] P3[19] P3[24] P3[33] P4[8] P4[9] P4[24]
+-- average 7
+flame: 34, selected features: (15)
+O1[25] O1[33] O2[12] O2[18] O2[23] Cz[31] CP6[14] CP6[16] CP6[20] CP6[29] P3[6] P3[22] P3[23] P4[4] P4[12]
+-- average 8
+flame: 34, selected features: (20)
+O1[26] O1[32] O2[5] O2[31] Cz[4] Cz[22] CPz[5] CPz[20] CPz[25] CP5[14] CP5[16] CP5[17] CP5[21] CP5[31] CP6[17] P3[20] P3[23] P3[24] P4[7] P4[22]
+-- average 9
+flame: 34, selected features: (22)
+O1[15] O1[21] O1[23] O1[24] O1[25] O1[31] Cz[11] Cz[29] CPz[13] CPz[25] CP5[9] CP5[30] CP5[31] CP5[33] P3[0] P3[2] P3[7] P3[22] P3[24] P4[13] P4[25] P4[30]
+-- average 10
+flame: 34, selected features: (34)
+O1[5] O1[11] O1[18] O1[24] O1[33] O2[5] O2[10] Cz[3] Cz[11] Cz[24] Cz[26] Cz[27] CPz[13] CPz[20] CPz[23] CPz[26] CPz[27] CP5[31] CP5[32] CP6[11] CP6[24] CP6[25] CP6[28] P3[1] P3[2] P3[7] P3[24] P3[33] P4[0] P4[6] P4[9] P4[16] P4[23] P4[25]
+- decimate 7
+-- average 1
+flame: 30, selected features: (8)
+O1[16] O2[19] P3[0] P3[7] P3[12] P3[18] P3[19] P3[21]
+-- average 2
+flame: 30, selected features: (11)
+O1[16] O2[9] O2[18] O2[19] CP6[27] CP6[29] P3[6] P3[9] P3[12] P3[19] P3[21]
+-- average 3
+flame: 30, selected features: (14)
+O1[16] O2[9] O2[18] O2[19] O2[27] CP5[7] CP5[8] CP5[9] CP5[12] CP5[18] P3[6] P3[12] P3[19] P3[21]
+-- average 4
+flame: 30, selected features: (23)
+O1[8] O1[13] O1[15] O1[17] O2[0] O2[2] O2[8] O2[13] O2[17] O2[20] O2[29] Cz[5] Cz[21] CPz[5] CPz[20] CP5[10] CP5[15] CP5[18] CP5[22] CP5[26] P3[23] P3[24] P4[7]
+-- average 5
+flame: 30, selected features: (40)
+O1[0] O1[7] O1[13] O2[10] O2[16] O2[20] O2[23] O2[26] Cz[13] Cz[15] Cz[22] Cz[24] CPz[6] CPz[12] CPz[16] CPz[25] CPz[27] CP5[0] CP5[8] CP5[11] CP6[6] CP6[10] CP6[11] CP6[12] CP6[18] CP6[23] CP6[27] P3[6] P3[12] P3[16] P3[17] P3[20] P3[21] P3[22] P3[24] P3[28] P4[11] P4[24] P4[27] P4[29]
+-- average 6
+flame: 30, selected features: (4)
+CPz[5] CPz[20] P3[12] P3[24]
+-- average 7
+flame: 30, selected features: (34)
+O1[16] O1[24] O2[6] O2[7] O2[9] O2[16] O2[22] O2[26] O2[29] Cz[2] Cz[29] CPz[25] CP5[16] CP5[17] CP6[6] CP6[9] CP6[12] CP6[14] CP6[17] CP6[18] CP6[19] P3[6] P3[7] P3[19] P3[21] P3[28] P4[3] P4[6] P4[14] P4[16] P4[21] P4[25] P4[27] P4[28]
+-- average 8
+flame: 30, selected features: (15)
+O1[11] O1[25] O1[28] Cz[6] Cz[20] CPz[2] CPz[4] CPz[5] CPz[17] CP6[22] P3[6] P3[20] P3[21] P4[21] P4[27]
+-- average 9
+flame: 30, selected features: (15)
+O1[28] O2[4] O2[18] O2[23] O2[27] O2[29] CPz[8] CPz[24] CP6[29] P3[5] P3[19] P3[20] P3[26] P4[11] P4[26]
+-- average 10
+flame: 30, selected features: (34)
+O1[2] O1[8] O1[9] O1[16] O1[19] O1[21] O1[22] O1[28] O2[5] O2[7] O2[18] O2[21] O2[24] O2[25] O2[27] Cz[5] Cz[12] Cz[20] CPz[5] CPz[20] CPz[22] CP5[0] CP5[4] CP5[6] CP5[17] CP5[24] CP6[10] P3[5] P3[8] P4[0] P4[1] P4[11] P4[15] P4[20]
+- decimate 8
+-- average 1
+flame: 26, selected features: (16)
+O1[15] O2[4] O2[14] O2[17] O2[18] O2[22] CP6[6] P3[6] P3[11] P3[16] P3[17] P3[18] P3[19] P3[24] P4[14] P4[24]
+-- average 2
+flame: 26, selected features: (11)
+O2[8] O2[17] O2[22] Cz[12] P3[0] P3[5] P3[7] P3[11] P3[17] P3[18] P4[13]
+-- average 3
+flame: 26, selected features: (28)
+O1[13] O1[15] O2[14] O2[16] O2[17] O2[22] O2[24] Cz[3] Cz[4] Cz[8] Cz[12] Cz[17] CPz[8] CPz[15] CPz[21] CP6[4] CP6[8] CP6[15] CP6[23] P3[0] P3[5] P3[6] P3[11] P3[17] P3[18] P3[19] P3[25] P4[12]
+-- average 4
+flame: 26, selected features: (9)
+O2[0] O2[1] O2[10] O2[24] CPz[5] CPz[18] CP5[4] P3[22] P4[17]
+-- average 5
+flame: 26, selected features: (12)
+O1[11] O1[15] O1[20] O2[0] O2[1] O2[24] CPz[17] CP6[4] CP6[5] P3[5] P3[18] P4[18]
+-- average 6
+flame: 26, selected features: (4)
+O1[20] Cz[18] CPz[5] P3[20]
+-- average 7
+flame: 26, selected features: (34)
+O1[4] O1[9] O1[10] O1[13] O1[18] O1[22] O1[25] O2[5] O2[8] O2[16] O2[23] Cz[7] Cz[17] CPz[7] CP5[3] CP5[5] CP6[5] CP6[24] P3[0] P3[1] P3[2] P3[6] P3[8] P3[9] P3[10] P3[11] P3[18] P3[21] P4[10] P4[11] P4[16] P4[18] P4[22] P4[25]
+-- average 8
+flame: 26, selected features: (34)
+O1[6] O1[7] O1[10] O1[17] O1[18] O1[23] O1[24] O2[0] O2[3] O2[4] O2[5] O2[8] O2[19] Cz[24] CPz[0] CPz[9] CPz[19] CP5[25] CP6[2] CP6[6] CP6[14] CP6[18] CP6[25] P3[3] P3[4] P3[5] P3[8] P3[18] P3[22] P4[2] P4[6] P4[11] P4[17] P4[19]
+-- average 9
+flame: 26, selected features: (5)
+O2[18] P3[5] P3[18] P4[10] P4[23]
+-- average 10
+flame: 26, selected features: (34)
+O1[1] O1[11] O1[15] O1[18] O2[8] O2[9] O2[11] O2[14] O2[20] O2[24] O2[25] Cz[0] Cz[5] Cz[14] Cz[18] Cz[25] CPz[5] CPz[15] CPz[25] CP5[4] CP5[6] CP5[8] CP5[14] CP5[16] CP5[17] CP5[22] CP6[0] CP6[11] CP6[23] P3[17] P3[18] P4[0] P4[1] P4[2]
+- decimate 9
+-- average 1
+flame: 23, selected features: (16)
+O1[5] O1[7] O1[10] O2[4] O2[13] O2[15] O2[16] O2[20] CP5[0] CP6[3] P3[6] P3[16] P3[17] P3[21] P4[13] P4[21]
+-- average 2
+flame: 23, selected features: (23)
+O2[7] O2[13] O2[15] O2[16] O2[20] Cz[0] Cz[11] Cz[13] CP5[13] CP5[14] CP6[2] CP6[13] CP6[22] P3[4] P3[6] P3[10] P3[11] P3[14] P3[16] P3[17] P3[22] P4[11] P4[15]
+-- average 3
+flame: 23, selected features: (6)
+O2[15] O2[20] P3[4] P3[6] P3[10] P3[16]
+-- average 4
+flame: 23, selected features: (9)
+O2[0] O2[1] O2[22] Cz[4] Cz[17] CPz[16] CP6[9] P4[4] P4[16]
+-- average 5
+flame: 23, selected features: (16)
+O1[21] O2[0] O2[1] O2[16] O2[22] Cz[12] CP6[5] CP6[10] P3[5] P3[6] P3[16] P3[17] P3[22] P4[3] P4[16] P4[21]
+-- average 6
+flame: 23, selected features: (4)
+O2[15] CPz[5] CPz[16] P3[17]
+-- average 7
+flame: 23, selected features: (18)
+O1[0] O1[9] O1[18] O1[19] O1[21] O2[9] O2[16] O2[20] Cz[16] CPz[9] CPz[14] P3[5] P3[14] P3[17] P3[18] P4[8] P4[17] P4[19]
+-- average 8
+flame: 23, selected features: (12)
+O1[13] O1[16] O2[5] Cz[6] Cz[21] CP5[14] P3[7] P3[10] P3[15] P3[16] P4[7] P4[13]
+-- average 9
+flame: 23, selected features: (34)
+O2[0] O2[4] O2[5] O2[16] O2[19] O2[20] Cz[10] Cz[15] Cz[16] Cz[19] CPz[4] CPz[5] CPz[6] CPz[16] CP5[12] CP5[15] CP5[16] CP5[17] CP5[18] CP5[19] CP6[14] CP6[20] P3[7] P3[10] P3[16] P3[17] P3[20] P4[8] P4[9] P4[11] P4[14] P4[16] P4[18] P4[22]
+-- average 10
+flame: 23, selected features: (34)
+O1[0] O1[11] O1[15] O1[17] O1[21] O2[8] O2[10] O2[15] O2[20] O2[22] Cz[6] Cz[17] Cz[20] CPz[6] CPz[20] CP5[5] CP5[14] CP5[18] CP5[20] CP6[2] CP6[7] CP6[13] CP6[19] P3[0] P3[1] P3[5] P3[7] P3[15] P3[16] P3[21] P4[6] P4[8] P4[10] P4[18]
+- decimate 10
+-- average 1
+flame: 21, selected features: (8)
+O1[12] O2[4] O2[6] O2[14] P3[6] P3[9] P3[14] P3[15]
+-- average 2
+flame: 21, selected features: (16)
+O1[7] O1[10] O1[13] O2[10] O2[14] Cz[14] CPz[14] P3[0] P3[5] P3[7] P3[11] P3[15] P3[19] P4[9] P4[12] P4[19]
+-- average 3
+flame: 21, selected features: (7)
+O1[14] O2[14] CP5[16] P3[5] P3[9] P3[15] P4[19]
+-- average 4
+flame: 21, selected features: (5)
+O2[14] O2[20] CPz[5] CPz[15] P3[15]
+-- average 5
+flame: 21, selected features: (11)
+O2[13] O2[14] Cz[11] CP6[20] P3[5] P3[10] P3[15] P4[0] P4[1] P4[2] P4[12]
+-- average 6
+flame: 21, selected features: (4)
+O1[16] Cz[15] CPz[5] P3[16]
+-- average 7
+flame: 21, selected features: (24)
+O1[2] O1[5] O1[8] O1[14] O1[15] O1[18] O2[0] O2[1] O2[11] O2[14] O2[19] O2[20] Cz[8] Cz[16] CPz[18] CP6[12] CP6[16] CP6[20] P3[5] P3[9] P3[12] P3[15] P3[17] P4[17]
+-- average 8
+flame: 21, selected features: (12)
+O2[5] O2[13] Cz[8] CP5[0] CP5[8] CP5[13] CP5[18] CP6[19] P3[0] P3[5] P3[15] P4[18]
+-- average 9
+flame: 21, selected features: (23)
+O1[1] O1[10] O1[12] O1[17] O2[0] O2[5] O2[12] Cz[14] Cz[15] Cz[17] CPz[15] CPz[17] CP5[20] CP6[4] CP6[11] CP6[15] P3[5] P3[8] P3[9] P3[15] P3[16] P3[17] P4[12]
+-- average 10
+flame: 21, selected features: (34)
+O1[14] O1[16] O1[17] O2[8] O2[11] O2[12] O2[13] O2[14] O2[15] O2[20] Cz[0] Cz[1] Cz[11] Cz[13] Cz[14] CPz[1] CPz[6] CPz[11] CPz[14] CP5[0] CP6[0] CP6[1] CP6[5] P3[5] P3[7] P3[9] P3[15] P3[17] P4[0] P4[1] P4[5] P4[6] P4[10] P4[15]
+- decimate 11
+-- average 1
+flame: 19, selected features: (10)
+O1[9] O1[12] O2[10] O2[13] P3[4] P3[13] P3[14] P3[17] P4[12] P4[17]
+-- average 2
+flame: 19, selected features: (3)
+O2[14] P3[4] P3[14]
+-- average 3
+flame: 19, selected features: (6)
+O2[6] O2[13] P3[4] P3[6] P3[13] P3[14]
+-- average 4
+flame: 19, selected features: (7)
+O1[12] O2[0] Cz[4] CPz[5] CPz[14] P4[4] P4[14]
+-- average 5
+flame: 19, selected features: (11)
+O1[9] O1[12] O2[7] O2[10] O2[14] O2[18] Cz[1] P3[5] P3[14] P3[18] P4[0]
+-- average 6
+flame: 19, selected features: (10)
+O1[12] O1[15] O2[0] Cz[14] CPz[5] CP6[10] CP6[11] P3[13] P3[15] P4[1]
+-- average 7
+flame: 19, selected features: (9)
+O2[14] Cz[14] CPz[8] CPz[14] P3[5] P3[13] P3[14] P4[7] P4[13]
+-- average 8
+flame: 19, selected features: (6)
+Cz[13] CP6[8] P3[5] P3[14] P4[13] P4[18]
+-- average 9
+flame: 19, selected features: (18)
+O1[2] O1[5] O1[9] O1[15] O1[16] O2[0] O2[5] O2[12] O2[13] O2[16] CPz[4] CP6[10] CP6[11] CP6[13] P3[5] P3[14] P3[15] P4[16]
+-- average 10
+flame: 19, selected features: (18)
+O1[0] O1[3] O1[4] O1[6] O1[7] O1[18] O2[4] O2[9] Cz[1] CPz[0] CPz[1] CP6[8] P3[5] P3[14] P4[0] P4[1] P4[5] P4[13]
+- decimate 12
+-- average 1
+flame: 17, selected features: (8)
+O1[11] O2[12] O2[13] O2[16] P3[4] P3[8] P3[13] P3[16]
+-- average 2
+flame: 17, selected features: (6)
+O2[10] O2[13] O2[14] P3[4] P3[8] P3[13]
+-- average 3
+flame: 17, selected features: (8)
+O2[13] O2[16] CP5[9] CP5[12] CP6[10] P3[4] P3[8] P3[13]
+-- average 4
+flame: 17, selected features: (11)
+O2[0] O2[1] O2[16] Cz[4] CPz[13] CPz[16] CP5[1] P3[8] P3[13] P4[1] P4[13]
+-- average 5
+flame: 17, selected features: (6)
+O2[10] O2[13] Cz[2] P3[4] P3[13] P4[0]
+-- average 6
+flame: 17, selected features: (6)
+CPz[3] CPz[4] CPz[11] CPz[13] CP5[0] CP5[6]
+-- average 7
+flame: 17, selected features: (6)
+O1[6] O2[13] CP5[5] CP5[12] P3[5] P3[13]
+-- average 8
+flame: 17, selected features: (4)
+Cz[12] P3[5] P3[13] P4[12]
+-- average 9
+flame: 17, selected features: (3)
+O2[12] P3[5] P3[13]
+-- average 10
+flame: 17, selected features: (11)
+O1[4] O1[7] O1[8] O1[15] Cz[1] CPz[1] P3[0] P3[5] P3[13] P3[14] P4[0]
+- decimate 13
+-- average 1
+flame: 16, selected features: (6)
+O1[10] O2[12] O2[13] P3[4] P3[8] P3[12]
+-- average 2
+flame: 16, selected features: (6)
+O2[9] O2[12] O2[13] P3[4] P3[8] P3[12]
+-- average 3
+flame: 16, selected features: (21)
+O1[5] O1[7] O1[14] O2[8] O2[12] O2[13] O2[15] Cz[3] CPz[8] CP5[3] CP5[5] CP5[11] CP5[13] P3[4] P3[8] P3[11] P3[12] P4[3] P4[9] P4[10] P4[14]
+-- average 4
+flame: 16, selected features: (6)
+O2[0] O2[1] Cz[4] CPz[12] P4[4] P4[12]
+-- average 5
+flame: 16, selected features: (8)
+O2[10] O2[12] Cz[1] CPz[0] P3[4] P3[12] P4[0] P4[10]
+-- average 6
+flame: 16, selected features: (5)
+O1[6] O1[8] CPz[4] CPz[12] P3[14]
+-- average 7
+flame: 16, selected features: (3)
+P3[5] P3[13] P4[13]
+-- average 8
+flame: 16, selected features: (13)
+O1[2] O2[12] O2[13] Cz[13] CPz[8] CP5[3] CP5[11] CP5[15] P3[4] P3[8] P3[12] P3[14] P4[5]
+-- average 9
+flame: 16, selected features: (8)
+O1[12] O2[0] O2[6] P3[7] P3[8] P3[12] P3[13] P4[5]
+-- average 10
+flame: 16, selected features: (5)
+CPz[12] P3[0] P3[1] P3[2] P4[4]
+- decimate 14
+-- average 1
+flame: 15, selected features: (6)
+O1[10] O2[11] P3[4] P3[7] P3[11] P3[12]
+-- average 2
+flame: 15, selected features: (12)
+O1[8] O1[10] O1[12] O2[5] O2[9] O2[10] O2[11] CPz[0] P3[4] P3[5] P3[11] P3[12]
+-- average 3
+flame: 15, selected features: (16)
+O2[6] O2[7] O2[11] O2[12] Cz[4] Cz[14] CPz[6] CPz[8] CP5[3] CP5[11] CP5[12] P3[6] P3[8] P3[11] P4[13] P4[14]
+-- average 4
+flame: 15, selected features: (7)
+O1[6] O2[0] O2[1] O2[4] Cz[5] CPz[12] CP5[4]
+-- average 5
+flame: 15, selected features: (5)
+O2[6] O2[12] P3[5] P3[12] P4[0]
+-- average 6
+flame: 15, selected features: (3)
+Cz[11] CPz[4] CPz[12]
+-- average 7
+flame: 15, selected features: (6)
+O1[6] O2[12] CP5[5] CP5[11] P3[5] P3[12]
+-- average 8
+flame: 15, selected features: (15)
+O1[4] O1[5] O1[12] O2[5] O2[6] Cz[6] CPz[0] CP5[11] CP6[12] P3[2] P3[5] P3[6] P3[7] P3[12] P4[12]
+-- average 9
+flame: 15, selected features: (5)
+O1[2] O2[0] O2[11] P3[5] P3[12]
+-- average 10
+flame: 15, selected features: (9)
+O1[9] O1[12] O2[6] Cz[1] CP6[7] P3[5] P3[9] P3[12] P4[0]
+- decimate 15
+-- average 1
+flame: 14, selected features: (6)
+O1[9] O2[11] O2[12] P3[4] P3[7] P3[11]
+-- average 2
+flame: 14, selected features: (11)
+O1[8] O1[9] O2[8] O2[9] O2[11] O2[12] CP5[10] CP5[11] P3[4] P3[11] P3[13]
+-- average 3
+flame: 14, selected features: (9)
+O2[11] O2[13] CP5[6] CP5[9] CP5[10] P3[4] P3[8] P3[11] P3[13]
+-- average 4
+flame: 14, selected features: (8)
+O1[6] O2[0] O2[1] Cz[4] CPz[11] CP5[2] P4[4] P4[11]
+-- average 5
+flame: 14, selected features: (7)
+O2[9] O2[11] Cz[1] P3[4] P3[8] P3[11] P4[0]
+-- average 6
+flame: 14, selected features: (4)
+CPz[4] CPz[11] P4[3] P4[10]
+-- average 7
+flame: 14, selected features: (12)
+O1[9] O1[11] O2[0] O2[1] O2[11] CPz[13] CP6[10] CP6[11] P3[4] P3[5] P3[10] P4[7]
+-- average 8
+flame: 14, selected features: (9)
+O1[9] O2[3] O2[11] Cz[4] Cz[11] CP5[3] CP5[10] P3[4] P3[11]
+-- average 9
+flame: 14, selected features: (6)
+O2[11] CP6[11] P3[4] P3[5] P3[11] P4[10]
+-- average 10
+flame: 14, selected features: (6)
+CPz[11] P3[0] P3[1] P3[2] P3[3] P4[4]
+- decimate 16
+-- average 1
+flame: 13, selected features: (7)
+O1[9] O2[10] CP5[0] P3[4] P3[7] P3[10] P3[11]
+-- average 2
+flame: 13, selected features: (12)
+O1[7] O1[9] O2[7] O2[10] O2[12] CP5[10] CP5[11] CP6[4] P3[4] P3[10] P3[12] P4[9]
+-- average 3
+flame: 13, selected features: (3)
+P3[4] P3[11] P4[12]
+-- average 4
+flame: 13, selected features: (6)
+Cz[4] CPz[10] CPz[11] CP5[7] P4[4] P4[10]
+-- average 5
+flame: 13, selected features: (8)
+O1[9] O1[11] Cz[1] CP5[0] CP5[1] P3[4] P3[11] P4[0]
+-- average 6
+flame: 13, selected features: (7)
+O2[0] O2[11] CPz[4] CPz[11] P3[10] P4[4] P4[11]
+-- average 7
+flame: 13, selected features: (4)
+P3[5] P3[11] P4[9] P4[10]
+-- average 8
+flame: 13, selected features: (7)
+Cz[6] CP5[8] CP5[10] P3[5] P3[7] P3[11] P4[11]
+-- average 9
+flame: 13, selected features: (5)
+O1[1] O2[0] O2[10] P3[5] P3[11]
+-- average 10
+flame: 13, selected features: (32)
+O1[1] O1[4] O1[6] O1[7] O1[9] O2[1] O2[4] O2[6] O2[9] O2[11] O2[12] Cz[1] Cz[5] Cz[7] Cz[12] CPz[1] CPz[5] CPz[9] CP5[0] CP5[8] CP6[3] CP6[6] CP6[7] CP6[11] P3[0] P3[1] P3[3] P3[5] P3[9] P3[11] P4[0] P4[5]
+- decimate 17
+-- average 1
+flame: 12, selected features: (7)
+O1[9] O2[5] O2[10] O2[11] P3[4] P3[6] P3[10]
+-- average 2
+flame: 12, selected features: (4)
+O2[10] O2[11] P3[4] P3[10]
+-- average 3
+flame: 12, selected features: (6)
+O2[5] O2[10] CP5[9] P3[4] P3[5] P3[10]
+-- average 4
+flame: 12, selected features: (6)
+O1[9] O2[0] Cz[4] CPz[10] P4[4] P4[10]
+-- average 5
+flame: 12, selected features: (7)
+O2[8] O2[10] Cz[6] P3[4] P3[7] P3[10] P4[0]
+-- average 6
+flame: 12, selected features: (4)
+O2[10] CPz[4] CPz[10] P3[11]
+-- average 7
+flame: 12, selected features: (12)
+O2[9] Cz[9] Cz[11] CPz[7] CPz[9] CP5[8] CP5[10] CP6[0] P3[4] P3[10] P4[3] P4[10]
+-- average 8
+flame: 12, selected features: (9)
+O2[0] O2[2] CPz[3] CPz[10] CP5[8] P3[4] P3[10] P4[2] P4[10]
+-- average 9
+flame: 12, selected features: (6)
+O2[10] Cz[10] P3[3] P3[4] P3[10] P4[0]
+-- average 10
+flame: 12, selected features: (5)
+CPz[10] P3[0] P3[1] P3[2] P4[4]
+- decimate 18
+-- average 1
+flame: 12, selected features: (7)
+O1[7] O1[8] O2[9] CP5[0] P3[4] P3[9] P3[10]
+-- average 2
+flame: 12, selected features: (8)
+O1[7] O1[8] O2[4] O2[7] O2[9] P3[4] P3[9] P3[10]
+-- average 3
+flame: 12, selected features: (3)
+O2[10] P3[4] P3[10]
+-- average 4
+flame: 12, selected features: (9)
+O1[5] O2[0] O2[1] Cz[4] CPz[9] CPz[10] CP5[1] P4[0] P4[10]
+-- average 5
+flame: 12, selected features: (8)
+O1[8] O1[10] P3[0] P3[4] P3[7] P3[9] P3[10] P4[9]
+-- average 6
+flame: 12, selected features: (9)
+O2[0] O2[9] O2[10] Cz[1] CPz[4] CPz[10] P3[9] P4[4] P4[9]
+-- average 7
+flame: 12, selected features: (4)
+CPz[2] P3[4] P3[10] P4[10]
+-- average 8
+flame: 12, selected features: (5)
+O1[4] O1[10] P3[4] P3[9] P3[10]
+-- average 9
+flame: 12, selected features: (7)
+O2[5] O2[10] P3[3] P3[4] P3[6] P3[10] P4[0]
+-- average 10
+flame: 12, selected features: (12)
+O2[8] Cz[7] Cz[10] CPz[7] CP6[0] CP6[3] CP6[9] P3[3] P3[4] P3[9] P3[10] P4[10]
+- decimate 19
+-- average 1
+flame: 11, selected features: (8)
+O1[7] O1[8] O2[5] O2[9] O2[10] CP5[1] P3[5] P3[9]
+-- average 2
+flame: 11, selected features: (9)
+O1[7] O1[8] O2[4] O2[7] O2[9] P3[4] P3[9] P3[10] P4[0]
+-- average 3
+flame: 11, selected features: (5)
+O2[4] O2[9] P3[4] P3[9] P3[10]
+-- average 4
+flame: 11, selected features: (11)
+O2[0] O2[5] O2[9] Cz[4] CPz[0] CPz[5] P3[2] P3[5] P3[9] P4[1] P4[5]
+-- average 5
+flame: 11, selected features: (4)
+P3[0] P3[4] P3[9] P4[9]
+-- average 6
+flame: 11, selected features: (3)
+Cz[9] CPz[4] CPz[10]
+-- average 7
+flame: 11, selected features: (9)
+O1[4] O1[5] O2[0] O2[1] O2[10] Cz[8] P3[5] P3[10] P4[4]
+-- average 8
+flame: 11, selected features: (10)
+O1[8] Cz[0] Cz[10] CPz[0] P3[3] P3[4] P3[9] P3[10] P4[3] P4[9]
+-- average 9
+flame: 11, selected features: (6)
+O1[2] O2[9] CP6[5] CP6[10] P3[4] P3[9]
+-- average 10
+flame: 11, selected features: (7)
+O2[4] O2[8] O2[9] P3[0] P3[4] P3[9] P4[7]
+- decimate 20
+-- average 1
+flame: 11, selected features: (7)
+O1[8] O2[9] O2[10] P3[4] P3[6] P3[9] P3[10]
+-- average 2
+flame: 11, selected features: (8)
+O1[8] O1[10] O2[4] O2[9] O2[10] P3[4] P3[6] P3[9]
+-- average 3
+flame: 11, selected features: (7)
+O2[5] O2[9] CP5[9] P3[4] P3[6] P3[7] P3[9]
+-- average 4
+flame: 11, selected features: (7)
+O2[0] Cz[4] CPz[9] P3[0] P3[8] P4[4] P4[9]
+-- average 5
+flame: 11, selected features: (5)
+Cz[8] P3[0] P3[4] P3[9] P4[9]
+-- average 6
+flame: 11, selected features: (6)
+O2[8] O2[9] CPz[0] CPz[4] CPz[9] P3[10]
+-- average 7
+flame: 11, selected features: (4)
+P3[4] P3[9] P4[2] P4[9]
+-- average 8
+flame: 11, selected features: (12)
+O2[0] O2[2] O2[3] O2[5] Cz[9] CPz[4] CP6[6] P3[4] P3[5] P3[9] P4[5] P4[9]
+-- average 9
+flame: 11, selected features: (6)
+O1[2] O1[6] O2[0] O2[9] P3[4] P3[9]
+-- average 10
+flame: 11, selected features: (4)
+CPz[9] P3[0] P3[8] P4[4]
+swlda - kensuke - 1 - no average
+- decimate 1
+flame: 204, selected features: (60)
+O1[47] O1[53] O1[61] O1[82] O1[89] O1[97] O1[106] O1[114] O1[118] O1[130] O1[153] O1[190] O2[7] O2[44] O2[65] O2[104] O2[121] O2[135] O2[165] Cz[63] Cz[125] Cz[138] Cz[154] Cz[168] Cz[176] Cz[179] CPz[18] CPz[32] CPz[63] CPz[82] CPz[99] CPz[120] CPz[138] CP5[8] CP5[14] CP5[21] CP5[30] CP5[46] CP5[57] CP5[58] CP5[62] CP5[68] CP5[88] CP5[96] CP5[115] CP5[167] CP5[177] CP5[183] CP6[20] CP6[31] CP6[108] CP6[152] CP6[175] P3[65] P3[166] P4[24] P4[71] P4[100] P4[111] P4[119]
+- decimate 2
+flame: 102, selected features: (60)
+O1[24] O1[33] O1[43] O1[47] O1[51] O1[56] O1[59] O1[64] O1[79] O1[96] O1[97] O2[6] O2[17] O2[20] O2[35] O2[36] O2[63] Cz[39] Cz[86] Cz[89] Cz[92] Cz[96] CPz[4] CPz[19] CPz[34] CPz[71] CP5[6] CP5[12] CP5[17] CP5[28] CP5[31] CP5[33] CP5[39] CP5[42] CP5[49] CP5[57] CP5[73] CP5[94] CP6[4] CP6[7] CP6[18] CP6[34] CP6[35] CP6[53] CP6[70] CP6[81] CP6[92] P3[35] P3[38] P3[51] P3[54] P3[70] P3[85] P3[94] P3[97] P4[14] P4[38] P4[42] P4[58] P4[65]
+- decimate 3
+flame: 68, selected features: (60)
+O1[12] O1[18] O1[21] O1[23] O1[24] O1[28] O1[30] O1[36] O1[37] O1[44] O1[46] O1[48] O1[51] O1[56] O1[64] O1[66] O2[5] O2[15] O2[45] O2[47] O2[50] Cz[21] Cz[23] Cz[33] Cz[40] Cz[54] Cz[58] Cz[65] CPz[9] CPz[14] CPz[24] CPz[25] CPz[27] CPz[28] CPz[33] CPz[47] CPz[48] CP5[6] CP5[11] CP5[13] CP5[18] CP5[22] CP5[25] CP5[26] CP5[27] CP5[28] CP5[41] CP5[62] CP6[6] CP6[9] CP6[27] P3[14] P3[24] P3[27] P3[29] P3[48] P3[50] P4[35] P4[36] P4[66]
+- decimate 4
+flame: 51, selected features: (60)
+O1[1] O1[14] O1[22] O1[23] O1[24] O1[29] O1[34] O1[37] O2[15] O2[24] O2[34] O2[35] O2[36] O2[41] O2[44] O2[48] Cz[14] Cz[16] Cz[31] Cz[37] Cz[38] Cz[39] Cz[40] Cz[41] Cz[48] Cz[49] Cz[50] CPz[3] CPz[16] CPz[21] CPz[23] CPz[29] CPz[37] CP5[8] CP5[10] CP5[16] CP5[17] CP5[26] CP5[29] CP5[33] CP5[49] CP5[50] CP6[3] CP6[21] CP6[24] CP6[28] CP6[33] CP6[39] CP6[40] CP6[47] P3[16] P3[21] P3[37] P3[38] P3[44] P4[3] P4[22] P4[29] P4[38] P4[47]
+- decimate 5
+flame: 41, selected features: (31)
+O1[9] O1[19] O1[23] O1[24] O1[40] O2[10] O2[11] O2[16] Cz[8] Cz[14] Cz[15] Cz[25] CPz[7] CPz[10] CPz[15] CPz[16] CPz[19] CPz[31] CPz[38] CPz[39] CP5[9] CP5[15] CP5[26] CP5[32] CP5[36] CP6[23] CP6[38] P3[9] P3[14] P3[31] P3[32]
+- decimate 6
+flame: 34, selected features: (34)
+O1[6] O1[16] O1[17] O1[20] O1[21] O2[8] O2[27] O2[32] CPz[0] CPz[6] CPz[8] CPz[12] CPz[13] CPz[16] CPz[26] CP5[8] CP5[12] CP5[16] CP5[27] CP5[28] CP5[30] CP6[2] CP6[7] CP6[13] CP6[18] CP6[29] CP6[31] CP6[32] P3[12] P3[13] P3[16] P3[21] P3[26] P3[27]
+- decimate 7
+flame: 30, selected features: (29)
+O1[8] O1[11] O1[14] O1[15] O1[21] O1[23] O1[26] O2[8] O2[13] O2[26] O2[28] CPz[8] CPz[12] CPz[14] CPz[16] CPz[21] CPz[23] CP5[7] CP5[14] CP5[23] CP5[27] CP6[7] CP6[12] CP6[16] CP6[28] P3[7] P3[12] P3[23] P4[11]
+- decimate 8
+flame: 26, selected features: (16)
+O1[13] O1[16] O2[8] O2[11] Cz[17] CPz[6] CPz[8] CPz[11] CPz[20] CP5[24] CP6[6] CP6[11] CP6[13] CP6[25] P3[11] P3[20]
+- decimate 9
+flame: 23, selected features: (21)
+O1[7] O1[10] O1[12] O1[15] O1[20] O2[7] O2[20] Cz[16] Cz[17] CPz[7] CPz[10] CPz[12] CPz[18] CP5[6] CP5[18] CP5[22] CP6[6] CP6[10] P3[6] P3[10] P3[18]
+- decimate 10
+flame: 21, selected features: (13)
+O1[11] O1[13] O2[6] O2[9] CPz[6] CPz[9] CPz[11] CPz[17] CP5[6] CP5[13] P3[9] P3[17] P3[19]
+- decimate 11
+flame: 19, selected features: (15)
+O1[11] O1[12] O1[18] O2[6] O2[8] Cz[10] Cz[13] CPz[6] CPz[8] CPz[15] CP5[6] CP5[8] CP5[15] CP6[8] CP6[11]
+- decimate 12
+flame: 17, selected features: (13)
+O1[14] O1[15] O2[6] O2[8] O2[14] O2[15] CPz[6] CPz[8] CPz[14] CP5[5] P3[8] P3[14] P3[16]
+- decimate 13
+flame: 16, selected features: (26)
+O1[1] O1[2] O1[5] O1[9] O1[13] O1[14] O2[6] O2[7] O2[13] O2[14] CPz[0] CPz[6] CPz[7] CPz[8] CPz[13] CP5[5] CP5[7] CP5[8] CP5[9] CP6[1] CP6[8] P3[5] P3[8] P3[9] P3[13] P3[15]
+- decimate 14
+flame: 15, selected features: (11)
+O1[1] O1[8] O1[11] O2[3] O2[5] CPz[0] CPz[5] CPz[8] CPz[11] CP6[1] CP6[8]
+- decimate 15
+flame: 14, selected features: (18)
+O1[1] O1[2] O1[8] O1[13] O2[5] O2[6] O2[13] CPz[0] CPz[5] CPz[6] CPz[8] CPz[12] CP5[5] CP5[6] CP6[1] CP6[8] P3[5] P3[12]
+- decimate 16
+flame: 13, selected features: (8)
+O1[7] O1[10] O2[5] CPz[7] CPz[10] CPz[11] CP5[7] CP5[11]
+- decimate 17
+flame: 12, selected features: (8)
+O1[7] O1[10] O2[5] CPz[7] CPz[10] CPz[11] CP5[7] CP5[11]
+- decimate 18
+flame: 12, selected features: (14)
+O1[0] O1[7] O1[10] O2[5] O2[11] CPz[0] CPz[7] CPz[10] CP5[6] CP5[10] CP6[1] CP6[7] P3[7] P3[11]
+- decimate 19
+flame: 11, selected features: (16)
+O1[0] O1[7] O1[10] O2[5] O2[6] Cz[9] CPz[0] CPz[5] CPz[6] CPz[7] CPz[10] CP5[5] CP5[6] CP5[10] CP6[1] CP6[6]
+- decimate 20
+flame: 11, selected features: (11)
+O1[1] O1[4] O1[6] O2[2] O2[5] CPz[0] CPz[2] CPz[5] CPz[6] CP6[1] CP6[6]
+swlda - kodama - 1 - no average
+- decimate 1
+flame: 204, selected features: (54)
+O1[97] O1[103] O1[109] O1[146] O1[172] O2[21] O2[32] O2[49] O2[66] O2[76] O2[115] O2[121] O2[148] O2[199] Cz[19] Cz[44] Cz[87] Cz[132] Cz[181] Cz[197] Cz[199] CPz[113] CPz[180] CP5[83] CP5[148] CP5[200] CP6[1] CP6[12] CP6[36] CP6[66] CP6[73] CP6[85] CP6[106] CP6[107] CP6[132] CP6[140] CP6[147] CP6[190] P3[0] P3[31] P3[110] P3[145] P3[177] P3[186] P4[14] P4[23] P4[27] P4[40] P4[75] P4[79] P4[122] P4[146] P4[172] P4[194]
+- decimate 2
+flame: 102, selected features: (45)
+O1[54] O1[57] O1[76] O1[87] O1[88] O2[25] O2[35] O2[40] O2[59] O2[63] O2[76] Cz[12] Cz[46] Cz[58] Cz[62] CPz[36] CPz[92] CPz[100] CP5[24] CP5[36] CP5[46] CP5[76] CP5[80] CP6[3] CP6[20] CP6[36] CP6[38] CP6[45] CP6[48] CP6[55] CP6[72] CP6[76] P3[0] P3[18] P3[57] P3[90] P4[10] P4[14] P4[23] P4[39] P4[41] P4[71] P4[75] P4[89] P4[99]
+- decimate 3
+flame: 68, selected features: (27)
+O2[16] O2[18] O2[25] O2[33] O2[43] O2[50] O2[51] O2[58] Cz[27] Cz[44] CPz[17] CPz[31] CPz[32] CPz[41] CPz[58] CPz[62] CP6[0] CP6[15] CP6[26] CP6[31] CP6[50] P3[0] P3[13] P3[39] P3[61] P4[5] P4[67]
+- decimate 4
+flame: 51, selected features: (36)
+O1[6] O1[27] O1[28] O2[15] O2[32] O2[38] O2[45] Cz[7] Cz[24] Cz[32] CPz[23] CPz[48] CP5[14] CP5[15] CP5[24] CP5[31] CP6[2] CP6[11] CP6[19] CP6[21] CP6[24] CP6[29] CP6[38] CP6[39] CP6[50] P3[1] P3[10] P3[26] P3[29] P3[39] P3[47] P4[6] P4[16] P4[22] P4[39] P4[46]
+- decimate 5
+flame: 41, selected features: (27)
+O2[15] O2[16] O2[26] O2[31] O2[32] Cz[6] Cz[21] Cz[26] Cz[29] CPz[20] CPz[38] CP5[10] CP5[11] CP6[0] CP6[20] CP6[22] CP6[29] CP6[31] CP6[32] CP6[40] P3[0] P3[9] P3[24] P3[27] P3[38] P4[5] P4[25]
+- decimate 6
+flame: 34, selected features: (28)
+O1[12] O1[18] O1[30] O1[32] O2[19] O2[23] O2[27] O2[30] Cz[18] Cz[22] Cz[30] CPz[10] CPz[33] CP6[0] CP6[9] CP6[14] CP6[15] CP6[18] CP6[20] CP6[22] CP6[26] P3[0] P3[8] P3[21] P3[25] P4[14] P4[15] P4[26]
+- decimate 7
+flame: 30, selected features: (22)
+O2[9] O2[20] O2[23] O2[24] Cz[5] Cz[20] CPz[9] CPz[28] CP6[3] CP6[12] CP6[14] CP6[16] CP6[18] CP6[23] CP6[24] P3[1] P3[5] P3[7] P3[17] P3[18] P3[28] P4[5]
+- decimate 8
+flame: 26, selected features: (24)
+O2[9] O2[10] O2[18] O2[21] Cz[5] Cz[18] CPz[9] CPz[23] CP6[0] CP6[5] CP6[8] CP6[12] CP6[13] CP6[16] CP6[19] CP6[21] CP6[23] P3[0] P3[7] P3[16] P3[23] P4[5] P4[12] P4[19]
+- decimate 9
+flame: 23, selected features: (37)
+O1[17] O1[21] O1[22] O2[7] O2[8] O2[9] O2[11] O2[15] O2[18] O2[20] Cz[5] Cz[11] Cz[15] Cz[16] Cz[21] CPz[11] CPz[14] CPz[19] CP6[0] CP6[7] CP6[8] CP6[11] CP6[12] CP6[14] CP6[16] CP6[18] CP6[21] CP6[22] P3[0] P3[4] P3[6] P3[15] P3[21] P4[8] P4[11] P4[18] P4[21]
+- decimate 10
+flame: 21, selected features: (20)
+O2[8] O2[14] O2[17] O2[19] Cz[11] Cz[14] Cz[16] Cz[19] CPz[6] CPz[17] CP5[11] CP5[14] CP6[1] CP6[6] CP6[11] CP6[16] P3[13] P3[19] P4[2] P4[8]
+- decimate 11
+flame: 19, selected features: (20)
+O2[7] O2[8] O2[13] O2[16] Cz[11] Cz[13] Cz[14] Cz[18] CPz[17] CP6[1] CP6[6] CP6[11] CP6[14] CP6[16] P3[0] P3[6] P3[12] P3[13] P3[18] P4[7]
+- decimate 12
+flame: 17, selected features: (12)
+O2[7] O2[15] Cz[13] Cz[16] CPz[3] CPz[15] CP6[1] CP6[14] P3[12] P3[16] P4[1] P4[7]
+- decimate 13
+flame: 16, selected features: (17)
+O2[7] O2[11] O2[14] Cz[10] Cz[13] Cz[14] CPz[11] CPz[15] CP6[0] CP6[10] CP6[13] CP6[14] P3[1] P3[2] P3[11] P3[15] P4[7]
+- decimate 14
+flame: 15, selected features: (6)
+O2[11] O2[14] Cz[11] Cz[14] P3[10] P4[2]
+- decimate 15
+flame: 14, selected features: (21)
+O2[7] O2[8] O2[10] O2[11] O2[12] O2[13] Cz[9] Cz[11] Cz[13] CP6[6] CP6[8] CP6[9] CP6[12] P3[0] P3[5] P3[10] P3[13] P4[1] P4[7] P4[8] P4[12]
+- decimate 16
+flame: 13, selected features: (10)
+O2[6] O2[10] O2[12] CPz[12] CP6[1] CP6[9] CP6[12] P3[6] P3[9] P3[11]
+- decimate 17
+flame: 12, selected features: (13)
+O2[9] O2[11] Cz[7] CP6[1] CP6[5] CP6[8] CP6[11] P3[5] P3[9] P3[11] P4[8] P4[9] P4[11]
+- decimate 18
+flame: 12, selected features: (15)
+O2[6] O2[7] O2[9] O2[11] Cz[8] Cz[10] Cz[11] CP6[1] CP6[8] CP6[10] CP6[11] P3[9] P3[11] P4[6] P4[7]
+- decimate 19
+flame: 11, selected features: (11)
+O2[6] O2[9] O2[10] Cz[4] CP6[2] CP6[8] CP6[10] P3[5] P3[8] P3[10] P4[1]
+- decimate 20
+flame: 11, selected features: (16)
+O2[6] O2[9] O2[10] Cz[4] Cz[9] CPz[4] CPz[10] CP6[1] CP6[7] CP6[10] P3[0] P3[2] P3[5] P3[8] P3[10] P4[1]
+swlda - tomek - 2 - no average
+- decimate 1
+flame: 204, selected features: (50)
+O1[1] O1[6] O1[15] O1[23] O1[34] O1[50] O1[56] O1[72] O1[76] O1[84] O1[89] O1[94] O1[100] O1[108] O1[161] O1[167] O2[31] O2[36] O2[56] O2[62] O2[82] O2[107] O2[114] O2[134] O2[169] O2[178] O2[191] CPz[81] CPz[101] CPz[111] CPz[133] CP5[194] CP6[80] CP6[127] CP6[134] CP6[151] CP6[157] CP6[195] P3[115] P3[129] P3[174] P3[187] P4[80] P4[100] P4[111] P4[127] P4[160] P4[188] P4[190] P4[195]
+- decimate 2
+flame: 102, selected features: (46)
+O1[10] O1[14] O1[20] O1[40] O1[44] O1[47] O1[49] O1[52] O1[67] O2[30] O2[36] O2[46] O2[51] O2[56] O2[87] Cz[94] Cz[97] CPz[9] CPz[43] CPz[52] CP5[5] CP5[19] CP5[30] CP5[57] CP5[63] CP5[92] CP5[100] CP6[22] CP6[42] CP6[66] CP6[69] CP6[78] P3[69] P3[89] P3[92] P4[4] P4[18] P4[24] P4[36] P4[42] P4[51] P4[57] P4[66] P4[76] P4[79] P4[100]
+- decimate 3
+flame: 68, selected features: (46)
+O1[5] O1[7] O1[14] O1[27] O1[58] O1[64] O2[21] O2[66] CPz[4] CPz[13] CPz[21] CPz[29] CPz[35] CPz[40] CPz[47] CP5[1] CP5[4] CP5[8] CP5[10] CP5[14] CP5[39] CP5[57] CP6[20] CP6[23] CP6[30] CP6[31] CP6[45] CP6[47] CP6[55] CP6[60] CP6[61] P3[38] P3[41] P3[54] P3[60] P3[65] P4[21] P4[29] P4[35] P4[39] P4[45] P4[59] P4[61] P4[63] P4[64] P4[66]
+- decimate 4
+flame: 51, selected features: (34)
+O1[4] O1[6] O1[11] O1[12] O1[21] O1[25] O1[43] O1[44] O1[45] O2[14] O2[17] O2[45] CPz[17] CPz[28] CPz[30] CPz[35] CPz[49] CPz[50] CP5[6] CP5[9] CP5[35] CP5[44] CP6[6] CP6[12] CP6[22] CP6[36] CP6[41] CP6[42] CP6[49] P3[32] P4[22] P4[28] P4[30] P4[48]
+- decimate 5
+flame: 41, selected features: (7)
+CP6[30] CP6[35] CP6[36] P4[18] P4[25] P4[28] P4[40]
+- decimate 6
+flame: 34, selected features: (5)
+CPz[19] CPz[24] CPz[33] P3[15] P3[22]
+- decimate 7
+flame: 30, selected features: (5)
+CP6[22] P4[14] P4[18] P4[27] P4[29]
+- decimate 8
+flame: 26, selected features: (5)
+CP6[23] CP6[24] P4[13] P4[16] P4[25]
+- decimate 9
+flame: 23, selected features: (3)
+CP6[21] P4[12] P4[15]
+- decimate 10
+flame: 21, selected features: (3)
+CP6[19] P4[10] P4[13]
+- decimate 11
+flame: 19, selected features: (21)
+O1[6] O1[10] O1[12] O1[14] O2[0] O2[12] O2[17] CPz[6] CPz[9] CPz[12] CPz[14] CP5[6] CP5[9] CP5[18] CP6[7] CP6[10] CP6[18] P4[6] P4[9] P4[12] P4[17]
+- decimate 12
+flame: 17, selected features: (3)
+CP6[16] P4[9] P4[12]
+- decimate 13
+flame: 16, selected features: (3)
+P4[8] P4[11] P4[15]
+- decimate 14
+flame: 15, selected features: (3)
+P4[8] P4[11] P4[14]
+- decimate 15
+flame: 14, selected features: (3)
+P4[8] P4[10] P4[13]
+- decimate 16
+flame: 13, selected features: (6)
+CP6[7] CP6[10] CP6[12] P4[7] P4[10] P4[12]
+- decimate 17
+flame: 12, selected features: (3)
+P4[7] P4[9] P4[11]
+- decimate 18
+flame: 12, selected features: (6)
+CP6[7] CP6[9] CP6[11] P4[7] P4[9] P4[11]
+- decimate 19
+flame: 11, selected features: (2)
+CP6[10] P4[9]
+- decimate 20
+flame: 11, selected features: (3)
+P4[7] P4[8] P4[10]
+swlda - riken - 1 - no average
+- decimate 1
+flame: 204, selected features: (47)
+O1[0] O1[46] O1[62] O1[77] O1[100] O1[107] O1[124] O1[201] O2[37] O2[81] O2[94] O2[180] Cz[25] Cz[27] Cz[47] Cz[72] Cz[118] Cz[132] Cz[140] Cz[150] Cz[177] Cz[201] CPz[109] CP5[26] CP5[64] CP5[69] CP6[12] CP6[19] CP6[33] CP6[55] CP6[81] CP6[104] CP6[134] CP6[152] CP6[157] P3[28] P3[45] P3[51] P3[130] P3[201] P4[37] P4[72] P4[106] P4[113] P4[135] P4[140] P4[201]
+- decimate 2
+flame: 102, selected features: (54)
+O1[0] O1[18] O1[25] O1[33] O1[36] O1[40] O1[53] O1[56] O1[62] O1[80] O2[0] O2[12] O2[15] O2[28] O2[42] O2[61] O2[75] O2[92] O2[95] O2[100] Cz[16] Cz[38] Cz[57] Cz[61] Cz[69] Cz[72] Cz[76] Cz[95] Cz[101] CPz[4] CP6[8] CP6[19] CP6[28] CP6[29] CP6[70] CP6[78] CP6[81] CP6[91] CP6[99] P3[5] P3[17] P3[24] P3[28] P3[43] P3[79] P3[96] P4[12] P4[38] P4[43] P4[50] P4[56] P4[61] P4[72] P4[101]
+- decimate 3
+flame: 68, selected features: (58)
+O1[0] O1[11] O1[18] O1[35] O1[38] O1[42] O1[54] O2[14] O2[30] O2[45] O2[51] O2[56] O2[64] Cz[11] Cz[19] Cz[26] Cz[27] Cz[29] Cz[38] Cz[40] Cz[46] Cz[49] Cz[57] Cz[61] Cz[64] Cz[67] CPz[7] CPz[30] CP5[22] CP5[24] CP5[26] CP5[44] CP5[52] CP5[54] CP5[66] CP6[21] CP6[22] CP6[28] CP6[33] CP6[55] CP6[57] CP6[61] CP6[67] P3[17] P3[20] P3[27] P3[32] P3[46] P3[47] P3[49] P4[15] P4[26] P4[38] P4[44] P4[46] P4[49] P4[61] P4[63]
+- decimate 4
+flame: 51, selected features: (48)
+O1[10] O1[29] O1[33] O1[41] O1[46] O2[9] O2[17] O2[23] O2[32] O2[39] O2[49] Cz[5] Cz[7] Cz[9] Cz[21] Cz[28] Cz[30] Cz[32] Cz[33] Cz[35] Cz[36] Cz[38] Cz[43] Cz[47] Cz[49] CPz[8] CP6[5] CP6[8] CP6[18] CP6[38] CP6[44] CP6[46] CP6[49] P3[18] P3[21] P3[25] P3[28] P3[35] P3[42] P4[20] P4[21] P4[30] P4[32] P4[33] P4[38] P4[39] P4[45] P4[47]
+- decimate 5
+flame: 41, selected features: (39)
+O1[9] O1[22] O1[25] O1[27] O1[29] O1[34] O1[36] O2[4] O2[8] O2[15] O2[19] O2[26] O2[32] O2[40] Cz[7] Cz[8] Cz[17] Cz[24] Cz[25] Cz[29] Cz[30] Cz[32] Cz[38] Cz[40] CPz[9] CPz[20] CP6[7] CP6[15] CP6[16] CP6[30] CP6[36] CP6[38] CP6[39] P3[15] P3[17] P3[28] P3[29] P4[25] P4[38]
+- decimate 6
+flame: 34, selected features: (40)
+O1[7] O1[19] O1[21] O1[23] O1[29] O2[7] O2[10] O2[12] O2[16] O2[23] O2[27] O2[30] O2[33] Cz[7] Cz[15] Cz[22] Cz[25] Cz[27] Cz[32] Cz[33] CPz[6] CPz[14] CPz[17] CP6[4] CP6[6] CP6[7] CP6[8] CP6[16] CP6[17] CP6[20] CP6[31] P3[5] P3[15] P3[24] P4[14] P4[20] P4[22] P4[26] P4[31] P4[32]
+- decimate 7
+flame: 30, selected features: (24)
+O1[10] O1[17] O1[20] O1[28] Cz[13] Cz[20] Cz[22] Cz[28] CPz[16] CP5[9] CP5[18] CP6[6] CP6[16] CP6[17] CP6[27] P3[13] P3[21] P3[25] P4[4] P4[13] P4[17] P4[22] P4[27] P4[28]
+- decimate 8
+flame: 26, selected features: (21)
+O1[7] O1[9] O1[16] O1[18] O1[23] O2[25] Cz[6] Cz[12] Cz[17] Cz[19] Cz[20] Cz[25] CPz[6] CP6[24] P3[12] P3[19] P4[4] P4[16] P4[17] P4[20] P4[25]
+- decimate 9
+flame: 23, selected features: (18)
+O1[6] O1[8] O2[6] O2[8] Cz[6] Cz[11] Cz[13] Cz[15] Cz[18] Cz[22] P3[3] P3[10] P3[11] P3[18] P4[10] P4[14] P4[15] P4[22]
+- decimate 10
+flame: 21, selected features: (39)
+O1[6] O1[8] O1[11] O1[12] O1[14] O1[18] O2[8] O2[15] Cz[0] Cz[6] Cz[7] Cz[9] Cz[10] Cz[12] Cz[15] Cz[17] Cz[20] CPz[2] CPz[3] CPz[9] CPz[12] CP5[0] CP5[3] CP5[4] CP5[5] CP6[13] CP6[20] P3[6] P3[7] P3[10] P3[13] P3[15] P3[17] P4[9] P4[12] P4[13] P4[15] P4[17] P4[20]
+- decimate 11
+flame: 19, selected features: (20)
+O1[5] O1[7] O1[10] O1[11] O1[14] O1[17] O2[3] Cz[6] Cz[12] Cz[14] Cz[16] Cz[17] Cz[18] CPz[6] CPz[9] P4[6] P4[9] P4[12] P4[14] P4[18]
+- decimate 12
+flame: 17, selected features: (21)
+O1[5] O1[7] O1[11] O1[13] O1[16] O2[13] O2[15] Cz[0] Cz[5] Cz[9] Cz[13] Cz[15] Cz[16] CPz[0] P3[3] P3[9] P3[13] P4[9] P4[12] P4[13] P4[16]
+- decimate 13
+flame: 16, selected features: (13)
+O1[5] O1[10] O2[3] Cz[0] Cz[5] Cz[8] Cz[11] Cz[13] Cz[14] CPz[5] CPz[13] P4[8] P4[11]
+- decimate 14
+flame: 15, selected features: (18)
+O1[1] O1[4] O1[6] O1[10] O1[14] O2[3] Cz[0] Cz[5] Cz[8] Cz[12] Cz[14] CPz[5] CPz[10] CPz[12] P4[8] P4[10] P4[12] P4[13]
+- decimate 15
+flame: 14, selected features: (18)
+O1[5] O1[10] O1[13] O2[3] O2[7] O2[10] Cz[0] Cz[8] Cz[9] Cz[12] P3[2] P3[6] P3[8] P3[12] P4[7] P4[8] P4[9] P4[10]
+- decimate 16
+flame: 13, selected features: (12)
+O1[0] O1[5] O1[9] O2[3] Cz[4] Cz[8] Cz[9] Cz[11] P4[4] P4[8] P4[9] P4[10]
+- decimate 17
+flame: 12, selected features: (10)
+O1[5] O1[9] O2[3] Cz[4] Cz[9] Cz[11] CPz[4] CPz[7] P4[7] P4[9]
+- decimate 18
+flame: 12, selected features: (12)
+O1[0] O1[5] O1[9] O2[4] O2[9] O2[11] Cz[4] Cz[9] P4[4] P4[8] P4[9] P4[11]
+- decimate 19
+flame: 11, selected features: (11)
+O1[5] O1[9] O2[3] O2[5] O2[6] Cz[4] Cz[7] Cz[8] Cz[10] P4[7] P4[8]
+- decimate 20
+flame: 11, selected features: (9)
+O1[5] O1[8] O2[3] Cz[4] Cz[7] Cz[8] Cz[10] P4[7] P4[8]
+swlda - riken - 2 - no average
+- decimate 1
+flame: 204, selected features: (56)
+O1[20] O1[43] O1[80] O1[90] O1[102] O2[0] O2[11] O2[30] O2[54] O2[96] O2[112] O2[119] O2[135] O2[154] O2[157] O2[179] O2[184] O2[191] O2[196] Cz[10] Cz[39] Cz[73] Cz[106] Cz[169] Cz[180] CPz[39] CPz[73] CPz[103] CPz[173] CPz[185] CP5[16] CP5[30] CP5[153] CP5[159] CP5[177] CP6[8] CP6[19] CP6[103] CP6[120] CP6[175] CP6[177] CP6[182] CP6[190] P3[6] P3[13] P3[29] P3[65] P3[113] P3[119] P3[125] P3[134] P3[156] P3[169] P3[173] P4[19] P4[173]
+- decimate 2
+flame: 102, selected features: (36)
+O1[15] O1[32] O1[54] O1[93] O2[24] O2[40] O2[50] O2[58] O2[62] O2[81] O2[94] O2[99] Cz[21] Cz[87] CP5[0] CP5[79] CP5[85] CP6[2] CP6[24] CP6[40] CP6[48] CP6[56] CP6[63] CP6[89] CP6[98] P3[0] P3[35] P3[48] P3[62] P3[65] P3[69] P3[80] P3[88] P3[90] P4[55] P4[98]
+- decimate 3
+flame: 68, selected features: (15)
+O2[17] O2[42] CPz[40] CPz[55] CP6[66] P3[12] P3[16] P3[24] P3[40] P3[42] P3[44] P3[47] P3[49] P4[40] P4[55]
+- decimate 4
+flame: 51, selected features: (25)
+O1[13] O1[17] O1[19] O2[8] O2[14] O2[31] O2[33] O2[42] O2[49] Cz[5] CPz[5] CP5[9] CP5[41] CP5[42] CP6[8] CP6[26] P3[10] P3[13] P3[26] P3[31] P3[33] P3[34] P3[41] P3[45] P4[45]
+- decimate 5
+flame: 41, selected features: (17)
+O1[21] O2[24] O2[26] Cz[5] Cz[17] CPz[8] CP5[5] CP5[8] CP5[15] CP5[17] CP6[5] CP6[17] P3[14] P3[16] P3[18] P3[26] P3[28]
+- decimate 6
+flame: 34, selected features: (12)
+O1[14] O1[18] O2[4] O2[10] O2[21] O2[22] O2[29] P3[10] P3[13] P3[22] P3[24] P3[29]
+- decimate 7
+flame: 30, selected features: (8)
+O1[16] O2[19] P3[0] P3[7] P3[12] P3[18] P3[19] P3[21]
+- decimate 8
+flame: 26, selected features: (16)
+O1[15] O2[4] O2[14] O2[17] O2[18] O2[22] CP6[6] P3[6] P3[11] P3[16] P3[17] P3[18] P3[19] P3[24] P4[14] P4[24]
+- decimate 9
+flame: 23, selected features: (16)
+O1[5] O1[7] O1[10] O2[4] O2[13] O2[15] O2[16] O2[20] CP5[0] CP6[3] P3[6] P3[16] P3[17] P3[21] P4[13] P4[21]
+- decimate 10
+flame: 21, selected features: (8)
+O1[12] O2[4] O2[6] O2[14] P3[6] P3[9] P3[14] P3[15]
+- decimate 11
+flame: 19, selected features: (10)
+O1[9] O1[12] O2[10] O2[13] P3[4] P3[13] P3[14] P3[17] P4[12] P4[17]
+- decimate 12
+flame: 17, selected features: (8)
+O1[11] O2[12] O2[13] O2[16] P3[4] P3[8] P3[13] P3[16]
+- decimate 13
+flame: 16, selected features: (6)
+O1[10] O2[12] O2[13] P3[4] P3[8] P3[12]
+- decimate 14
+flame: 15, selected features: (6)
+O1[10] O2[11] P3[4] P3[7] P3[11] P3[12]
+- decimate 15
+flame: 14, selected features: (6)
+O1[9] O2[11] O2[12] P3[4] P3[7] P3[11]
+- decimate 16
+flame: 13, selected features: (7)
+O1[9] O2[10] CP5[0] P3[4] P3[7] P3[10] P3[11]
+- decimate 17
+flame: 12, selected features: (7)
+O1[9] O2[5] O2[10] O2[11] P3[4] P3[6] P3[10]
+- decimate 18
+flame: 12, selected features: (7)
+O1[7] O1[8] O2[9] CP5[0] P3[4] P3[9] P3[10]
+- decimate 19
+flame: 11, selected features: (8)
+O1[7] O1[8] O2[5] O2[9] O2[10] CP5[1] P3[5] P3[9]
+- decimate 20
+flame: 11, selected features: (7)
+O1[8] O2[9] O2[10] P3[4] P3[6] P3[9] P3[10]

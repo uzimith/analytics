@@ -7,8 +7,8 @@ from itertools import groupby
 import scipy.io
 
 class Loadmat(Receive):
-    def __init__(self, subject, session, type, channel_num=8, average=1, filename="../mat/512hz4555/sub%s_sec%s.mat", matfile=None):
-        Receive.__init__(self, channel_num=8, average=average)
+    def __init__(self, subject, session, type, average=1, filename="../mat/512hz4555/sub%s_sec%s.mat", matfile=None):
+        Receive.__init__(self, average=average)
         self.matfile = matfile
         self.index = 0
         self.type = type
@@ -18,12 +18,13 @@ class Loadmat(Receive):
         else:
             self.mat = scipy.io.loadmat(filename % (subject, session) )
 
+    # complex to load other label (which is not used)
     def receive(self, skip=False):
         i = self.index
         if self.type == "train":
             if self.matfile:
                 erp = self.mat['erps'][i]
-                label = self.mat['target_label'][0][i]
+                label = self.mat['target_label'][i][0]
             else:
                 erp = self.mat['erps'][i]
                 label = self.mat['target_label'][i][0]
@@ -31,7 +32,7 @@ class Loadmat(Receive):
         elif self.type == "predict":
             if self.matfile:
                 erp = self.mat['erps'][i]
-                label = self.mat['stimuli_label'][0][i]
+                label = self.mat['stimuli_label'][i][0]
             else:
                 erp = self.mat['erps'][i]
                 label = self.mat['stimuli_label'][i][0]

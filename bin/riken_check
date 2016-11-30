@@ -1,0 +1,5 @@
+bin/check_confidence swlda kensuke 1
+bin/check_confidence swlda kodama 1
+bin/check_confidence swlda tomek 2
+bin/check_confidence swlda riken 1
+bin/check_confidence swlda riken 2

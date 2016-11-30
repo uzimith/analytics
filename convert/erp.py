@@ -1,7 +1,6 @@
 import numpy as np
 import scipy.signal
 from itertools import chain
-import scipy.spatial.distance as dis
 import random
 
 def separate(erps, channel_num=8):
@@ -38,6 +37,9 @@ def undersampling(erps, block_num, method="cosine", far=30):
         erps[1] = erps[1][far:far+block_num-10]
     if method == "random":
         erps[0] = random.sample(erps[0], block_num)
+    return erps
+
+def moving_average(erps, number):
     return erps
 
 def highpass(erps, numtaps=10, cutoff=30, frequency=256.0):

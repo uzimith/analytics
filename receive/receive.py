@@ -6,11 +6,11 @@ import scipy.spatial.distance as dis
 import random
 
 class Receive(object):
-    def __init__(self, channel_num=8, average=1):
+    def __init__(self, average=1):
         self.erps = []
         self.labels = []
-        self.channel_num = channel_num
         self.group_by = average
+        self.users = 1
 
     def receive(self):
         pass

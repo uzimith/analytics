@@ -7,8 +7,8 @@ from itertools import groupby
 import scipy.io
 
 class UDP(Receive):
-    def __init__(self, subject, session, type, port = 8081, channel_num=8, average=1, logname=""):
-        Receive.__init__(self, channel_num=8, average=average)
+    def __init__(self, subject, session, type, port = 8081, average=1, logname=""):
+        Receive.__init__(self, average=average)
         self.host = socket.gethostbyname(socket.gethostname())
         self.port = port
         self.bind()

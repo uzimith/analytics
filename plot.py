@@ -29,6 +29,7 @@ parser.add_argument('--filename', dest='filename', action='store', type=str, def
 parser.add_argument('--matfile', dest='matfile', action='store', type=str, default=None, help='')
 parser.add_argument('--multi', dest='multi', action='store', type=str, default=None, help='')
 parser.add_argument('--kodama', dest='kodama', action='store', type=str, default=None, help='')
+parser.add_argument('--baseline', dest='baseline', action='store_const', const=True, default=False, help='')
 args = parser.parse_args()
 
 print("Subject: %d  Session: %d" % (args.subject, args.session))
@@ -47,7 +48,7 @@ elif args.kodama:
 else:
     receiver = Loadmat(args.subject, args.session, "train", average=args.average, filename=args.filename, matfile=args.matfile)
 
-for i in range(pattern_num * block_num):
+for i in range(pattern_num * block_num * receiver.users):
     receiver.receive()
 
 receiver.group()
@@ -75,7 +76,7 @@ frame_length = len(target_data[0][0]) - 1
 x_units = [int(x) for x in np.linspace(0, frame_length, num=5)]
 x_labels = ["0", "200", "400", "600", "800"]
 
-font = {'family' : 'Times New Roman', 'weight' : 'bold', 'size'   : 20}
+font = {'family' : 'Times New Roman', 'weight' : 'bold', 'size'   : 40}
 plt.rc('font', **font)
 plt.figure(figsize=(30,30))
 
@@ -104,6 +105,7 @@ if args.type == "all":
         plt.xticks(x_units, x_labels)
         if i == 1:
             plt.legend(loc = 'upper right')
+    plt.show()
 
 if args.type == "block":
     block = args.block
@@ -133,6 +135,7 @@ if args.type == "block":
         plt.xticks(x_units, x_labels)
         if i == 1:
             plt.legend(loc = 'upper right')
+    plt.show()
 
 if args.type == "mean":
     average_target_data = np.mean(target_data, axis=0)
@@ -144,15 +147,20 @@ if args.type == "mean":
         plt.subplot(4, 2, i + 1)
         plt.title(data.electrodes()[i])
         plt.grid()
-        plt.errorbar(range(len(average_non_target_data[i])), average_non_target_data[i], yerr=std_non_target[i], color=[0, 0, 1, 0.7], label="non-target")
-        plt.errorbar(range(len(average_target_data[i])), average_target_data[i], yerr=std_target[i], color=[1, 0, 0, 0.7], label="target")
+        if args.baseline:
+            plt.errorbar(range(len(average_non_target_data[i])), average_non_target_data[i] - np.mean(average_non_target_data[i][0:int(frame_length * 0.1)]), yerr=std_non_target[i], color=[0, 0, 1, 0.7], label="non-target")
+            plt.errorbar(range(len(average_target_data[i])), average_target_data[i] - np.mean(average_target_data[i][0:int(frame_length * 0.1)]), yerr=std_target[i], color=[1, 0, 0, 0.7], label="target")
+        else:
+            plt.errorbar(range(len(average_non_target_data[i])), average_non_target_data[i], yerr=std_non_target[i], color=[0, 0, 1, 0.7], label="non-target")
+            plt.errorbar(range(len(average_target_data[i])), average_target_data[i], yerr=std_target[i], color=[1, 0, 0, 0.7], label="target")
         plt.xlabel("time [ms]")
         plt.ylabel("[uV ]")
         plt.xlim([0,frame_length])
         plt.xticks(x_units, x_labels)
         if i == 1:
-            plt.legend(loc = 'upper right')
+            lgd = plt.legend(loc = 'upper right',bbox_to_anchor=(1.1, 1.05), fontsize=40)
 
+    plt.tight_layout()
     scipy.io.savemat("log/plot", {
         'target_erp': average_target_data,
         'target_standard_error': std_target,
@@ -160,35 +168,42 @@ if args.type == "mean":
         'non_target_standard_error': std_non_target
     })
 
-if args.type == "tmp":
-    average_target_data = np.mean(target_data, axis=0)
-    std_target = stats.sem(target_data, axis=0)
-    average_non_target_data = np.mean(non_target_data, axis=0)
-    std_non_target = stats.sem(non_target_data, axis=0)
+if args.type == "list":
+    plt.figure(figsize=(2,8))
+    font = {'family' : 'Times New Roman', 'weight' : 'bold', 'size'   : 0}
+    plt.rc('font', **font)
+    for j in range(3):
+        for i in range(channel_num):
+            plt.subplot(8, 1, i + 1)
+            plt.grid()
+            plt.plot(non_target_data[j][i], color=[0, 0, 0, 1], lw=2)
+            plt.xlabel("")
+            plt.ylabel("")
+            plt.ylim([-20,50])
+            plt.xlim([0,frame_length])
+            # plt.xticks(x_units, x_labels)
+        plt.savefig('log/list-decimate10%d.png' % (j))
+        plt.clf()
 
-    for i in [2]:
-        plt.grid()
-        plt.errorbar(range(len(average_non_target_data[i])), average_non_target_data[i], yerr=std_non_target[i], color=[0, 0, 1, 0.7], label="non-target", lw=3)
-        plt.errorbar(range(len(average_target_data[i])), average_target_data[i], yerr=std_target[i], color=[1, 0, 0, 0.7], label="target", lw=3)
-        plt.xlabel("time [ms]")
-        plt.ylabel("[uV ]")
-        plt.xlim([0,frame_length])
-        plt.xticks(x_units, x_labels)
-        plt.legend(loc = 'upper right')
-
-    scipy.io.savemat("log/plot", {
-        'target_erp': average_target_data,
-        'target_standard_error': std_target,
-        'non_target_erp': average_non_target_data,
-        'non_target_standard_error': std_non_target
-    })
-
-if args.type == "erp":
-    plt.figure(figsize=(30,15))
+if args.type == "target-erp":
+    plt.figure(figsize=(2,1))
     font = {'family' : 'Times New Roman', 'weight' : 'bold', 'size'   : 0}
     plt.rc('font', **font)
     for j in range(10):
-        plt.plot(convert.erp.combine(non_target_data[j]), color=[0, 0, 0, 1], lw=5)
+        plt.plot(convert.erp.combine(non_target_data[j]), color=[0, 0, 0, 1], lw=2)
+        plt.grid()
+        plt.xlabel("")
+        plt.xlim([0,frame_length])
+        plt.ylim([-20,20])
+        print(frame_length)
+        plt.savefig('log/feature_target%d.png'% (j))
+        plt.clf()
+if args.type == "non-target-erp":
+    plt.figure(figsize=(2,1))
+    font = {'family' : 'Times New Roman', 'weight' : 'bold', 'size'   : 0}
+    plt.rc('font', **font)
+    for j in range(10):
+        plt.plot(convert.erp.combine(non_target_data[j]), color=[0, 0, 0, 1], lw=2)
         plt.grid()
         plt.xlabel("")
         plt.xlim([0,frame_length])
@@ -198,13 +213,12 @@ if args.type == "erp":
         plt.clf()
 
 if args.multi:
-    plt.savefig('log/grand%d%d.png'% (args.subject, args.session))
+    plt.savefig('log/grand%d%d.png'% (args.subject, args.session), dpi=300, bbox_extra_artists=(lgd,))
     print('saved: log/grand%d%d.png'% (args.subject, args.session))
 
 else:
     plt.savefig('log/sub%d-ses%d.png'% (args.subject, args.session))
     print('saved: log/sub%d-ses%d.png'% (args.subject, args.session))
-plt.show()
 
 
 print("plotted\n")

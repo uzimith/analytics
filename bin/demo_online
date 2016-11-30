@@ -1,0 +1,4 @@
+#!/bin/zsh
+method=swlda
+factor=10
+python online.py --repeat 10 --method $method --decimate $factor --online --log okabe_demo --send-udp --ip "172.16.0.211" $1 $2
